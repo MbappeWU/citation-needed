@@ -28,10 +28,26 @@
     "zh": "经同行评审的随机试验，用当前编程智能体在公司环境中，同时报告速度、质量、安全和学习结果。"
   },
   "sources": [
-    { "id": "metr2026", "role": "primary" },
-    { "id": "demirer2026", "role": "context" },
-    { "id": "veracode2026", "role": "context" },
-    { "id": "shen2026skills", "role": "context" }
+    {
+      "id": "metr2026",
+      "role": "primary"
+    },
+    {
+      "id": "demirer2026",
+      "role": "context"
+    },
+    {
+      "id": "veracode2026",
+      "role": "context"
+    },
+    {
+      "id": "shen2026skills",
+      "role": "context",
+      "quotes": [
+        "impairs conceptual understanding, code reading, and debugging abilities",
+        "without delivering significant efficiency gains on average"
+      ]
+    }
   ],
   "verified_on": "2026-10-01"
 }

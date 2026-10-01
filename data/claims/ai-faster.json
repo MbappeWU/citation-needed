@@ -55,7 +55,11 @@
     },
     {
       "id": "shen2026skills",
-      "role": "critique"
+      "role": "critique",
+      "quotes": [
+        "impairs conceptual understanding, code reading, and debugging abilities",
+        "without delivering significant efficiency gains on average"
+      ]
     }
   ],
   "verified_on": "2026-10-01",

@@ -46,7 +46,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 1. Frederick P. Brooks Jr. (1975). The Mythical Man-Month: Essays on Software Engineering. Addison-Wesley (anniversary edition 1995). [link](https://openlibrary.org/isbn/9780201835953) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
 2. Tarek K. Abdel-Hamid, Stuart E. Madnick (1991). Software Project Dynamics: An Integrated Approach. Prentice Hall. [link](https://openlibrary.org/isbn/9780138220402) <sub>↗ not machine-checkable (book or report); link only</sub> (critique)
-3. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+3. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 4. Christoph Gote, Pavlin Mavrodiev, Frank Schweitzer, Ingo Scholtes (2022). Big Data = Big Insights? Operationalising Brooks' Law in a Massive GitHub Data Set. Proceedings of the 44th International Conference on Software Engineering (ICSE 2022). [link](https://arxiv.org/abs/2201.04588) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
 ---
@@ -56,7 +56,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **✓ Supported · Grade B** (A review of 142 empirical studies and a matched-pair test point the same way, but all are observational and support is not universal.)
 
-**What the research says.** Conway (1968) argued that organisations design systems that copy their own communication structures. MacCormack and colleagues (2012) compared matched pairs of software products. In every pair, the product from the loosely coupled organisation was more modular, by up to a factor of eight in how far a change in one component can spread. Colfer and Baldwin (2016) reviewed 142 empirical studies: about 70% found strong mirroring, 22% partial mirroring, and 8% none.
+**What the research says.** Conway (1968) argued that organisations design systems that copy their own communication structures. MacCormack and colleagues (2012) compared matched pairs of software products. In every pair, the product from the loosely coupled organisation was significantly more modular. Colfer and Baldwin (2016) reviewed 142 empirical studies: about 70% found strong mirroring, 22% partial mirroring, and 8% none.
 
 **Limits.** Mirroring is a strong tendency, not a law. In open collaborative projects, mostly software, 56% of the descriptive studies did not support it. The studies are observational and do not show that reorganising teams will change an architecture.
 
@@ -66,7 +66,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
 3. Melvin E. Conway (1968). How Do Committees Invent?. Datamation 14(4). [link](https://www.melconway.com/Home/Committees_Paper.html) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
@@ -87,7 +87,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 2. Christoph Gote, Pavlin Mavrodiev, Frank Schweitzer, Ingo Scholtes (2022). Big Data = Big Insights? Operationalising Brooks' Law in a Massive GitHub Data Set. Proceedings of the 44th International Conference on Software Engineering (ICSE 2022). [link](https://arxiv.org/abs/2201.04588) <sub>✓ metadata checked (title, authors, year)</sub> (replication)
 3. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ metadata checked (title, authors, year)</sub> (replication)
 4. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ not machine-checkable (book or report); link only</sub> (context)

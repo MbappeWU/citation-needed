@@ -6,7 +6,7 @@
     "year": 2009,
     "venue": "Information and Software Technology 51(7)",
     "doi": "10.1016/j.infsof.2009.02.001",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "rafique2013": {
     "kind": "paper",
@@ -132,7 +132,7 @@
     "year": 2008,
     "venue": "Information and Software Technology 50(9-10)",
     "doi": "10.1016/j.infsof.2008.01.006",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "beyer2016": {
     "kind": "book",

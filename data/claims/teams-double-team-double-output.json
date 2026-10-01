@@ -28,12 +28,34 @@
     "zh": "我们自己团队在扩招前后用同一口径衡量产出，结果团队翻倍而人均产出没有下降；或一项针对受薪软件团队的大型研究显示产出增速快于人数增速。"
   },
   "sources": [
-    { "id": "scholtes2016", "role": "primary", "quotes": ["580,000", "30,000"] },
-    { "id": "gote2022", "role": "replication" },
-    { "id": "rodriguez2012", "role": "replication" },
-    { "id": "qsm2012", "role": "context" },
-    { "id": "sornette2014", "role": "critique", "quotes": ["2.5", "4/3"] },
-    { "id": "gut2024", "role": "context" }
+    {
+      "id": "scholtes2016",
+      "role": "primary"
+    },
+    {
+      "id": "gote2022",
+      "role": "replication"
+    },
+    {
+      "id": "rodriguez2012",
+      "role": "replication"
+    },
+    {
+      "id": "qsm2012",
+      "role": "context"
+    },
+    {
+      "id": "sornette2014",
+      "role": "critique",
+      "quotes": [
+        "2.5",
+        "4/3"
+      ]
+    },
+    {
+      "id": "gut2024",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

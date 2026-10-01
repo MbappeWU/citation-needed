@@ -44,7 +44,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 **Sources** (checked 2026-10-01):
 
 1. Pedro Serrador, Jeffrey K. Pinto (2015). Does Agile work? A quantitative analysis of agile project success. International Journal of Project Management 33(5). [link](https://pure.psu.edu/en/publications/does-agile-work-a-quantitative-analysis-of-agile-project-success/) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
-2. Tore Dybå, Torgeir Dingsøyr (2008). Empirical studies of agile software development: A systematic review. Information and Software Technology 50(9-10). [link](https://doi.org/10.1016/j.infsof.2008.01.006) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+2. Tore Dybå, Torgeir Dingsøyr (2008). Empirical studies of agile software development: A systematic review. Information and Software Technology 50(9-10). [link](https://doi.org/10.1016/j.infsof.2008.01.006) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
 ---
 
@@ -84,7 +84,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Jo E. Hannay, Tore Dybå, Erik Arisholm, Dag I. K. Sjøberg (2009). The effectiveness of pair programming: A meta-analysis. Information and Software Technology 51(7). [link](https://doi.org/10.1016/j.infsof.2009.02.001) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Jo E. Hannay, Tore Dybå, Erik Arisholm, Dag I. K. Sjøberg (2009). The effectiveness of pair programming: A meta-analysis. Information and Software Technology 51(7). [link](https://doi.org/10.1016/j.infsof.2009.02.001) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 
 ---
 

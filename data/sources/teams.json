@@ -6,7 +6,7 @@
     "year": 2016,
     "venue": "Empirical Software Engineering 21(2)",
     "doi": "10.1007/s10664-015-9406-4",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "gote2022": {
     "kind": "paper",
@@ -78,7 +78,7 @@
     "year": 2012,
     "venue": "Research Policy 41(8)",
     "doi": "10.1016/j.respol.2012.04.011",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "colfer2016": {
     "kind": "paper",

@@ -12,8 +12,8 @@
     "zh": "142 项实证研究的综述和一项配对产品检验方向一致，但都是观察性研究，且并非处处成立。"
   },
   "evidence": {
-    "en": "Conway (1968) argued that organisations design systems that copy their own communication structures. MacCormack and colleagues (2012) compared matched pairs of software products. In every pair, the product from the loosely coupled organisation was more modular, by up to a factor of eight in how far a change in one component can spread. Colfer and Baldwin (2016) reviewed 142 empirical studies: about 70% found strong mirroring, 22% partial mirroring, and 8% none.",
-    "zh": "Conway（1968）提出：组织设计出的系统，会复制其自身的沟通结构。MacCormack 等人（2012）比较了成对匹配的软件产品：在每一对中，松耦合组织做出的产品都更模块化，在“一处改动能波及多远”这一指标上最多相差八倍。Colfer 和 Baldwin（2016）综述了 142 项实证研究：约 70% 发现强镜像，22% 发现部分镜像，8% 没有发现镜像。"
+    "en": "Conway (1968) argued that organisations design systems that copy their own communication structures. MacCormack and colleagues (2012) compared matched pairs of software products. In every pair, the product from the loosely coupled organisation was significantly more modular. Colfer and Baldwin (2016) reviewed 142 empirical studies: about 70% found strong mirroring, 22% partial mirroring, and 8% none.",
+    "zh": "Conway（1968）提出：组织设计出的系统，会复制其自身的沟通结构。MacCormack 等人（2012）比较了成对匹配的软件产品：在每一对中，松耦合组织做出的产品都明显更模块化。Colfer 和 Baldwin（2016）综述了 142 项实证研究：约 70% 发现强镜像，22% 发现部分镜像，8% 没有发现镜像。"
   },
   "caveats": {
     "en": "Mirroring is a strong tendency, not a law. In open collaborative projects, mostly software, 56% of the descriptive studies did not support it. The studies are observational and do not show that reorganising teams will change an architecture.",
@@ -30,10 +30,7 @@
   "sources": [
     {
       "id": "maccormack2012",
-      "role": "primary",
-      "quotes": [
-        "factor of eight"
-      ]
+      "role": "primary"
     },
     {
       "id": "colfer2016",

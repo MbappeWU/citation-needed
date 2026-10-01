@@ -3,6 +3,7 @@
 // Usage: node scripts/build-assets.mjs card            assets/social-card.png (1280x640)
 //        node scripts/build-assets.mjs demo [en|zh]    assets/demo.gif and dist/demo-<lang>.mp4
 //        node scripts/build-assets.mjs cards           dist/cards/<lang>/<claim-id>.png, one shareable image per claim
+//        node scripts/build-assets.mjs cards --headline   assets/cards/<lang>/<claim-id>.png for the front-page claims only (committed)
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readdirSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -83,8 +84,8 @@ async function card() {
 
 function shortCite(src) {
   const names = String(src.authors).split(/,\s*/).filter(Boolean);
-  const first = names[0].replace(/\s+et al\.?$/, "").trim().split(/\s+/).pop();
-  const many = names.length > 1 || /et al/.test(src.authors);
+  const first = names[0].replace(/\s+et al\.?$/, "").replace(/\s+(Jr\.?|Sr\.?|II|III|IV)$/i, "").trim().split(/\s+/).pop();
+  const many = !/^[A-Z]{2,}$/.test(first) && (names.length > 1 || /et al/.test(src.authors));
   const venue = src.venue ? `, ${String(src.venue).replace(/\s+\d[\d()\-–, ]*$/, "")}` : "";
   return `${first}${many ? " et al." : ""} (${src.year})${venue}`;
 }
@@ -99,7 +100,7 @@ function claimCardHtml(c, data, lang) {
   const primary = data.sources[(c.sources.find((r) => r.role === "primary") || c.sources[0]).id];
   return `<!doctype html><meta charset="utf-8"><style>
     * { box-sizing: border-box; }
-    body { margin: 0; width: 1080px; height: 1350px; background: #f6f5f1; color: #16181d; font-family: ${SANS}; position: relative; overflow: hidden; }
+    body { margin: 0; width: 1080px; height: ${L ? 1440 : 1350}px; background: #f6f5f1; color: #16181d; font-family: ${SANS}; position: relative; overflow: hidden; }
     .bar { position: absolute; left: 0; top: 0; bottom: 0; width: 16px; background: #2456c8; }
     .top { position: absolute; left: 72px; right: 64px; top: 56px; display: flex; justify-content: space-between; align-items: baseline; }
     .brand { font: 700 40px/1 ${SERIF}; }
@@ -130,15 +131,17 @@ function claimCardHtml(c, data, lang) {
 }
 
 async function cards() {
+  const headline = process.argv.includes("--headline");
   const data = loadAll();
+  const chosen = headline ? data.claims.filter((c) => c.headline) : data.claims;
   const { chromium } = await loadPlaywright();
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
   let n = 0;
   for (const lang of ["en", "zh"]) {
-    const dir = join(ROOT, "dist", "cards", lang);
+    const page = await browser.newPage({ viewport: { width: 1080, height: lang === "zh" ? 1440 : 1350 } });
+    const dir = headline ? join(ROOT, "assets", "cards", lang) : join(ROOT, "dist", "cards", lang);
     mkdirSync(dir, { recursive: true });
-    for (const c of data.claims) {
+    for (const c of chosen) {
       await page.setContent(claimCardHtml(c, data, lang));
       const overflow = await page.evaluate(() => {
         const say = document.querySelector(".say").getBoundingClientRect().bottom;
@@ -149,9 +152,10 @@ async function cards() {
       await page.screenshot({ path: join(dir, `${c.id}.png`) });
       n++;
     }
+    await page.close();
   }
   await browser.close();
-  console.log(`wrote ${n} images to dist/cards/`);
+  console.log(`wrote ${n} images to ${headline ? "assets/cards/" : "dist/cards/"}`);
 }
 
 // ---------- demo ----------

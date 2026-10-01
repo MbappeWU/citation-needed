@@ -66,16 +66,21 @@ export function renderChapter(topic, topics, claims, sources, lang) {
   return out.join("\n");
 }
 
-function sourceStats(sources) {
-  const s = { abstract: 0, metadata: 0, manual: 0 };
+function sourceStats(sources, claims) {
+  const s = { abstract: 0, metadata: 0, manual: 0, quotes: 0, quotedClaims: 0 };
   for (const src of Object.values(sources)) s[src.verify]++;
+  for (const c of claims) {
+    const q = c.sources.reduce((n, r) => n + (r.quotes ? r.quotes.length : 0), 0);
+    s.quotes += q;
+    if (q) s.quotedClaims++;
+  }
   return s;
 }
 
 export function renderReadme({ topics, claims, sources }, lang) {
   const L = lang === "zh";
   const n = counts(claims);
-  const st = sourceStats(sources);
+  const st = sourceStats(sources, claims);
   const total = Object.keys(sources).length;
   const out = [];
   out.push(`<div align="center">`);
@@ -164,11 +169,11 @@ export function renderReadme({ topics, claims, sources }, lang) {
   out.push(L ? "## 引用是怎么核对的" : "## How sources are checked");
   out.push("");
   if (L) {
-    out.push(`本仓库共 ${total} 个来源，每个都在持续集成里自动查询：**${st.abstract} 个**（✓✓）核对了标题、作者、年份，以及我们引用的数字是否真的出现在摘要里；**${st.metadata} 个**（✓）核对了元数据；**${st.manual} 个**（↗）是书、报告或网页，只核对链接能否打开。每周跑一次，每次提交也会跑，核对不过就会报错。`);
+    out.push(`本仓库共 ${total} 个来源，每个都在持续集成里自动查询：**${st.abstract} 个**（✓✓）核对了标题、作者、年份，以及我们引用的数字是否真的出现在摘要里（共 ${st.quotes} 处引文，分布在 ${st.quotedClaims} 条说法里）；**${st.metadata} 个**（✓）核对了元数据；**${st.manual} 个**（↗）是书、报告或网页，只核对链接能否打开。每周跑一次，每次提交也会跑，核对不过就会报错。`);
     out.push("");
     out.push("**没有覆盖的部分：** 持续集成只能读摘要，读不了全文。出现在摘要里的数字有机器核对；出自论文正文、报告或书的数字没有，有些条目依据的是二手转述，会在“局限”里写明。本仓库的初稿由 AI 协助起草，还没有经过专家逐行审阅。所以每条都写了“什么证据会让我改口”，也欢迎你来反驳：开一个 issue，附上论文和页码，错了我们就改，并署名感谢。");
   } else {
-    out.push(`There are ${total} sources, and CI looks every one of them up online: **${st.abstract}** (✓✓) have their title, authors, year and every quoted figure checked against the abstract; **${st.metadata}** (✓) have their metadata checked; **${st.manual}** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.`);
+    out.push(`There are ${total} sources, and CI looks every one of them up online: **${st.abstract}** (✓✓) have their title, authors, year and every quoted figure checked against the abstract (${st.quotes} quotes across ${st.quotedClaims} claims); **${st.metadata}** (✓) have their metadata checked; **${st.manual}** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.`);
     out.push("");
     out.push("**What this does not cover:** CI reads abstracts, not full texts. A figure that appears in an abstract is machine-checked; a figure from the body of a paper, a report or a book is not, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.");
   }

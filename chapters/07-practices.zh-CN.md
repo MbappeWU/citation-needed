@@ -44,7 +44,7 @@
 **出处** (核对于 2026-10-01):
 
 1. Pedro Serrador, Jeffrey K. Pinto (2015). Does Agile work? A quantitative analysis of agile project success. International Journal of Project Management 33(5). [link](https://pure.psu.edu/en/publications/does-agile-work-a-quantitative-analysis-of-agile-project-success/) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (主要来源)
-2. Tore Dybå, Torgeir Dingsøyr (2008). Empirical studies of agile software development: A systematic review. Information and Software Technology 50(9-10). [link](https://doi.org/10.1016/j.infsof.2008.01.006) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+2. Tore Dybå, Torgeir Dingsøyr (2008). Empirical studies of agile software development: A systematic review. Information and Software Technology 50(9-10). [link](https://doi.org/10.1016/j.infsof.2008.01.006) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
 
 ---
 
@@ -84,7 +84,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Jo E. Hannay, Tore Dybå, Erik Arisholm, Dag I. K. Sjøberg (2009). The effectiveness of pair programming: A meta-analysis. Information and Software Technology 51(7). [link](https://doi.org/10.1016/j.infsof.2009.02.001) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Jo E. Hannay, Tore Dybå, Erik Arisholm, Dag I. K. Sjøberg (2009). The effectiveness of pair programming: A meta-analysis. Information and Software Technology 51(7). [link](https://doi.org/10.1016/j.infsof.2009.02.001) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
 
 ---
 

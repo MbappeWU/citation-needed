@@ -46,7 +46,7 @@
 
 1. Frederick P. Brooks Jr. (1975). The Mythical Man-Month: Essays on Software Engineering. Addison-Wesley (anniversary edition 1995). [link](https://openlibrary.org/isbn/9780201835953) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (主要来源)
 2. Tarek K. Abdel-Hamid, Stuart E. Madnick (1991). Software Project Dynamics: An Integrated Approach. Prentice Hall. [link](https://openlibrary.org/isbn/9780138220402) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (质疑)
-3. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+3. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
 4. Christoph Gote, Pavlin Mavrodiev, Frank Schweitzer, Ingo Scholtes (2022). Big Data = Big Insights? Operationalising Brooks' Law in a Massive GitHub Data Set. Proceedings of the 44th International Conference on Software Engineering (ICSE 2022). [link](https://arxiv.org/abs/2201.04588) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
 
 ---
@@ -56,7 +56,7 @@
 
 **✓ 成立 · 证据等级 B** （142 项实证研究的综述和一项配对产品检验方向一致，但都是观察性研究，且并非处处成立。）
 
-**研究怎么说.** Conway（1968）提出：组织设计出的系统，会复制其自身的沟通结构。MacCormack 等人（2012）比较了成对匹配的软件产品：在每一对中，松耦合组织做出的产品都更模块化，在“一处改动能波及多远”这一指标上最多相差八倍。Colfer 和 Baldwin（2016）综述了 142 项实证研究：约 70% 发现强镜像，22% 发现部分镜像，8% 没有发现镜像。
+**研究怎么说.** Conway（1968）提出：组织设计出的系统，会复制其自身的沟通结构。MacCormack 等人（2012）比较了成对匹配的软件产品：在每一对中，松耦合组织做出的产品都明显更模块化。Colfer 和 Baldwin（2016）综述了 142 项实证研究：约 70% 发现强镜像，22% 发现部分镜像，8% 没有发现镜像。
 
 **局限.** 镜像是很强的倾向，不是定律：在以软件为主的开放协作项目中，56% 的描述性研究并不支持它。这些研究是观察性的，不能证明调整团队就会改变架构。
 
@@ -66,7 +66,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
 2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
 3. Melvin E. Conway (1968). How Do Committees Invent?. Datamation 14(4). [link](https://www.melconway.com/Home/Committees_Paper.html) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
@@ -87,7 +87,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer (2016). From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects. Empirical Software Engineering 21(2). [link](https://doi.org/10.1007/s10664-015-9406-4) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
 2. Christoph Gote, Pavlin Mavrodiev, Frank Schweitzer, Ingo Scholtes (2022). Big Data = Big Insights? Operationalising Brooks' Law in a Massive GitHub Data Set. Proceedings of the 44th International Conference on Software Engineering (ICSE 2022). [link](https://arxiv.org/abs/2201.04588) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (复现)
 3. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (复现)
 4. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)

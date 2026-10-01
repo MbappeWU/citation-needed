@@ -173,7 +173,7 @@ The grade measures **how strong the evidence is behind the verdict**, not whethe
 
 ## How sources are checked
 
-There are 125 sources, and CI looks every one of them up online: **54** (✓✓) have their title, authors, year and every quoted figure checked against the abstract; **40** (✓) have their metadata checked; **31** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.
+There are 125 sources, and CI looks every one of them up online: **50** (✓✓) have their title, authors, year and every quoted figure checked against the abstract (81 quotes across 39 claims); **44** (✓) have their metadata checked; **31** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.
 
 **What this does not cover:** CI reads abstracts, not full texts. A figure that appears in an abstract is machine-checked; a figure from the body of a paper, a report or a book is not, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.
 
