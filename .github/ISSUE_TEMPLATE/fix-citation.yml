@@ -1,0 +1,18 @@
+name: 🔗 Wrong or broken citation
+description: A DOI that does not resolve, a misquoted number, or a link that moved.
+title: "[Citation] "
+labels: ["citation"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Claim id and source
+      placeholder: "ai-experienced-devs-faster, becker2025"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what is right?
+    validations:
+      required: true

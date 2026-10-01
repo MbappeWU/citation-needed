@@ -1,0 +1,29 @@
+{
+  "pencavel2015": {
+    "kind": "paper",
+    "title": "The Productivity of Working Hours",
+    "authors": "John Pencavel",
+    "year": 2015,
+    "venue": "The Economic Journal 125(589)",
+    "doi": "10.1111/ecoj.12166",
+    "verify": "metadata"
+  },
+  "pega2021": {
+    "kind": "paper",
+    "title": "Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury",
+    "authors": "Frank Pega, Bálint Náfrádi, Natalie Momen, et al.",
+    "year": 2021,
+    "venue": "Environment International 154",
+    "doi": "10.1016/j.envint.2021.106595",
+    "verify": "abstract"
+  },
+  "fan2025": {
+    "kind": "paper",
+    "title": "Work time reduction via a 4-day workweek finds improvements in workers' well-being",
+    "authors": "Wen Fan, Juliet B. Schor, Orla Kelly, Guolin Gu",
+    "year": 2025,
+    "venue": "Nature Human Behaviour 9",
+    "doi": "10.1038/s41562-025-02259-6",
+    "verify": "abstract"
+  }
+}

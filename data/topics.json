@@ -1,0 +1,11 @@
+[
+  { "id": "ai", "name": { "en": "AI coding tools", "zh": "AI 编程工具" }, "blurb": { "en": "Do they make teams faster, safer, better? What randomized trials and field data say.", "zh": "它们让团队更快、更稳、更好吗？随机对照试验和现场数据怎么说。" } },
+  { "id": "measure", "name": { "en": "Measuring productivity", "zh": "度量效能" }, "blurb": { "en": "What counts, what misleads, and why per-head output falls as teams grow.", "zh": "什么该数，什么会误导，以及为什么团队越大人均产出越低。" } },
+  { "id": "hours", "name": { "en": "Working hours and health", "zh": "工时与健康" }, "blurb": { "en": "Overtime, output per hour, and the health bill.", "zh": "加班、单位工时产出，以及健康代价。" } },
+  { "id": "meetings", "name": { "en": "Meetings, interruptions, offices", "zh": "会议、打断与办公室" }, "blurb": { "en": "The folklore about focus time and open-plan offices, checked.", "zh": "关于专注时间和开放式办公室的各种说法，逐条核对。" } },
+  { "id": "remote", "name": { "en": "Remote and hybrid work", "zh": "远程与混合办公" }, "blurb": { "en": "Randomized experiments and field data, including a large Chinese company.", "zh": "随机实验和现场数据，包括一家大型中国公司的实验。" } },
+  { "id": "estimation", "name": { "en": "Estimates and project failure", "zh": "估算与项目失败" }, "blurb": { "en": "Why plans slip, and which failure statistics you should not repeat.", "zh": "计划为什么总会延期，以及哪些“失败率”数字不该再引用。" } },
+  { "id": "practices", "name": { "en": "Engineering practices", "zh": "工程实践" }, "blurb": { "en": "Pair programming, TDD, code review, types, technical debt.", "zh": "结对编程、TDD、代码评审、类型系统、技术债。" } },
+  { "id": "teams", "name": { "en": "Team size and structure", "zh": "团队规模与结构" }, "blurb": { "en": "Brooks's law, Conway's law, psychological safety.", "zh": "布鲁克斯定律、康威定律、心理安全感。" } },
+  { "id": "people", "name": { "en": "Hiring, feedback, performance reviews", "zh": "招聘、反馈与绩效评估" }, "blurb": { "en": "What predicts job performance, and what ratings actually measure.", "zh": "什么能预测工作表现，评分到底在测什么。" } }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "citation-needed",
+  "owner": {
+    "name": "MbappeWU",
+    "url": "https://github.com/MbappeWU"
+  },
+  "metadata": {
+    "description": "Evidence-graded answers about how software teams work.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "citation-needed",
+      "source": "./",
+      "description": "Look up what the research says about a claim about software teams, with the verdict, an A/B/C grade, primary sources and caveats.",
+      "version": "0.1.0",
+      "author": { "name": "MbappeWU" },
+      "category": "productivity",
+      "keywords": ["evidence", "research", "engineering-management", "productivity"]
+    }
+  ]
+}

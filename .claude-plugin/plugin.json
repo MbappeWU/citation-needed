@@ -1,0 +1,13 @@
+{
+  "name": "citation-needed",
+  "version": "0.1.0",
+  "description": "Evidence-graded answers about how software teams work: AI tools, productivity metrics, hours, meetings, remote work, estimates, practices, hiring. Primary sources, A/B/C grades, and a calm line for your boss.",
+  "author": {
+    "name": "MbappeWU",
+    "url": "https://github.com/MbappeWU"
+  },
+  "homepage": "https://github.com/MbappeWU/citation-needed",
+  "repository": "https://github.com/MbappeWU/citation-needed",
+  "license": "MIT",
+  "keywords": ["evidence", "research", "engineering-management", "productivity", "ai-coding", "remote-work", "skills"]
+}

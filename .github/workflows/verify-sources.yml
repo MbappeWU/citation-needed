@@ -1,0 +1,42 @@
+name: Verify sources
+
+# Looks every source up online (Crossref, OpenAlex, Europe PMC, arXiv) and fails when a
+# title, author, year or quoted number does not match. Runs on data changes, weekly, and on demand.
+on:
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/verify-sources.mjs"]
+  pull_request:
+    paths: ["data/**", "scripts/verify-sources.mjs"]
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated source ids to check (empty = all)"
+        required: false
+        default: ""
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify sources
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          ONLY: ${{ github.event.inputs.only }}
+        run: |
+          if [ -n "$ONLY" ]; then
+            node scripts/verify-sources.mjs --only "$ONLY" --json verification-report.json
+          else
+            node scripts/verify-sources.mjs --json verification-report.json
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report
+          path: verification-report.json

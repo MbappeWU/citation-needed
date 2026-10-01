@@ -1,0 +1,41 @@
+{
+  "id": "hours-four-day-week",
+  "topic": "hours",
+  "claim": {
+    "en": "A four-day week means less gets done.",
+    "zh": "每周只上四天，事情就会做得更少。"
+  },
+  "verdict": "unknown",
+  "grade": "C",
+  "grade_why": {
+    "en": "The best trial measured well-being, not output, and the companies chose to take part.",
+    "zh": "目前最好的试验测的是身心状况，不是产出，而且参与的公司是自愿加入的。"
+  },
+  "evidence": {
+    "en": "The largest trial so far followed 2,896 employees in 141 organizations across six countries that moved to a four-day week with pay unchanged, and compared them with 12 control companies. Burnout, job satisfaction, mental health and physical health improved; the control companies showed no such change. It measured well-being, not output, so it shows that cutting a day does not wreck people, not that output is unchanged.",
+    "zh": "迄今规模最大的试验跟踪了六个国家 141 家组织的 2,896 名员工：他们改为每周四天、工资不变，并与 12 家对照公司比较。倦怠感、工作满意度、心理和身体健康都改善了，对照公司没有这种变化。试验测的是身心状况，不是产出：它说明少上一天不会拖垮人，但不能说明产出不变。"
+  },
+  "caveats": {
+    "en": "Companies chose to take part and were coached to redesign work first. The trial was not randomized, and the sample was not specific to software teams.",
+    "zh": "公司是自愿参加的，并且事先接受了重新设计工作方式的辅导。试验没有随机分组，样本也不是专门针对软件团队。"
+  },
+  "boss_line": {
+    "en": "The best trial of a four-day week measured burnout and health, and both improved. It did not measure our output, so let's pilot it on one team and track delivery.",
+    "zh": "目前最好的四天工作制试验测的是倦怠和健康，两项都改善了，但没有测产出。我们可以先在一个团队试点，同时记录交付情况。"
+  },
+  "change_my_mind": {
+    "en": "A controlled pilot in a software team showing a clear fall in delivered work, measured the same way before and after.",
+    "zh": "在软件团队里做的对照试点显示交付量明显下降，且试点前后用同一种方式测量。"
+  },
+  "sources": [
+    {
+      "id": "fan2025",
+      "role": "primary",
+      "quotes": [
+        "2,896",
+        "141"
+      ]
+    }
+  ],
+  "verified_on": "2026-10-01"
+}

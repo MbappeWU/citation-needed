@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Citation Needed: what the research actually says about how software teams work">
+  <title>Citation Needed</title>
+  <rect width="1200" height="320" fill="#f6f5f1"/>
+  <rect x="0" y="0" width="12" height="320" fill="#2456c8"/>
+  <g font-family="Iowan Old Style, Palatino Linotype, Palatino, Georgia, 'Times New Roman', serif" fill="#16181d">
+    <text x="64" y="132" font-size="92" font-weight="700" letter-spacing="-1.5">Citation</text>
+    <text x="440" y="96" font-size="38" font-weight="500" fill="#2456c8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">[needed]</text>
+    <text x="64" y="188" font-size="30" fill="#5a606b">What the research actually says about how software teams work.</text>
+    <text x="64" y="232" font-size="24" fill="#5a606b">Every claim graded A / B / C, with primary sources and a line for your boss.</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700">
+    <rect x="64" y="262" width="92" height="34" rx="17" fill="#16181d"/>
+    <text x="110" y="285" text-anchor="middle" fill="#f6f5f1">A strong</text>
+    <rect x="172" y="262" width="108" height="34" rx="17" fill="none" stroke="#16181d" stroke-width="2"/>
+    <text x="226" y="285" text-anchor="middle" fill="#16181d">B some</text>
+    <rect x="296" y="262" width="104" height="34" rx="17" fill="none" stroke="#5a606b" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="348" y="285" text-anchor="middle" fill="#5a606b">C weak</text>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="1136" y="150" font-size="96" font-weight="700" text-anchor="end" fill="#16181d" opacity="0.08">出处呢</text>
+  </g>
+</svg>

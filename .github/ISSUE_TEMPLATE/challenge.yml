@@ -1,0 +1,37 @@
+name: ⚖️ Challenge a claim
+description: Better evidence, a mistake, or a study we missed. Grades go up and down in public, with credit to whoever supplied the evidence.
+title: "[Challenge] "
+labels: ["challenge"]
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: Claim id or title
+      placeholder: "hours-more-output"
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What should change?
+      options:
+        - The verdict
+        - The grade
+        - A number or detail in the text
+        - A caveat is missing
+        - A source is wrong or broken
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: The evidence
+      description: Link or DOI to the study, and what it found (population, sample size, effect). Primary sources please, not blog posts.
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: How should we credit you?
+      description: Name or handle, or "anonymous". Optional.

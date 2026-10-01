@@ -1,0 +1,13 @@
+{
+  "name": "citation-needed",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "What the research actually says about how software teams work. Every claim graded A/B/C with primary sources.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify-sources.mjs"
+  }
+}

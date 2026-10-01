@@ -1,0 +1,55 @@
+name: Release
+
+# Push a tag such as v0.1.0. The release gets the offline reader, PDFs in English and Chinese,
+# the data as JSON, and the skill as a zip.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: ${{ !github.event.deleted }}
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate
+        run: |
+          node scripts/validate.mjs
+          node scripts/build.mjs --check
+      - name: Install a browser and CJK fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Build the reader, the books and the PDFs
+        run: |
+          node scripts/build-site.mjs
+          node scripts/build-book.mjs --pdf
+      - name: Collect assets
+        run: |
+          mkdir -p out
+          cp _site/reader.html out/citation-needed-reader.html
+          cp _site/claims.json out/claims.json
+          cp dist/*.pdf out/
+          (cd skills && zip -qr ../out/citation-needed-skill.zip citation-needed)
+      - name: Create the release
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists."
+          elif [ -f ".github/release-notes/$TAG.md" ]; then
+            gh release create "$TAG" --verify-tag --title "$TAG" --notes-file ".github/release-notes/$TAG.md"
+          else
+            gh release create "$TAG" --verify-tag --title "$TAG" --generate-notes
+          fi
+      - name: Upload assets
+        run: gh release upload "$TAG" out/* --clobber

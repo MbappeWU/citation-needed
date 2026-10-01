@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Citation Needed · 出处呢</title>
+<meta name="description" content="What the research actually says about how software teams work. Every claim graded A/B/C with primary sources, and a sentence you can say to your boss.">
+<meta property="og:title" content="Citation Needed: the receipts for how software teams work">
+<meta property="og:description" content="Overtime, AI coding tools, remote work, estimates, hiring. Every claim graded A/B/C with primary sources.">
+<meta property="og:image" content="social-card.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231b1f2a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' font-weight='700' text-anchor='middle' fill='%23f6f5f1'%3E[n]%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --paper: #f6f5f1; --surface: #ffffff; --ink: #16181d; --muted: #5a606b; --rule: #dcd9ce;
+    --cite: #2456c8; --cite-soft: #e8eefc;
+    --ok: #17703f; --ok-soft: #e1f2e8; --mid: #8f6200; --mid-soft: #fbf0d4; --bad: #a22b2b; --bad-soft: #f8e2e2; --unk: #59606b; --unk-soft: #e9eaee;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "STSong", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #121418; --surface: #1a1d23; --ink: #e8e9ec; --muted: #9aa0ab; --rule: #2b2f37;
+      --cite: #7fa6ff; --cite-soft: #1c2740;
+      --ok: #52c283; --ok-soft: #14291e; --mid: #e0b04a; --mid-soft: #2c2412; --bad: #ee7b7b; --bad-soft: #321a1a; --unk: #a0a6b1; --unk-soft: #23262d;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.65 var(--sans); }
+  a { color: var(--cite); }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--cite); outline-offset: 2px; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 18px; }
+
+  header.top { padding: 28px 0 8px; }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .brand { font: 700 28px/1.1 var(--serif); letter-spacing: -.01em; margin: 0; }
+  .brand sup { font: 500 .55em/1 var(--mono); color: var(--cite); margin-left: 3px; vertical-align: super; letter-spacing: 0; }
+  .lang { display: inline-flex; border: 1px solid var(--rule); border-radius: 999px; overflow: hidden; background: var(--surface); }
+  .lang button { border: 0; background: none; padding: 5px 13px; font-size: 14px; }
+  .lang button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  .tag { font: 400 17px/1.5 var(--serif); color: var(--muted); margin: 10px 0 0; max-width: 60ch; }
+  .stats { font: 13px/1.5 var(--mono); color: var(--muted); margin: 10px 0 0; }
+
+  .tools { position: sticky; top: 0; z-index: 5; background: var(--paper); padding: 12px 0 10px; border-bottom: 1px solid var(--rule); margin-top: 14px; }
+  .search { width: 100%; font: 16px var(--sans); padding: 10px 14px; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); color: var(--ink); }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chip { border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 3px 11px; font-size: 13px; line-height: 1.6; }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .sep { width: 1px; background: var(--rule); margin: 2px 4px; }
+
+  .list { padding: 8px 0 120px; }
+  .topic-head { margin: 28px 0 6px; font: 600 12px/1.2 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .topic-blurb { margin: 0 0 8px; color: var(--muted); font-size: 14px; }
+  .empty { padding: 40px 0; color: var(--muted); text-align: center; }
+
+  article.claim { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; margin: 10px 0; scroll-margin-top: 190px; }
+  article.claim.open { border-color: var(--ink); }
+  .head { display: block; width: 100%; text-align: left; background: none; border: 0; padding: 14px 16px 12px; }
+  .head h3 { margin: 6px 0 0; font: 600 19px/1.35 var(--serif); }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .v, .g { display: inline-flex; align-items: center; gap: 5px; font: 600 12px/1 var(--sans); padding: 5px 9px; border-radius: 999px; white-space: nowrap; }
+  .v.supported { background: var(--ok-soft); color: var(--ok); }
+  .v.mixed { background: var(--mid-soft); color: var(--mid); }
+  .v.unsupported { background: var(--bad-soft); color: var(--bad); }
+  .v.unknown { background: var(--unk-soft); color: var(--unk); }
+  .g { border: 1.5px solid var(--ink); font-family: var(--mono); padding: 4px 8px; }
+  .g.A { background: var(--ink); color: var(--paper); }
+  .g.B { background: transparent; color: var(--ink); }
+  .g.C { background: transparent; color: var(--muted); border-color: var(--muted); border-style: dashed; }
+  .body { padding: 2px 16px 16px; border-top: 1px dashed var(--rule); }
+  .body h4 { margin: 16px 0 4px; font: 600 12px/1.2 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .body p { margin: 0; }
+  .why { color: var(--muted); font-size: 14px; margin-top: 10px !important; }
+  .boss { margin: 16px 0 0; padding: 12px 14px; background: var(--cite-soft); border-radius: 10px; border-left: 4px solid var(--cite); }
+  .boss h4 { margin-top: 0; color: var(--cite); }
+  .boss blockquote { margin: 0; font: 400 17px/1.55 var(--serif); }
+  .boss button { margin-top: 8px; border: 1px solid var(--cite); background: none; color: var(--cite); border-radius: 999px; padding: 3px 12px; font-size: 13px; }
+  ol.src { margin: 6px 0 0; padding-left: 24px; font-size: 14px; }
+  ol.src li { margin: 4px 0; }
+  ol.src .role { font: 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  ol.src .ver { font: 12px var(--mono); color: var(--muted); }
+  .actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 16px; font-size: 14px; }
+  .actions label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; font-weight: 600; }
+  .actions input { width: 18px; height: 18px; accent-color: var(--cite); }
+  .dim { color: var(--muted); font-size: 13px; }
+
+  .briefbar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--ink); color: var(--paper); padding: 10px 18px calc(10px + env(safe-area-inset-bottom, 0px)); display: flex; justify-content: center; }
+  .briefbar .in { width: 100%; max-width: 860px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .briefbar button { border: 0; border-radius: 999px; padding: 8px 16px; background: var(--paper); color: var(--ink); font-weight: 600; }
+  .briefbar .clear { background: none; color: var(--paper); text-decoration: underline; padding: 8px 4px; font-weight: 400; }
+
+  /* Brief view */
+  #brief { display: none; padding: 24px 0 80px; }
+  body.brief #brief { display: block; }
+  body.brief .list, body.brief .tools, body.brief header.top, body.brief .briefbar { display: none; }
+  .sheet { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 32px 36px; }
+  .sheet .t { width: 100%; font: 700 26px/1.25 var(--serif); border: 0; border-bottom: 1px dashed var(--rule); background: none; color: var(--ink); padding: 4px 0; }
+  .sheet .meta { font: 12px/1.5 var(--mono); color: var(--muted); margin: 8px 0 18px; }
+  .sheet .item { padding: 14px 0; border-top: 1px solid var(--rule); break-inside: avoid; }
+  .sheet .item h3 { font: 600 18px/1.4 var(--serif); margin: 6px 0; }
+  .sheet .item p { margin: 6px 0; font-size: 15px; }
+  .sheet .item .say { padding: 8px 12px; background: var(--cite-soft); border-left: 3px solid var(--cite); font-family: var(--serif); }
+  .sheet .item .refs { font-size: 12px; color: var(--muted); }
+  .sheet .foot { margin-top: 18px; padding-top: 10px; border-top: 1px solid var(--rule); font: 12px/1.5 var(--mono); color: var(--muted); }
+  .briefactions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .briefactions button { border: 1px solid var(--ink); background: var(--surface); border-radius: 999px; padding: 7px 15px; font-weight: 600; }
+  .briefactions button.primary { background: var(--ink); color: var(--paper); }
+
+  footer { padding: 30px 0 140px; color: var(--muted); font-size: 13px; }
+  @media (max-width: 560px) {
+    .brand { font-size: 24px; }
+    .head h3 { font-size: 17px; }
+    .sheet { padding: 20px 16px; }
+  }
+  @media print {
+    body { background: #fff; color: #000; font-size: 12pt; }
+    .briefactions, .briefbar, .tools, header.top, .list, footer { display: none !important; }
+    body.brief #brief { display: block; padding: 0; }
+    .sheet { border: 0; padding: 0; }
+    .sheet .t { border: 0; }
+    a { color: #000; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="bar">
+    <h1 class="brand">Citation<sup>[needed]</sup> <span id="zhname" style="font-weight:400;color:var(--muted);font-size:.7em">出处呢</span></h1>
+    <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en">English</button><button type="button" data-lang="zh">中文</button></div>
+  </div>
+  <p class="tag" id="tagline"></p>
+  <p class="stats" id="stats"></p>
+</div></header>
+
+<div class="tools"><div class="wrap">
+  <input class="search" id="q" type="search" autocomplete="off" aria-label="Search">
+  <div class="filters" id="filters"></div>
+</div></div>
+
+<main class="wrap">
+  <div class="list" id="list" aria-live="polite"></div>
+  <section id="brief" aria-label="Brief"></section>
+  <footer id="foot"></footer>
+</main>
+
+<div class="briefbar" id="briefbar" hidden><div class="in"><span id="bcount"></span><span><button type="button" id="bclear" class="clear"></button> <button type="button" id="bopen"></button></span></div></div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("data").textContent);
+  var STR = {
+    en: { tag: "What the research actually says about how software teams work. Every claim graded A, B or C, with primary sources and a sentence you can say to your boss.", search: "Search claims, studies, authors", all: "All", topics: "Topic", verdict: "Verdict", grade: "Grade", none: "No claim matches. Try fewer words.", evidence: "What the research says", limits: "Limits", boss: "Say this to your boss", change: "What would change my mind", sources: "Sources", add: "Add to brief", copy: "Copy", copied: "Copied", link: "Link", challenge: "Challenge this claim", checked: "checked", brief: "Brief for your boss", openBrief: "Open the brief", clear: "Clear", selected: function (n) { return n + " selected"; }, back: "Back", copymd: "Copy as Markdown", print: "Print or save as PDF", titleph: "What the research says about…", defTitle: "What the research says", compiled: "Compiled with Citation Needed, graded A/B/C. CC BY 4.0.", stats: function (c) { return c.total + " claims · grade A " + c.grade.A + ", B " + c.grade.B + ", C " + c.grade.C + " · " + c.verdict.supported + " hold up, " + c.verdict.mixed + " depend, " + c.verdict.unsupported + " do not, " + c.verdict.unknown + " unknown"; }, foot: "Text and data CC BY 4.0, code MIT. Sources are checked by CI against their abstracts. Found a mistake? Open an issue." },
+    zh: { tag: "软件团队怎么干活效率高，研究到底怎么说。每条说法标 A、B、C 证据等级，附一手出处，再配一句能直接对老板说的话。", search: "搜索说法、研究、作者", all: "全部", topics: "主题", verdict: "结论", grade: "证据", none: "没有匹配的说法，少输几个词试试。", evidence: "研究怎么说", limits: "局限", boss: "对老板可以这样说", change: "什么证据会让我改口", sources: "出处", add: "加入一页纸", copy: "复制", copied: "已复制", link: "链接", challenge: "反驳这条", checked: "核对于", brief: "给老板的一页纸", openBrief: "打开一页纸", clear: "清空", selected: function (n) { return "已选 " + n + " 条"; }, back: "返回", copymd: "复制为 Markdown", print: "打印或另存为 PDF", titleph: "关于……研究怎么说", defTitle: "研究怎么说", compiled: "由《出处呢》整理，证据分 A/B/C 三级。CC BY 4.0。", stats: function (c) { return c.total + " 条说法 · 证据 A " + c.grade.A + "、B " + c.grade.B + "、C " + c.grade.C + " · " + c.verdict.supported + " 条成立，" + c.verdict.mixed + " 条看情况，" + c.verdict.unsupported + " 条不成立，" + c.verdict.unknown + " 条证据不足"; }, foot: "文字与数据采用 CC BY 4.0，代码采用 MIT。出处由持续集成对照摘要自动核对。发现错误请开 issue。" }
+  };
+  var store = {
+    get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) { /* storage may be unavailable */ } }
+  };
+  var state = { lang: store.get("cn-lang") || (/^zh/i.test(navigator.language || "") ? "zh" : "en"), q: "", topic: "all", verdicts: {}, grades: {}, open: null, brief: {}, view: "list", title: "" };
+  try { var saved = JSON.parse(store.get("cn-brief") || "{}"); if (saved && typeof saved === "object") state.brief = saved; } catch (e) { /* ignore */ }
+  var claimById = {}; D.claims.forEach(function (c) { claimById[c.id] = c; });
+  var topicName = {}; D.topics.forEach(function (t) { topicName[t.id] = t; });
+  var hay = {}; D.claims.forEach(function (c) {
+    var parts = [c.id, c.claim.en, c.claim.zh, c.evidence.en, c.evidence.zh, c.boss_line.en, c.boss_line.zh, topicName[c.topic].name.en, topicName[c.topic].name.zh];
+    c.sources.forEach(function (r) { var s = D.sources[r.id]; parts.push(s.title, s.authors, String(s.year)); });
+    hay[c.id] = parts.join(" ").toLowerCase();
+  });
+
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (m) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]; }); }
+  function T() { return STR[state.lang]; }
+  function lbl(group, key) { return D.labels[group][key][state.lang]; }
+  function pad() { return state.lang === "zh" ? "" : " "; }
+
+  function verdictChip(c) { return '<span class="v ' + c.verdict + '">' + D.labels.verdict[c.verdict].icon + " " + lbl("verdict", c.verdict) + "</span>"; }
+  function gradeChip(c) { return '<span class="g ' + c.grade + '" title="' + esc(lbl("grade", c.grade)) + '">' + (state.lang === "zh" ? "证据 " : "Grade ") + c.grade + "</span>"; }
+
+  function matches(c) {
+    if (state.topic !== "all" && c.topic !== state.topic) return false;
+    var vOn = Object.keys(state.verdicts), gOn = Object.keys(state.grades);
+    if (vOn.length && !state.verdicts[c.verdict]) return false;
+    if (gOn.length && !state.grades[c.grade]) return false;
+    var words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    for (var i = 0; i < words.length; i++) if (hay[c.id].indexOf(words[i]) < 0) return false;
+    return true;
+  }
+
+  function srcLine(ref, n) {
+    var s = D.sources[ref.id], role = lbl("role", ref.role), ver = D.labels.verify[s.verify][state.lang];
+    var mark = s.verify === "abstract" ? "✓✓" : s.verify === "metadata" ? "✓" : "↗";
+    return "<li>" + esc(s.authors) + " (" + s.year + "). " + esc(s.title) + "." + (s.venue ? " " + esc(s.venue) + "." : "") + (s.link ? ' <a href="' + esc(s.link) + '" target="_blank" rel="noopener">' + T().link + "</a>" : "") +
+      ' <span class="role">' + esc(role) + '</span> <span class="ver" title="' + esc(ver) + '">' + mark + "</span></li>";
+  }
+
+  function claimHtml(c) {
+    var open = state.open === c.id, t = T();
+    var h = '<article class="claim' + (open ? " open" : "") + '" id="' + c.id + '">' +
+      '<button type="button" class="head" data-toggle="' + c.id + '" aria-expanded="' + open + '"><div class="chips">' + verdictChip(c) + gradeChip(c) + "</div><h3>" + esc(c.claim[state.lang]) + "</h3></button>";
+    if (open) {
+      h += '<div class="body"><p class="why">' + esc(c.grade_why[state.lang]) + "</p>" +
+        "<h4>" + t.evidence + "</h4><p>" + esc(c.evidence[state.lang]) + "</p>" +
+        "<h4>" + t.limits + "</h4><p>" + esc(c.caveats[state.lang]) + "</p>" +
+        '<div class="boss"><h4>' + t.boss + "</h4><blockquote>" + esc(c.boss_line[state.lang]) + '</blockquote><button type="button" data-copy="' + c.id + '">' + t.copy + "</button></div>" +
+        "<h4>" + t.change + "</h4><p>" + esc(c.change_my_mind[state.lang]) + "</p>" +
+        "<h4>" + t.sources + ' <span class="dim">(' + t.checked + " " + c.verified_on + ")</span></h4><ol class=\"src\">" + c.sources.map(function (r, i) { return srcLine(r, i); }).join("") + "</ol>" +
+        '<div class="actions"><label><input type="checkbox" data-add="' + c.id + '"' + (state.brief[c.id] ? " checked" : "") + "> " + t.add + '</label><a href="#' + c.id + '" data-perma="' + c.id + '">#' + c.id + '</a><a href="https://github.com/' + D.repo + "/issues/new?template=challenge.yml&title=" + encodeURIComponent("[Challenge] " + c.id) + '" target="_blank" rel="noopener">' + t.challenge + "</a></div></div>";
+    }
+    return h + "</article>";
+  }
+
+  function renderFilters() {
+    var t = T(), h = "";
+    h += '<button type="button" class="chip" data-topic="all" aria-pressed="' + (state.topic === "all") + '">' + t.all + "</button>";
+    D.topics.forEach(function (tp) { if (D.claims.some(function (c) { return c.topic === tp.id; })) h += '<button type="button" class="chip" data-topic="' + tp.id + '" aria-pressed="' + (state.topic === tp.id) + '">' + esc(tp.name[state.lang]) + "</button>"; });
+    h += '<span class="sep"></span>';
+    ["supported", "mixed", "unsupported", "unknown"].forEach(function (v) { h += '<button type="button" class="chip" data-verdict="' + v + '" aria-pressed="' + !!state.verdicts[v] + '">' + D.labels.verdict[v].icon + " " + lbl("verdict", v) + "</button>"; });
+    h += '<span class="sep"></span>';
+    ["A", "B", "C"].forEach(function (g) { h += '<button type="button" class="chip" data-grade="' + g + '" aria-pressed="' + !!state.grades[g] + '">' + t.grade + " " + g + "</button>"; });
+    $("filters").innerHTML = h;
+  }
+
+  function renderList() {
+    var shown = D.claims.filter(matches), h = "", last = null;
+    shown.forEach(function (c) {
+      if (c.topic !== last) { last = c.topic; var tp = topicName[c.topic]; h += '<div class="topic-head">' + esc(tp.name[state.lang]) + '</div><p class="topic-blurb">' + esc(tp.blurb[state.lang]) + "</p>"; }
+      h += claimHtml(c);
+    });
+    $("list").innerHTML = h || '<p class="empty">' + T().none + "</p>";
+  }
+
+  function briefIds() { return D.claims.filter(function (c) { return state.brief[c.id]; }).map(function (c) { return c.id; }); }
+
+  function renderBar() {
+    var n = briefIds().length, t = T();
+    $("briefbar").hidden = n === 0 || state.view === "brief";
+    $("bcount").textContent = t.brief + ": " + t.selected(n);
+    $("bclear").textContent = t.clear;
+    $("bopen").textContent = t.openBrief;
+  }
+
+  function refsFor(c) { return c.sources.map(function (r, i) { var s = D.sources[r.id]; return "[" + (i + 1) + "] " + s.authors + " (" + s.year + "). " + s.title + (s.link ? " " + s.link : ""); }); }
+
+  function briefMarkdown() {
+    var t = T(), ids = briefIds(), out = ["# " + (state.title || t.defTitle), "", "_" + t.compiled + " https://github.com/" + D.repo + "_", ""];
+    ids.forEach(function (id) {
+      var c = claimById[id];
+      out.push("## " + c.claim[state.lang], "", "**" + lbl("verdict", c.verdict) + " · " + t.grade + " " + c.grade + "**", "", c.evidence[state.lang], "", "> " + t.boss + ": " + c.boss_line[state.lang], "", t.limits + ": " + c.caveats[state.lang], "", refsFor(c).join("\n"), "");
+    });
+    return out.join("\n");
+  }
+
+  function renderBrief() {
+    var t = T(), ids = briefIds(), h = '<div class="briefactions"><button type="button" data-act="back">← ' + t.back + '</button><button type="button" class="primary" data-act="print">' + t.print + '</button><button type="button" data-act="md">' + t.copymd + "</button></div>";
+    h += '<div class="sheet"><input class="t" id="btitle" type="text" aria-label="Title" placeholder="' + esc(t.titleph) + '" value="' + esc(state.title) + '"><div class="meta">Citation Needed · github.com/' + D.repo + " · CC BY 4.0</div>";
+    ids.forEach(function (id) {
+      var c = claimById[id];
+      h += '<div class="item"><div class="chips">' + verdictChip(c) + gradeChip(c) + "</div><h3>" + esc(c.claim[state.lang]) + "</h3><p>" + esc(c.evidence[state.lang]) + '</p><p class="say">' + esc(c.boss_line[state.lang]) + '</p><p><strong>' + t.limits + ":</strong> " + esc(c.caveats[state.lang]) + '</p><p class="refs">' + refsFor(c).map(esc).join("<br>") + "</p></div>";
+    });
+    h += '<div class="foot">' + esc(t.compiled) + "</div></div>";
+    $("brief").innerHTML = h;
+  }
+
+  function renderStatic() {
+    var t = T();
+    document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
+    $("tagline").textContent = t.tag; $("stats").textContent = t.stats(D.counts); $("q").placeholder = t.search; $("foot").textContent = t.foot;
+    $("zhname").style.display = state.lang === "zh" ? "none" : "";
+    document.querySelectorAll(".lang button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === state.lang)); });
+  }
+
+  function render() {
+    renderStatic(); renderFilters(); renderList(); renderBar();
+    document.body.classList.toggle("brief", state.view === "brief");
+    if (state.view === "brief") renderBrief();
+  }
+
+  function copy(text, btn) {
+    var done = function () { if (btn) { var o = btn.textContent; btn.textContent = T().copied; setTimeout(function () { btn.textContent = o; }, 1500); } };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { window.prompt("", text); });
+    else window.prompt("", text);
+  }
+
+  function openFromHash() {
+    var id = decodeURIComponent((location.hash || "").slice(1));
+    if (id && claimById[id]) {
+      state.open = id; state.view = "list"; render();
+      var el = document.getElementById(id); if (el) el.scrollIntoView({ block: "start" });
+    }
+  }
+
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest("[data-lang],[data-topic],[data-verdict],[data-grade],[data-toggle],[data-copy],[data-act],[data-perma],#bopen,#bclear");
+    if (!el) return;
+    if (el.hasAttribute("data-lang")) { state.lang = el.getAttribute("data-lang"); store.set("cn-lang", state.lang); render(); }
+    else if (el.hasAttribute("data-topic")) { state.topic = el.getAttribute("data-topic"); renderFilters(); renderList(); }
+    else if (el.hasAttribute("data-verdict")) { var v = el.getAttribute("data-verdict"); if (state.verdicts[v]) delete state.verdicts[v]; else state.verdicts[v] = true; renderFilters(); renderList(); }
+    else if (el.hasAttribute("data-grade")) { var g = el.getAttribute("data-grade"); if (state.grades[g]) delete state.grades[g]; else state.grades[g] = true; renderFilters(); renderList(); }
+    else if (el.hasAttribute("data-toggle")) { var id = el.getAttribute("data-toggle"); state.open = state.open === id ? null : id; renderList(); if (state.open) { try { history.replaceState(null, "", "#" + id); } catch (err) { /* ignore */ } } }
+    else if (el.hasAttribute("data-copy")) { var c = claimById[el.getAttribute("data-copy")]; copy(c.boss_line[state.lang], el); }
+    else if (el.hasAttribute("data-perma")) { e.preventDefault(); copy(location.href.split("#")[0] + "#" + el.getAttribute("data-perma"), null); }
+    else if (el.id === "bopen") { state.view = "brief"; render(); window.scrollTo(0, 0); }
+    else if (el.id === "bclear") { state.brief = {}; store.set("cn-brief", "{}"); render(); }
+    else if (el.getAttribute("data-act") === "back") { state.view = "list"; render(); }
+    else if (el.getAttribute("data-act") === "print") { window.print(); }
+    else if (el.getAttribute("data-act") === "md") { copy(briefMarkdown(), el); }
+  });
+  document.addEventListener("change", function (e) {
+    var id = e.target.getAttribute && e.target.getAttribute("data-add");
+    if (!id) return;
+    if (e.target.checked) state.brief[id] = true; else delete state.brief[id];
+    store.set("cn-brief", JSON.stringify(state.brief)); renderBar();
+  });
+  document.addEventListener("input", function (e) {
+    if (e.target.id === "q") { state.q = e.target.value; renderList(); }
+    else if (e.target.id === "btitle") state.title = e.target.value;
+  });
+  window.addEventListener("hashchange", openFromHash);
+
+  render();
+  openFromHash();
+})();
+</script>
+</body>
+</html>

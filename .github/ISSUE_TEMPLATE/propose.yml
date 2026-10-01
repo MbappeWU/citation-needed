@@ -1,0 +1,31 @@
+name: ➕ Propose a claim
+description: An argument about software teams that this repo should check.
+title: "[Propose] "
+labels: ["proposal"]
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: The claim, phrased the way people say it in an argument
+      placeholder: "Daily stand-ups improve coordination."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Where does this argument come up?
+      description: The situation, and who usually says it. This helps us write a useful line for the boss.
+  - type: textarea
+    id: sources
+    attributes:
+      label: The best studies you know
+      description: Links or DOIs. If you do not know any, say so and we will search.
+  - type: dropdown
+    id: guess
+    attributes:
+      label: Your guess at the verdict
+      options:
+        - Supported
+        - It depends
+        - Not supported
+        - Unknown

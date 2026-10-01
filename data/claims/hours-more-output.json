@@ -1,0 +1,34 @@
+{
+  "id": "hours-more-output",
+  "topic": "hours",
+  "claim": {
+    "en": "Working longer hours gets more done.",
+    "zh": "工作时间越长，做的事越多。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "Careful analysis of detailed historical factory records, consistent with later field data, but not experimental.",
+    "zh": "基于详细历史工厂记录的严谨分析，与后来的现场数据一致，但不是实验研究。"
+  },
+  "evidence": {
+    "en": "Economist John Pencavel studied British munitions workers whose hours and output were recorded in detail. Output rose with hours up to roughly 49 hours a week, then output per hour fell so fast that 70 hours produced hardly more than 56. Past the knee of the curve, extra hours mostly buy fatigue.",
+    "zh": "经济学家 Pencavel 分析了英国军工厂工人详细的工时与产出记录：每周约 49 小时以内，产出随工时上升；超过之后单位工时产出下降很快，每周 70 小时的总产出只比 56 小时多一点点。拐点之后，多出来的工时主要换来疲劳。"
+  },
+  "caveats": {
+    "en": "The data are from wartime manual work, not software. The shape of the curve is the point, not the exact 49-hour threshold.",
+    "zh": "数据来自战时的体力劳动，不是软件工作。重点是曲线的形状，不是 49 小时这个具体门槛。"
+  },
+  "boss_line": {
+    "en": "Past about 50 hours a week the extra time barely adds output. A rested team at 40 to 45 hours gets us most of the way there.",
+    "zh": "每周超过 50 小时左右，多出来的时间几乎不增加产出。休息充分、每周 40 到 45 小时的团队，已经能拿到大部分产出。"
+  },
+  "change_my_mind": {
+    "en": "Measured output from our own team showing no drop in output per hour at 55 hours or more over several months.",
+    "zh": "我们自己团队连续几个月的数据显示，每周 55 小时以上时单位工时产出并没有下降。"
+  },
+  "sources": [
+    { "id": "pencavel2015", "role": "primary" }
+  ],
+  "verified_on": "2026-10-01"
+}
