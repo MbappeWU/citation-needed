@@ -117,6 +117,8 @@
 
   footer { padding: 30px 0 140px; color: var(--muted); font-size: 13px; }
   @media (max-width: 560px) {
+    .filters { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; scrollbar-width: none; }
+    .filters .chip, .filters .sep { flex: none; }
     .brand { font-size: 24px; }
     .head h3 { font-size: 17px; }
     .sheet { padding: 20px 16px; }
