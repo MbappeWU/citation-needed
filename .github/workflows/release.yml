@@ -1,7 +1,7 @@
 name: Release
 
 # Push a tag such as v0.1.0. The release gets the offline reader, PDFs in English and Chinese,
-# the data as JSON, and the skill as a zip.
+# the data as JSON, the skill as a zip, and one share image per claim in both languages.
 on:
   push:
     tags: ["v*"]
@@ -35,6 +35,7 @@ jobs:
         run: |
           node scripts/build-site.mjs
           node scripts/build-book.mjs --pdf
+          node scripts/build-assets.mjs cards
       - name: Collect assets
         run: |
           mkdir -p out
@@ -42,6 +43,7 @@ jobs:
           cp _site/claims.json out/claims.json
           cp dist/*.pdf out/
           (cd skills && zip -qr ../out/citation-needed-skill.zip citation-needed)
+          (cd dist && zip -qr ../out/citation-needed-share-cards.zip cards)
       - name: Create the release
         run: |
           if gh release view "$TAG" >/dev/null 2>&1; then
