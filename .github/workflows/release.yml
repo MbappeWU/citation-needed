@@ -5,13 +5,16 @@ name: Release
 on:
   push:
     tags: ["v*"]
+  # Run it by hand to check that everything builds: the files are kept as a workflow
+  # artifact and no release is created.
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   release:
-    if: ${{ !github.event.deleted }}
+    if: ${{ github.event_name == 'workflow_dispatch' || !github.event.deleted }}
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
@@ -44,7 +47,14 @@ jobs:
           cp dist/*.pdf out/
           (cd skills && zip -qr ../out/citation-needed-skill.zip citation-needed)
           (cd dist && zip -qr ../out/citation-needed-share-cards.zip cards)
+      - name: Keep the files (dry run)
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-files
+          path: out
       - name: Create the release
+        if: ${{ github.event_name == 'push' }}
         run: |
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "Release $TAG already exists."
@@ -54,4 +64,5 @@ jobs:
             gh release create "$TAG" --verify-tag --title "$TAG" --generate-notes
           fi
       - name: Upload assets
+        if: ${{ github.event_name == 'push' }}
         run: gh release upload "$TAG" out/* --clobber
