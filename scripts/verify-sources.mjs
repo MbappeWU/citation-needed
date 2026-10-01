@@ -193,7 +193,7 @@ async function checkSource(src, claimsUsing) {
         if (!info.abstract.includes(norm(q))) {
           const needle = norm(q).replace(/[^0-9a-z%.]+/g, "");
           const hint = needle ? (info.abstract.match(new RegExp(`.{0,60}${needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}.{0,60}`)) || [])[0] : null;
-          r.problems.push(`quote "${q}" not found in the abstract${hint ? ` (near: "...${hint}...")` : ""}\n      abstract starts: "${info.abstract.slice(0, 700)}"`);
+          r.problems.push(`quote "${q}" not found in the abstract${hint ? ` (near: "...${hint}...")` : ""}\n      abstract (first 2000 characters): "${info.abstract.slice(0, 2000)}"`);
         }
       }
     }
