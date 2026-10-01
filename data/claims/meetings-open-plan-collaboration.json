@@ -16,8 +16,8 @@
     "zh": "Bernstein 和 Turban 用社会计量徽章和消息记录，跟踪了两家公司总部改为开放式办公前后的员工（一家 52 人，另一家 100 人）：两家公司的面对面互动都下降了约 70%，电子沟通增加。Kim 和 de Dear（2013）分析楼宇使用者问卷库（28,630 份开放式布局的回答），互动更方便带来的好处小于噪音增加和隐私减少的代价。Gerlitz 和 Hülsbeck（2023）对 46 项实证研究的系统综述认为，开放式办公室往往会降低绩效。"
   },
   "caveats": {
-    "en": "The badge studies had no control group, short measurement windows and staff in departments such as sales, HR and finance, not software teams. Collaboration quality and output were not measured. Design matters: a 2020 field experiment at a technology company rated zoned open plan and team offices above plain open plan.",
-    "zh": "徽章研究没有对照组、测量时间短，对象是销售、人力、财务等部门的员工，不是软件团队，也没有测协作质量和产出。设计很重要：2020 年一家科技公司的现场实验里，分区开放式办公室和团队办公室的评价高于普通开放式办公室。"
+    "en": "The badge studies had no control group, short measurement windows and staff in departments such as sales, HR and finance, not software teams. They counted interactions, not the quality of collaboration or output. Design matters: a 2020 field experiment at a technology company rated zoned open plan and team offices above plain open plan.",
+    "zh": "徽章研究没有对照组、测量时间短，对象是销售、人力、财务等部门的员工，不是软件团队，统计的是互动量，不是协作质量和产出。设计很重要：2020 年一家科技公司的现场实验里，分区开放式办公室和团队办公室的评价高于普通开放式办公室。"
   },
   "boss_line": {
     "en": "A before-and-after study of two companies found face-to-face talk fell about 70% after they went open plan, while electronic messages rose. I would not justify an open floor by promising more collaboration.",
@@ -28,10 +28,30 @@
     "zh": "对软件团队做的、有对照或匹配良好的前后对比研究，显示改成开放式办公室后，面对面协作增多、交付更好。"
   },
   "sources": [
-    { "id": "bernsteinturban2018", "role": "primary", "quotes": ["70%"] },
-    { "id": "kimdedear2013", "role": "context" },
-    { "id": "gerlitz2023", "role": "context" },
-    { "id": "pitchforth2020", "role": "context" }
+    {
+      "id": "bernsteinturban2018",
+      "role": "primary",
+      "quotes": [
+        "70%"
+      ]
+    },
+    {
+      "id": "kimdedear2013",
+      "role": "context"
+    },
+    {
+      "id": "gerlitz2023",
+      "role": "context"
+    },
+    {
+      "id": "pitchforth2020",
+      "role": "context"
+    }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "After two firms moved to open plan, face-to-face talk fell by about 70% and electronic messages rose.",
+    "zh": "两家公司改成开放式办公后，面对面交流下降约 70%，电子沟通反而增加。"
+  }
 }

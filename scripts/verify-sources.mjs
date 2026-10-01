@@ -41,6 +41,8 @@ async function get(url, { json = true, text = false } = {}) {
 const norm = (s) =>
   String(s || "")
     .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\\([%&$#_])/g, "$1")
     .replace(/<[^>]+>/g, " ")
     .replace(/[‐-―−]/g, "-")
     .replace(/[‘’]/g, "'")
@@ -127,6 +129,21 @@ async function lookupArxiv(id) {
   return out;
 }
 
+// Many software engineering papers have no abstract in Crossref or OpenAlex but are on arXiv.
+async function abstractFromArxivByTitle(title) {
+  const phrase = words(title).join("+");
+  const res = await get(`https://export.arxiv.org/api/query?search_query=ti:%22${phrase}%22&max_results=3`, { json: false, text: true });
+  if (!res.body) return null;
+  let best = null;
+  for (const entry of res.body.split("<entry>").slice(1)) {
+    const pick = (tag) => (entry.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`)) || [])[1] || "";
+    const t = pick("title").replace(/\s+/g, " ").trim();
+    const score = Math.min(titleScore(title, t), titleScore(t, title));
+    if (score >= 0.85 && (!best || score > best.score)) best = { score, title: t, abstract: norm(pick("summary")), id: (pick("id").match(/abs\/(.+)$/) || [])[1] || "" };
+  }
+  return best;
+}
+
 async function lookupPmid(pmid) {
   const res = await get(`https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:${encodeURIComponent(pmid)}%20AND%20SRC:MED&format=json&resultType=core`);
   const out = { meta: null, abstract: "", notes: [] };
@@ -183,6 +200,13 @@ async function checkSource(src, claimsUsing) {
     if (ln && !info.meta.authors.some((a) => norm(a).includes(ln))) r.problems.push(`first author "${src.authors.split(",")[0]}" not found among registry authors: ${info.meta.authors.slice(0, 6).join(", ")}`);
   }
 
+  if (src.verify === "abstract" && !info.abstract && src.doi) {
+    const alt = await abstractFromArxivByTitle(src.title);
+    if (alt) {
+      info.abstract = alt.abstract;
+      r.note = `abstract taken from the arXiv preprint ${alt.id}`;
+    }
+  }
   if (src.verify === "abstract") {
     const quotes = claimsUsing.flatMap((c) => c.sources.filter((s) => s.id === src.id).flatMap((s) => s.quotes || []));
     r.quotes = quotes.length;
@@ -217,7 +241,7 @@ async function main() {
     const r = await checkSource(src, using);
     results.push(r);
     const icon = r.status === "ok" ? "✓" : r.status === "warn" ? "!" : "✗";
-    console.log(`${icon} ${id} (${src.verify}${r.quotes ? `, ${r.quotes} quote${r.quotes > 1 ? "s" : ""}` : ""})`);
+    console.log(`${icon} ${id} (${src.verify}${r.quotes ? `, ${r.quotes} quote${r.quotes > 1 ? "s" : ""}` : ""}${r.note ? `; ${r.note}` : ""})`);
     for (const p of r.problems) console.log(`    - ${p}`);
     for (const w of r.warnings) console.log(`    ~ ${w}`);
     await sleep(250);

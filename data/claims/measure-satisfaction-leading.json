@@ -28,11 +28,32 @@
     "zh": "有针对软件团队的纵向研究显示：控制此前绩效后，满意度得分能预测之后的交付或质量结果。"
   },
   "sources": [
-    { "id": "riketta2008", "role": "primary" },
-    { "id": "judge2001", "role": "context" },
-    { "id": "murphyhill2021", "role": "context" },
-    { "id": "greiler2022", "role": "context" },
-    { "id": "noda2023devex", "role": "context" }
+    {
+      "id": "riketta2008",
+      "role": "primary",
+      "quotes": [
+        ".06"
+      ]
+    },
+    {
+      "id": "judge2001",
+      "role": "context",
+      "quotes": [
+        "312"
+      ]
+    },
+    {
+      "id": "murphyhill2021",
+      "role": "context"
+    },
+    {
+      "id": "greiler2022",
+      "role": "context"
+    },
+    {
+      "id": "noda2023devex",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

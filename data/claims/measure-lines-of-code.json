@@ -28,9 +28,18 @@
     "zh": "有研究在同一种语言、同一个代码库里，证明个人代码行数与独立的质量和交付结果相关，且在行数成为考核目标后这种相关依然成立。"
   },
   "sources": [
-    { "id": "petersen2011", "role": "primary", "quotes": ["38"] },
-    { "id": "prechelt2000", "role": "primary" },
-    { "id": "forsgren2018accelerate", "role": "context" }
+    {
+      "id": "petersen2011",
+      "role": "primary"
+    },
+    {
+      "id": "prechelt2000",
+      "role": "primary"
+    },
+    {
+      "id": "forsgren2018accelerate",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

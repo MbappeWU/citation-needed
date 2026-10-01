@@ -1,0 +1,47 @@
+{
+  "id": "practices-tdd-defects",
+  "topic": "practices",
+  "claim": {
+    "en": "Test-driven development reduces defects.",
+    "zh": "测试驱动开发（TDD）能减少缺陷。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "A meta-analysis of 27 studies plus a study of professionals, but most experiments are small and the effects differ between industrial and academic settings.",
+    "zh": "一项涵盖 27 项研究的荟萃分析，加上一项针对专业开发者的研究；但多为小型实验，工业界和学术界的结果也不一致。"
+  },
+  "evidence": {
+    "en": "Rafique and Mišić (2013) pooled 27 studies in a meta-analysis. TDD had a small positive effect on external quality (fewer defects) and little to no discernible effect on productivity. In industrial studies, TDD showed a larger quality gain and a larger productivity drop than in academic ones. Fucci and colleagues (2017) analysed 82 task sessions by 39 professionals. Whether tests were written first or last made no important difference to quality or productivity. Short, uniform work cycles went with better quality and productivity.",
+    "zh": "Rafique 和 Mišić（2013）对 27 项研究做了荟萃分析：TDD 对外部质量（缺陷更少）有小幅正面影响，对生产率几乎没有可察觉的影响；与学术研究相比，工业界研究中的质量收益和生产率下降都更大。Fucci 等人（2017）分析了 39 名专业开发者完成的 82 次任务：先写测试还是后写测试，对质量和生产率都没有重要影响；开发节奏短而均匀，则与更好的质量和生产率相伴出现。"
+  },
+  "caveats": {
+    "en": "Most experiments are small and short, and many used students. Mixed results make a single pooled number fragile. Fucci's study is observational, so it shows association, not cause.",
+    "zh": "多数实验规模小、时间短，不少以学生为对象。结果不一致，汇总出的单一数字不稳。Fucci 的研究是观察性的，只能说明相关，不能说明因果。"
+  },
+  "boss_line": {
+    "en": "A meta-analysis of 27 studies found only a small quality gain from TDD and no clear effect on speed, and a study of professionals found test-first order did not matter. Let's keep small steps and solid tests, and not mandate test-first.",
+    "zh": "27 项研究的荟萃分析发现 TDD 只带来小幅质量提升，对速度没有明确影响；另一项针对专业开发者的研究发现先写测试并不重要。我们坚持小步前进、写好测试，但不强制先写测试。"
+  },
+  "change_my_mind": {
+    "en": "Large preregistered experiments with professional teams showing a consistent drop in escaped defects with test-first, at a cost we can measure.",
+    "zh": "针对专业团队的大规模预注册实验，显示先写测试能持续减少逃逸到线上的缺陷，且成本可以衡量。"
+  },
+  "sources": [
+    {
+      "id": "rafique2013",
+      "role": "primary",
+      "quotes": [
+        "discernible effect on productivity"
+      ]
+    },
+    {
+      "id": "fucci2017",
+      "role": "primary",
+      "quotes": [
+        "39 professionals"
+      ]
+    }
+  ],
+  "verified_on": "2026-10-01"
+}

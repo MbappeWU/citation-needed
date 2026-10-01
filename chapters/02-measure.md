@@ -64,7 +64,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Kai Petersen (2011). Measuring and predicting software productivity: A systematic map and review. Information and Software Technology 53(4). [link](https://doi.org/10.1016/j.infsof.2010.12.001) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Kai Petersen (2011). Measuring and predicting software productivity: A systematic map and review. Information and Software Technology 53(4). [link](https://doi.org/10.1016/j.infsof.2010.12.001) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 2. Lutz Prechelt (2000). An empirical comparison of seven programming languages. Computer 33(10). [link](https://www.cs.tufts.edu/~nr/cs257/archive/lutz-prechelt/comparison.pdf) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
 3. Nicole Forsgren, Jez Humble, Gene Kim (2018). Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press. [link](https://itrevolution.com/product/accelerate/) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
@@ -87,7 +87,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 1. Nicole Forsgren, Jez Humble, Gene Kim (2018). Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press. [link](https://itrevolution.com/product/accelerate/) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
 2. DORA, Google Cloud (2024). Accelerate State of DevOps Report 2024. Google Cloud DORA. [link](https://research.google/pubs/dora-accelerate-state-of-devops-2024-report/) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
-3. Kai Petersen (2011). Measuring and predicting software productivity: A systematic map and review. Information and Software Technology 53(4). [link](https://doi.org/10.1016/j.infsof.2010.12.001) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+3. Kai Petersen (2011). Measuring and predicting software productivity: A systematic map and review. Information and Software Technology 53(4). [link](https://doi.org/10.1016/j.infsof.2010.12.001) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
 ---
 
@@ -106,8 +106,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Michael Riketta (2008). The causal relation between job attitudes and performance: A meta-analysis of panel studies. Journal of Applied Psychology 93(2). [link](https://doi.org/10.1037/0021-9010.93.2.472) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. Timothy A. Judge, Carl J. Thoresen, Joyce E. Bono, Gregory K. Patton (2001). The job satisfaction–job performance relationship: A qualitative and quantitative review. Psychological Bulletin 127(3). [link](https://doi.org/10.1037/0033-2909.127.3.376) <sub>✓ metadata checked (title, authors, year)</sub> (context)
+1. Michael Riketta (2008). The causal relation between job attitudes and performance: A meta-analysis of panel studies. Journal of Applied Psychology 93(2). [link](https://doi.org/10.1037/0021-9010.93.2.472) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+2. Timothy A. Judge, Carl J. Thoresen, Joyce E. Bono, Gregory K. Patton (2001). The job satisfaction–job performance relationship: A qualitative and quantitative review. Psychological Bulletin 127(3). [link](https://doi.org/10.1037/0033-2909.127.3.376) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
 3. Emerson Murphy-Hill, Ciera Jaspan, Caitlin Sadowski, David Shepherd, Michael Phillips, Collin Winter, Andrea Knight, Edward Smith, Matthew Jorde (2021). What Predicts Software Developers' Productivity?. IEEE Transactions on Software Engineering 47, pp. 582-594. [link](https://2020.icse-conferences.org/details/icse-2020-Journal-First/10/What-Predicts-Software-Developers-Productivity-) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 4. Michaela Greiler, Margaret-Anne Storey, Abi Noda (2022). An Actionable Framework for Understanding and Improving Developer Experience. IEEE Transactions on Software Engineering 49(4), 2023. [link](https://arxiv.org/abs/2205.06352) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 5. Abi Noda, Margaret-Anne Storey, Nicole Forsgren, Michaela Greiler (2023). DevEx: What Actually Drives Productivity: The developer-centric approach to measuring and improving productivity. ACM Queue 21(2). [link](https://doi.org/10.1145/3595878) <sub>✓ metadata checked (title, authors, year)</sub> (context)
@@ -130,7 +130,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 **Sources** (checked 2026-10-01):
 
 1. Nicole Forsgren, Margaret-Anne Storey, Chandra Maddila, Thomas Zimmermann, Brian Houck, Jenna Butler (2021). The SPACE of Developer Productivity: There's more to it than you think.. ACM Queue 19(1). [link](https://doi.org/10.1145/3454122.3454124) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. Kai Petersen (2011). Measuring and predicting software productivity: A systematic map and review. Information and Software Technology 53(4). [link](https://doi.org/10.1016/j.infsof.2010.12.001) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+2. Kai Petersen (2011). Measuring and predicting software productivity: A systematic map and review. Information and Software Technology 53(4). [link](https://doi.org/10.1016/j.infsof.2010.12.001) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 3. Emerson Murphy-Hill, Ciera Jaspan, Caitlin Sadowski, David Shepherd, Michael Phillips, Collin Winter, Andrea Knight, Edward Smith, Matthew Jorde (2021). What Predicts Software Developers' Productivity?. IEEE Transactions on Software Engineering 47, pp. 582-594. [link](https://2020.icse-conferences.org/details/icse-2020-Journal-First/10/What-Predicts-Software-Developers-Productivity-) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 4. Nicole Forsgren, Jez Humble, Gene Kim (2018). Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press. [link](https://itrevolution.com/product/accelerate/) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 

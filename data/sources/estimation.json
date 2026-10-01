@@ -41,8 +41,8 @@
     "authors": "Magne Jørgensen, Kjetil Moløkken-Østvold",
     "year": 2006,
     "venue": "Information and Software Technology 48(4)",
-    "url": "https://web-backend.simula.no/sites/default/files/publications/Jorgensen.2006.4.pdf",
-    "verify": "manual"
+    "verify": "metadata",
+    "doi": "10.1016/j.infsof.2005.07.002"
   },
   "glass2006standish": {
     "kind": "article",
@@ -69,7 +69,7 @@
     "year": 2016,
     "venue": "Journal of Systems and Software 116",
     "doi": "10.1016/j.jss.2015.03.015",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "shepperd2018debias": {
     "kind": "paper",
@@ -95,8 +95,8 @@
     "authors": "Magne Jørgensen, Stein Grimstad",
     "year": 2011,
     "venue": "IEEE Transactions on Software Engineering 37(5)",
-    "url": "https://www.simula.no/research/impact-irrelevant-and-misleading-information-software-development-effort-estimates",
-    "verify": "manual"
+    "verify": "metadata",
+    "doi": "10.1109/TSE.2010.78"
   },
   "jorgensen2004expert": {
     "kind": "paper",
@@ -105,7 +105,7 @@
     "year": 2004,
     "venue": "Journal of Systems and Software 70(1-2)",
     "doi": "10.1016/S0164-1212(02)00156-5",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "kuutila2019": {
     "kind": "preprint",

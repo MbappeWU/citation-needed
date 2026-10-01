@@ -51,7 +51,7 @@
     "year": 2026,
     "venue": "The Quarterly Journal of Economics 141(3)",
     "doi": "10.1093/qje/qjag027",
-    "verify": "metadata"
+    "verify": "abstract"
   },
   "brucks2022": {
     "kind": "paper",
@@ -60,7 +60,7 @@
     "year": 2022,
     "venue": "Nature 605",
     "doi": "10.1038/s41586-022-04643-y",
-    "verify": "metadata"
+    "verify": "abstract"
   },
   "lin2023": {
     "kind": "paper",

@@ -1,0 +1,44 @@
+{
+  "id": "practices-agile-succeeds",
+  "topic": "practices",
+  "claim": {
+    "en": "Agile projects succeed more often than waterfall projects.",
+    "zh": "敏捷项目比瀑布项目更容易成功。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "A systematic review rated the evidence low, and the largest study is a self-reported survey with no controlled comparison.",
+    "zh": "系统综述认为证据强度较低，最大的研究是自报式问卷调查，没有对照比较。"
+  },
+  "evidence": {
+    "en": "Serrador and Pinto (2015) surveyed 1,002 projects across industries and countries. The more agile a project was, the higher it scored on two success measures, efficiency and stakeholder satisfaction, and the effect was statistically significant. Earlier, Dybå and Dingsøyr (2008) searched the literature up to 2005: of 1,996 studies found, 36 were included as empirical studies of acceptable quality, mostly about Extreme Programming. They judged the strength of evidence to be low and called for more and better studies.",
+    "zh": "Serrador 和 Pinto（2015）调查了来自不同行业和国家的 1,002 个项目：项目的敏捷程度越高，在效率和利益相关方满意度这两项成功指标上得分越高，且在统计上显著。此前，Dybå 和 Dingsøyr（2008）检索了截至 2005 年的文献：1,996 项研究中，有 36 项作为质量可接受的实证研究入选，且多数研究的是极限编程（XP）。他们认为证据强度较低，并呼吁开展更多、更好的研究。"
+  },
+  "caveats": {
+    "en": "Success came from survey answers, not audited outcomes, and teams that choose agile may differ in other ways. The survey measured degree of agile use, not a clean agile versus waterfall split. The 2008 review stops at 2005. We know of no randomized comparison.",
+    "zh": "成功与否来自问卷作答，而非经审计的结果；选择敏捷的团队在其他方面也可能不同。该调查衡量的是敏捷使用程度，不是干净的敏捷与瀑布二分。2008 年的综述只覆盖到 2005 年。据我们所知没有随机对照比较。"
+  },
+  "boss_line": {
+    "en": "The largest survey we found (1,002 projects) links more agile use to better efficiency and stakeholder satisfaction, but a systematic review rated the evidence low. Let's judge our process by our own delivery data, not by the label.",
+    "zh": "我们找到的最大规模调查（1,002 个项目）显示，越敏捷，效率和利益相关方满意度越高；但系统综述认为证据强度较低。我们应该用自己的交付数据来评判流程，而不是看标签。"
+  },
+  "change_my_mind": {
+    "en": "Controlled or matched comparisons of agile and plan-driven teams on the same kind of work, with outcomes measured independently of the teams.",
+    "zh": "对从事同类工作的敏捷团队和计划驱动团队做对照或配对比较，并由团队之外的渠道独立度量结果。"
+  },
+  "sources": [
+    {
+      "id": "serrador2015",
+      "role": "primary"
+    },
+    {
+      "id": "dyba2008",
+      "role": "context",
+      "quotes": [
+        "1996"
+      ]
+    }
+  ],
+  "verified_on": "2026-10-01"
+}

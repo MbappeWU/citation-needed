@@ -37,5 +37,10 @@
       ]
     }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "In the best-known study, output rose ever more slowly once weekly hours passed a threshold.",
+    "zh": "在最有名的研究里，每周工时超过某个门槛后，产出越涨越慢。"
+  }
 }

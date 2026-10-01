@@ -1,0 +1,46 @@
+{
+  "id": "practices-10x-programmer",
+  "topic": "practices",
+  "claim": {
+    "en": "10x programmers exist: some developers are ten times as productive as their peers.",
+    "zh": "存在 10 倍程序员：有些开发者的效能是同行的十倍。"
+  },
+  "verdict": "unknown",
+  "grade": "C",
+  "grade_why": {
+    "en": "Old, small lab studies plus one reanalysis. We found no strong field study of productivity ratios on real team projects.",
+    "zh": "证据来自年代久远的小型实验室研究和一次重新分析；我们没有找到针对真实团队项目的有力实地研究。"
+  },
+  "evidence": {
+    "en": "The 10x idea traces to 1960s lab studies of programmers working alone (Sackman, Erikson and Grant, 1968), whose best-known figure was a 28:1 gap between the slowest and fastest performer. Prechelt (1999) re-examined it against a larger data set of programmer work times. He concluded that the 28:1 figure is both incorrect and misleading, and proposed more appropriate measures of variation between people.",
+    "zh": "10 倍程序员的说法源于 20 世纪 60 年代让程序员各自独立工作的实验室研究（Sackman、Erikson 和 Grant，1968），其中最有名的数字是最慢与最快的人相差 28 比 1。Prechelt（1999）用更大的程序员工时数据集重新检验了这一数字，认为 28:1 既不正确又有误导性，并提出了衡量个体差异的更合适指标。"
+  },
+  "caveats": {
+    "en": "The ratio between the two most extreme people in a small group says little about typical developers. These data are about individual tasks, not months of team work, where tools, teammates and task type matter. What counts as productivity is itself disputed.",
+    "zh": "小样本里最极端的两个人之间的比值，说明不了普通开发者之间的差距。这些数据来自个人任务，而不是几个月的团队工作，而团队工作中工具、队友和任务类型都有影响。什么算效能本身也有争议。"
+  },
+  "boss_line": {
+    "en": "The famous 10x number comes from 1960s lab studies, and a later reanalysis called its 28:1 headline incorrect and misleading. People do differ, but let's not build hiring or pay around a 10x label we cannot measure.",
+    "zh": "10 倍这个著名数字来自 20 世纪 60 年代的实验室研究，后来的重新分析认为它的 28:1 既不正确又有误导性。人与人确有差别，但我们不要围绕一个无法衡量的 10 倍标签来招聘或定薪。"
+  },
+  "change_my_mind": {
+    "en": "A study that follows many developers on real team projects for months and shows a stable gap of about ten times between a strong developer and the median one.",
+    "zh": "一项在真实团队项目中跟踪大量开发者数月的研究，显示强的开发者与中位水平的开发者之间存在稳定的约十倍差距。"
+  },
+  "sources": [
+    {
+      "id": "sackman1968",
+      "role": "primary"
+    },
+    {
+      "id": "prechelt1999",
+      "role": "critique"
+    }
+  ],
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "The 28:1 gap behind the 10x idea comes from 1960s lab studies, and a later reanalysis called it incorrect and misleading.",
+    "zh": "“10 倍程序员”背后的 28:1 来自 1960 年代的实验室研究，后来的重新分析称它不准确且有误导性。"
+  }
+}

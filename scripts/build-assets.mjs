@@ -167,8 +167,8 @@ const CURSOR = `
   });`;
 
 const DEMO = {
-  en: { search: "hours", title: "Overtime: what the research says" },
-  zh: { search: "工时", title: "加班：研究怎么说" },
+  en: { search: "interruption", title: "Interruptions: what the research says" },
+  zh: { search: "打断", title: "被打断：研究怎么说" },
 };
 
 async function demo(lang) {
@@ -189,12 +189,12 @@ async function demo(lang) {
   await context.addInitScript(CURSOR);
   const page = await context.newPage();
   await page.goto(`file://${html}`);
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(900);
 
   const glide = async (loc) => {
     const box = await loc.boundingBox();
-    await page.mouse.move(box.x + Math.min(box.width / 2, 220), box.y + box.height / 2, { steps: 22 });
-    await page.waitForTimeout(150);
+    await page.mouse.move(box.x + Math.min(box.width / 2, 220), box.y + box.height / 2, { steps: 18 });
+    await page.waitForTimeout(120);
   };
   const click = async (loc) => {
     await glide(loc);
@@ -202,33 +202,23 @@ async function demo(lang) {
   };
 
   await click(page.locator("#q"));
-  await page.keyboard.type(cfg.search, { delay: 130 });
-  await page.waitForTimeout(700);
+  await page.keyboard.type(cfg.search, { delay: 110 });
+  await page.waitForTimeout(600);
 
-  const heads = page.locator("article.claim .head");
-  await click(heads.nth(0));
+  await click(page.locator("article.claim .head").nth(0));
+  await page.waitForTimeout(1000);
+  await page.mouse.wheel(0, 380);
   await page.waitForTimeout(1300);
-  await page.mouse.wheel(0, 380);
-  await page.waitForTimeout(1500);
   await click(page.locator("article.claim.open input[data-add]"));
   await page.waitForTimeout(700);
-  await page.mouse.wheel(0, -380);
-  await page.waitForTimeout(500);
-
-  await click(heads.nth(1));
-  await page.waitForTimeout(1100);
-  await page.mouse.wheel(0, 380);
-  await page.waitForTimeout(1200);
-  await click(page.locator("article.claim.open input[data-add]"));
-  await page.waitForTimeout(800);
 
   await click(page.locator("#bopen"));
-  await page.waitForTimeout(900);
-  await click(page.locator("#btitle"));
-  await page.keyboard.type(cfg.title, { delay: 70 });
   await page.waitForTimeout(700);
-  await page.mouse.wheel(0, 420);
-  await page.waitForTimeout(1800);
+  await click(page.locator("#btitle"));
+  await page.keyboard.type(cfg.title, { delay: 55 });
+  await page.waitForTimeout(500);
+  await page.mouse.wheel(0, 360);
+  await page.waitForTimeout(1500);
   await page.close();
   await context.close();
   await browser.close();
@@ -239,7 +229,7 @@ async function demo(lang) {
   const mp4 = join(ROOT, "dist", `demo-${lang}.mp4`);
   execFileSync(ffmpeg, ["-y", "-loglevel", "error", "-ss", "0.5", "-i", src, "-vf", "scale=960:-2,fps=30", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20", "-movflags", "+faststart", mp4]);
   const gif = join(ROOT, "assets", lang === "zh" ? "demo.zh-CN.gif" : "demo.gif");
-  const filter = "fps=10,scale=860:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=80:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle";
+  const filter = "fps=8,scale=760:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=64:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle";
   execFileSync(ffmpeg, ["-y", "-loglevel", "error", "-ss", "0.5", "-i", src, "-vf", filter, "-loop", "0", gif]);
   rmSync(tmp, { recursive: true, force: true });
   console.log(`wrote ${gif.replace(ROOT + "/", "")} and dist/demo-${lang}.mp4`);

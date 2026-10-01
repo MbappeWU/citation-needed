@@ -90,6 +90,8 @@ const LIMITS = {
   change_my_mind: { en: [20, 300], zh: [10, 160] },
 };
 
+const HOOK_LIMITS = { en: [20, 150], zh: [10, 80] };
+
 export function validateData({ claims, sources, topics, dupes = [] }) {
   const errors = [...dupes];
   const fail = (where, msg) => errors.push(`${where}: ${msg}`);
@@ -130,6 +132,18 @@ export function validateData({ claims, sources, topics, dupes = [] }) {
     if (!GRADES.includes(c.grade)) fail(where, `grade must be one of ${GRADES.join(", ")}`);
     if (!DATE_RE.test(c.verified_on || "")) fail(where, "verified_on must be YYYY-MM-DD");
     if (c.headline !== undefined && typeof c.headline !== "boolean") fail(where, "headline must be true or false");
+    if (c.headline && !c.hook) fail(where, "headline claims need a hook: one line for the table on the front page");
+    if (c.hook !== undefined) {
+      if (!c.headline) fail(where, "hook is only used when headline is true");
+      for (const lang of LANGS) {
+        const text = c.hook?.[lang];
+        const [min, max] = HOOK_LIMITS[lang];
+        if (typeof text !== "string" || text.length < min || text.length > max) fail(where, `hook.${lang} must be ${min} to ${max} characters`);
+        else if (/\s{2,}/.test(text) || /^\s|\s$/.test(text)) fail(where, `hook.${lang} has stray whitespace`);
+        else if (lang === "en" && /[一-鿿]/.test(text)) fail(where, "hook.en contains Chinese characters");
+        else if (lang === "zh" && !/[一-鿿]/.test(text)) fail(where, "hook.zh has no Chinese characters");
+      }
+    }
 
     for (const [field, lim] of Object.entries(LIMITS)) {
       for (const lang of LANGS) {

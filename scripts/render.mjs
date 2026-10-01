@@ -93,14 +93,33 @@ export function renderReadme({ topics, claims, sources }, lang) {
     out.push("");
     out.push(`加班能多干多少活？AI 编程工具到底快不快？远程办公效率低吗？团队扩了一倍，人均产出为什么降了？这里把这类争论逐条查了研究：**${n.total} 条说法，每条都标明结论、A/B/C 证据等级、一手出处，以及一句能直接对老板说的话。**`);
     out.push("");
-    out.push(`其中 ${n.verdict.supported} 条成立，${n.verdict.mixed} 条要看情况，${n.verdict.unsupported} 条不成立，${n.verdict.unknown} 条证据不足。证据等级为 A 的有 ${n.grade.A} 条，B ${n.grade.B} 条，C ${n.grade.C} 条。`);
+    out.push(`其中 ${n.verdict.supported} 条成立，${n.verdict.mixed} 条要看情况，${n.verdict.unsupported} 条不成立，${n.verdict.unknown} 条证据不足。证据等级为 A 的有 ${n.grade.A} 条，B ${n.grade.B} 条，C ${n.grade.C} 条。${n.grade.A === 0 ? "没有一条拿到 A：关于软件团队的研究几乎都是观察性的，这本身就是一个发现。" : ""}`);
+    out.push("");
+    out.push("> **怎么做出来的：** AI 协助起草，每个出处由持续集成自动查询，摘要里出现的数字由机器核对，正文里的数字没有。错了就[来反驳](#反驳一条结论)。详见[引用是怎么核对的](#引用是怎么核对的)。");
   } else {
     out.push("**Every argument about how software teams work, with the receipts.**");
     out.push("");
     out.push(`Does overtime get more done? Do AI coding tools really make teams faster? Is remote work less productive? Why does output per person fall when a team doubles? This repo checks the research behind those arguments: **${n.total} claims, each with a verdict, an A/B/C evidence grade, primary sources, and one sentence you can say to your boss.**`);
     out.push("");
-    out.push(`${n.verdict.supported} hold up, ${n.verdict.mixed} depend on context, ${n.verdict.unsupported} do not hold up, ${n.verdict.unknown} have no good evidence either way. Evidence grades: ${n.grade.A} A, ${n.grade.B} B, ${n.grade.C} C.`);
+    out.push(`${n.verdict.supported} hold up, ${n.verdict.mixed} depend on context, ${n.verdict.unsupported} do not hold up, ${n.verdict.unknown} have no good evidence either way. Evidence grades: ${n.grade.A} A, ${n.grade.B} B, ${n.grade.C} C.${n.grade.A === 0 ? " None earns an A: almost all research on software teams is observational, which is itself a finding." : ""}`);
+    out.push("");
+    out.push("> **How this was made:** drafted with AI assistance, every source looked up by CI, every figure that appears in an abstract machine-checked, figures in full texts not. If we got something wrong, [challenge it](#challenge-a-claim). Details in [How sources are checked](#how-sources-are-checked).");
   }
+  out.push("");
+  const headlines = claims.filter((c) => c.headline);
+  if (headlines.length) {
+    out.push(L ? "## 先看这几条" : "## Start here");
+    out.push("");
+    out.push(L ? "| 说法 | 研究怎么说 | 结论 · 证据 |" : "| Claim | What the evidence says | Verdict · Grade |");
+    out.push("|---|---|---|");
+    for (const c of headlines) {
+      const file = chapterFile(topics, c.topic, lang);
+      out.push(`| [${c.claim[lang]}](${file}#${c.id}) | ${c.hook[lang]} | ${LABELS.verdict[c.verdict].icon} ${LABELS.verdict[c.verdict][lang]} · ${c.grade} |`);
+    }
+    out.push("");
+  }
+
+  out.push(`<p align="center"><img src="assets/${L ? "demo.zh-CN.gif" : "demo.gif"}" alt="${L ? "网页阅读器演示：搜索、展开一条说法、加入一页纸" : "Demo of the web reader: search, open a claim, add it to a one-page brief"}" width="760"></p>`);
   out.push("");
   out.push(L ? "## 怎么用" : "## Use it");
   out.push("");
@@ -108,19 +127,6 @@ export function renderReadme({ topics, claims, sources }, lang) {
   out.push(`- ${L ? "**离线版**：单文件 HTML 和 PDF 在" : "**Offline**: single-file HTML and PDFs on the"} [Releases](${RELEASES})`);
   out.push(`- ${L ? "**对 AI 助手提问**：" : "**Ask your AI assistant**: "}\`npx skills add ${REPO.split("/")[0]}/citation-needed\` ${L ? "（Claude Code、Codex、Cursor 等；回答时会带上证据等级和出处）" : "(Claude Code, Codex, Cursor and others; answers come with the grade and the source)"}`);
   out.push("");
-
-  const headlines = claims.filter((c) => c.headline);
-  if (headlines.length) {
-    out.push(L ? "## 先看这几条" : "## Start here");
-    out.push("");
-    out.push(L ? "| 说法 | 结论 | 证据 |" : "| Claim | Verdict | Grade |");
-    out.push("|---|---|---|");
-    for (const c of headlines) {
-      const file = chapterFile(topics, c.topic, lang);
-      out.push(`| [${c.claim[lang]}](${file}#${c.id}) | ${LABELS.verdict[c.verdict].icon} ${LABELS.verdict[c.verdict][lang]} | ${c.grade} |`);
-    }
-    out.push("");
-  }
 
   out.push(L ? "## 目录" : "## Contents");
   out.push("");
@@ -158,13 +164,13 @@ export function renderReadme({ topics, claims, sources }, lang) {
   out.push(L ? "## 引用是怎么核对的" : "## How sources are checked");
   out.push("");
   if (L) {
-    out.push(`本仓库共 ${total} 个来源。每个来源都在持续集成里自动核对：**${st.abstract} 个**核对了标题、作者、年份，以及我们引用的数字是否真的出现在摘要里；**${st.metadata} 个**核对了元数据；**${st.manual} 个**是书或报告，只能核对链接能否打开。每周一次，每次提交评审（PR）时也会跑，核对不过就会报错。`);
+    out.push(`本仓库共 ${total} 个来源，每个都在持续集成里自动查询：**${st.abstract} 个**（✓✓）核对了标题、作者、年份，以及我们引用的数字是否真的出现在摘要里；**${st.metadata} 个**（✓）核对了元数据；**${st.manual} 个**（↗）是书、报告或网页，只核对链接能否打开。每周跑一次，每次提交也会跑，核对不过就会报错。`);
     out.push("");
-    out.push("没有任何数字是凭印象写的：写进正文的数字都要能追溯到一个来源。不过，持续集成只能核对摘要里的内容，正文里更细的数字仍然需要人来读原文，所以每条都写了人工核对的日期。发现错误请开 issue。");
+    out.push("**没有覆盖的部分：** 持续集成只能读摘要，读不了全文。出现在摘要里的数字有机器核对；出自论文正文、报告或书的数字没有，有些条目依据的是二手转述，会在“局限”里写明。本仓库的初稿由 AI 协助起草，还没有经过专家逐行审阅。所以每条都写了“什么证据会让我改口”，也欢迎你来反驳：开一个 issue，附上论文和页码，错了我们就改，并署名感谢。");
   } else {
-    out.push(`There are ${total} sources. Each one is looked up online by CI: **${st.abstract}** have their title, authors, year and every quoted number checked against the abstract; **${st.metadata}** have their metadata checked; **${st.manual}** are books or reports where only the link can be checked. The check runs weekly and on every pull request, and fails when something does not match.`);
+    out.push(`There are ${total} sources, and CI looks every one of them up online: **${st.abstract}** (✓✓) have their title, authors, year and every quoted figure checked against the abstract; **${st.metadata}** (✓) have their metadata checked; **${st.manual}** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.`);
     out.push("");
-    out.push("No number is written from memory: every figure in the text traces to a source. CI can only read abstracts, so finer details in the full text still need a human who has read the paper, which is why each claim carries the date it was last checked. If you find a mistake, open an issue.");
+    out.push("**What this does not cover:** CI reads abstracts, not full texts. A figure that appears in an abstract is machine-checked; a figure from the body of a paper, a report or a book is not, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.");
   }
   out.push("");
 

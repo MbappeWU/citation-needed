@@ -17,13 +17,13 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Limits.** Productivity here is output per head or per project size, not value delivered. Bigger teams can still deliver more in total. ISBSG and QSM data come from firms that chose to contribute them. Best size depends on the work and how well it splits.
 
-> **Say this to your boss:** Studies of work groups and project data suggest productivity falls once a team passes about eight or nine people. None shows that five to nine is the best range, so let's size the team to the work and keep it as small as the work allows.
+> **Say this to your boss:** Wheelan's study of 329 work groups and ISBSG project data both show productivity dropping at about nine people. Neither shows that five to nine is the best range, so let's size the team to the work and keep it as small as the work allows.
 
 **What would change my mind.** A study of software teams of different sizes doing comparable work, with output and quality measured the same way, showing a clear peak at five to nine.
 
 **Sources** (checked 2026-10-01):
 
-1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
+1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
 2. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 3. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
@@ -34,11 +34,11 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **~ It depends · Grade C** (The rule rests on one author's experience and on simulations. We found no controlled test of adding staff to late projects.)
 
-**What the research says.** Brooks (1975) drew the rule from managing IBM's OS/360 project and introduced it with the words "oversimplifying outrageously". His reasons: newcomers need training, communication grows with headcount, and the work must be re-split. In Abdel-Hamid and Madnick's 1991 project simulation, late additions always raised cost but did not always delay delivery. Timing and numbers mattered. Open-source data (Scholtes, 58 projects) show output per developer falling in larger teams. That fits the overhead argument but does not test late additions.
+**What the research says.** Brooks (1975) drew the rule from managing IBM's OS/360 project and introduced it with the words "oversimplifying outrageously". His reasons: newcomers need training, communication grows with headcount, and the work must be re-split. In Abdel-Hamid and Madnick's 1991 project simulation, late additions always raised cost but did not always delay delivery. Timing and how many people were added mattered. Open-source data (Scholtes, 58 projects) show output per developer falling in larger teams. That fits the overhead argument but does not test late additions.
 
 **Limits.** A simulation reflects its builders' assumptions. Outcomes depend on why the project is late, how well the work splits, and how new people are onboarded. Larger-team data do not isolate additions made late.
 
-> **Say this to your boss:** Brooks himself called it an oversimplification. In the best-known simulation, late hires always raised cost but did not always delay delivery. So let's ask what the new people would take on, and who would train them.
+> **Say this to your boss:** Brooks himself called it an oversimplification. In Abdel-Hamid and Madnick's simulation, late hires always raised cost but did not always delay delivery. So let's ask what the new people would take on, and who would train them.
 
 **What would change my mind.** A large study of real projects showing that staff added late consistently slipped delivery dates, or consistently did not, after adjusting for project size and the reason for lateness.
 
@@ -60,14 +60,14 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Limits.** Mirroring is a strong tendency, not a law. In open collaborative projects, mostly software, 56% of the descriptive studies did not support it. The studies are observational and do not show that reorganising teams will change an architecture.
 
-> **Say this to your boss:** A review of 142 studies found that about 70% show products mirroring the structure of the organisation that built them. So team boundaries are architecture decisions too. It is a tendency, not a law, so let's check where our own team and module boundaries line up.
+> **Say this to your boss:** Colfer and Baldwin reviewed 142 studies, and about 70% found products mirroring the structure of the organisation that built them. So team boundaries are architecture decisions too. It is a tendency, not a law, so let's check where our own team and module boundaries line up.
 
 **What would change my mind.** A large cross-company study of software projects showing module structure unrelated to team structure, or showing that reorganising teams leaves the architecture unchanged.
 
 **Sources** (checked 2026-10-01):
 
-1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
+1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
 3. Melvin E. Conway (1968). How Do Committees Invent?. Datamation 14(4). [link](https://www.melconway.com/Home/Committees_Paper.html) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
 ---
@@ -105,14 +105,14 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Limits.** Most evidence is correlational, so it cannot show whether safety improves results or good results make people feel safer. The pooled studies cover many kinds of work, not only software. Google has not published the Aristotle data, and no outside team has replicated it.
 
-> **Say this to your boss:** A meta-analysis of 136 samples finds psychological safety moderately linked to performance. It is a real factor, not a guarantee. The claim that it is the number one factor comes from an internal Google study whose data are not public.
+> **Say this to your boss:** Frazier and colleagues' meta-analysis of 136 samples finds psychological safety moderately linked to performance. It is a real factor, not a guarantee. The claim that it is the number one factor comes from an internal Google study whose data are not public.
 
 **What would change my mind.** Time-lagged or experimental studies of software teams showing no change in delivery or quality after safety improves, or a pooled analysis where the link disappears with objective performance data.
 
 **Sources** (checked 2026-10-01):
 
-1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
+1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
 3. Google re:Work (2015). Guide: Understand team effectiveness. Google re:Work, write-up of Project Aristotle. [link](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness/steps/introduction/) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
 ---
@@ -124,17 +124,17 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **What the research says.** Teasley and colleagues (2002) studied software teams that worked together in dedicated team rooms at a large company. They report higher productivity and shorter schedules than baseline projects. Herbsleb and Mockus (2003) analysed work items (modification requests) at one large company. Items spread over several sites took about two and a half times as long as similar items done at one site. Natural experiments at a Fortune 500 firm (Emanuel, Harrington and Pallais) found that engineers sitting near teammates got more code feedback, mainly the less experienced, while experienced engineers wrote less code.
 
-**Limits.** Each study covers one company, and none assigned seating at random. The older studies use tools from around 2000. The newer study measures feedback and code written, not delivery dates. None tests today's remote tooling or open-plan seating.
+**Limits.** Each study covers one company, and none assigned seating at random. The older studies use tools from around 2000. The newer study measures feedback and code written, not delivery dates. None tests remote tooling or open-plan seating directly.
 
-> **Say this to your boss:** Early field studies found same-site work finished faster, and in one, multi-site items took about 2.5 times as long. A newer study found sitting near teammates gave juniors more feedback while experienced engineers wrote less code. So it depends on who sits together and what we count as faster.
+> **Say this to your boss:** Field studies by Teasley and by Herbsleb and Mockus found same-site work finished faster; in one, multi-site items took about 2.5 times as long. A newer study found juniors got more feedback near teammates while experienced engineers wrote less code. So it depends on who sits together and what we count.
 
 **What would change my mind.** A randomized or well-matched comparison of co-located and distributed software teams, with current tools and measured delivery dates, showing a consistent gain or no gain.
 
 **Sources** (checked 2026-10-01):
 
 1. S. Teasley, L. Covi, M. S. Krishnan, J. S. Olson (2002). Rapid software development through team collocation. IEEE Transactions on Software Engineering 28(7). [link](https://doi.org/10.1109/TSE.2002.1019481) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓ metadata checked (title, authors, year)</sub> (context)
+2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
 
 ---
 

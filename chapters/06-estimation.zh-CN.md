@@ -23,10 +23,10 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Erik Løhre, Magne Jørgensen (2016). Numerical anchors and their strong effects on software development effort estimates. Journal of Systems and Software 116. [link](https://doi.org/10.1016/j.jss.2015.03.015) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Erik Løhre, Magne Jørgensen (2016). Numerical anchors and their strong effects on software development effort estimates. Journal of Systems and Software 116. [link](https://doi.org/10.1016/j.jss.2015.03.015) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
 2. Martin Shepperd, Carolyn Mair, Magne Jørgensen (2018). An Experimental Evaluation of a De-biasing Intervention for Professional Software Developers. ACM Symposium on Applied Computing (SAC) 2018. [link](https://arxiv.org/abs/1804.03919) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
 3. Jorge Aranda, Steve Easterbrook (2005). Anchoring and adjustment in software estimation. ESEC/FSE-13 (ACM SIGSOFT Software Engineering Notes 30(5)). [link](https://doi.org/10.1145/1095430.1081761) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
-4. Magne Jørgensen, Stein Grimstad (2011). The Impact of Irrelevant and Misleading Information on Software Development Effort Estimates: A Randomized Controlled Field Experiment. IEEE Transactions on Software Engineering 37(5). [link](https://www.simula.no/research/impact-irrelevant-and-misleading-information-software-development-effort-estimates) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
+4. Magne Jørgensen, Stein Grimstad (2011). The Impact of Irrelevant and Misleading Information on Software Development Effort Estimates: A Randomized Controlled Field Experiment. IEEE Transactions on Software Engineering 37(5). [link](https://doi.org/10.1109/TSE.2010.78) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
 
 ---
 
@@ -66,7 +66,7 @@
 **出处** (核对于 2026-10-01):
 
 1. J. Laurenz Eveleens, Chris Verhoef (2010). The Rise and Fall of the Chaos Report Figures. IEEE Software 27(1). [link](https://doi.org/10.1109/MS.2009.154) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Magne Jørgensen, Kjetil Moløkken-Østvold (2006). How large are software cost overruns? A review of the 1994 CHAOS report. Information and Software Technology 48(4). [link](https://web-backend.simula.no/sites/default/files/publications/Jorgensen.2006.4.pdf) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (质疑)
+2. Magne Jørgensen, Kjetil Moløkken-Østvold (2006). How large are software cost overruns? A review of the 1994 CHAOS report. Information and Software Technology 48(4). [link](https://doi.org/10.1016/j.infsof.2005.07.002) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (质疑)
 3. Robert L. Glass (2006). The Standish report: does it really describe a software crisis?. Communications of the ACM 49(8). [link](https://doi.org/10.1145/1145287.1145301) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (质疑)
 4. The Standish Group (1994). The CHAOS Report. The Standish Group International. [link](https://personal.utdallas.edu/~chung/SYSM6309/chaos_report.pdf) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
@@ -87,7 +87,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Magne Jørgensen (2004). A review of studies on expert estimation of software development effort. Journal of Systems and Software 70(1-2). [link](https://doi.org/10.1016/S0164-1212(02)00156-5) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Magne Jørgensen (2004). A review of studies on expert estimation of software development effort. Journal of Systems and Software 70(1-2). [link](https://doi.org/10.1016/S0164-1212(02)00156-5) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
 
 ---
 
@@ -107,7 +107,7 @@
 **出处** (核对于 2026-10-01):
 
 1. Bent Flyvbjerg, Alexander Budzier (2011). Why Your IT Project May Be Riskier Than You Think. Harvard Business Review, September 2011 (author copy on arXiv). [link](https://arxiv.org/pdf/1304.0265) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (主要来源)
-2. Magne Jørgensen, Kjetil Moløkken-Østvold (2006). How large are software cost overruns? A review of the 1994 CHAOS report. Information and Software Technology 48(4). [link](https://web-backend.simula.no/sites/default/files/publications/Jorgensen.2006.4.pdf) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
+2. Magne Jørgensen, Kjetil Moløkken-Østvold (2006). How large are software cost overruns? A review of the 1994 CHAOS report. Information and Software Technology 48(4). [link](https://doi.org/10.1016/j.infsof.2005.07.002) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
 
 ---
 

@@ -28,8 +28,17 @@
     "zh": "长期数据显示，远程或混合团队里的初级员工，技能成长和晋升速度与同地办公的同事相当；或者对软件团队做的辅导随机试验。"
   },
   "sources": [
-    { "id": "emanuel2026", "role": "primary" },
-    { "id": "gibbs2023", "role": "context" }
+    {
+      "id": "emanuel2026",
+      "role": "primary",
+      "quotes": [
+        "18.3"
+      ]
+    },
+    {
+      "id": "gibbs2023",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

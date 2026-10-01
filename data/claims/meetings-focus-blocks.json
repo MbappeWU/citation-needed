@@ -8,16 +8,16 @@
   "verdict": "mixed",
   "grade": "C",
   "grade_why": {
-    "en": "Consistent self-reports plus one small randomized trial with self-rated outcomes; no study ties block length to measured output.",
-    "zh": "自评数据一致，另有一项以自评为结果的小型随机试验；没有研究把时间块长度与实测产出联系起来。"
+    "en": "Large self-report surveys agree and one small randomized trial points the same way, but productivity is self-rated and none of the cited studies ties block length to measured output.",
+    "zh": "大型自评问卷结论一致，一项小型随机试验方向相同，但生产力是自评的，所引研究也都没有把时间块长度与实测产出联系起来。"
   },
   "evidence": {
-    "en": "Meyer et al. (2014) surveyed 379 professional developers and observed 11. Developers called a day productive when they finished many or big tasks without significant interruptions or context switches, yet the observed developers switched tasks often and still felt productive. A log study of 86 programmers (Parnin and Rugaber 2011) found only 10% of sessions resumed coding within a minute of an interruption. In a randomized trial of 89 developers (Das Swain et al. 2023), two protected hours a day raised self-rated performance and focus, but not measured coding time.",
-    "zh": "Meyer 等人（2014）调查了 379 名专业开发者，并观察了 11 名。开发者认为，完成了很多或很大的任务、且没有明显打断或上下文切换的一天是高效的；但被观察的开发者实际上频繁切换任务，仍觉得自己高效。Parnin 和 Rugaber（2011）对 86 名程序员的日志研究发现，只有 10% 的会话在被打断后 1 分钟内恢复编码。Das Swain 等人（2023）对 89 名开发者的随机试验显示，每天 2 小时的受保护时间提高了自评绩效和专注度，但没有提高实测的编码时间。"
+    "en": "Meyer et al. (2014) surveyed 379 professional developers and observed 11: a productive day meant finishing many or big tasks without significant interruptions or context switches, yet the observed developers switched tasks often and still felt productive. In 5971 responses from Microsoft developers (Meyer et al. 2019), meetings and interruptions were unproductive only during development phases and constructive during planning, specification and release. A log study of 86 programmers found only 10% of sessions resumed coding within a minute of an interruption (Parnin and Rugaber 2011). In a randomized trial of 89 developers (Das Swain et al. 2023), two protected hours a day raised self-rated performance and focus, but not measured coding time.",
+    "zh": "Meyer 等人（2014）调查了 379 名专业开发者并观察了 11 名：高效的一天意味着完成很多或很大的任务，且没有明显打断或上下文切换；但被观察的开发者实际上频繁切换任务，仍觉得自己高效。在 Microsoft 开发者的 5971 份回答中（Meyer 等，2019），会议和打断只在开发阶段是低效的，在计划、规格和发布阶段则有建设性。对 86 名程序员的日志研究（Parnin 和 Rugaber，2011）发现，只有 10% 的会话在被打断后 1 分钟内恢复编码。对 89 名开发者的随机试验（Das Swain 等，2023）显示，每天 2 小时的受保护时间提高了自评绩效和专注度，但没有提高实测的编码时间。"
   },
   "caveats": {
-    "en": "Productivity here is self-rated, and the trial's performance and focus effects were significant only at the 10% level. No study tests how long a block must be, so the half-day idea comes from essays such as Paul Graham's maker's schedule. A 2008 lab experiment found interrupted work was finished faster, at the cost of more stress.",
-    "zh": "这里的生产力是自评的，试验中绩效和专注度的效应仅在 10% 水平上显著。没有研究检验时间块需要多长，“半天”之类的说法来自 Paul Graham 的“创造者日程”等文章。2008 年的实验室实验发现，被打断的工作完成得更快，但压力更大。"
+    "en": "Productivity here is self-rated, and the trial's performance and focus effects were significant only at the 10% level. None of these studies tests how long a block must be, so the half-day idea comes from essays such as Paul Graham's maker's schedule. A 2008 lab experiment found interrupted work was finished faster, at the cost of more stress.",
+    "zh": "这里的生产力是自评的，试验中绩效和专注度的效应仅在 10% 水平上显著。这些研究都没有检验时间块需要多长，“半天”之类的说法来自 Paul Graham 的“创造者日程”等文章。2008 年的实验室实验发现，被打断的工作完成得更快，但压力更大。"
   },
   "boss_line": {
     "en": "Developers say their best days have few interruptions, and a small trial of protected focus time raised self-rated performance. Nobody has shown how long a block must be, so let's protect a couple of hours a day and measure whether it helps.",
@@ -28,10 +28,32 @@
     "zh": "有试验改变时间块的长度，并测量产出或缺陷（如合并的变更数或交付周期），结果显示碎片化的工作日并不会造成损失。"
   },
   "sources": [
-    { "id": "meyer2014", "role": "primary", "quotes": ["379"] },
-    { "id": "parnin2011", "role": "primary", "quotes": ["10%"] },
-    { "id": "dasswain2023", "role": "primary", "quotes": ["89 workers"] },
-    { "id": "mark2008", "role": "context" }
+    {
+      "id": "meyer2014",
+      "role": "primary",
+      "quotes": [
+        "379"
+      ]
+    },
+    {
+      "id": "meyer2019",
+      "role": "primary"
+    },
+    {
+      "id": "parnin2011",
+      "role": "primary"
+    },
+    {
+      "id": "dasswain2023",
+      "role": "primary",
+      "quotes": [
+        "89 workers"
+      ]
+    },
+    {
+      "id": "mark2008",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

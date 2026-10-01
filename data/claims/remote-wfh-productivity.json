@@ -28,9 +28,32 @@
     "zh": "在非疫情封控期间，对软件团队做的全职远程办公随机试验显示单位工时产出明显下降；或者 Trip.com 的结果在其他公司无法重复。"
   },
   "sources": [
-    { "id": "bloom2015", "role": "primary", "quotes": ["13%"] },
-    { "id": "bloom2024", "role": "primary", "quotes": ["1,612"] },
-    { "id": "gibbs2023", "role": "primary", "quotes": ["19%"] }
+    {
+      "id": "bloom2015",
+      "role": "primary",
+      "quotes": [
+        "13%"
+      ]
+    },
+    {
+      "id": "bloom2024",
+      "role": "primary",
+      "quotes": [
+        "1,612"
+      ]
+    },
+    {
+      "id": "gibbs2023",
+      "role": "primary",
+      "quotes": [
+        "19%"
+      ]
+    }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "Two randomised trials found a gain or no loss. A pandemic-era study of IT staff found output per hour fell 8 to 19%.",
+    "zh": "两项随机试验发现居家有提升或没有损失；一项疫情期间的 IT 员工研究发现每小时产出下降 8% 至 19%。"
+  }
 }

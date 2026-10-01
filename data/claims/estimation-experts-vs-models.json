@@ -28,7 +28,10 @@
     "zh": "在当前的软件项目上做大规模、预注册的对比，模型和专家获得相同信息，结果显示模型明显更准。"
   },
   "sources": [
-    { "id": "jorgensen2004expert", "role": "primary", "quotes": ["no substantial evidence"] }
+    {
+      "id": "jorgensen2004expert",
+      "role": "primary"
+    }
   ],
   "verified_on": "2026-10-01"
 }

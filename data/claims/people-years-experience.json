@@ -28,10 +28,26 @@
     "zh": "针对软件工程师的大样本研究显示，工作年限对可测量的产出或质量的预测力不亚于技能测试。"
   },
   "sources": [
-    { "id": "quinones1995", "role": "primary", "quotes": [".27", ".43"] },
-    { "id": "mcdaniel1988", "role": "primary" },
-    { "id": "schmidt1998", "role": "primary" },
-    { "id": "dieste2017", "role": "primary" }
+    {
+      "id": "quinones1995",
+      "role": "primary",
+      "quotes": [
+        ".43",
+        "25,911"
+      ]
+    },
+    {
+      "id": "mcdaniel1988",
+      "role": "primary"
+    },
+    {
+      "id": "schmidt1998",
+      "role": "primary"
+    },
+    {
+      "id": "dieste2017",
+      "role": "primary"
+    }
   ],
   "verified_on": "2026-10-01"
 }

@@ -16,8 +16,8 @@
     "zh": "Anthropic 随机分组了 52 名以初级为主的工程师学习 Python 库 Trio。使用侧边栏 AI 助手的一组，后续测验得分 50%，不用 AI 的一组 67%（低 17 个百分点，p = 0.01），差距最大的是调试题。AI 组只快了约两分钟，不显著。用 AI 问概念性问题的人学得更多。发表在 PNAS 的一项试验（近 1,000 名高中生）中，不设限的 GPT-4 提高了练习成绩，却拉低了之后没有 AI 时的考试成绩；带防护的辅导版基本避免了这一点。"
   },
   "caveats": {
-    "en": "One library, a short session, a chat assistant rather than an agent, and a small sample. Harm is not automatic: a study of programming students found no overall effect, and using AI to explain beat using it to write.",
-    "zh": "只测了一个库、一次短时间的学习、聊天式助手（不是智能体），样本也小。伤害并非必然：一项针对编程学生的研究发现总体上没有影响，把 AI 当解释工具比当代笔工具效果更好。"
+    "en": "One library, a short session, a chat assistant rather than an agent, and a small sample. The trial was run by Anthropic, an AI vendor. Harm is not automatic: a study of programming students found no overall effect, and using AI to explain beat using it to write.",
+    "zh": "只测了一个库、一次短时间的学习、聊天式助手（不是智能体），样本也小。试验由 AI 厂商 Anthropic 自己完成。伤害并非必然：一项针对编程学生的研究发现总体上没有影响，把 AI 当解释工具比当代笔工具效果更好。"
   },
   "boss_line": {
     "en": "In a randomized trial with developers, people learning a new library with an AI assistant scored 17 points lower on a quiz and did not finish significantly faster. For new hires and new tools, let's use AI to explain, not to write it for them.",
@@ -28,9 +28,22 @@
     "zh": "随机试验显示，用当前编程智能体做真实的入职任务，延迟测验中的技能保留与不用 AI 相当或更好。"
   },
   "sources": [
-    { "id": "shen2026skills", "role": "primary" },
-    { "id": "bastani2025", "role": "context" },
-    { "id": "lehmann2024", "role": "context" }
+    {
+      "id": "shen2026skills",
+      "role": "primary",
+      "quotes": [
+        "50%",
+        "67%"
+      ]
+    },
+    {
+      "id": "bastani2025",
+      "role": "context"
+    },
+    {
+      "id": "lehmann2024",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

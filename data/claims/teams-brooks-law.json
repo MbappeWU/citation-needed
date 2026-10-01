@@ -12,7 +12,7 @@
     "zh": "该定律基于作者个人经验和仿真模型，我们没有找到对延期项目加人的对照研究。"
   },
   "evidence": {
-    "en": "Brooks (1975) drew the rule from managing IBM's OS/360 project and introduced it with the words \"oversimplifying outrageously\". His reasons: newcomers need training, communication grows with headcount, and the work must be re-split. In Abdel-Hamid and Madnick's 1991 project simulation, late additions always raised cost but did not always delay delivery. Timing and numbers mattered. Open-source data (Scholtes, 58 projects) show output per developer falling in larger teams. That fits the overhead argument but does not test late additions.",
+    "en": "Brooks (1975) drew the rule from managing IBM's OS/360 project and introduced it with the words \"oversimplifying outrageously\". His reasons: newcomers need training, communication grows with headcount, and the work must be re-split. In Abdel-Hamid and Madnick's 1991 project simulation, late additions always raised cost but did not always delay delivery. Timing and how many people were added mattered. Open-source data (Scholtes, 58 projects) show output per developer falling in larger teams. That fits the overhead argument but does not test late additions.",
     "zh": "Brooks（1975）依据自己管理 IBM OS/360 项目的经验提出这条规律，并坦言这是“夸张的简化”。他给出的理由：新人需要培训，沟通成本随人数增长，工作还要重新拆分。Abdel-Hamid 和 Madnick（1991）的项目仿真显示：后期加人总会推高成本，但不一定拖慢交付，关键看加人的时机和数量。Scholtes 等人的开源数据（58 个项目）显示团队越大人均产出越低，这与沟通开销的解释一致，但并没有检验“后期加人”。"
   },
   "caveats": {
@@ -20,18 +20,35 @@
     "zh": "仿真结果取决于建模假设。结果还取决于项目延期的原因、工作能否拆分，以及新人的上手方式。大团队数据也无法单独识别“后期加人”的影响。"
   },
   "boss_line": {
-    "en": "Brooks himself called it an oversimplification. In the best-known simulation, late hires always raised cost but did not always delay delivery. So let's ask what the new people would take on, and who would train them.",
-    "zh": "Brooks 本人也说这是过分简化。最知名的仿真里，后期加人总会推高成本，但不一定拖慢交付。所以先问清楚：新人接手什么工作，由谁带。"
+    "en": "Brooks himself called it an oversimplification. In Abdel-Hamid and Madnick's simulation, late hires always raised cost but did not always delay delivery. So let's ask what the new people would take on, and who would train them.",
+    "zh": "Brooks 本人也说这是过分简化。在 Abdel-Hamid 和 Madnick 的仿真中，后期加人总会推高成本，但不一定拖慢交付。所以先问清楚：新人接手什么工作，由谁带。"
   },
   "change_my_mind": {
     "en": "A large study of real projects showing that staff added late consistently slipped delivery dates, or consistently did not, after adjusting for project size and the reason for lateness.",
     "zh": "一项针对真实项目的大型研究，在校正项目规模和延期原因后，一致显示后期加人会（或不会）造成交付延后。"
   },
   "sources": [
-    { "id": "brooks1975", "role": "primary" },
-    { "id": "abdelhamid1991", "role": "critique" },
-    { "id": "scholtes2016", "role": "context" },
-    { "id": "gote2022", "role": "context" }
+    {
+      "id": "brooks1975",
+      "role": "primary"
+    },
+    {
+      "id": "abdelhamid1991",
+      "role": "critique"
+    },
+    {
+      "id": "scholtes2016",
+      "role": "context"
+    },
+    {
+      "id": "gote2022",
+      "role": "context"
+    }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "Brooks called it an oversimplification. In the best-known simulation, late hires always raised cost but did not always delay delivery.",
+    "zh": "布鲁克斯自己说这是过度简化。在最有名的模拟里，晚加人总会推高成本，但不一定拖延交付。"
+  }
 }

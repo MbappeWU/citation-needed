@@ -20,17 +20,32 @@
     "zh": "多数证据是相关性的，无法区分是安全感带来好结果，还是好结果让人更有安全感。汇总的研究涉及各类工作，不只是软件。Google 没有公开 Aristotle 项目的数据，也没有外部团队复现过。"
   },
   "boss_line": {
-    "en": "A meta-analysis of 136 samples finds psychological safety moderately linked to performance. It is a real factor, not a guarantee. The claim that it is the number one factor comes from an internal Google study whose data are not public.",
-    "zh": "136 个样本的荟萃分析发现，心理安全感与绩效有中等程度的关联。它是真实存在的因素，但不是保证。“它是头号因素”的说法来自 Google 内部研究，数据并未公开。"
+    "en": "Frazier and colleagues' meta-analysis of 136 samples finds psychological safety moderately linked to performance. It is a real factor, not a guarantee. The claim that it is the number one factor comes from an internal Google study whose data are not public.",
+    "zh": "Frazier 等人对 136 个样本的荟萃分析发现，心理安全感与绩效有中等程度的关联。它是真实存在的因素，但不是保证。“它是头号因素”的说法来自 Google 内部研究，数据并未公开。"
   },
   "change_my_mind": {
     "en": "Time-lagged or experimental studies of software teams showing no change in delivery or quality after safety improves, or a pooled analysis where the link disappears with objective performance data.",
     "zh": "针对软件团队的追踪或实验研究显示，安全感提升后交付或质量没有变化；或汇总分析发现采用客观绩效数据时这种关联消失。"
   },
   "sources": [
-    { "id": "edmondson1999", "role": "primary" },
-    { "id": "frazier2017", "role": "primary" },
-    { "id": "aristotle2015", "role": "context" }
+    {
+      "id": "edmondson1999",
+      "role": "primary",
+      "quotes": [
+        "51"
+      ]
+    },
+    {
+      "id": "frazier2017",
+      "role": "primary",
+      "quotes": [
+        "136"
+      ]
+    },
+    {
+      "id": "aristotle2015",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

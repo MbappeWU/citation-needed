@@ -16,21 +16,33 @@
     "zh": "Teasley 等人（2002）研究了一家大公司里在专用团队房间集中办公的软件团队，报告其生产率更高、工期更短，优于基线项目。Herbsleb 和 Mockus（2003）分析了一家大公司的工作项（变更请求）：分散在多个站点完成的工作项，耗时约为同类单站点工作项的 2.5 倍。财富 500 强公司的自然实验（Emanuel、Harrington 和 Pallais）发现：坐在队友附近的工程师收到更多代码反馈，主要是资历较浅者，而经验丰富的工程师写的代码更少。"
   },
   "caveats": {
-    "en": "Each study covers one company, and none assigned seating at random. The older studies use tools from around 2000. The newer study measures feedback and code written, not delivery dates. None tests today's remote tooling or open-plan seating.",
-    "zh": "每项研究只涉及一家公司，也没有研究随机安排座位。较早的研究用的是 2000 年前后的工具。较新的研究衡量的是反馈和代码量，不是交付日期。没有一项检验今天的远程工具或开放式座位。"
+    "en": "Each study covers one company, and none assigned seating at random. The older studies use tools from around 2000. The newer study measures feedback and code written, not delivery dates. None tests remote tooling or open-plan seating directly.",
+    "zh": "每项研究只涉及一家公司，也没有研究随机安排座位。较早的研究用的是 2000 年前后的工具。较新的研究衡量的是反馈和代码量，不是交付日期。没有一项直接检验远程工具或开放式座位。"
   },
   "boss_line": {
-    "en": "Early field studies found same-site work finished faster, and in one, multi-site items took about 2.5 times as long. A newer study found sitting near teammates gave juniors more feedback while experienced engineers wrote less code. So it depends on who sits together and what we count as faster.",
-    "zh": "早期现场研究发现同地工作完成得更快，其中一项里跨站点工作项耗时约为 2.5 倍。较新的研究发现，坐在队友附近让初级工程师得到更多反馈，而资深工程师写的代码更少。所以答案取决于谁坐在一起，以及我们怎么衡量“更快”。"
+    "en": "Field studies by Teasley and by Herbsleb and Mockus found same-site work finished faster; in one, multi-site items took about 2.5 times as long. A newer study found juniors got more feedback near teammates while experienced engineers wrote less code. So it depends on who sits together and what we count.",
+    "zh": "Teasley 以及 Herbsleb 和 Mockus 的现场研究发现同地工作完成得更快，其中一项里跨站点工作项耗时约为 2.5 倍。较新的研究发现，坐在队友附近的初级工程师得到更多反馈，而资深工程师写的代码更少。所以答案取决于谁坐在一起，以及我们怎么衡量。"
   },
   "change_my_mind": {
     "en": "A randomized or well-matched comparison of co-located and distributed software teams, with current tools and measured delivery dates, showing a consistent gain or no gain.",
     "zh": "一项使用当前工具、记录实际交付日期，对集中办公与分散办公的软件团队做随机或良好匹配比较的研究，显示稳定的提速或没有提速。"
   },
   "sources": [
-    { "id": "teasley2002", "role": "primary" },
-    { "id": "herbsleb2003", "role": "primary" },
-    { "id": "emanuel2026", "role": "context" }
+    {
+      "id": "teasley2002",
+      "role": "primary"
+    },
+    {
+      "id": "herbsleb2003",
+      "role": "primary",
+      "quotes": [
+        "times as long"
+      ]
+    },
+    {
+      "id": "emanuel2026",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

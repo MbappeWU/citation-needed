@@ -28,8 +28,24 @@
     "zh": "多项随机试验显示，开发者预测的提速和实测的提速高度一致，包括使用当前工具时。"
   },
   "sources": [
-    { "id": "becker2025", "role": "primary", "quotes": ["24%", "20%", "19%"] },
-    { "id": "dora2025", "role": "context" }
+    {
+      "id": "becker2025",
+      "role": "primary",
+      "quotes": [
+        "24%",
+        "20%",
+        "19%"
+      ]
+    },
+    {
+      "id": "dora2025",
+      "role": "context"
+    }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "In METR's trial, developers believed AI saved them 20% of their time. The clock said it cost them 19%.",
+    "zh": "METR 试验里，开发者以为 AI 帮自己省了 20% 的时间，实测反而多花了 19%。"
+  }
 }

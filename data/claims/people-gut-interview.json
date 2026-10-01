@@ -28,8 +28,19 @@
     "zh": "针对软件行业招聘的大样本研究显示，面试官的非结构化整体印象对日后表现的预测力，不亚于有评分标准的结构化面试。"
   },
   "sources": [
-    { "id": "sackett2022", "role": "primary" },
-    { "id": "schmidt1998", "role": "primary" }
+    {
+      "id": "sackett2022",
+      "role": "primary"
+    },
+    {
+      "id": "schmidt1998",
+      "role": "primary"
+    }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "A 2022 meta-analysis puts structured interviews at .42 and unstructured ones at .19 for predicting job performance.",
+    "zh": "2022 年的一项荟萃分析显示，预测工作表现时，结构化面试约 .42，非结构化面试只有 .19。"
+  }
 }

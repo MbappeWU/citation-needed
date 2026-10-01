@@ -28,9 +28,21 @@
     "zh": "对当前智能体的匹配或随机研究显示，采用后缺陷、告警或返工没有上升，最好是在公司代码库里。"
   },
   "sources": [
-    { "id": "he2025", "role": "primary" },
-    { "id": "gitclear2025", "role": "context" },
-    { "id": "dora2024", "role": "context" }
+    {
+      "id": "he2025",
+      "role": "primary",
+      "quotes": [
+        "807"
+      ]
+    },
+    {
+      "id": "gitclear2025",
+      "role": "context"
+    },
+    {
+      "id": "dora2024",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

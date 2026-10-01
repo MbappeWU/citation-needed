@@ -60,7 +60,7 @@
     "year": 2008,
     "venue": "Journal of Applied Psychology 93(2)",
     "doi": "10.1037/0021-9010.93.2.472",
-    "verify": "metadata"
+    "verify": "abstract"
   },
   "judge2001": {
     "kind": "paper",
@@ -69,7 +69,7 @@
     "year": 2001,
     "venue": "Psychological Bulletin 127(3)",
     "doi": "10.1037/0033-2909.127.3.376",
-    "verify": "metadata"
+    "verify": "abstract"
   },
   "murphyhill2021": {
     "kind": "paper",
@@ -96,7 +96,7 @@
     "year": 2011,
     "venue": "Information and Software Technology 53(4)",
     "doi": "10.1016/j.infsof.2010.12.001",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "prechelt2000": {
     "kind": "paper",

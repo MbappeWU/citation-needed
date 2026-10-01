@@ -16,8 +16,8 @@
     "zh": "微软人因实验室（2021）让 14 个人戴上脑电帽，分两次各参加四场半小时的视频会议：一次连续进行，一次每场之间休息 10 分钟。没有休息时，代表压力的 β 波活动在会议中不断上升，并在两场会议之间的切换时段飙升；有休息时则回落。反映投入度的额叶 α 不对称指标，有休息时为正，没有休息时为负。这些只是实验室短任务里的脑电指标，不是工作产出的测量。"
   },
   "caveats": {
-    "en": "The vendor ran the study and published it as a company article, not a peer-reviewed paper. With 14 participants it cannot show how large any effect is. The break condition also included meditation, so breaks and meditation are mixed together. It tested video meetings in a lab.",
-    "zh": "研究由厂商自己完成，以公司文章的形式发布，没有经过同行评审。只有 14 人，无法说明效应有多大。休息条件还包含冥想，休息和冥想混在了一起。研究的是实验室里的视频会议。"
+    "en": "The vendor ran the study and published it as a company article, not a peer-reviewed paper. With 14 participants it cannot show how large any effect is. The break condition included Headspace meditation, so breaks and meditation are mixed together. Participants were US-based remote information workers, not developers specifically.",
+    "zh": "研究由厂商自己完成，以公司文章的形式发布，没有经过同行评审。只有 14 人，无法说明效应有多大。休息时段包含 Headspace 冥想，休息和冥想混在了一起。参与者是美国的远程信息工作者，并非专门的开发者。"
   },
   "boss_line": {
     "en": "The direct evidence is thin: a small Microsoft test (14 people) saw stress signals build across back-to-back video calls and reset with 10-minute breaks. Could we default to 25 or 50 minute meetings so there is a gap? It costs little to try.",

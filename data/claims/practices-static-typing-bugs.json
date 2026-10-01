@@ -1,0 +1,51 @@
+{
+  "id": "practices-static-typing-bugs",
+  "topic": "practices",
+  "claim": {
+    "en": "Static typing prevents bugs.",
+    "zh": "静态类型能防止缺陷。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "Two observational studies, one limited to JavaScript and one a contested reanalysis of GitHub data, so neither is a controlled test.",
+    "zh": "两项观察性研究：一项只涉及 JavaScript，另一项是有争议的 GitHub 数据重新分析，都不是对照检验。"
+  },
+  "evidence": {
+    "en": "Gao, Bird and Barr (2017) took real bugs from public JavaScript projects, added type annotations by hand, and checked whether Flow or TypeScript would have flagged them. Each detected 15%. At GitHub scale, Ray and colleagues (2014) reported small associations between language features, including typing, and defects across 729 projects. A 2019 reproduction by Berger and colleagues found flaws in that analysis, cut the languages with an association from 11 to 4, and called the practical effect size exceedingly small.",
+    "zh": "Gao、Bird 和 Barr（2017）从公开的 JavaScript 项目中取真实缺陷，手工加上类型标注，检查 Flow 或 TypeScript 能否报出：两者都检出了 15%。在 GitHub 规模上，Ray 等人（2014）在 729 个项目中发现语言特性（包括类型）与缺陷之间存在较小的关联。Berger 等人 2019 年的复现研究发现该分析有缺陷，把与缺陷相关的语言从 11 种减到 4 种，并称实际效应量极小。"
+  },
+  "caveats": {
+    "en": "The 15% is for one language and for bugs that were committed to public repositories, with annotations added after the fact. It ignores the cost of adding types and other benefits. The original GitHub authors dispute the reanalysis. Neither study is a controlled experiment.",
+    "zh": "15% 只针对一种语言，且是已提交到公开仓库的缺陷，类型标注是事后补上的；它没有计入加类型的成本和其他好处。GitHub 研究的原作者不同意重新分析的结论。两项研究都不是对照实验。"
+  },
+  "boss_line": {
+    "en": "One study found type checkers would have caught about 15% of real JavaScript bugs. That is worth having, but the GitHub-scale link between typing and fewer defects weakened on reanalysis. Let's adopt types for the bugs they catch, not for a promise of far fewer defects.",
+    "zh": "有一项研究发现，类型检查器能抓住约 15% 的真实 JavaScript 缺陷，这值得要；但 GitHub 规模上类型与缺陷更少之间的关联，经重新分析后变弱了。采用类型是为了它抓到的那些缺陷，而不是指望缺陷大幅减少。"
+  },
+  "change_my_mind": {
+    "en": "A preregistered study on production code, with a control group, showing that adding static types lowers defect rates, and an effect that holds on reanalysis.",
+    "zh": "一项在生产代码上、带对照组的预注册研究，显示加上静态类型能降低缺陷率，且重新分析后效应依然成立。"
+  },
+  "sources": [
+    {
+      "id": "gao2017",
+      "role": "primary",
+      "quotes": [
+        "15%"
+      ]
+    },
+    {
+      "id": "ray2014",
+      "role": "primary"
+    },
+    {
+      "id": "berger2019",
+      "role": "replication",
+      "quotes": [
+        "exceedingly small"
+      ]
+    }
+  ],
+  "verified_on": "2026-10-01"
+}

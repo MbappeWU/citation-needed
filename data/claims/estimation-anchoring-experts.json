@@ -28,10 +28,27 @@
     "zh": "在真实投标或排期场景中，对资深从业者做的预注册复现显示，无关的锚点不影响估算。"
   },
   "sources": [
-    { "id": "lohre2016", "role": "primary", "quotes": ["381"] },
-    { "id": "shepperd2018debias", "role": "primary", "quotes": ["410", "1.19", "0.72"] },
-    { "id": "aranda2005", "role": "context" },
-    { "id": "jorgensen2011irrelevant", "role": "context" }
+    {
+      "id": "lohre2016",
+      "role": "primary"
+    },
+    {
+      "id": "shepperd2018debias",
+      "role": "primary",
+      "quotes": [
+        "410",
+        "1.19",
+        "0.72"
+      ]
+    },
+    {
+      "id": "aranda2005",
+      "role": "context"
+    },
+    {
+      "id": "jorgensen2011irrelevant",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

@@ -17,13 +17,13 @@
 
 **局限.** 这里的生产率是人均产出或按项目规模折算，不是交付的价值。大团队的总产出仍可能更高。ISBSG 和 QSM 的数据来自自愿提供的企业。最佳规模取决于工作内容以及能否拆分。
 
-> **对老板可以这样说:** 工作小组和项目数据的研究表明，团队超过八九个人后，生产率会下降。但没有研究证明 5 到 9 人是最优区间，所以按工作量定团队规模，在能完成工作的前提下尽量小。
+> **对老板可以这样说:** Wheelan 对 329 个工作小组的研究和 ISBSG 项目数据都显示，团队到 9 人左右生产率明显下降；但两者都没有证明 5 到 9 人是最优区间。所以按工作量定团队规模，在能完成工作的前提下尽量小。
 
 **什么证据会让我改口.** 一项让不同规模的软件团队做可比工作、用同一口径衡量产出和质量的研究，清楚显示峰值在 5 到 9 人。
 
 **出处** (核对于 2026-10-01):
 
-1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
+1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
 2. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
 3. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
@@ -38,7 +38,7 @@
 
 **局限.** 仿真结果取决于建模假设。结果还取决于项目延期的原因、工作能否拆分，以及新人的上手方式。大团队数据也无法单独识别“后期加人”的影响。
 
-> **对老板可以这样说:** Brooks 本人也说这是过分简化。最知名的仿真里，后期加人总会推高成本，但不一定拖慢交付。所以先问清楚：新人接手什么工作，由谁带。
+> **对老板可以这样说:** Brooks 本人也说这是过分简化。在 Abdel-Hamid 和 Madnick 的仿真中，后期加人总会推高成本，但不一定拖慢交付。所以先问清楚：新人接手什么工作，由谁带。
 
 **什么证据会让我改口.** 一项针对真实项目的大型研究，在校正项目规模和延期原因后，一致显示后期加人会（或不会）造成交付延后。
 
@@ -60,14 +60,14 @@
 
 **局限.** 镜像是很强的倾向，不是定律：在以软件为主的开放协作项目中，56% 的描述性研究并不支持它。这些研究是观察性的，不能证明调整团队就会改变架构。
 
-> **对老板可以这样说:** 142 项研究的综述发现，约 70% 的产品会映射出开发它的组织的结构。所以划分团队边界也是在做架构决策。这是倾向而非定律，我们不妨先核对自己团队边界和模块边界是否一致。
+> **对老板可以这样说:** Colfer 和 Baldwin 综述了 142 项研究，约 70% 发现产品会映射出开发它的组织的结构。所以划分团队边界也是在做架构决策。这是倾向而非定律，我们不妨先核对自己团队边界和模块边界是否一致。
 
 **什么证据会让我改口.** 一项跨公司的大型软件项目研究显示，模块结构与团队结构无关，或调整团队后架构并未改变。
 
 **出处** (核对于 2026-10-01):
 
-1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
-2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
+1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
 3. Melvin E. Conway (1968). How Do Committees Invent?. Datamation 14(4). [link](https://www.melconway.com/Home/Committees_Paper.html) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
 ---
@@ -105,14 +105,14 @@
 
 **局限.** 多数证据是相关性的，无法区分是安全感带来好结果，还是好结果让人更有安全感。汇总的研究涉及各类工作，不只是软件。Google 没有公开 Aristotle 项目的数据，也没有外部团队复现过。
 
-> **对老板可以这样说:** 136 个样本的荟萃分析发现，心理安全感与绩效有中等程度的关联。它是真实存在的因素，但不是保证。“它是头号因素”的说法来自 Google 内部研究，数据并未公开。
+> **对老板可以这样说:** Frazier 等人对 136 个样本的荟萃分析发现，心理安全感与绩效有中等程度的关联。它是真实存在的因素，但不是保证。“它是头号因素”的说法来自 Google 内部研究，数据并未公开。
 
 **什么证据会让我改口.** 针对软件团队的追踪或实验研究显示，安全感提升后交付或质量没有变化；或汇总分析发现采用客观绩效数据时这种关联消失。
 
 **出处** (核对于 2026-10-01):
 
-1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
-2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
+1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
 3. Google re:Work (2015). Guide: Understand team effectiveness. Google re:Work, write-up of Project Aristotle. [link](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness/steps/introduction/) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
 ---
@@ -124,17 +124,17 @@
 
 **研究怎么说.** Teasley 等人（2002）研究了一家大公司里在专用团队房间集中办公的软件团队，报告其生产率更高、工期更短，优于基线项目。Herbsleb 和 Mockus（2003）分析了一家大公司的工作项（变更请求）：分散在多个站点完成的工作项，耗时约为同类单站点工作项的 2.5 倍。财富 500 强公司的自然实验（Emanuel、Harrington 和 Pallais）发现：坐在队友附近的工程师收到更多代码反馈，主要是资历较浅者，而经验丰富的工程师写的代码更少。
 
-**局限.** 每项研究只涉及一家公司，也没有研究随机安排座位。较早的研究用的是 2000 年前后的工具。较新的研究衡量的是反馈和代码量，不是交付日期。没有一项检验今天的远程工具或开放式座位。
+**局限.** 每项研究只涉及一家公司，也没有研究随机安排座位。较早的研究用的是 2000 年前后的工具。较新的研究衡量的是反馈和代码量，不是交付日期。没有一项直接检验远程工具或开放式座位。
 
-> **对老板可以这样说:** 早期现场研究发现同地工作完成得更快，其中一项里跨站点工作项耗时约为 2.5 倍。较新的研究发现，坐在队友附近让初级工程师得到更多反馈，而资深工程师写的代码更少。所以答案取决于谁坐在一起，以及我们怎么衡量“更快”。
+> **对老板可以这样说:** Teasley 以及 Herbsleb 和 Mockus 的现场研究发现同地工作完成得更快，其中一项里跨站点工作项耗时约为 2.5 倍。较新的研究发现，坐在队友附近的初级工程师得到更多反馈，而资深工程师写的代码更少。所以答案取决于谁坐在一起，以及我们怎么衡量。
 
 **什么证据会让我改口.** 一项使用当前工具、记录实际交付日期，对集中办公与分散办公的软件团队做随机或良好匹配比较的研究，显示稳定的提速或没有提速。
 
 **出处** (核对于 2026-10-01):
 
 1. S. Teasley, L. Covi, M. S. Krishnan, J. S. Olson (2002). Rapid software development through team collocation. IEEE Transactions on Software Engineering 28(7). [link](https://doi.org/10.1109/TSE.2002.1019481) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
-2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
-3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
+2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
 
 ---
 

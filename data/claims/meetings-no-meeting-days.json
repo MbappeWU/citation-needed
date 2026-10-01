@@ -8,8 +8,8 @@
   "verdict": "unknown",
   "grade": "C",
   "grade_why": {
-    "en": "Self-reported survey data plus one small randomized trial of a related intervention; no study measures output on meeting-free days.",
-    "zh": "只有自评问卷数据和一项相关干预的小型随机试验；没有研究测量过无会议日的实际产出。"
+    "en": "Self-reported survey data plus one small randomized trial of a related intervention; none of the cited studies measures output on meeting-free days.",
+    "zh": "只有自评问卷数据和一项相关干预的小型随机试验；所引研究都没有测量过无会议日的实际产出。"
   },
   "evidence": {
     "en": "The best-known figure is from a survey of 76 companies (Laker et al. 2022): productivity was reported 71% higher when meetings were cut by 40%. Those are perceptions, with no control group. The strongest controlled test is a randomized trial of 89 engineering and development workers at a large tech company (Das Swain et al. 2023). Two protected, notification-free hours a day raised self-rated performance, focus and job resources, but not measured coding time. A Microsoft report on No Meeting Fridays (435 employees) found 77% said it gave more focus time, and some said meetings piled onto other days.",

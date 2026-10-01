@@ -1,0 +1,40 @@
+{
+  "id": "practices-pair-programming",
+  "topic": "practices",
+  "claim": {
+    "en": "Pair programming improves code quality.",
+    "zh": "结对编程能提高代码质量。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "One meta-analysis of controlled experiments, with large differences between studies, signs of publication bias and mostly short tasks.",
+    "zh": "一项对照实验的荟萃分析，但各研究之间差异很大，有发表偏倚的迹象，而且多为短任务。"
+  },
+  "evidence": {
+    "en": "Hannay, Dybå, Arisholm and Sjøberg (2009) meta-analysed experiments that compared pairs with solo programmers. Pairing had a small positive effect on quality, a medium positive effect on duration (pairs finished sooner) and a medium negative effect on effort (more person-hours in total). Pairs were faster on simple tasks and wrote better code on complex tasks. The quality gain on complex tasks came with considerably longer duration, and the speed gain on simple tasks with considerably more effort. The authors concluded that pair programming is not uniformly beneficial.",
+    "zh": "Hannay、Dybå、Arisholm 和 Sjøberg（2009）对比较结对与单人编程的实验做了荟萃分析：结对对质量有小幅正面影响，对工期有中等程度的正面影响（结对完成得更快），对工作量有中等程度的负面影响（总人时更多）。简单任务上结对更快，复杂任务上结对写出的代码质量更高；但复杂任务上的质量提升以明显更长的工期为代价，简单任务上的速度提升以明显更多的工作量为代价。作者的结论是，结对编程并不是在所有情况下都有益。"
+  },
+  "caveats": {
+    "en": "Most experiments used short tasks, so they say little about months of real project work. Results differed a lot between studies, and the authors saw signs of publication bias. Effects depended on task complexity.",
+    "zh": "多数实验用的是短任务，说明不了几个月的真实项目工作。各研究的结果差异很大，作者还发现了发表偏倚的迹象。效果取决于任务的复杂程度。"
+  },
+  "boss_line": {
+    "en": "A meta-analysis of pair programming experiments found a small quality gain but more total person-hours. Let's pair on the hard, risky tasks, where the quality gain shows up, and not on everything.",
+    "zh": "对结对编程实验的荟萃分析发现，质量只有小幅提升，但总人时更多。我们把结对用在难度高、风险大的任务上，那里质量提升才明显，不必处处结对。"
+  },
+  "change_my_mind": {
+    "en": "A controlled study of professional teams pairing versus working solo on real project work for months, showing fewer escaped defects at similar total effort.",
+    "zh": "一项对专业团队的对照研究：在真实项目中连续数月比较结对与单人开发，结果显示在总工作量相近时，逃逸到线上的缺陷更少。"
+  },
+  "sources": [
+    {
+      "id": "hannay2009",
+      "role": "primary",
+      "quotes": [
+        "not uniformly beneficial"
+      ]
+    }
+  ],
+  "verified_on": "2026-10-01"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "practices-speed-incidents",
+  "topic": "practices",
+  "claim": {
+    "en": "Shipping faster means more incidents.",
+    "zh": "发布得越快，线上事故就越多。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "Consistent survey results plus one company's experience report, but the data are self-reported, correlational and vendor-run.",
+    "zh": "调查结果一致，另有一家公司的经验报告，但数据是自报的、只反映相关性，且由厂商运营。"
+  },
+  "evidence": {
+    "en": "DORA's annual surveys, summarised in Forsgren, Humble and Kim's Accelerate (2018), found that speed and stability moved together: teams that deployed more often and had shorter lead times also reported lower change failure rates and faster recovery. Google's SRE book reports that roughly 70% of outages are due to changes in a live system, and says progressive rollouts, fast detection and safe rollback raise release velocity and safety together. The link is not perfectly clean: in DORA's 2024 report the medium cluster had a lower change failure rate than the high cluster.",
+    "zh": "DORA 每年的调查（Forsgren、Humble 和 Kim 的《Accelerate》，2018 年，对此有总结）发现，速度与稳定性是同向变化的：部署更频繁、前置时间更短的团队，也报告了更低的变更失败率和更快的恢复。Google 的《站点可靠性工程》一书称，约 70% 的故障由对线上系统的变更引起，并称渐进式发布、快速发现和安全回滚能同时提高发布速度和安全性。这种关系并非完全一致：DORA 2024 年报告中，中等表现组的变更失败率低于高表现组。"
+  },
+  "caveats": {
+    "en": "DORA data are self-reported survey answers, show association only, and come from a program run by Google Cloud. Fast teams may already have strong tests and small changes, so speeding up alone may not copy their results. The 70% figure is one company's experience, not a study.",
+    "zh": "DORA 的数据是自报的问卷结果，只能说明相关，且来自 Google Cloud 运营的项目。发布快的团队可能本来就有可靠的测试和小改动，只提速未必能复制其结果。70% 是一家公司的经验，不是研究。"
+  },
+  "boss_line": {
+    "en": "DORA's surveys find that teams that ship more often also report fewer failed changes. Google's SRE book ties about 70% of outages to changes and says progressive rollouts and fast rollback raise velocity and safety together. Let's speed up in small batches and track our change failure rate.",
+    "zh": "DORA 的调查发现，发布更频繁的团队，变更失败反而更少。Google 的 SRE 书把约 70% 的故障归因于变更，并称渐进式发布和快速回滚能同时提高速度和安全性。我们小批量提速，并持续跟踪变更失败率。"
+  },
+  "change_my_mind": {
+    "en": "A before-and-after study of teams that sped up releases, with incidents counted the same way throughout, showing a lasting rise in incidents.",
+    "zh": "一项对提速发布的团队做前后对比的研究，全程用同一口径统计事故，显示事故持续增加。"
+  },
+  "sources": [
+    { "id": "forsgren2018accelerate", "role": "primary" },
+    { "id": "dora2024", "role": "primary" },
+    { "id": "beyer2016", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

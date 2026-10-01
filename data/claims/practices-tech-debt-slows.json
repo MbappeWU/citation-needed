@@ -1,0 +1,35 @@
+{
+  "id": "practices-tech-debt-slows",
+  "topic": "practices",
+  "claim": {
+    "en": "Technical debt slows teams down.",
+    "zh": "技术债会拖慢团队。"
+  },
+  "verdict": "supported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Two independent observational lines agree (39 codebases mined, 43 developers surveyed), but neither is experimental and one metric comes from the first author's company.",
+    "zh": "两条独立的观察性证据一致（挖掘了 39 个代码库，调查了 43 名开发者），但都不是实验，其中一项的指标来自第一作者所在的公司。"
+  },
+  "evidence": {
+    "en": "Tornhill and Borg (2022) mined 39 proprietary codebases (30,737 files) using a code quality metric, issue tracker data and version control history. Low-quality code had 15 times more defects than high-quality code, issues in it took on average 124% more time in development, and maximum cycle times were 9 times longer. In a survey of 43 developers, Besker, Martini and Bosch (2019) found that developers reported wasting 23% of their development time on average because of technical debt.",
+    "zh": "Tornhill 和 Borg（2022）用代码质量指标、问题单数据和版本控制历史，分析了 39 个闭源生产代码库（30,737 个文件）：低质量代码的缺陷是高质量代码的 15 倍，解决其中的问题平均多花 124% 的开发时间，最长周期时间是后者的 9 倍。在对 43 名开发者的调查中，Besker、Martini 和 Bosch（2019）发现，开发者平均自报有 23% 的开发时间因技术债而浪费。"
+  },
+  "caveats": {
+    "en": "Observational: low-quality code may also sit in the hardest parts of the system. The quality metric, Code Health, comes from the first author's company, and the 23% is self-reported. Neither study tests whether paying down debt restores speed.",
+    "zh": "这是观察性证据：低质量代码也可能恰好位于系统中最难的部分。质量指标 Code Health 来自第一作者所在的公司，23% 是自报数字。两项研究都没有检验还清技术债能否恢复开发速度。"
+  },
+  "boss_line": {
+    "en": "In a study of 39 codebases, issues in low-quality code took 124% more development time, and that code had 15 times more defects. Let's put a fixed slice of each sprint into our worst hotspots and track cycle time there.",
+    "zh": "在对 39 个代码库的研究中，低质量代码上的问题平均多花 124% 的开发时间，缺陷是高质量代码的 15 倍。我们每个迭代拨出固定比例的时间处理最差的热点，并跟踪那里的周期时间是否改善。"
+  },
+  "change_my_mind": {
+    "en": "A controlled or before-and-after study showing that refactoring low-quality code does not reduce delivery time or defects.",
+    "zh": "一项对照研究或前后对比研究，显示重构低质量代码并不能缩短交付时间或减少缺陷。"
+  },
+  "sources": [
+    { "id": "tornhill2022", "role": "primary", "quotes": ["15 times", "124%", "9 times"] },
+    { "id": "besker2019", "role": "primary" }
+  ],
+  "verified_on": "2026-10-01"
+}

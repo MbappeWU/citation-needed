@@ -28,10 +28,31 @@
     "zh": "有公开、经过独立审计的数据显示，按发起方的实际结果（而非最初估算）来定义，大约 70% 的 IT 项目确实失败。"
   },
   "sources": [
-    { "id": "eveleens2010", "role": "primary", "quotes": ["5,457", "1,211"] },
-    { "id": "jorgensen2006chaos", "role": "critique" },
-    { "id": "glass2006standish", "role": "critique" },
-    { "id": "standish1994", "role": "context" }
+    {
+      "id": "eveleens2010",
+      "role": "primary",
+      "quotes": [
+        "5,457",
+        "1,211"
+      ]
+    },
+    {
+      "id": "jorgensen2006chaos",
+      "role": "critique"
+    },
+    {
+      "id": "glass2006standish",
+      "role": "critique"
+    },
+    {
+      "id": "standish1994",
+      "role": "context"
+    }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "The 70% counts any gap from the original estimate as failure, and two peer-reviewed critiques call the figures misleading.",
+    "zh": "“70%”把任何偏离最初预估的项目都算作失败，两篇同行评审的批评认为这些数字有误导性。"
+  }
 }

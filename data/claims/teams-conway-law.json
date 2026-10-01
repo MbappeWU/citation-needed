@@ -20,17 +20,32 @@
     "zh": "镜像是很强的倾向，不是定律：在以软件为主的开放协作项目中，56% 的描述性研究并不支持它。这些研究是观察性的，不能证明调整团队就会改变架构。"
   },
   "boss_line": {
-    "en": "A review of 142 studies found that about 70% show products mirroring the structure of the organisation that built them. So team boundaries are architecture decisions too. It is a tendency, not a law, so let's check where our own team and module boundaries line up.",
-    "zh": "142 项研究的综述发现，约 70% 的产品会映射出开发它的组织的结构。所以划分团队边界也是在做架构决策。这是倾向而非定律，我们不妨先核对自己团队边界和模块边界是否一致。"
+    "en": "Colfer and Baldwin reviewed 142 studies, and about 70% found products mirroring the structure of the organisation that built them. So team boundaries are architecture decisions too. It is a tendency, not a law, so let's check where our own team and module boundaries line up.",
+    "zh": "Colfer 和 Baldwin 综述了 142 项研究，约 70% 发现产品会映射出开发它的组织的结构。所以划分团队边界也是在做架构决策。这是倾向而非定律，我们不妨先核对自己团队边界和模块边界是否一致。"
   },
   "change_my_mind": {
     "en": "A large cross-company study of software projects showing module structure unrelated to team structure, or showing that reorganising teams leaves the architecture unchanged.",
     "zh": "一项跨公司的大型软件项目研究显示，模块结构与团队结构无关，或调整团队后架构并未改变。"
   },
   "sources": [
-    { "id": "maccormack2012", "role": "primary" },
-    { "id": "colfer2016", "role": "primary" },
-    { "id": "conway1968", "role": "context" }
+    {
+      "id": "maccormack2012",
+      "role": "primary",
+      "quotes": [
+        "factor of eight"
+      ]
+    },
+    {
+      "id": "colfer2016",
+      "role": "primary",
+      "quotes": [
+        "142"
+      ]
+    },
+    {
+      "id": "conway1968",
+      "role": "context"
+    }
   ],
   "verified_on": "2026-10-01"
 }

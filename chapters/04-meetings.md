@@ -13,9 +13,9 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **✗ Not supported · Grade B** (Three designs (field observation, a lab experiment, programmer logs) fit together, and none measured a fixed 23-minute recovery, but each is small or indirect.)
 
-**What the research says.** The figure traces to Gloria Mark's field observation of 24 information workers (2005). Interrupted work was resumed after roughly 23 to 25 minutes on average, and people did about two other things first. That is time until return, not time to refocus. In a 2008 lab experiment with 48 participants, interrupted work was finished faster with no loss of quality, but with more stress, frustration and effort. A log study of 86 programmers found only 10% of sessions resumed coding within 1 minute of an interruption. Resuming is often slow, but no study supports a fixed 23-minute cost.
+**What the research says.** The figure traces to Gloria Mark's field observation of 24 information workers (2005). Interrupted work was resumed after roughly 23 to 25 minutes on average, and people did about two other things first. That is time until return, not time to refocus. In a 2008 lab experiment with 48 participants, interrupted work was finished faster with no loss of quality, but with more stress, frustration and effort. A log study of 86 programmers found only 10% of sessions resumed coding within 1 minute of an interruption. Resuming is often slow, but none of these studies supports a fixed 23-minute cost.
 
-**Limits.** The field study had 24 information workers, not only developers. The lab study used a short email task with 48 participants. The log study measured when editing resumed, not how well people worked. No study measured developers' recovery time directly, and sources quote the field average as both 23 and 25 minutes.
+**Limits.** The field study had 24 information workers, not only developers. The lab study used a short email task with 48 participants. The log study measured when editing resumed, not how well people worked. None of them measured developers' recovery time directly, and sources quote the field average as both 23 and 25 minutes.
 
 > **Say this to your boss:** The 23 minutes is how long people took on average to get back to interrupted work in one observation study, not how long they needed to refocus. Interruptions do cost something, so let's batch non-urgent pings instead of quoting a number.
 
@@ -25,7 +25,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 1. Gloria Mark, Victor M. Gonzalez, Justin Harris (2005). No task left behind? Examining the nature of fragmented work. CHI 2005. [link](https://doi.org/10.1145/1054972.1055017) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
 2. Gloria Mark, Daniela Gudith, Ulrich Klocke (2008). The cost of interrupted work: more speed and stress. CHI 2008. [link](https://doi.org/10.1145/1357054.1357072) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-3. Chris Parnin, Spencer Rugaber (2011). Resumption strategies for interrupted programming tasks. Software Quality Journal 19(1). [link](https://doi.org/10.1007/s11219-010-9104-9) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+3. Chris Parnin, Spencer Rugaber (2011). Resumption strategies for interrupted programming tasks. Software Quality Journal 19(1). [link](https://doi.org/10.1007/s11219-010-9104-9) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
 ---
 
@@ -36,7 +36,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **What the research says.** Microsoft's Human Factors Lab (2021) put 14 people in EEG caps for two sessions of four half-hour video meetings, one back-to-back and one with 10-minute breaks. Without breaks, beta-wave activity, a stress marker, rose across the meetings and spiked in the transitions between calls. With breaks it dropped back. A frontal alpha asymmetry measure of engagement was positive with breaks and negative without. These are brain-signal proxies in a short lab task, not measures of work output.
 
-**Limits.** The vendor ran the study and published it as a company article, not a peer-reviewed paper. With 14 participants it cannot show how large any effect is. The break condition also included meditation, so breaks and meditation are mixed together. It tested video meetings in a lab.
+**Limits.** The vendor ran the study and published it as a company article, not a peer-reviewed paper. With 14 participants it cannot show how large any effect is. The break condition included Headspace meditation, so breaks and meditation are mixed together. Participants were US-based remote information workers, not developers specifically.
 
 > **Say this to your boss:** The direct evidence is thin: a small Microsoft test (14 people) saw stress signals build across back-to-back video calls and reset with 10-minute breaks. Could we default to 25 or 50 minute meetings so there is a gap? It costs little to try.
 
@@ -73,11 +73,11 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 <a id="meetings-focus-blocks"></a>
 ### Developers need long uninterrupted blocks to be productive.
 
-**~ It depends · Grade C** (Consistent self-reports plus one small randomized trial with self-rated outcomes; no study ties block length to measured output.)
+**~ It depends · Grade C** (Large self-report surveys agree and one small randomized trial points the same way, but productivity is self-rated and none of the cited studies ties block length to measured output.)
 
-**What the research says.** Meyer et al. (2014) surveyed 379 professional developers and observed 11. Developers called a day productive when they finished many or big tasks without significant interruptions or context switches, yet the observed developers switched tasks often and still felt productive. A log study of 86 programmers (Parnin and Rugaber 2011) found only 10% of sessions resumed coding within a minute of an interruption. In a randomized trial of 89 developers (Das Swain et al. 2023), two protected hours a day raised self-rated performance and focus, but not measured coding time.
+**What the research says.** Meyer et al. (2014) surveyed 379 professional developers and observed 11: a productive day meant finishing many or big tasks without significant interruptions or context switches, yet the observed developers switched tasks often and still felt productive. In 5971 responses from Microsoft developers (Meyer et al. 2019), meetings and interruptions were unproductive only during development phases and constructive during planning, specification and release. A log study of 86 programmers found only 10% of sessions resumed coding within a minute of an interruption (Parnin and Rugaber 2011). In a randomized trial of 89 developers (Das Swain et al. 2023), two protected hours a day raised self-rated performance and focus, but not measured coding time.
 
-**Limits.** Productivity here is self-rated, and the trial's performance and focus effects were significant only at the 10% level. No study tests how long a block must be, so the half-day idea comes from essays such as Paul Graham's maker's schedule. A 2008 lab experiment found interrupted work was finished faster, at the cost of more stress.
+**Limits.** Productivity here is self-rated, and the trial's performance and focus effects were significant only at the 10% level. None of these studies tests how long a block must be, so the half-day idea comes from essays such as Paul Graham's maker's schedule. A 2008 lab experiment found interrupted work was finished faster, at the cost of more stress.
 
 > **Say this to your boss:** Developers say their best days have few interruptions, and a small trial of protected focus time raised self-rated performance. Nobody has shown how long a block must be, so let's protect a couple of hours a day and measure whether it helps.
 
@@ -86,16 +86,17 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 **Sources** (checked 2026-10-01):
 
 1. André N. Meyer, Thomas Fritz, Gail C. Murphy, Thomas Zimmermann (2014). Software developers' perceptions of productivity. FSE 2014. [link](https://doi.org/10.1145/2635868.2635892) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Chris Parnin, Spencer Rugaber (2011). Resumption strategies for interrupted programming tasks. Software Quality Journal 19(1). [link](https://doi.org/10.1007/s11219-010-9104-9) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-3. Vedant Das Swain, Javier Hernandez, Brian Houck, et al. (2023). Focused Time Saves Nine: Evaluating Computer-Assisted Protected Time for Hybrid Information Work. CHI 2023. [link](https://doi.org/10.1145/3544548.3581326) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-4. Gloria Mark, Daniela Gudith, Ulrich Klocke (2008). The cost of interrupted work: more speed and stress. CHI 2008. [link](https://doi.org/10.1145/1357054.1357072) <sub>✓ metadata checked (title, authors, year)</sub> (context)
+2. André N. Meyer, Earl T. Barr, Christian Bird, Thomas Zimmermann (2019). Today was a good day: The daily life of software developers. IEEE Transactions on Software Engineering. [link](https://www.microsoft.com/en-us/research/publication/today-was-a-good-day-the-daily-life-of-software-developers/) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
+3. Chris Parnin, Spencer Rugaber (2011). Resumption strategies for interrupted programming tasks. Software Quality Journal 19(1). [link](https://doi.org/10.1007/s11219-010-9104-9) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
+4. Vedant Das Swain, Javier Hernandez, Brian Houck, et al. (2023). Focused Time Saves Nine: Evaluating Computer-Assisted Protected Time for Hybrid Information Work. CHI 2023. [link](https://doi.org/10.1145/3544548.3581326) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+5. Gloria Mark, Daniela Gudith, Ulrich Klocke (2008). The cost of interrupted work: more speed and stress. CHI 2008. [link](https://doi.org/10.1145/1357054.1357072) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
 ---
 
 <a id="meetings-no-meeting-days"></a>
 ### Meeting-free days raise productivity.
 
-**? Unknown · Grade C** (Self-reported survey data plus one small randomized trial of a related intervention; no study measures output on meeting-free days.)
+**? Unknown · Grade C** (Self-reported survey data plus one small randomized trial of a related intervention; none of the cited studies measures output on meeting-free days.)
 
 **What the research says.** The best-known figure is from a survey of 76 companies (Laker et al. 2022): productivity was reported 71% higher when meetings were cut by 40%. Those are perceptions, with no control group. The strongest controlled test is a randomized trial of 89 engineering and development workers at a large tech company (Das Swain et al. 2023). Two protected, notification-free hours a day raised self-rated performance, focus and job resources, but not measured coding time. A Microsoft report on No Meeting Fridays (435 employees) found 77% said it gave more focus time, and some said meetings piled onto other days.
 
@@ -120,7 +121,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **What the research says.** Bernstein and Turban tracked staff with sociometric badges and message logs before and after two corporate headquarters moved to open plan (52 people at one firm, 100 at the other). Face-to-face interaction fell by about 70% in both, and electronic interaction rose. In a building occupant survey database (Kim and de Dear 2013, 28,630 responses from open-plan layouts), easier interaction was worth less than the noise and privacy lost. A 2023 systematic review of 46 empirical studies (Gerlitz and Hülsbeck) concluded that open plan tends to lower performance.
 
-**Limits.** The badge studies had no control group, short measurement windows and staff in departments such as sales, HR and finance, not software teams. Collaboration quality and output were not measured. Design matters: a 2020 field experiment at a technology company rated zoned open plan and team offices above plain open plan.
+**Limits.** The badge studies had no control group, short measurement windows and staff in departments such as sales, HR and finance, not software teams. They counted interactions, not the quality of collaboration or output. Design matters: a 2020 field experiment at a technology company rated zoned open plan and team offices above plain open plan.
 
 > **Say this to your boss:** A before-and-after study of two companies found face-to-face talk fell about 70% after they went open plan, while electronic messages rose. I would not justify an open floor by promising more collaboration.
 

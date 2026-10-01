@@ -24,7 +24,7 @@
     "year": 2011,
     "venue": "Software Quality Journal 19(1)",
     "doi": "10.1007/s11219-010-9104-9",
-    "verify": "abstract"
+    "verify": "metadata"
   },
   "bernsteinturban2018": {
     "kind": "paper",
@@ -142,5 +142,14 @@
     "venue": "FSE 2014",
     "doi": "10.1145/2635868.2635892",
     "verify": "abstract"
+  },
+  "meyer2019": {
+    "kind": "paper",
+    "title": "Today was a good day: The daily life of software developers",
+    "authors": "André N. Meyer, Earl T. Barr, Christian Bird, Thomas Zimmermann",
+    "year": 2019,
+    "venue": "IEEE Transactions on Software Engineering",
+    "url": "https://www.microsoft.com/en-us/research/publication/today-was-a-good-day-the-daily-life-of-software-developers/",
+    "verify": "manual"
   }
 }

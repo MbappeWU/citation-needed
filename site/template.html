@@ -44,9 +44,9 @@
   .tag { font: 400 17px/1.5 var(--serif); color: var(--muted); margin: 10px 0 0; max-width: 60ch; }
   .stats { font: 13px/1.5 var(--mono); color: var(--muted); margin: 10px 0 0; }
 
-  .tools { position: sticky; top: 0; z-index: 5; background: var(--paper); padding: 12px 0 10px; border-bottom: 1px solid var(--rule); margin-top: 14px; }
+  .tools { position: sticky; top: 0; z-index: 5; background: var(--paper); padding: 10px 0; border-bottom: 1px solid var(--rule); margin-top: 14px; }
   .search { width: 100%; font: 16px var(--sans); padding: 10px 14px; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); color: var(--ink); }
-  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
   .chip { border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 3px 11px; font-size: 13px; line-height: 1.6; }
   .chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
   .sep { width: 1px; background: var(--rule); margin: 2px 4px; }
@@ -55,8 +55,13 @@
   .topic-head { margin: 28px 0 6px; font: 600 12px/1.2 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
   .topic-blurb { margin: 0 0 8px; color: var(--muted); font-size: 14px; }
   .empty { padding: 40px 0; color: var(--muted); text-align: center; }
+  .start { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin: 8px 0 4px; }
+  .pick { text-align: left; background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 7px; }
+  .pick:hover { border-color: var(--ink); }
+  .pick strong { font: 600 16px/1.35 var(--serif); }
+  .pick span.hook { font-size: 13.5px; line-height: 1.5; color: var(--muted); }
 
-  article.claim { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; margin: 10px 0; scroll-margin-top: 190px; }
+  article.claim { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; margin: 10px 0; scroll-margin-top: 84px; }
   article.claim.open { border-color: var(--ink); }
   .head { display: block; width: 100%; text-align: left; background: none; border: 0; padding: 14px 16px 12px; }
   .head h3 { margin: 6px 0 0; font: 600 19px/1.35 var(--serif); }
@@ -88,6 +93,7 @@
   .dim { color: var(--muted); font-size: 13px; }
 
   .briefbar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--ink); color: var(--paper); padding: 10px 18px calc(10px + env(safe-area-inset-bottom, 0px)); display: flex; justify-content: center; }
+  .briefbar[hidden] { display: none; }
   .briefbar .in { width: 100%; max-width: 860px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
   .briefbar button { border: 0; border-radius: 999px; padding: 8px 16px; background: var(--paper); color: var(--ink); font-weight: 600; }
   .briefbar .clear { background: none; color: var(--paper); text-decoration: underline; padding: 8px 4px; font-weight: 400; }
@@ -137,8 +143,8 @@
 
 <div class="tools"><div class="wrap">
   <input class="search" id="q" type="search" autocomplete="off" aria-label="Search">
-  <div class="filters" id="filters"></div>
 </div></div>
+<div class="wrap"><div class="filters" id="filters"></div></div>
 
 <main class="wrap">
   <div class="list" id="list" aria-live="polite"></div>
@@ -154,8 +160,8 @@
   "use strict";
   var D = JSON.parse(document.getElementById("data").textContent);
   var STR = {
-    en: { tag: "What the research actually says about how software teams work. Every claim graded A, B or C, with primary sources and a sentence you can say to your boss.", search: "Search claims, studies, authors", all: "All", topics: "Topic", verdict: "Verdict", grade: "Grade", none: "No claim matches. Try fewer words.", evidence: "What the research says", limits: "Limits", boss: "Say this to your boss", change: "What would change my mind", sources: "Sources", add: "Add to brief", copy: "Copy", copied: "Copied", link: "Link", challenge: "Challenge this claim", checked: "checked", brief: "Brief for your boss", openBrief: "Open the brief", clear: "Clear", selected: function (n) { return n + " selected"; }, back: "Back", copymd: "Copy as Markdown", print: "Print or save as PDF", titleph: "What the research says about…", defTitle: "What the research says", compiled: "Compiled with Citation Needed, graded A/B/C. CC BY 4.0.", stats: function (c) { return c.total + " claims · grade A " + c.grade.A + ", B " + c.grade.B + ", C " + c.grade.C + " · " + c.verdict.supported + " hold up, " + c.verdict.mixed + " depend, " + c.verdict.unsupported + " do not, " + c.verdict.unknown + " unknown"; }, foot: "Text and data CC BY 4.0, code MIT. Sources are checked by CI against their abstracts. Found a mistake? Open an issue." },
-    zh: { tag: "软件团队怎么干活效率高，研究到底怎么说。每条说法标 A、B、C 证据等级，附一手出处，再配一句能直接对老板说的话。", search: "搜索说法、研究、作者", all: "全部", topics: "主题", verdict: "结论", grade: "证据", none: "没有匹配的说法，少输几个词试试。", evidence: "研究怎么说", limits: "局限", boss: "对老板可以这样说", change: "什么证据会让我改口", sources: "出处", add: "加入一页纸", copy: "复制", copied: "已复制", link: "链接", challenge: "反驳这条", checked: "核对于", brief: "给老板的一页纸", openBrief: "打开一页纸", clear: "清空", selected: function (n) { return "已选 " + n + " 条"; }, back: "返回", copymd: "复制为 Markdown", print: "打印或另存为 PDF", titleph: "关于……研究怎么说", defTitle: "研究怎么说", compiled: "由《出处呢》整理，证据分 A/B/C 三级。CC BY 4.0。", stats: function (c) { return c.total + " 条说法 · 证据 A " + c.grade.A + "、B " + c.grade.B + "、C " + c.grade.C + " · " + c.verdict.supported + " 条成立，" + c.verdict.mixed + " 条看情况，" + c.verdict.unsupported + " 条不成立，" + c.verdict.unknown + " 条证据不足"; }, foot: "文字与数据采用 CC BY 4.0，代码采用 MIT。出处由持续集成对照摘要自动核对。发现错误请开 issue。" }
+    en: { start: "Start here", tag: "What the research actually says about how software teams work. Every claim graded A, B or C, with primary sources and a sentence you can say to your boss.", search: "Search claims, studies, authors", all: "All", topics: "Topic", verdict: "Verdict", grade: "Grade", none: "No claim matches. Try fewer words.", evidence: "What the research says", limits: "Limits", boss: "Say this to your boss", change: "What would change my mind", sources: "Sources", add: "Add to brief", copy: "Copy", copied: "Copied", link: "Link", challenge: "Challenge this claim", checked: "checked", brief: "Brief for your boss", openBrief: "Open the brief", clear: "Clear", selected: function (n) { return n + " selected"; }, back: "Back", copymd: "Copy as Markdown", print: "Print or save as PDF", titleph: "What the research says about…", defTitle: "What the research says", compiled: "Compiled with Citation Needed, graded A/B/C. CC BY 4.0.", stats: function (c) { return c.total + " claims · grade A " + c.grade.A + ", B " + c.grade.B + ", C " + c.grade.C + " · " + c.verdict.supported + " hold up, " + c.verdict.mixed + " depend, " + c.verdict.unsupported + " do not, " + c.verdict.unknown + " unknown"; }, foot: "Text and data CC BY 4.0, code MIT. Sources are checked by CI against their abstracts. Found a mistake? Open an issue." },
+    zh: { start: "先看这几条", tag: "软件团队怎么干活效率高，研究到底怎么说。每条说法标 A、B、C 证据等级，附一手出处，再配一句能直接对老板说的话。", search: "搜索说法、研究、作者", all: "全部", topics: "主题", verdict: "结论", grade: "证据", none: "没有匹配的说法，少输几个词试试。", evidence: "研究怎么说", limits: "局限", boss: "对老板可以这样说", change: "什么证据会让我改口", sources: "出处", add: "加入一页纸", copy: "复制", copied: "已复制", link: "链接", challenge: "反驳这条", checked: "核对于", brief: "给老板的一页纸", openBrief: "打开一页纸", clear: "清空", selected: function (n) { return "已选 " + n + " 条"; }, back: "返回", copymd: "复制为 Markdown", print: "打印或另存为 PDF", titleph: "关于……研究怎么说", defTitle: "研究怎么说", compiled: "由《出处呢》整理，证据分 A/B/C 三级。CC BY 4.0。", stats: function (c) { return c.total + " 条说法 · 证据 A " + c.grade.A + "、B " + c.grade.B + "、C " + c.grade.C + " · " + c.verdict.supported + " 条成立，" + c.verdict.mixed + " 条看情况，" + c.verdict.unsupported + " 条不成立，" + c.verdict.unknown + " 条证据不足"; }, foot: "文字与数据采用 CC BY 4.0，代码采用 MIT。出处由持续集成对照摘要自动核对。发现错误请开 issue。" }
   };
   var store = {
     get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -224,8 +230,20 @@
     $("filters").innerHTML = h;
   }
 
+  function filtering() { return state.q.trim() !== "" || state.topic !== "all" || Object.keys(state.verdicts).length > 0 || Object.keys(state.grades).length > 0; }
+
+  function startHtml() {
+    var hs = D.claims.filter(function (c) { return c.headline && c.hook; });
+    if (!hs.length || filtering()) return "";
+    var h = '<div class="topic-head">' + T().start + '</div><div class="start">';
+    hs.forEach(function (c) {
+      h += '<button type="button" class="pick" data-open="' + c.id + '"><span class="chips">' + verdictChip(c) + gradeChip(c) + "</span><strong>" + esc(c.claim[state.lang]) + '</strong><span class="hook">' + esc(c.hook[state.lang]) + "</span></button>";
+    });
+    return h + "</div>";
+  }
+
   function renderList() {
-    var shown = D.claims.filter(matches), h = "", last = null;
+    var shown = D.claims.filter(matches), h = startHtml(), last = null;
     shown.forEach(function (c) {
       if (c.topic !== last) { last = c.topic; var tp = topicName[c.topic]; h += '<div class="topic-head">' + esc(tp.name[state.lang]) + '</div><p class="topic-blurb">' + esc(tp.blurb[state.lang]) + "</p>"; }
       h += claimHtml(c);
@@ -294,12 +312,13 @@
   }
 
   document.addEventListener("click", function (e) {
-    var el = e.target.closest("[data-lang],[data-topic],[data-verdict],[data-grade],[data-toggle],[data-copy],[data-act],[data-perma],#bopen,#bclear");
+    var el = e.target.closest("[data-lang],[data-topic],[data-verdict],[data-grade],[data-toggle],[data-copy],[data-act],[data-perma],[data-open],#bopen,#bclear");
     if (!el) return;
     if (el.hasAttribute("data-lang")) { state.lang = el.getAttribute("data-lang"); store.set("cn-lang", state.lang); render(); }
     else if (el.hasAttribute("data-topic")) { state.topic = el.getAttribute("data-topic"); renderFilters(); renderList(); }
     else if (el.hasAttribute("data-verdict")) { var v = el.getAttribute("data-verdict"); if (state.verdicts[v]) delete state.verdicts[v]; else state.verdicts[v] = true; renderFilters(); renderList(); }
     else if (el.hasAttribute("data-grade")) { var g = el.getAttribute("data-grade"); if (state.grades[g]) delete state.grades[g]; else state.grades[g] = true; renderFilters(); renderList(); }
+    else if (el.hasAttribute("data-open")) { var oid = el.getAttribute("data-open"); state.open = oid; renderList(); try { history.replaceState(null, "", "#" + oid); } catch (err) { /* ignore */ } var oel = document.getElementById(oid); if (oel) oel.scrollIntoView({ block: "start" }); }
     else if (el.hasAttribute("data-toggle")) { var id = el.getAttribute("data-toggle"); state.open = state.open === id ? null : id; renderList(); if (state.open) { try { history.replaceState(null, "", "#" + id); } catch (err) { /* ignore */ } } }
     else if (el.hasAttribute("data-copy")) { var c = claimById[el.getAttribute("data-copy")]; copy(c.boss_line[state.lang], el); }
     else if (el.hasAttribute("data-perma")) { e.preventDefault(); copy(location.href.split("#")[0] + "#" + el.getAttribute("data-perma"), null); }

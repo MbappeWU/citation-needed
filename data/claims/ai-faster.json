@@ -28,11 +28,40 @@
     "zh": "在真实公司工作中反复进行的随机试验显示，普通开发者使用当前工具没有提速，甚至变慢。"
   },
   "sources": [
-    { "id": "peng2023", "role": "primary", "quotes": ["55.8%"] },
-    { "id": "paradis2024", "role": "primary", "quotes": ["21%"] },
-    { "id": "cui2026", "role": "primary" },
-    { "id": "becker2025", "role": "critique" },
-    { "id": "shen2026skills", "role": "critique" }
+    {
+      "id": "peng2023",
+      "role": "primary",
+      "quotes": [
+        "55.8%"
+      ]
+    },
+    {
+      "id": "paradis2024",
+      "role": "primary",
+      "quotes": [
+        "21%"
+      ]
+    },
+    {
+      "id": "cui2026",
+      "role": "primary",
+      "quotes": [
+        "26.08"
+      ]
+    },
+    {
+      "id": "becker2025",
+      "role": "critique"
+    },
+    {
+      "id": "shen2026skills",
+      "role": "critique"
+    }
   ],
-  "verified_on": "2026-10-01"
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "Randomised trials found real but modest gains, such as about 21% less time at Google. Two trials found none.",
+    "zh": "随机试验发现提速确实存在但幅度不大，比如谷歌那项约省 21% 的时间；另有两项试验没发现提速。"
+  }
 }

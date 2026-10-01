@@ -1,0 +1,56 @@
+{
+  "id": "practices-code-review-bugs",
+  "topic": "practices",
+  "claim": {
+    "en": "Code review mainly finds bugs.",
+    "zh": "代码评审主要是用来发现缺陷的。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Three observational studies in industry, student and open-source settings agree, though they classify review findings rather than measure production defects.",
+    "zh": "工业界、学生和开源三种场景下的三项观察性研究结论一致，但它们是对评审发现做分类，而不是度量线上缺陷。"
+  },
+  "evidence": {
+    "en": "At Microsoft, Bacchelli and Bird (2013) classified 570 review comments: 78 (14%) were about defects and 165 (29%) were code improvements, and most defect comments were simple logic slips. Of 873 surveyed programmers, 383 (44%) ranked finding defects as their first reason for review. Mäntylä and Lassenius (2009) found that about 75% of the defects found in industrial and student reviews were evolvability (maintainability) issues and 25% were functional. Beller and colleagues (2014) found the same 75:25 split in over 1,400 changes in two open-source projects.",
+    "zh": "在微软，Bacchelli 和 Bird（2013）对 570 条评审评论做了分类：78 条（14%）与缺陷有关，165 条（29%）是代码改进，且多数缺陷评论只是简单的逻辑小错。在 873 名受访程序员中，383 人（44%）把发现缺陷列为做评审的首要原因。Mäntylä 和 Lassenius（2009）发现，在工业界和学生的评审中，发现的缺陷约 75% 是可演进性（可维护性）问题，25% 是功能缺陷。Beller 等人（2014）在两个开源项目的 1,400 多处改动中也得到同样的 75:25。"
+  },
+  "caveats": {
+    "en": "These studies classify what comments and fixes are about. They do not measure how many production defects reviews prevent. Reviews do find real bugs, and the mix may differ between teams. The studies date from 2009 to 2014.",
+    "zh": "这些研究只对评论和修改的内容做分类，没有度量评审避免了多少线上缺陷。评审确实会发现真实的缺陷，不同团队的构成可能不同。研究发表于 2009 到 2014 年。"
+  },
+  "boss_line": {
+    "en": "At Microsoft only 14% of review comments were about defects, and studies of other teams found about 75% of review findings were maintainability issues. Let's keep reviews for knowledge sharing and maintainability, and not rely on them as our main bug filter.",
+    "zh": "在微软，只有 14% 的评审评论与缺陷有关；对其他团队的研究发现，评审发现的问题约 75% 属于可维护性。评审要留着，用来共享知识和保持可维护性，但别把它当成主要的缺陷过滤器。"
+  },
+  "change_my_mind": {
+    "en": "A large, recent classification of review findings across many teams showing that most are functional defects.",
+    "zh": "近期对大量团队评审发现的大规模分类，显示其中多数是功能缺陷。"
+  },
+  "sources": [
+    {
+      "id": "bacchelli2013",
+      "role": "primary"
+    },
+    {
+      "id": "mantyla2009",
+      "role": "primary",
+      "quotes": [
+        "75 percent"
+      ]
+    },
+    {
+      "id": "beller2014",
+      "role": "replication",
+      "quotes": [
+        "75:25"
+      ]
+    }
+  ],
+  "verified_on": "2026-10-01",
+  "headline": true,
+  "hook": {
+    "en": "At Microsoft, 14% of code review comments were about defects. Studies of other teams found about 75% of findings concern maintainability.",
+    "zh": "在微软，只有 14% 的评审意见与缺陷有关；其他团队的研究发现，约 75% 的发现关乎可维护性。"
+  }
+}

@@ -28,8 +28,21 @@
     "zh": "在软件团队中独立复现，显示更长的会议里视频与当面的想法数量和创意程度相当；或者出现能缩小差距的视频形式。"
   },
   "sources": [
-    { "id": "brucks2022", "role": "primary" },
-    { "id": "lin2023", "role": "context", "quotes": ["20 million", "4 million"] }
+    {
+      "id": "brucks2022",
+      "role": "primary",
+      "quotes": [
+        "1,490"
+      ]
+    },
+    {
+      "id": "lin2023",
+      "role": "context",
+      "quotes": [
+        "20 million",
+        "4 million"
+      ]
+    }
   ],
   "verified_on": "2026-10-01"
 }

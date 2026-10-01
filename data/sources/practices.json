@@ -1,0 +1,146 @@
+{
+  "hannay2009": {
+    "kind": "paper",
+    "title": "The effectiveness of pair programming: A meta-analysis",
+    "authors": "Jo E. Hannay, Tore Dybå, Erik Arisholm, Dag I. K. Sjøberg",
+    "year": 2009,
+    "venue": "Information and Software Technology 51(7)",
+    "doi": "10.1016/j.infsof.2009.02.001",
+    "verify": "abstract"
+  },
+  "rafique2013": {
+    "kind": "paper",
+    "title": "The Effects of Test-Driven Development on External Quality and Productivity: A Meta-Analysis",
+    "authors": "Yahya Rafique, Vojislav B. Mišić",
+    "year": 2013,
+    "venue": "IEEE Transactions on Software Engineering 39(6)",
+    "doi": "10.1109/TSE.2012.28",
+    "verify": "abstract"
+  },
+  "fucci2017": {
+    "kind": "paper",
+    "title": "A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?",
+    "authors": "Davide Fucci, Hakan Erdogmus, Burak Turhan, Markku Oivo, Natalia Juristo",
+    "year": 2017,
+    "venue": "IEEE Transactions on Software Engineering 43(7)",
+    "doi": "10.1109/TSE.2016.2616877",
+    "verify": "abstract"
+  },
+  "bacchelli2013": {
+    "kind": "paper",
+    "title": "Expectations, outcomes, and challenges of modern code review",
+    "authors": "Alberto Bacchelli, Christian Bird",
+    "year": 2013,
+    "venue": "ICSE 2013",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICSE202013-codereview.pdf",
+    "verify": "manual"
+  },
+  "mantyla2009": {
+    "kind": "paper",
+    "title": "What Types of Defects Are Really Discovered in Code Reviews?",
+    "authors": "Mika V. Mäntylä, Casper Lassenius",
+    "year": 2009,
+    "venue": "IEEE Transactions on Software Engineering 35(3)",
+    "doi": "10.1109/TSE.2008.71",
+    "verify": "abstract"
+  },
+  "beller2014": {
+    "kind": "paper",
+    "title": "Modern code reviews in open-source projects: which problems do they fix?",
+    "authors": "Moritz Beller, Alberto Bacchelli, Andy Zaidman, Elmar Juergens",
+    "year": 2014,
+    "venue": "MSR 2014",
+    "doi": "10.1145/2597073.2597082",
+    "verify": "abstract"
+  },
+  "gao2017": {
+    "kind": "paper",
+    "title": "To Type or Not to Type: Quantifying Detectable Bugs in JavaScript",
+    "authors": "Zheng Gao, Christian Bird, Earl T. Barr",
+    "year": 2017,
+    "venue": "ICSE 2017",
+    "doi": "10.1109/ICSE.2017.75",
+    "verify": "abstract"
+  },
+  "ray2014": {
+    "kind": "paper",
+    "title": "A Large Scale Study of Programming Languages and Code Quality in Github",
+    "authors": "Baishakhi Ray, Daryl Posnett, Vladimir Filkov, Premkumar Devanbu",
+    "year": 2014,
+    "venue": "FSE 2014",
+    "doi": "10.1145/2635868.2635922",
+    "verify": "metadata"
+  },
+  "berger2019": {
+    "kind": "paper",
+    "title": "On the Impact of Programming Languages on Code Quality: A Reproduction Study",
+    "authors": "Emery D. Berger, Celeste Hollenbeck, Petr Maj, Olga Vitek, Jan Vitek",
+    "year": 2019,
+    "venue": "ACM Transactions on Programming Languages and Systems 41(4)",
+    "doi": "10.1145/3340571",
+    "verify": "abstract"
+  },
+  "tornhill2022": {
+    "kind": "paper",
+    "title": "Code Red: The Business Impact of Code Quality - A Quantitative Study of 39 Proprietary Production Codebases",
+    "authors": "Adam Tornhill, Markus Borg",
+    "year": 2022,
+    "venue": "TechDebt 2022",
+    "arxiv": "2203.04374",
+    "verify": "abstract"
+  },
+  "besker2019": {
+    "kind": "paper",
+    "title": "Software developer productivity loss due to technical debt: A replication and extension study examining developers' development work",
+    "authors": "Terese Besker, Antonio Martini, Jan Bosch",
+    "year": 2019,
+    "venue": "Journal of Systems and Software 156",
+    "url": "https://research.chalmers.se/publication/511450/file/511450_Fulltext.pdf",
+    "verify": "manual"
+  },
+  "sackman1968": {
+    "kind": "paper",
+    "title": "Exploratory experimental studies comparing online and offline programming performance",
+    "authors": "H. Sackman, W. J. Erikson, E. E. Grant",
+    "year": 1968,
+    "venue": "Communications of the ACM 11(1)",
+    "doi": "10.1145/362851.362858",
+    "verify": "metadata"
+  },
+  "prechelt1999": {
+    "kind": "report",
+    "title": "The 28:1 Grant/Sackman legend is misleading, or: How large is interpersonal variation really?",
+    "authors": "Lutz Prechelt",
+    "year": 1999,
+    "venue": "Technical Report 1999-18",
+    "url": "https://page.mi.fu-berlin.de/prechelt/Biblio/varianceTR.pdf",
+    "verify": "manual"
+  },
+  "serrador2015": {
+    "kind": "paper",
+    "title": "Does Agile work? A quantitative analysis of agile project success",
+    "authors": "Pedro Serrador, Jeffrey K. Pinto",
+    "year": 2015,
+    "venue": "International Journal of Project Management 33(5)",
+    "url": "https://pure.psu.edu/en/publications/does-agile-work-a-quantitative-analysis-of-agile-project-success/",
+    "verify": "manual"
+  },
+  "dyba2008": {
+    "kind": "paper",
+    "title": "Empirical studies of agile software development: A systematic review",
+    "authors": "Tore Dybå, Torgeir Dingsøyr",
+    "year": 2008,
+    "venue": "Information and Software Technology 50(9-10)",
+    "doi": "10.1016/j.infsof.2008.01.006",
+    "verify": "abstract"
+  },
+  "beyer2016": {
+    "kind": "book",
+    "title": "Site Reliability Engineering: How Google Runs Production Systems",
+    "authors": "Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy",
+    "year": 2016,
+    "venue": "O'Reilly Media",
+    "url": "https://sre.google/sre-book/introduction/",
+    "verify": "manual"
+  }
+}

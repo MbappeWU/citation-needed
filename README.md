@@ -10,9 +10,29 @@
 
 **Every argument about how software teams work, with the receipts.**
 
-Does overtime get more done? Do AI coding tools really make teams faster? Is remote work less productive? Why does output per person fall when a team doubles? This repo checks the research behind those arguments: **50 claims, each with a verdict, an A/B/C evidence grade, primary sources, and one sentence you can say to your boss.**
+Does overtime get more done? Do AI coding tools really make teams faster? Is remote work less productive? Why does output per person fall when a team doubles? This repo checks the research behind those arguments: **58 claims, each with a verdict, an A/B/C evidence grade, primary sources, and one sentence you can say to your boss.**
 
-3 hold up, 21 depend on context, 23 do not hold up, 3 have no good evidence either way. Evidence grades: 0 A, 21 B, 29 C.
+4 hold up, 26 depend on context, 24 do not hold up, 4 have no good evidence either way. Evidence grades: 0 A, 26 B, 32 C. None earns an A: almost all research on software teams is observational, which is itself a finding.
+
+> **How this was made:** drafted with AI assistance, every source looked up by CI, every figure that appears in an abstract machine-checked, figures in full texts not. If we got something wrong, [challenge it](#challenge-a-claim). Details in [How sources are checked](#how-sources-are-checked).
+
+## Start here
+
+| Claim | What the evidence says | Verdict · Grade |
+|---|---|---|
+| [AI coding tools make developers faster.](chapters/01-ai.md#ai-faster) | Randomised trials found real but modest gains, such as about 21% less time at Google. Two trials found none. | ✓ Supported · B |
+| [Developers can tell whether AI is speeding them up.](chapters/01-ai.md#ai-self-estimate) | In METR's trial, developers believed AI saved them 20% of their time. The clock said it cost them 19%. | ✗ Not supported · C |
+| [Working longer hours gets more done.](chapters/03-hours.md#hours-more-output) | In the best-known study, output rose ever more slowly once weekly hours passed a threshold. | ~ It depends · B |
+| [It takes 23 minutes to recover from every interruption.](chapters/04-meetings.md#meetings-23-minutes) | The 23 minutes is how long people took to return to the task in one 24-person study, not how long they needed to refocus. | ✗ Not supported · B |
+| [Open-plan offices increase collaboration.](chapters/04-meetings.md#meetings-open-plan-collaboration) | After two firms moved to open plan, face-to-face talk fell by about 70% and electronic messages rose. | ✗ Not supported · B |
+| [Working from home lowers productivity.](chapters/05-remote.md#remote-wfh-productivity) | Two randomised trials found a gain or no loss. A pandemic-era study of IT staff found output per hour fell 8 to 19%. | ~ It depends · B |
+| [70% of IT projects fail.](chapters/06-estimation.md#estimation-chaos-failure-rate) | The 70% counts any gap from the original estimate as failure, and two peer-reviewed critiques call the figures misleading. | ✗ Not supported · B |
+| [10x programmers exist: some developers are ten times as productive as their peers.](chapters/07-practices.md#practices-10x-programmer) | The 28:1 gap behind the 10x idea comes from 1960s lab studies, and a later reanalysis called it incorrect and misleading. | ? Unknown · C |
+| [Code review mainly finds bugs.](chapters/07-practices.md#practices-code-review-bugs) | At Microsoft, 14% of code review comments were about defects. Studies of other teams found about 75% of findings concern maintainability. | ✗ Not supported · B |
+| [Adding people to a late project makes it later.](chapters/08-teams.md#teams-brooks-law) | Brooks called it an oversimplification. In the best-known simulation, late hires always raised cost but did not always delay delivery. | ~ It depends · C |
+| [A gut-feel interview is a good way to hire.](chapters/09-people.md#people-gut-interview) | A 2022 meta-analysis puts structured interviews at .42 and unstructured ones at .19 for predicting job performance. | ✗ Not supported · B |
+
+<p align="center"><img src="assets/demo.gif" alt="Demo of the web reader: search, open a claim, add it to a one-page brief" width="760"></p>
 
 ## Use it
 
@@ -101,6 +121,21 @@ Why plans slip, and which failure statistics you should not repeat.
 | [IT projects overrun by a predictable margin, so a fixed buffer is enough.](chapters/06-estimation.md#estimation-overrun-margin) | ✗ Not supported | C |
 | [Tight deadlines make teams more productive.](chapters/06-estimation.md#estimation-tight-deadlines) | ~ It depends | B |
 
+### [Engineering practices](chapters/07-practices.md)
+
+Pair programming, TDD, code review, types, technical debt.
+
+| Claim | Verdict | Grade |
+|---|---|---|
+| [10x programmers exist: some developers are ten times as productive as their peers.](chapters/07-practices.md#practices-10x-programmer) | ? Unknown | C |
+| [Agile projects succeed more often than waterfall projects.](chapters/07-practices.md#practices-agile-succeeds) | ~ It depends | C |
+| [Code review mainly finds bugs.](chapters/07-practices.md#practices-code-review-bugs) | ✗ Not supported | B |
+| [Pair programming improves code quality.](chapters/07-practices.md#practices-pair-programming) | ~ It depends | B |
+| [Shipping faster means more incidents.](chapters/07-practices.md#practices-speed-incidents) | ~ It depends | C |
+| [Static typing prevents bugs.](chapters/07-practices.md#practices-static-typing-bugs) | ~ It depends | B |
+| [Test-driven development reduces defects.](chapters/07-practices.md#practices-tdd-defects) | ~ It depends | B |
+| [Technical debt slows teams down.](chapters/07-practices.md#practices-tech-debt-slows) | ✓ Supported | B |
+
 ### [Team size and structure](chapters/08-teams.md)
 
 Brooks's law, Conway's law, psychological safety.
@@ -138,9 +173,9 @@ The grade measures **how strong the evidence is behind the verdict**, not whethe
 
 ## How sources are checked
 
-There are 108 sources. Each one is looked up online by CI: **36** have their title, authors, year and every quoted number checked against the abstract; **45** have their metadata checked; **27** are books or reports where only the link can be checked. The check runs weekly and on every pull request, and fails when something does not match.
+There are 125 sources, and CI looks every one of them up online: **54** (✓✓) have their title, authors, year and every quoted figure checked against the abstract; **40** (✓) have their metadata checked; **31** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.
 
-No number is written from memory: every figure in the text traces to a source. CI can only read abstracts, so finer details in the full text still need a human who has read the paper, which is why each claim carries the date it was last checked. If you find a mistake, open an issue.
+**What this does not cover:** CI reads abstracts, not full texts. A figure that appears in an abstract is machine-checked; a figure from the body of a paper, a report or a book is not, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.
 
 ## Challenge a claim
 

@@ -85,7 +85,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
+1. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
 2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
 
 ---
@@ -105,7 +105,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Melanie S. Brucks, Jonathan Levav (2022). Virtual communication curbs creative idea generation. Nature 605. [link](https://doi.org/10.1038/s41586-022-04643-y) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
+1. Melanie S. Brucks, Jonathan Levav (2022). Virtual communication curbs creative idea generation. Nature 605. [link](https://doi.org/10.1038/s41586-022-04643-y) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
 2. Yiling Lin, Carl Benedikt Frey, Lingfei Wu (2023). Remote collaboration fuses fewer breakthrough ideas. Nature 623. [link](https://doi.org/10.1038/s41586-023-06767-1) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
 
 ---
