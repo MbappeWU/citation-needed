@@ -1,0 +1,146 @@
+{
+  "mark2005": {
+    "kind": "paper",
+    "title": "No task left behind? Examining the nature of fragmented work",
+    "authors": "Gloria Mark, Victor M. Gonzalez, Justin Harris",
+    "year": 2005,
+    "venue": "CHI 2005",
+    "doi": "10.1145/1054972.1055017",
+    "verify": "abstract"
+  },
+  "mark2008": {
+    "kind": "paper",
+    "title": "The cost of interrupted work: more speed and stress",
+    "authors": "Gloria Mark, Daniela Gudith, Ulrich Klocke",
+    "year": 2008,
+    "venue": "CHI 2008",
+    "doi": "10.1145/1357054.1357072",
+    "verify": "metadata"
+  },
+  "parnin2011": {
+    "kind": "paper",
+    "title": "Resumption strategies for interrupted programming tasks",
+    "authors": "Chris Parnin, Spencer Rugaber",
+    "year": 2011,
+    "venue": "Software Quality Journal 19(1)",
+    "doi": "10.1007/s11219-010-9104-9",
+    "verify": "abstract"
+  },
+  "bernsteinturban2018": {
+    "kind": "paper",
+    "title": "The impact of the ‘open’ workspace on human collaboration",
+    "authors": "Ethan S. Bernstein, Stephen Turban",
+    "year": 2018,
+    "venue": "Philosophical Transactions of the Royal Society B 373",
+    "doi": "10.1098/rstb.2017.0239",
+    "verify": "abstract"
+  },
+  "kimdedear2013": {
+    "kind": "paper",
+    "title": "Workspace satisfaction: The privacy-communication trade-off in open-plan offices",
+    "authors": "Jungsoo Kim, Richard de Dear",
+    "year": 2013,
+    "venue": "Journal of Environmental Psychology 36",
+    "url": "https://researchers.mq.edu.au/en/publications/workspace-satisfaction-the-privacy-communication-trade-off-inopen/",
+    "verify": "manual"
+  },
+  "gerlitz2023": {
+    "kind": "paper",
+    "title": "The productivity tax of new office concepts: a comparative review of open-plan offices, activity-based working, and single-office concepts",
+    "authors": "Andrea Gerlitz, Marcel Hülsbeck",
+    "year": 2023,
+    "venue": "Management Review Quarterly",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9815683/",
+    "verify": "manual"
+  },
+  "pitchforth2020": {
+    "kind": "paper",
+    "title": "The work environment pilot: An experiment to determine the optimal office design for a technology company",
+    "authors": "Jegar Pitchforth, Elizabeth Nelson-White, Marc van den Helder, Wouter Oosting",
+    "year": 2020,
+    "venue": "PLOS ONE 15(5)",
+    "doi": "10.1371/journal.pone.0232943",
+    "verify": "metadata"
+  },
+  "laker2022": {
+    "kind": "article",
+    "title": "The Surprising Impact of Meeting-Free Days",
+    "authors": "Benjamin Laker, Vijay Pereira, Pawan Budhwar, Ashish Malik",
+    "year": 2022,
+    "venue": "MIT Sloan Management Review 63(2)",
+    "url": "https://sloanreview.mit.edu/article/the-surprising-impact-of-meeting-free-days/",
+    "verify": "manual"
+  },
+  "dasswain2023": {
+    "kind": "paper",
+    "title": "Focused Time Saves Nine: Evaluating Computer-Assisted Protected Time for Hybrid Information Work",
+    "authors": "Vedant Das Swain, Javier Hernandez, Brian Houck, et al.",
+    "year": 2023,
+    "venue": "CHI 2023",
+    "doi": "10.1145/3544548.3581326",
+    "verify": "abstract"
+  },
+  "nfw2022": {
+    "kind": "report",
+    "title": "Microsoft New Future of Work Report 2022",
+    "authors": "Jaime Teevan, Nancy Baym, Jenna Butler, et al. (eds.)",
+    "year": 2022,
+    "venue": "Microsoft Research Tech Report MSR-TR-2022-3",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2022/04/Microsoft-New-Future-Of-Work-Report-2022.pdf",
+    "verify": "manual"
+  },
+  "stray2016": {
+    "kind": "paper",
+    "title": "The daily stand-up meeting: A grounded theory study",
+    "authors": "Viktoria Stray, Dag I. K. Sjøberg, Tore Dybå",
+    "year": 2016,
+    "venue": "Journal of Systems and Software 114",
+    "doi": "10.1016/j.jss.2016.01.004",
+    "verify": "metadata"
+  },
+  "stray2017": {
+    "kind": "paper",
+    "title": "Are daily stand-up meetings valuable? A survey of developers in software teams",
+    "authors": "Viktoria Stray, Nils Brede Moe, Gunnar R. Bergersen",
+    "year": 2017,
+    "venue": "XP 2017, Lecture Notes in Business Information Processing 283",
+    "doi": "10.1007/978-3-319-57633-6_20",
+    "verify": "metadata"
+  },
+  "stray2020": {
+    "kind": "paper",
+    "title": "Daily stand-up meetings: Start breaking the rules",
+    "authors": "Viktoria Stray, Nils Brede Moe, Dag I. K. Sjøberg",
+    "year": 2018,
+    "venue": "IEEE Software 37(3), 2020",
+    "arxiv": "1808.07650",
+    "verify": "abstract"
+  },
+  "rietze2025": {
+    "kind": "paper",
+    "title": "Relations between daily stand-up meetings, work satisfaction, and team performance perceptions: the role of psychological safety",
+    "authors": "Sarah Rietze, Hannes Zacher",
+    "year": 2025,
+    "venue": "European Journal of Work and Organizational Psychology 34(5)",
+    "doi": "10.1080/1359432X.2025.2508178",
+    "verify": "abstract"
+  },
+  "microsoft2021brain": {
+    "kind": "report",
+    "title": "Research Proves Your Brain Needs Breaks",
+    "authors": "Microsoft Human Factors Lab",
+    "year": 2021,
+    "venue": "Microsoft WorkLab",
+    "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/brain-research",
+    "verify": "manual"
+  },
+  "meyer2014": {
+    "kind": "paper",
+    "title": "Software developers' perceptions of productivity",
+    "authors": "André N. Meyer, Thomas Fritz, Gail C. Murphy, Thomas Zimmermann",
+    "year": 2014,
+    "venue": "FSE 2014",
+    "doi": "10.1145/2635868.2635892",
+    "verify": "abstract"
+  }
+}

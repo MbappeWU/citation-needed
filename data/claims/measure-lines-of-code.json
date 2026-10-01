@@ -1,0 +1,36 @@
+{
+  "id": "measure-lines-of-code",
+  "topic": "measure",
+  "claim": {
+    "en": "Lines of code are a fair measure of developer productivity.",
+    "zh": "代码行数是衡量开发者效能的合理指标。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "A systematic review and one cross-language comparison agree, but this is mostly a measurement critique, and we found no test of line-count targets in practice.",
+    "zh": "系统综述与一项跨语言对比的结论一致，但主要是对度量方法的批评，我们没有找到在实践中检验以代码行数为目标的研究。"
+  },
+  "evidence": {
+    "en": "Petersen's systematic map and review of 38 studies on software productivity reported problems with simple output-over-effort ratios, for both lines of code and function points. Prechelt compared 80 implementations of one program in seven languages: the Perl, Python, Rexx and Tcl versions were about half as long as the C, C++ and Java versions. The authors of Accelerate argue that rewarding lines of code produces bloated software with higher maintenance and change costs.",
+    "zh": "Petersen 对 38 项软件效能度量研究做了系统综述，指出“产出除以投入”这类简单比值存在问题，代码行数和功能点都不例外。Prechelt 对比了同一程序在七种语言下的 80 份实现：Perl、Python、Rexx、Tcl 的版本长度约为 C、C++、Java 版本的一半。《Accelerate》的作者认为，按代码行数奖励会得到臃肿的软件，维护和变更成本更高。"
+  },
+  "caveats": {
+    "en": "Prechelt's programmers were not randomly assigned to languages, and the data are from 2000. Petersen reviews problems with the measure; it does not test line-count targets in real teams.",
+    "zh": "Prechelt 研究中的程序员不是随机分配到各语言的，数据来自 2000 年。Petersen 梳理的是度量本身的问题，并未在真实团队中检验以行数为目标的效果。"
+  },
+  "boss_line": {
+    "en": "Line counts mostly reflect language and style. In one study the same program came out about half as long in Perl, Python, Rexx or Tcl as in C, C++ or Java, so ranking people by lines ranks their tools.",
+    "zh": "代码行数主要反映语言和写法。有研究让人用七种语言写同一个程序，Perl、Python、Rexx、Tcl 的版本约为 C、C++、Java 的一半长，按行数给人排名，等于给工具排名。"
+  },
+  "change_my_mind": {
+    "en": "A study in one language and codebase linking developers' line counts to independent quality and delivery outcomes, and showing the link holds once counts become a target.",
+    "zh": "有研究在同一种语言、同一个代码库里，证明个人代码行数与独立的质量和交付结果相关，且在行数成为考核目标后这种相关依然成立。"
+  },
+  "sources": [
+    { "id": "petersen2011", "role": "primary", "quotes": ["38"] },
+    { "id": "prechelt2000", "role": "primary" },
+    { "id": "forsgren2018accelerate", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "people-gut-interview",
+  "topic": "people",
+  "claim": {
+    "en": "A gut-feel interview is a good way to hire.",
+    "zh": "凭感觉聊一聊的面试，是招人的好办法。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Two meta-analyses, 24 years apart, agree that structured interviews beat unstructured ones. Both are correlational, and the outcome is usually a supervisor's rating.",
+    "zh": "相隔 24 年的两项荟萃分析一致认为结构化面试优于非结构化面试，但都是相关性研究，结果指标通常是上级评分。"
+  },
+  "evidence": {
+    "en": "Sackett and colleagues (2022) re-estimated how well hiring methods predict later job performance, as a correlation. Structured interviews (same questions for everyone, scored with a rubric) came out at .42 and unstructured interviews at .19. The older review by Schmidt and Hunter (1998) gave .51 and .38. Both reviews put structured ahead, and the newer one widens the gap.",
+    "zh": "Sackett 等人（2022）重新估算了各种招聘方法对日后工作表现的预测力，用相关系数表示。结构化面试（每人问同样的问题，并按评分标准打分）为 .42，非结构化面试为 .19。更早的 Schmidt 和 Hunter（1998）综述给出的数字是 .51 和 .38。两次估算都是结构化面试领先，新的估算还拉大了差距。"
+  },
+  "caveats": {
+    "en": "These are averages across many jobs, not only software, and the outcome is usually a supervisor's rating, which is noisy. A validity of .19 is low but not zero. Estimates depend on statistical corrections for range restriction, which is what Sackett et al. revised.",
+    "zh": "这些数字是多种职业的平均值，不只针对软件行业，结果指标通常是上级评分，本身噪声较大。.19 虽低但不是零。估计值取决于对范围限制的统计校正，这正是 Sackett 等人修订的部分。"
+  },
+  "boss_line": {
+    "en": "In a 2022 meta-analysis, structured interviews predict job performance at .42 and unstructured ones at .19. Let's use the same questions and a scoring rubric for every candidate.",
+    "zh": "2022 年的荟萃分析里，结构化面试对工作表现的预测力是 .42，非结构化面试只有 .19。建议每位候选人都问同样的问题，并按评分标准打分。"
+  },
+  "change_my_mind": {
+    "en": "A large study of software hiring showing that interviewers' unstructured overall impressions predict later performance as well as a scored structured interview does.",
+    "zh": "针对软件行业招聘的大样本研究显示，面试官的非结构化整体印象对日后表现的预测力，不亚于有评分标准的结构化面试。"
+  },
+  "sources": [
+    { "id": "sackett2022", "role": "primary" },
+    { "id": "schmidt1998", "role": "primary" }
+  ],
+  "verified_on": "2026-10-01"
+}

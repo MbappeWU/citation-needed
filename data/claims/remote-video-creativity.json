@@ -1,0 +1,35 @@
+{
+  "id": "remote-video-creativity",
+  "topic": "remote",
+  "claim": {
+    "en": "Video calls are as good as meeting in person for creative work.",
+    "zh": "创意工作用视频会议和当面开会效果一样好。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Randomised lab and field experiments agree, and an observational study points the same way, but the experiments test short idea-generation tasks.",
+    "zh": "随机的实验室实验和现场实验结论一致，另有一项观察性研究方向相同，但实验测试的都是较短的创意生成任务。"
+  },
+  "evidence": {
+    "en": "Brucks and Levav randomised pairs to brainstorm on video or in the same room, in a lab study (602 people) and a field experiment with 1,490 engineers at a multinational firm in five countries. Pairs on video generated fewer ideas, and fewer creative ones. The authors link this to the narrower visual focus on a screen. When pairs chose which idea to pursue, video groups did no worse. A separate study of 20 million papers and 4 million patents found that teams spread across locations were less likely to produce breakthroughs.",
+    "zh": "Brucks 和 Levav 把两人一组随机分配到视频或同一房间里头脑风暴：一项是实验室研究（602 人），另一项是现场实验（5 个国家一家跨国公司的 1,490 名工程师）。视频组产生的想法更少，有创意的想法也更少；作者认为这与屏幕缩小了视觉焦点有关。在选择哪个想法继续推进时，视频组并不更差。另一项对 2,000 万篇论文和 400 万项专利的分析发现，分散在不同地点的团队更少做出突破性成果。"
+  },
+  "caveats": {
+    "en": "The tasks were short pair brainstorms, not weeks of design or coding. The field participants were engineers at one firm. The study cannot say whether longer sessions or better tools close the gap. The papers and patents study compares teams in different locations, not video calls.",
+    "zh": "任务是时间很短的两人头脑风暴，不是持续数周的设计或编码工作。现场参与者是一家公司的工程师。研究不能说明更长的会议或更好的工具能否缩小差距。论文和专利研究比较的是不同地点的团队，不是视频通话。"
+  },
+  "boss_line": {
+    "en": "In randomised experiments, pairs on video produced fewer ideas, and fewer creative ones, than pairs in the same room, but chose between ideas just as well. Let's brainstorm in person when we can and use video for deciding and follow-up.",
+    "zh": "随机实验里，视频组的想法更少、有创意的想法也更少，但在挑选想法时并不更差。能当面头脑风暴就当面，视频用来做决定和跟进。"
+  },
+  "change_my_mind": {
+    "en": "Independent replications with software teams showing equal idea counts and creativity on video in longer sessions, or a video format that closes the gap.",
+    "zh": "在软件团队中独立复现，显示更长的会议里视频与当面的想法数量和创意程度相当；或者出现能缩小差距的视频形式。"
+  },
+  "sources": [
+    { "id": "brucks2022", "role": "primary" },
+    { "id": "lin2023", "role": "context", "quotes": ["20 million", "4 million"] }
+  ],
+  "verified_on": "2026-10-01"
+}

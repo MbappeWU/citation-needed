@@ -1,0 +1,37 @@
+{
+  "id": "measure-single-metric",
+  "topic": "measure",
+  "claim": {
+    "en": "One metric can capture developer productivity.",
+    "zh": "一个指标就能反映开发者的效能。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "An expert framework plus one systematic review. No study has tested a single metric against a multi-dimensional benchmark.",
+    "zh": "依据是专家提出的框架和一项系统综述。没有研究拿单一指标去对照多维度基准检验过。"
+  },
+  "evidence": {
+    "en": "The SPACE paper says developer productivity cannot be measured by a single metric or dimension, and names five: satisfaction and well-being, performance, activity, communication and collaboration, efficiency and flow. Petersen's review of 38 productivity studies reported problems with simple ratio measures and pointed to multivariate approaches such as data envelopment analysis. In a survey of 622 developers at three companies, self-rated productivity was most strongly related to non-technical factors such as job enthusiasm and peer support. DORA itself uses four measures.",
+    "zh": "SPACE 论文指出，开发者效能无法用单一指标或单一维度衡量，并列出五个维度：满意度与幸福感、绩效、活动、沟通与协作、效率与心流。Petersen 对 38 项效能研究的综述指出简单比值度量存在问题，并提出数据包络分析等多变量方法。在三家公司 622 名开发者的问卷中，自评效能与工作热情、同事支持等非技术因素关联最强。DORA 本身也用四项指标。"
+  },
+  "caveats": {
+    "en": "Mostly expert argument and a review of measurement problems. A narrow metric can still answer a narrow question, such as how long builds take.",
+    "zh": "主要是专家论证和对度量问题的综述。窄指标仍可回答窄问题，例如构建要多久。"
+  },
+  "boss_line": {
+    "en": "Any single number will miss part of the picture. The SPACE authors recommend balanced metrics linked to goals across several dimensions, and even DORA uses four measures, not one.",
+    "zh": "任何单一数字都会漏掉一部分情况。SPACE 的作者建议围绕目标，跨多个维度选取均衡的指标；连 DORA 也是用四项指标，而不是一项。"
+  },
+  "change_my_mind": {
+    "en": "A validated single measure that predicts independent outcomes such as delivery, quality and retention across teams and companies, and resists gaming when it is used as a target.",
+    "zh": "有经验证的单一指标，能在不同团队和公司中预测交付、质量、留任等独立结果，并且在被当作目标时不易被操纵。"
+  },
+  "sources": [
+    { "id": "forsgren2021space", "role": "primary" },
+    { "id": "petersen2011", "role": "primary" },
+    { "id": "murphyhill2021", "role": "context" },
+    { "id": "forsgren2018accelerate", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ai-self-estimate",
+  "topic": "ai",
+  "claim": {
+    "en": "Developers can tell whether AI is speeding them up.",
+    "zh": "开发者自己能判断 AI 有没有让自己变快。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "One randomized trial measured both belief and actual time, with only 16 developers, and its result needs more studies to confirm.",
+    "zh": "一项随机试验同时测了主观判断和实际用时，但样本只有 16 人，结论还需要更多研究来验证。"
+  },
+  "evidence": {
+    "en": "In METR's 2025 randomized trial, 16 experienced developers expected AI to cut task time by 24% before they started. Tasks done with AI actually took 19% longer. Afterwards the developers still estimated that AI had cut their time by 20%. Belief and measurement pointed in opposite directions. In DORA 2025, over 80% of nearly 5,000 respondents said AI had raised their productivity, but surveys like this record belief, not time.",
+    "zh": "在 METR 2025 年的随机试验中，16 名有经验的开发者开工前预计 AI 能让任务耗时减少 24%。实际上，用 AI 的任务耗时多了 19%。做完之后，他们仍然估计 AI 让耗时减少了 20%。主观判断和测量结果方向相反。DORA 2025 的调查中，近 5,000 名受访者里超过 80% 认为 AI 提高了自己的生产力，但这类调查记录的是看法，不是用时。"
+  },
+  "caveats": {
+    "en": "Small sample: 16 experienced open-source maintainers working in their own repositories with early-2025 tools. Judgment may be better with newer tools. The trial shows people can be wrong, not that they always are.",
+    "zh": "样本小：16 名有经验的开源维护者，在自己的代码库里用 2025 年初的工具。换成更新的工具，判断可能更准。这项试验只能说明人可能判断错，不能说明人总是判断错。"
+  },
+  "boss_line": {
+    "en": "In a randomized trial that checked, developers believed AI saved them 20% of their time while it cost them 19%. Instead of going by feel, let's time a few tasks with and without AI.",
+    "zh": "在一项做过核对的随机试验里，开发者以为 AI 帮他们省了 20% 的时间，实际多花了 19%。与其凭感觉，不如给几个任务分别计时，对比用 AI 和不用 AI。"
+  },
+  "change_my_mind": {
+    "en": "Several randomized trials in which developers' predicted and measured speedups agree closely, including with current tools.",
+    "zh": "多项随机试验显示，开发者预测的提速和实测的提速高度一致，包括使用当前工具时。"
+  },
+  "sources": [
+    { "id": "becker2025", "role": "primary", "quotes": ["24%", "20%", "19%"] },
+    { "id": "dora2025", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

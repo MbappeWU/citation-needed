@@ -1,0 +1,36 @@
+{
+  "id": "teams-best-size-five-to-nine",
+  "topic": "teams",
+  "claim": {
+    "en": "The best team size is five to nine people.",
+    "zh": "最佳团队规模是 5 到 9 人。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "The data are cross-sectional, partly from vendors or from outside software, and none identifies an optimum.",
+    "zh": "数据是横截面的，部分来自厂商或非软件领域，且没有一项研究确定了最优规模。"
+  },
+  "evidence": {
+    "en": "No study we reviewed finds an optimum of five to nine. Wheelan (2009) studied 329 work groups in for-profit and nonprofit organisations, not a software sample. Groups of 3 to 6 were more productive than groups of 7 to 10 or 11 or more, and groups of 3 to 8 beat groups of 9 or more. Rodríguez and colleagues report lower productivity at nine or more in ISBSG project data. QSM's vendor data (about 1,060 projects) found projects with four or fewer staff used much less effort than those with five or more.",
+    "zh": "我们查阅的研究中，没有一项得出“最优是 5 到 9 人”。Wheelan（2009）研究了营利和非营利组织的 329 个工作小组（不是软件样本）：3 到 6 人的小组比 7 到 10 人、11 人及以上的更高产，3 到 8 人的小组也优于 9 人及以上。Rodríguez 等人基于 ISBSG 项目数据，报告 9 人及以上团队的生产率较低。估算工具厂商 QSM 的数据（约 1060 个项目）显示，4 人及以下的项目比 5 人及以上的项目耗费的工作量低得多。"
+  },
+  "caveats": {
+    "en": "Productivity here is output per head or per project size, not value delivered. Bigger teams can still deliver more in total. ISBSG and QSM data come from firms that chose to contribute them. Best size depends on the work and how well it splits.",
+    "zh": "这里的生产率是人均产出或按项目规模折算，不是交付的价值。大团队的总产出仍可能更高。ISBSG 和 QSM 的数据来自自愿提供的企业。最佳规模取决于工作内容以及能否拆分。"
+  },
+  "boss_line": {
+    "en": "Studies of work groups and project data suggest productivity falls once a team passes about eight or nine people. None shows that five to nine is the best range, so let's size the team to the work and keep it as small as the work allows.",
+    "zh": "工作小组和项目数据的研究表明，团队超过八九个人后，生产率会下降。但没有研究证明 5 到 9 人是最优区间，所以按工作量定团队规模，在能完成工作的前提下尽量小。"
+  },
+  "change_my_mind": {
+    "en": "A study of software teams of different sizes doing comparable work, with output and quality measured the same way, showing a clear peak at five to nine.",
+    "zh": "一项让不同规模的软件团队做可比工作、用同一口径衡量产出和质量的研究，清楚显示峰值在 5 到 9 人。"
+  },
+  "sources": [
+    { "id": "wheelan2009", "role": "primary" },
+    { "id": "rodriguez2012", "role": "primary" },
+    { "id": "qsm2012", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

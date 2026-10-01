@@ -1,0 +1,35 @@
+{
+  "id": "remote-hybrid-performance",
+  "topic": "remote",
+  "claim": {
+    "en": "Hybrid work hurts performance and promotion.",
+    "zh": "混合办公会拖累绩效和晋升。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "One large randomised trial (1,612 employees) with two years of follow-up, but run at a single firm and testing only two days a week at home.",
+    "zh": "一项大样本随机对照试验（1,612 人），随访两年，但只在一家公司进行，且只测试了每周在家两天。"
+  },
+  "evidence": {
+    "en": "Trip.com, a Chinese travel-tech firm, randomised 1,612 university-graduate employees, including software engineers, by birthday: home on Wednesday and Friday, or in the office five days. The trial ran six months in 2021 to 2022, with reviews and promotions tracked for up to two years. Performance grades did not differ, there was no detectable difference in promotions, and engineers' lines of code did not differ. Quit rates fell by about one-third. The trial's 395 managers had expected hybrid to cut productivity by 2.6% on average, and afterwards expected a 1.0% gain. In the earlier Ctrip call-centre trial, full-time home workers had a lower promotion rate given their performance.",
+    "zh": "Trip.com（携程）按生日单双号随机分组，对 1,612 名大学毕业员工（含软件工程师）做试验：一组每周三、周五在家，另一组每周 5 天都在办公室。试验持续 6 个月（2021 至 2022 年），绩效评级和晋升最长追踪两年：绩效评级没有差异，晋升也查不出差异，工程师的代码行数没有差异，离职率下降约三分之一。试验中的 395 名经理起初预期混合办公会使生产率平均下降 2.6%，试验后则预期会提高 1.0%。而早先携程呼叫中心试验里，全职在家的员工在同等业绩下晋升率更低。"
+  },
+  "caveats": {
+    "en": "One firm, one country, and graduate employees in four functions. It tested two days a week, so it says nothing about full-time remote work, where the Ctrip trial saw a promotion penalty. Careers beyond two years are unmeasured.",
+    "zh": "只有一家公司、一个国家，参与者是四类职能的大学毕业员工。只测试了每周在家两天，不能推到全职远程；携程那项试验就观察到晋升率下降。两年之后的职业发展没有测量。"
+  },
+  "boss_line": {
+    "en": "A six-month randomised trial at Trip.com found that two days a week at home did not change performance reviews or promotions over two years, and cut quit rates by a third. We can pilot the same schedule and track the same measures.",
+    "zh": "Trip.com 做了为期 6 个月的随机试验：每周在家两天，两年内的绩效评级和晋升都没有变化，离职率还降低了三分之一。我们可以试点同样的安排，并跟踪同样的指标。"
+  },
+  "change_my_mind": {
+    "en": "A second randomised hybrid trial at another firm, ideally with software teams and a longer follow-up, showing lower ratings or fewer promotions for people who work from home.",
+    "zh": "在另一家公司（最好是软件团队）做的第二项混合办公随机试验，随访更长，并显示在家办公者评级更低或晋升更少。"
+  },
+  "sources": [
+    { "id": "bloom2024", "role": "primary", "quotes": ["1,612"] },
+    { "id": "bloom2015", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "people-years-experience",
+  "topic": "people",
+  "claim": {
+    "en": "More years of experience means better performance.",
+    "zh": "工作年限越长，工作表现越好。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "Meta-analyses agree on a modest link, and quasi-experiments on programmers point the same way, but all of it is observational.",
+    "zh": "荟萃分析一致显示两者关系有限，针对程序员的准实验方向相同，但都是观察性证据。"
+  },
+  "evidence": {
+    "en": "A meta-analysis of 44 samples (25,911 people) found a corrected correlation of .27 between work experience and job performance (Quiñones et al., 1995). It was higher for measures of the amount of experience (.43) and for task-level measures (.41). Schmidt and Hunter (1998) put years of job experience at .18, below structured interviews (.51) and work samples (.54). Dieste et al. (2017) ran 10 quasi-experiments with students and professionals: years of experience were a poor predictor of programmer performance, while task-related knowledge and academic background predicted better.",
+    "zh": "Quiñones 等人（1995）对 44 个样本（25,911 人）做荟萃分析，校正后工作经验与工作表现的相关为 .27；若用“经验量”指标（.43）或任务层面的指标（.41），相关更高。Schmidt 和 Hunter（1998）给出的工作年限相关为 .18，低于结构化面试（.51）和工作样本测试（.54）。Dieste 等人（2017）对学生和在职人员做了 10 项准实验：工作年限不能很好地预测程序员的表现，与任务相关的知识和学术背景预测得更好。"
+  },
+  "caveats": {
+    "en": "The link varies with how long people have been in the job and with job complexity (McDaniel et al., 1988). Most data are not from software, and the programmer evidence is quasi-experimental. Years in a job do not say what the work was.",
+    "zh": "两者的关系随任职时长和工作复杂度而变（McDaniel 等，1988）。数据多数不来自软件行业，程序员方面的证据是准实验。工作年限并不说明做的是什么工作。"
+  },
+  "boss_line": {
+    "en": "Years of experience correlate only about .18 with job performance, against .51 for structured interviews in the same 1998 review. Let's ask what work candidates have done instead of setting a years cutoff.",
+    "zh": "同一篇 1998 年综述里，工作年限与工作表现的相关只有约 .18，结构化面试是 .51。筛选时建议看候选人具体做过什么工作，而不是设一个年限门槛。"
+  },
+  "change_my_mind": {
+    "en": "Large studies of software engineers showing that years of experience predict measured output or quality at least as well as skill tests do.",
+    "zh": "针对软件工程师的大样本研究显示，工作年限对可测量的产出或质量的预测力不亚于技能测试。"
+  },
+  "sources": [
+    { "id": "quinones1995", "role": "primary", "quotes": [".27", ".43"] },
+    { "id": "mcdaniel1988", "role": "primary" },
+    { "id": "schmidt1998", "role": "primary" },
+    { "id": "dieste2017", "role": "primary" }
+  ],
+  "verified_on": "2026-10-01"
+}

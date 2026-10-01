@@ -1,0 +1,110 @@
+{
+  "forsgren2021space": {
+    "kind": "article",
+    "title": "The SPACE of Developer Productivity: There's more to it than you think.",
+    "authors": "Nicole Forsgren, Margaret-Anne Storey, Chandra Maddila, Thomas Zimmermann, Brian Houck, Jenna Butler",
+    "year": 2021,
+    "venue": "ACM Queue 19(1)",
+    "doi": "10.1145/3454122.3454124",
+    "verify": "metadata"
+  },
+  "forsgren2018accelerate": {
+    "kind": "book",
+    "title": "Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations",
+    "authors": "Nicole Forsgren, Jez Humble, Gene Kim",
+    "year": 2018,
+    "venue": "IT Revolution Press",
+    "url": "https://itrevolution.com/product/accelerate/",
+    "verify": "manual"
+  },
+  "dora2024": {
+    "kind": "report",
+    "title": "Accelerate State of DevOps Report 2024",
+    "authors": "DORA, Google Cloud",
+    "year": 2024,
+    "venue": "Google Cloud DORA",
+    "url": "https://research.google/pubs/dora-accelerate-state-of-devops-2024-report/",
+    "verify": "manual"
+  },
+  "sallin2021": {
+    "kind": "paper",
+    "title": "Measuring Software Delivery Performance Using the Four Key Metrics of DevOps",
+    "authors": "Marc Sallin, Martin Kropp, Craig Anslow, James W. Quilty, Andreas Meier",
+    "year": 2021,
+    "venue": "XP 2021, Lecture Notes in Business Information Processing",
+    "url": "https://digitalcollection.zhaw.ch/handle/11475/22989",
+    "verify": "manual"
+  },
+  "noda2023devex": {
+    "kind": "article",
+    "title": "DevEx: What Actually Drives Productivity: The developer-centric approach to measuring and improving productivity",
+    "authors": "Abi Noda, Margaret-Anne Storey, Nicole Forsgren, Michaela Greiler",
+    "year": 2023,
+    "venue": "ACM Queue 21(2)",
+    "doi": "10.1145/3595878",
+    "verify": "metadata"
+  },
+  "greiler2022": {
+    "kind": "paper",
+    "title": "An Actionable Framework for Understanding and Improving Developer Experience",
+    "authors": "Michaela Greiler, Margaret-Anne Storey, Abi Noda",
+    "year": 2022,
+    "venue": "IEEE Transactions on Software Engineering 49(4), 2023",
+    "arxiv": "2205.06352",
+    "verify": "metadata"
+  },
+  "riketta2008": {
+    "kind": "paper",
+    "title": "The causal relation between job attitudes and performance: A meta-analysis of panel studies",
+    "authors": "Michael Riketta",
+    "year": 2008,
+    "venue": "Journal of Applied Psychology 93(2)",
+    "doi": "10.1037/0021-9010.93.2.472",
+    "verify": "metadata"
+  },
+  "judge2001": {
+    "kind": "paper",
+    "title": "The job satisfaction–job performance relationship: A qualitative and quantitative review",
+    "authors": "Timothy A. Judge, Carl J. Thoresen, Joyce E. Bono, Gregory K. Patton",
+    "year": 2001,
+    "venue": "Psychological Bulletin 127(3)",
+    "doi": "10.1037/0033-2909.127.3.376",
+    "verify": "metadata"
+  },
+  "murphyhill2021": {
+    "kind": "paper",
+    "title": "What Predicts Software Developers' Productivity?",
+    "authors": "Emerson Murphy-Hill, Ciera Jaspan, Caitlin Sadowski, David Shepherd, Michael Phillips, Collin Winter, Andrea Knight, Edward Smith, Matthew Jorde",
+    "year": 2021,
+    "venue": "IEEE Transactions on Software Engineering 47, pp. 582-594",
+    "url": "https://2020.icse-conferences.org/details/icse-2020-Journal-First/10/What-Predicts-Software-Developers-Productivity-",
+    "verify": "manual"
+  },
+  "tawosi2022": {
+    "kind": "paper",
+    "title": "On the Relationship Between Story Points and Development Effort in Agile Open-Source Software",
+    "authors": "Vali Tawosi, Rebecca Moussa, Federica Sarro",
+    "year": 2022,
+    "venue": "ESEM 2022",
+    "doi": "10.1145/3544902.3546238",
+    "verify": "abstract"
+  },
+  "petersen2011": {
+    "kind": "paper",
+    "title": "Measuring and predicting software productivity: A systematic map and review",
+    "authors": "Kai Petersen",
+    "year": 2011,
+    "venue": "Information and Software Technology 53(4)",
+    "doi": "10.1016/j.infsof.2010.12.001",
+    "verify": "abstract"
+  },
+  "prechelt2000": {
+    "kind": "paper",
+    "title": "An empirical comparison of seven programming languages",
+    "authors": "Lutz Prechelt",
+    "year": 2000,
+    "venue": "Computer 33(10)",
+    "url": "https://www.cs.tufts.edu/~nr/cs257/archive/lutz-prechelt/comparison.pdf",
+    "verify": "manual"
+  }
+}

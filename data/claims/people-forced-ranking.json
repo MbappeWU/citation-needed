@@ -1,0 +1,37 @@
+{
+  "id": "people-forced-ranking",
+  "topic": "people",
+  "claim": {
+    "en": "Forced ranking raises team performance.",
+    "zh": "强制排名能提升团队绩效。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "One simulation, two papers of lab experiments and one single-firm field study; none tests team output in a software company.",
+    "zh": "只有一项模拟、两篇实验室实验论文和一项单一公司的现场研究，没有一项在软件公司里直接检验团队产出。"
+  },
+  "evidence": {
+    "en": "A simulation (Scullen et al., 2005) found that firing a fixed share of workers each year could noticeably raise average workforce potential, mostly in the first several years, with the gain depending mainly on the share fired and on voluntary turnover. In lab experiments, forced distribution made people faster when working alone but slower in teams and cut knowledge sharing (Loberg et al., 2021), and it helped when workers acted independently but hurt when they could harm each other (Berger et al., 2013). In one multinational firm, high performers who missed the top rating because top ratings were capped left more often than top-rated peers, despite larger bonuses (Bond, 2025).",
+    "zh": "Scullen 等人（2005）的模拟显示，每年淘汰固定比例员工，可能明显提高员工队伍的平均潜力，改善主要出现在最初几年，并主要取决于淘汰比例和主动离职率。实验室实验显示：强制分布让人单独做任务时更快，团队里却更慢，知识分享也减少（Loberg 等，2021）；员工各干各的时它有帮助，但员工有机会互相使绊时反而有害（Berger 等，2013）。在一家跨国公司，因最高评级设有名额上限而没能拿到最高评级的高绩效者，尽管奖金更高，仍比拿到最高评级的同事更常离职（Bond，2025）。"
+  },
+  "caveats": {
+    "en": "None of these tests team output in a software company. The simulation's gains depend on how reliable ratings are, which the manager-ratings claim questions. The lab tasks were short, and the field result comes from one firm and one cap on top ratings.",
+    "zh": "这些研究都没有在软件公司里检验团队产出。模拟的收益取决于评分有多可靠，而“经理评分”那条对此提出了质疑。实验室任务很短，现场研究只来自一家公司、一个最高评级名额上限。"
+  },
+  "boss_line": {
+    "en": "A simulation says forced ranking can lift workforce quality, mostly in the first few years, while lab experiments found less knowledge sharing in teams. Can we look at our own team's data before adopting fixed quotas?",
+    "zh": "一项模拟显示强制排名可能提升队伍质量，收益多集中在最初几年；而实验室实验发现团队内的知识分享减少。采用固定名额之前，能否先看看我们自己团队的数据？"
+  },
+  "change_my_mind": {
+    "en": "A field or natural experiment in software teams showing that adopting forced distribution raised team output without raising attrition or hurting collaboration.",
+    "zh": "软件团队里的现场实验或自然实验显示，实行强制分布提高了团队产出，同时没有推高离职率或损害协作。"
+  },
+  "sources": [
+    { "id": "scullen2005", "role": "primary" },
+    { "id": "loberg2021", "role": "primary" },
+    { "id": "berger2013", "role": "primary" },
+    { "id": "bond2025", "role": "primary" }
+  ],
+  "verified_on": "2026-10-01"
+}

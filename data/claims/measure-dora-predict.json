@@ -1,0 +1,36 @@
+{
+  "id": "measure-dora-predict",
+  "topic": "measure",
+  "claim": {
+    "en": "DORA's four key metrics predict how well a team performs.",
+    "zh": "DORA 的四个关键指标能预测团队的表现。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "Repeated annual industry surveys, but one research program, self-reported on both sides, with little independent replication that we could find.",
+    "zh": "是持续多年的行业问卷调查，但出自同一个研究项目，两端都靠自评，我们没有找到多少独立复现。"
+  },
+  "evidence": {
+    "en": "The four keys are deployment frequency, lead time for changes, change failure rate and time to restore service. In the DORA surveys behind Accelerate, respondents whose teams scored well on them also reported better organizational outcomes. Both the metrics and the outcomes come from survey answers, so this shows association, not forward-looking prediction. Sallin and colleagues note the four metrics are often gathered by hand or by survey with few data points. In DORA's 2024 report the medium cluster had a lower change failure rate than the high cluster, so the cluster labels do not rank teams on every metric.",
+    "zh": "四个关键指标是部署频率、变更前置时间、变更失败率和服务恢复时间。《Accelerate》背后的 DORA 调查显示，所在团队在这四项指标上得分高的受访者，也报告了更好的组织绩效。指标和结果都来自问卷自评，所以这只能说明相关，不是面向未来的预测。Sallin 等人指出，这四项指标常靠手工或问卷收集，数据点很少。DORA 2024 年报告中，中等表现组的变更失败率低于高表现组，可见分组标签并不在每项指标上都排得出高下。"
+  },
+  "caveats": {
+    "en": "One research program, with little independent replication that we could find. The metrics describe software delivery, not business results or developer experience, and are meant to be read as a set.",
+    "zh": "这是同一个研究项目的结果，我们没有找到多少独立复现。这些指标描述的是软件交付，不是业务结果或开发者体验，应当作为一组来看。"
+  },
+  "boss_line": {
+    "en": "The four keys are a useful check on our delivery pipeline, and in DORA's surveys they go with better organizational outcomes. They are not a forecast, and we should read all four together, not chase one.",
+    "zh": "四个关键指标适合用来检查我们的交付流程，在 DORA 的调查中它们也与更好的组织绩效相伴出现。它们不是预测工具，应该四项一起看，而不是只盯一项。"
+  },
+  "change_my_mind": {
+    "en": "A longitudinal or independently run study showing that changes in the four metrics come before changes in measured business outcomes, after controlling for earlier performance.",
+    "zh": "有纵向研究或独立团队的研究显示：控制了此前的表现后，四项指标的变化先于已测得的业务结果的变化。"
+  },
+  "sources": [
+    { "id": "forsgren2018accelerate", "role": "primary" },
+    { "id": "dora2024", "role": "primary" },
+    { "id": "sallin2021", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

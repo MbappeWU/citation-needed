@@ -1,0 +1,35 @@
+{
+  "id": "measure-velocity-compare",
+  "topic": "measure",
+  "claim": {
+    "en": "Velocity in story points lets you compare teams.",
+    "zh": "用故事点算出的速率，可以用来比较不同团队。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "One large analysis of open-source projects and the DORA authors' reasoning agree, but we found no study that tests cross-team comparison directly.",
+    "zh": "一项大型开源项目分析与 DORA 作者的论证一致，但我们没有找到直接检验跨团队比较的研究。"
+  },
+  "evidence": {
+    "en": "Tawosi, Moussa and Sarro analysed 37,440 user stories from 37 open-source projects tracked in Jira. Averaged over three correlation measures, story points and the approximated development time correlated strongly in only 7% of projects, moderately in 58% and weakly in 35%. The authors of Accelerate say velocity was designed as a capacity-planning tool, is relative and team-dependent, and gets gamed when it is used as a productivity metric.",
+    "zh": "Tawosi、Moussa 和 Sarro 分析了 Jira 中 37 个开源项目的 37,440 条用户故事。综合三种相关系数，故事点与估算的开发时间只在 7% 的项目中强相关，58% 为中等相关，35% 为弱相关。《Accelerate》的作者指出：速率本是容量规划工具，具有相对性并依赖于团队，一旦当作效能指标就会被刻意操纵。"
+  },
+  "caveats": {
+    "en": "The data are open-source projects, and development time is approximated rather than measured. The study looks inside projects, not across teams. Velocity can still help one team plan its own sprints.",
+    "zh": "数据来自开源项目，开发时间是估算值，不是实测值。研究针对项目内部，而不是跨团队。速率仍可帮助单个团队规划自己的迭代。"
+  },
+  "boss_line": {
+    "en": "Story points are each team's own unit, so 40 points on one team and 25 on another do not tell us who delivers more. In a study of 37 open-source projects, points tracked development time strongly in only 7%.",
+    "zh": "故事点是各团队自己的计量单位，一个团队 40 点、另一个 25 点，并不能说明谁交付得更多。37 个开源项目的研究里，故事点与开发时间强相关的只占 7%。"
+  },
+  "change_my_mind": {
+    "en": "Evidence that teams on a shared reference scale produce velocities that match independently measured delivery outcomes and stay stable once velocity becomes a target.",
+    "zh": "有证据显示：采用统一基准校准的团队，其速率与独立测得的交付结果吻合，且在速率成为考核目标后依然稳定。"
+  },
+  "sources": [
+    { "id": "tawosi2022", "role": "primary", "quotes": ["7%", "58%", "35%"] },
+    { "id": "forsgren2018accelerate", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

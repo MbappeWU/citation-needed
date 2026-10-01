@@ -1,0 +1,38 @@
+{
+  "id": "measure-satisfaction-leading",
+  "topic": "measure",
+  "claim": {
+    "en": "Developer satisfaction is a leading indicator of productivity.",
+    "zh": "开发者满意度是效能的领先指标。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "The best timing evidence comes from outside software. In software we found only cross-sectional surveys and interviews.",
+    "zh": "时间先后方面最好的证据来自软件行业之外。软件行业里我们只找到横断面问卷和访谈研究。"
+  },
+  "evidence": {
+    "en": "Riketta's meta-analysis of 16 panel studies of workers tested which comes first. Job attitudes predicted later performance weakly (beta = .06, baseline performance controlled), and performance did not predict later attitudes (beta = .00). Judge and colleagues pooled 312 samples and estimated a correlation of .30 between job satisfaction and job performance. Among 622 developers at three companies, job enthusiasm, peer support for new ideas and useful feedback were among the factors most strongly related to self-rated productivity.",
+    "zh": "Riketta 对 16 项追踪同一批员工的面板研究做了荟萃分析，检验谁在先。工作态度对之后的绩效只有微弱的预测力（β = .06，已控制基线绩效），绩效对之后的工作态度则没有预测力（β = .00）。Judge 等人汇总 312 个样本，估计工作满意度与工作绩效的相关为 .30。在三家公司的 622 名开发者中，工作热情、同事对新想法的支持和有用的反馈，是与自评效能关联最强的因素之一。"
+  },
+  "caveats": {
+    "en": "Neither meta-analysis is specific to software. The software evidence is cross-sectional and self-reported on both sides, so it cannot show which moves first. The DevEx framework (Greiler et al., Noda et al.) rests on interviews with 21 developers and does not test prediction.",
+    "zh": "两项荟萃分析都不是针对软件行业的。软件行业的证据是横断面的，两端都靠自评，无法说明谁先变化。DevEx 框架（Greiler 等、Noda 等）来自对 21 名开发者的访谈，没有检验预测力。"
+  },
+  "boss_line": {
+    "en": "A satisfaction survey is worth running, but I would not promise it forecasts output. Across 16 panel studies the effect of attitudes on later performance was small, and the software surveys we have cannot show what comes first.",
+    "zh": "满意度调查值得做，但我不会承诺它能预测产出。16 项面板研究里，工作态度对之后绩效的影响很小，而软件行业现有的问卷研究无法说明谁先谁后。"
+  },
+  "change_my_mind": {
+    "en": "A longitudinal study of software teams in which satisfaction scores predict later delivery or quality outcomes after controlling for earlier performance.",
+    "zh": "有针对软件团队的纵向研究显示：控制此前绩效后，满意度得分能预测之后的交付或质量结果。"
+  },
+  "sources": [
+    { "id": "riketta2008", "role": "primary" },
+    { "id": "judge2001", "role": "context" },
+    { "id": "murphyhill2021", "role": "context" },
+    { "id": "greiler2022", "role": "context" },
+    { "id": "noda2023devex", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

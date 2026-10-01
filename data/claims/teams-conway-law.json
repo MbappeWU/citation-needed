@@ -1,0 +1,36 @@
+{
+  "id": "teams-conway-law",
+  "topic": "teams",
+  "claim": {
+    "en": "The system architecture ends up mirroring the org chart (Conway's law).",
+    "zh": "系统架构最终会照搬组织架构（康威定律）。"
+  },
+  "verdict": "supported",
+  "grade": "B",
+  "grade_why": {
+    "en": "A review of 142 empirical studies and a matched-pair test point the same way, but all are observational and support is not universal.",
+    "zh": "142 项实证研究的综述和一项配对产品检验方向一致，但都是观察性研究，且并非处处成立。"
+  },
+  "evidence": {
+    "en": "Conway (1968) argued that organisations design systems that copy their own communication structures. MacCormack and colleagues (2012) compared matched pairs of software products. In every pair, the product from the loosely coupled organisation was more modular, by up to a factor of eight in how far a change in one component can spread. Colfer and Baldwin (2016) reviewed 142 empirical studies: about 70% found strong mirroring, 22% partial mirroring, and 8% none.",
+    "zh": "Conway（1968）提出：组织设计出的系统，会复制其自身的沟通结构。MacCormack 等人（2012）比较了成对匹配的软件产品：在每一对中，松耦合组织做出的产品都更模块化，在“一处改动能波及多远”这一指标上最多相差八倍。Colfer 和 Baldwin（2016）综述了 142 项实证研究：约 70% 发现强镜像，22% 发现部分镜像，8% 没有发现镜像。"
+  },
+  "caveats": {
+    "en": "Mirroring is a strong tendency, not a law. In open collaborative projects, mostly software, 56% of the descriptive studies did not support it. The studies are observational and do not show that reorganising teams will change an architecture.",
+    "zh": "镜像是很强的倾向，不是定律：在以软件为主的开放协作项目中，56% 的描述性研究并不支持它。这些研究是观察性的，不能证明调整团队就会改变架构。"
+  },
+  "boss_line": {
+    "en": "A review of 142 studies found that about 70% show products mirroring the structure of the organisation that built them. So team boundaries are architecture decisions too. It is a tendency, not a law, so let's check where our own team and module boundaries line up.",
+    "zh": "142 项研究的综述发现，约 70% 的产品会映射出开发它的组织的结构。所以划分团队边界也是在做架构决策。这是倾向而非定律，我们不妨先核对自己团队边界和模块边界是否一致。"
+  },
+  "change_my_mind": {
+    "en": "A large cross-company study of software projects showing module structure unrelated to team structure, or showing that reorganising teams leaves the architecture unchanged.",
+    "zh": "一项跨公司的大型软件项目研究显示，模块结构与团队结构无关，或调整团队后架构并未改变。"
+  },
+  "sources": [
+    { "id": "maccormack2012", "role": "primary" },
+    { "id": "colfer2016", "role": "primary" },
+    { "id": "conway1968", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

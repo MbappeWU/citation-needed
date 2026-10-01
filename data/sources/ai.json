@@ -1,0 +1,173 @@
+{
+  "becker2025": {
+    "kind": "preprint",
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "authors": "Joel Becker, Nate Rush, Elizabeth Barnes, David Rein",
+    "year": 2025,
+    "venue": "METR (arXiv preprint)",
+    "arxiv": "2507.09089",
+    "verify": "abstract"
+  },
+  "metr2026": {
+    "kind": "report",
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "authors": "METR",
+    "year": 2026,
+    "venue": "METR, 24 February 2026",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "verify": "manual"
+  },
+  "peng2023": {
+    "kind": "preprint",
+    "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+    "authors": "Sida Peng, Eirini Kalliamvakou, Peter Cihon, Mert Demirer",
+    "year": 2023,
+    "venue": "arXiv preprint",
+    "arxiv": "2302.06590",
+    "verify": "abstract"
+  },
+  "paradis2024": {
+    "kind": "paper",
+    "title": "How much does AI impact development speed? An enterprise-based randomized controlled trial",
+    "authors": "Elise Paradis, et al.",
+    "year": 2024,
+    "venue": "ICSE-SEIP 2025 (arXiv 2024)",
+    "arxiv": "2410.12944",
+    "verify": "abstract"
+  },
+  "cui2026": {
+    "kind": "paper",
+    "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+    "authors": "Zheyuan (Kevin) Cui, Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, Tobias Salz",
+    "year": 2026,
+    "venue": "Management Science",
+    "doi": "10.1287/mnsc.2025.00535",
+    "verify": "metadata"
+  },
+  "daniotti2026": {
+    "kind": "paper",
+    "title": "Who is using AI to code? Global diffusion and impact of generative AI",
+    "authors": "Simone Daniotti, Johannes Wachs, Xiangnan Feng, Frank Neffke",
+    "year": 2026,
+    "venue": "Science",
+    "doi": "10.1126/science.adz9311",
+    "verify": "metadata"
+  },
+  "brynjolfsson2023": {
+    "kind": "preprint",
+    "title": "Generative AI at Work",
+    "authors": "Erik Brynjolfsson, Danielle Li, Lindsey R. Raymond",
+    "year": 2023,
+    "venue": "arXiv preprint; published in The Quarterly Journal of Economics 140(2), 2025",
+    "arxiv": "2304.11771",
+    "verify": "metadata"
+  },
+  "pearce2021": {
+    "kind": "preprint",
+    "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions",
+    "authors": "Hammond Pearce, Baleegh Ahmad, Benjamin Tan, Brendan Dolan-Gavitt, Ramesh Karri",
+    "year": 2021,
+    "venue": "IEEE Symposium on Security and Privacy 2022 (arXiv 2021)",
+    "arxiv": "2108.09293",
+    "verify": "abstract"
+  },
+  "perry2022": {
+    "kind": "preprint",
+    "title": "Do Users Write More Insecure Code with AI Assistants?",
+    "authors": "Neil Perry, Megha Srivastava, Deepak Kumar, Dan Boneh",
+    "year": 2022,
+    "venue": "ACM CCS 2023 (arXiv 2022)",
+    "arxiv": "2211.03622",
+    "verify": "metadata"
+  },
+  "sandoval2022": {
+    "kind": "preprint",
+    "title": "Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants",
+    "authors": "Gustavo Sandoval, Hammond Pearce, Teo Nys, Ramesh Karri, Siddharth Garg, Brendan Dolan-Gavitt",
+    "year": 2022,
+    "venue": "USENIX Security 2023 (arXiv 2022)",
+    "arxiv": "2208.09727",
+    "verify": "abstract"
+  },
+  "veracode2025": {
+    "kind": "report",
+    "title": "2025 GenAI Code Security Report",
+    "authors": "Veracode",
+    "year": 2025,
+    "venue": "Veracode (vendor report)",
+    "url": "https://www.veracode.com/resources/analyst-reports/2025-genai-code-security-report/",
+    "verify": "manual"
+  },
+  "veracode2026": {
+    "kind": "report",
+    "title": "Spring 2026 GenAI Code Security Update",
+    "authors": "Veracode",
+    "year": 2026,
+    "venue": "Veracode (vendor report)",
+    "url": "https://www.veracode.com/blog/spring-2026-genai-code-security/",
+    "verify": "manual"
+  },
+  "shen2026skills": {
+    "kind": "preprint",
+    "title": "How AI Impacts Skill Formation",
+    "authors": "Judy Hanwen Shen, Alex Tamkin",
+    "year": 2026,
+    "venue": "Anthropic (arXiv preprint)",
+    "arxiv": "2601.20245",
+    "verify": "metadata"
+  },
+  "bastani2025": {
+    "kind": "paper",
+    "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+    "authors": "Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, Rei Mariman",
+    "year": 2025,
+    "venue": "Proceedings of the National Academy of Sciences 122(26)",
+    "doi": "10.1073/pnas.2422633122",
+    "verify": "metadata"
+  },
+  "lehmann2024": {
+    "kind": "preprint",
+    "title": "AI Meets the Classroom: When Do Large Language Models Harm Learning?",
+    "authors": "Matthias Lehmann, Philipp B. Cornelius, Fabian J. Sting",
+    "year": 2024,
+    "venue": "arXiv preprint",
+    "arxiv": "2409.09047",
+    "verify": "metadata"
+  },
+  "dora2025": {
+    "kind": "report",
+    "title": "2025 DORA Report: State of AI-assisted Software Development",
+    "authors": "DORA, Google Cloud",
+    "year": 2025,
+    "venue": "DORA / Google Cloud",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report",
+    "verify": "manual"
+  },
+  "he2025": {
+    "kind": "preprint",
+    "title": "Speed at the Cost of Quality: How Cursor AI Increases Short-Term Velocity and Long-Term Complexity in Open-Source Projects",
+    "authors": "Hao He, Courtney Miller, Shyam Agarwal, Christian Kästner, Bogdan Vasilescu",
+    "year": 2025,
+    "venue": "MSR 2026 (arXiv 2025)",
+    "arxiv": "2511.04427",
+    "verify": "metadata"
+  },
+  "gitclear2025": {
+    "kind": "report",
+    "title": "AI Copilot Code Quality: 2025 Data Suggests 4x Growth in Code Clones",
+    "authors": "GitClear",
+    "year": 2025,
+    "venue": "GitClear (vendor report)",
+    "url": "https://www.gitclear.com/ai_assistant_code_quality_2025_research",
+    "verify": "manual"
+  },
+  "demirer2026": {
+    "kind": "preprint",
+    "title": "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools",
+    "authors": "Mert Demirer, Leon Musolff, Liyuan Yang",
+    "year": 2026,
+    "venue": "NBER Working Paper 35275",
+    "url": "https://www.nber.org/papers/w35275",
+    "verify": "manual"
+  }
+}

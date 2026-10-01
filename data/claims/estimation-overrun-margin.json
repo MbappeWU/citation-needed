@@ -1,0 +1,35 @@
+{
+  "id": "estimation-overrun-margin",
+  "topic": "estimation",
+  "claim": {
+    "en": "IT projects overrun by a predictable margin, so a fixed buffer is enough.",
+    "zh": "IT 项目的超支幅度是可预测的，留一个固定缓冲就够了。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "One large dataset analysed by a single research team and reported in a magazine article, plus a review of survey evidence on typical overruns.",
+    "zh": "依据是同一个研究团队分析的一个大型项目数据集，发表在商业杂志上，另有一篇关于典型超支幅度的调查综述。"
+  },
+  "evidence": {
+    "en": "Flyvbjerg and Budzier (2011) analysed 1,471 IT projects. The average cost overrun was 27%, but about one project in six was a 'black swan': its cost overrun averaged 200% and its schedule overrun was almost 70%. The average hides the tail. Jørgensen and Moløkken-Østvold (2006) reviewed other sources and put a typical cost estimation error at about 30%, close to that average. A buffer sized to the average would not cover the one project in six.",
+    "zh": "Flyvbjerg 和 Budzier（2011）分析了 1,471 个 IT 项目：平均成本超支 27%，但大约每 6 个项目就有 1 个是“黑天鹅”，其成本超支平均达 200%，工期超支近 70%。平均数掩盖了长尾。Jørgensen 和 Moløkken-Østvold（2006）综合其他来源，认为典型的成本估算误差约为 30%，与上述平均值接近。按平均值留的缓冲，覆盖不了这六分之一的项目。"
+  },
+  "caveats": {
+    "en": "The 1,471-project sample is the authors' own and is reported in a magazine article, not a peer-reviewed paper. We have not checked a second independent dataset on the size of the tail. Overrun is measured against each project's own baseline estimate.",
+    "zh": "1,471 个项目的样本是作者团队自己的数据，发表在商业杂志上，不是同行评议论文。我们没有核对关于长尾大小的第二个独立数据集。超支是相对于每个项目自己的基线估算来衡量的。"
+  },
+  "boss_line": {
+    "en": "The average IT overrun is about 27%, but around one project in six overruns by roughly 200%. A flat 30% buffer will not cover those, so let's add checkpoints where we can re-plan or stop early.",
+    "zh": "IT 项目平均超支约 27%，但大约每 6 个项目就有 1 个超支约 200%。统一留 30% 的缓冲盖不住这类项目，不如设置检查点，能及早重新规划或止损。"
+  },
+  "change_my_mind": {
+    "en": "Several independent datasets showing that overruns on comparable IT projects fall in a narrow band, so that a fixed buffer would cover nearly all of them.",
+    "zh": "多个独立数据集显示，同类 IT 项目的超支集中在很窄的范围内，固定缓冲就能覆盖几乎所有项目。"
+  },
+  "sources": [
+    { "id": "flyvbjerg2011it", "role": "primary" },
+    { "id": "jorgensen2006chaos", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

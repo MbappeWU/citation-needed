@@ -1,0 +1,155 @@
+{
+  "scholtes2016": {
+    "kind": "paper",
+    "title": "From Aristotle to Ringelmann: a large-scale analysis of team productivity and coordination in Open Source Software projects",
+    "authors": "Ingo Scholtes, Pavlin Mavrodiev, Frank Schweitzer",
+    "year": 2016,
+    "venue": "Empirical Software Engineering 21(2)",
+    "doi": "10.1007/s10664-015-9406-4",
+    "verify": "abstract"
+  },
+  "gote2022": {
+    "kind": "paper",
+    "title": "Big Data = Big Insights? Operationalising Brooks' Law in a Massive GitHub Data Set",
+    "authors": "Christoph Gote, Pavlin Mavrodiev, Frank Schweitzer, Ingo Scholtes",
+    "year": 2022,
+    "venue": "Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)",
+    "arxiv": "2201.04588",
+    "verify": "metadata"
+  },
+  "sornette2014": {
+    "kind": "paper",
+    "title": "How Much is the Whole Really More than the Sum of its Parts? 1 + 1 = 2.5: Superlinear Productivity in Collective Group Actions",
+    "authors": "Didier Sornette, Thomas Maillart, Giacomo Ghezzi",
+    "year": 2014,
+    "venue": "PLOS ONE 9(8)",
+    "arxiv": "1405.4298",
+    "verify": "abstract"
+  },
+  "gut2024": {
+    "kind": "preprint",
+    "title": "Revisiting Aristotle vs. Ringelmann: The influence of biases on measuring productivity in Open Source software development",
+    "authors": "Christian Gut, Alfredo Goldman",
+    "year": 2024,
+    "venue": "SBES 2024",
+    "arxiv": "2408.04782",
+    "verify": "metadata"
+  },
+  "rodriguez2012": {
+    "kind": "paper",
+    "title": "Empirical findings on team size and productivity in software development",
+    "authors": "D. Rodríguez, M. A. Sicilia, E. García, R. Harrison",
+    "year": 2012,
+    "venue": "Journal of Systems and Software 85(3)",
+    "doi": "10.1016/j.jss.2011.09.009",
+    "verify": "metadata"
+  },
+  "qsm2012": {
+    "kind": "report",
+    "title": "Part II: Small Teams Deliver Lower Cost, Higher Quality",
+    "authors": "Kate Armel (QSM)",
+    "year": 2012,
+    "venue": "QSM, vendor analysis of the QSM SLIM project database",
+    "url": "https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality",
+    "verify": "manual"
+  },
+  "brooks1975": {
+    "kind": "book",
+    "title": "The Mythical Man-Month: Essays on Software Engineering",
+    "authors": "Frederick P. Brooks Jr.",
+    "year": 1975,
+    "venue": "Addison-Wesley (anniversary edition 1995)",
+    "url": "https://openlibrary.org/isbn/9780201835953",
+    "verify": "manual"
+  },
+  "abdelhamid1991": {
+    "kind": "book",
+    "title": "Software Project Dynamics: An Integrated Approach",
+    "authors": "Tarek K. Abdel-Hamid, Stuart E. Madnick",
+    "year": 1991,
+    "venue": "Prentice Hall",
+    "url": "https://openlibrary.org/isbn/9780138220402",
+    "verify": "manual"
+  },
+  "maccormack2012": {
+    "kind": "paper",
+    "title": "Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis",
+    "authors": "Alan MacCormack, Carliss Y. Baldwin, John Rusnak",
+    "year": 2012,
+    "venue": "Research Policy 41(8)",
+    "doi": "10.1016/j.respol.2012.04.011",
+    "verify": "metadata"
+  },
+  "colfer2016": {
+    "kind": "paper",
+    "title": "The mirroring hypothesis: theory, evidence, and exceptions",
+    "authors": "Lyra J. Colfer, Carliss Y. Baldwin",
+    "year": 2016,
+    "venue": "Industrial and Corporate Change 25(5)",
+    "doi": "10.1093/icc/dtw027",
+    "verify": "metadata"
+  },
+  "conway1968": {
+    "kind": "article",
+    "title": "How Do Committees Invent?",
+    "authors": "Melvin E. Conway",
+    "year": 1968,
+    "venue": "Datamation 14(4)",
+    "url": "https://www.melconway.com/Home/Committees_Paper.html",
+    "verify": "manual"
+  },
+  "edmondson1999": {
+    "kind": "paper",
+    "title": "Psychological Safety and Learning Behavior in Work Teams",
+    "authors": "Amy Edmondson",
+    "year": 1999,
+    "venue": "Administrative Science Quarterly 44(2)",
+    "doi": "10.2307/2666999",
+    "verify": "metadata"
+  },
+  "frazier2017": {
+    "kind": "paper",
+    "title": "Psychological Safety: A Meta-Analytic Review and Extension",
+    "authors": "M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva",
+    "year": 2017,
+    "venue": "Personnel Psychology 70(1)",
+    "doi": "10.1111/peps.12183",
+    "verify": "metadata"
+  },
+  "aristotle2015": {
+    "kind": "report",
+    "title": "Guide: Understand team effectiveness",
+    "authors": "Google re:Work",
+    "year": 2015,
+    "venue": "Google re:Work, write-up of Project Aristotle",
+    "url": "https://rework.withgoogle.com/en/guides/understanding-team-effectiveness/steps/introduction/",
+    "verify": "manual"
+  },
+  "wheelan2009": {
+    "kind": "paper",
+    "title": "Group Size, Group Development, and Group Productivity",
+    "authors": "Susan A. Wheelan",
+    "year": 2009,
+    "venue": "Small Group Research 40(2)",
+    "doi": "10.1177/1046496408328703",
+    "verify": "metadata"
+  },
+  "teasley2002": {
+    "kind": "paper",
+    "title": "Rapid software development through team collocation",
+    "authors": "S. Teasley, L. Covi, M. S. Krishnan, J. S. Olson",
+    "year": 2002,
+    "venue": "IEEE Transactions on Software Engineering 28(7)",
+    "doi": "10.1109/TSE.2002.1019481",
+    "verify": "metadata"
+  },
+  "herbsleb2003": {
+    "kind": "paper",
+    "title": "An empirical study of speed and communication in globally distributed software development",
+    "authors": "James D. Herbsleb, Audris Mockus",
+    "year": 2003,
+    "venue": "IEEE Transactions on Software Engineering 29(6)",
+    "doi": "10.1109/TSE.2003.1205177",
+    "verify": "metadata"
+  }
+}

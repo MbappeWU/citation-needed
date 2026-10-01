@@ -1,0 +1,35 @@
+{
+  "id": "remote-juniors-learning",
+  "topic": "remote",
+  "claim": {
+    "en": "Junior engineers cannot learn properly when working remotely.",
+    "zh": "初级工程师远程办公学不到东西。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "One careful study with two natural experiments at a large firm, backed by an observational IT-services study, but feedback is an indirect measure of learning.",
+    "zh": "一项在大公司利用两次自然实验的严谨研究，加上一项观察性的 IT 服务研究，但反馈只是学习的间接指标。"
+  },
+  "evidence": {
+    "en": "At a Fortune 500 firm (2019 to 2024), software engineers who sat near their teammates received 18.3% more feedback on their code, and their code quality was higher. The study used the 2020 office closures and the 2022 to 2023 return-to-office mandates. The gains were concentrated among younger and less-tenured engineers. Experienced engineers wrote less code when sitting near teammates, so proximity trades their output for juniors' feedback. At an Asian IT-services firm, remote staff got less coaching and fewer 1:1 meetings with supervisors.",
+    "zh": "在一家财富 500 强公司（2019 至 2024 年），坐在队友附近的软件工程师，代码收到的反馈多 18.3%，代码质量也更高。研究利用了 2020 年的办公室关闭和 2022 至 2023 年的强制返岗要求。收益集中在资历较浅、较年轻的工程师身上；经验丰富的工程师在队友附近写的代码更少，也就是说，近距离是用资深者的产出换初级者的反馈。一家亚洲 IT 服务公司的远程员工得到的辅导和与上级的 1 对 1 会谈更少。"
+  },
+  "caveats": {
+    "en": "One firm, and feedback and code quality are indirect measures of learning. The study compares teams that were close or far apart, and it does not test fixes such as scheduled mentoring or in-person onboarding.",
+    "zh": "只有一家公司；反馈和代码质量只是学习的间接指标。研究比较的是距离近和距离远的团队，没有检验定期辅导或线下入职培训这类补救办法。"
+  },
+  "boss_line": {
+    "en": "At one large firm, engineers sitting near teammates got 18.3% more code feedback, with the gain concentrated among juniors. If juniors work remotely, let's schedule reviews and pairing for them on purpose.",
+    "zh": "在一家大公司，坐在队友附近的工程师收到的代码反馈多 18.3%，收益集中在初级员工。如果初级员工远程办公，我们就有意安排代码评审和结对。"
+  },
+  "change_my_mind": {
+    "en": "Long-run data showing that juniors on remote or hybrid teams build skills and get promoted at the same pace as co-located peers, or a randomised mentoring trial with software teams.",
+    "zh": "长期数据显示，远程或混合团队里的初级员工，技能成长和晋升速度与同地办公的同事相当；或者对软件团队做的辅导随机试验。"
+  },
+  "sources": [
+    { "id": "emanuel2026", "role": "primary" },
+    { "id": "gibbs2023", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

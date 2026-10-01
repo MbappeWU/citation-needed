@@ -1,0 +1,36 @@
+{
+  "id": "ai-delivery",
+  "topic": "ai",
+  "claim": {
+    "en": "Adopting AI improves software delivery performance.",
+    "zh": "采用 AI 能提升软件交付表现。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "DORA's surveys are large but self-reported and correlational, and the throughput result changed sign between 2024 and 2025.",
+    "zh": "DORA 的调查样本大，但是自填问卷、只能看出相关性，而且吞吐量的结论在 2024 和 2025 年方向相反。"
+  },
+  "evidence": {
+    "en": "DORA's 2024 survey estimated that a 25% rise in AI adoption went with 1.5% lower delivery throughput and 7.2% lower delivery stability, but also 3.4% higher code quality and 3.1% faster code review. DORA 2025 (nearly 5,000 respondents, 90% using AI) reported a positive link between AI adoption and throughput, and still a negative link with stability. A 2026 NBER working paper (100,000+ GitHub developers) found AI raised coding activity far more than releases.",
+    "zh": "DORA 2024 调查估计，AI 采用率每提高 25%，交付吞吐量约降 1.5%，交付稳定性约降 7.2%，同时代码质量提高 3.4%、代码评审速度加快 3.1%。DORA 2025（近 5,000 名受访者，90% 在用 AI）发现 AI 采用与吞吐量呈正相关，与稳定性仍呈负相关。2026 年一篇 NBER 工作论文（10 万多名 GitHub 开发者）发现，AI 提升的编码活动远多于发布次数。"
+  },
+  "caveats": {
+    "en": "DORA data are self-reported survey answers about AI use in general, not one tool generation, so they show association, not cause. The 2024 effects are estimates for a 25% rise in adoption. DORA is run by Google Cloud, which sells AI tools. The NBER paper is a working paper, not peer reviewed.",
+    "zh": "DORA 的数据是对 AI 使用情况的自评问卷，并非针对某一代工具，只能说明关联，不能说明因果。2024 年的数字是“采用率提高 25%”的估计值。DORA 由出售 AI 工具的 Google Cloud 运营。NBER 论文是工作论文，没有经过同行评审。"
+  },
+  "boss_line": {
+    "en": "DORA found AI adoption linked to lower stability in both years and to higher throughput only in 2025. Faster coding is not faster delivery, so let's watch change failure rate and lead time, not code volume.",
+    "zh": "DORA 发现，两年里 AI 采用都与稳定性下降相关，只有 2025 年出现了与吞吐量正相关。写代码快不等于交付快，我们该盯的是变更失败率和变更前置时间，而不是代码量。"
+  },
+  "change_my_mind": {
+    "en": "Controlled or longitudinal data from real organizations showing that AI adoption raises throughput while change failure rate stays flat or falls.",
+    "zh": "来自真实组织的对照或纵向数据显示，AI 采用提高了吞吐量，同时变更失败率保持不变或下降。"
+  },
+  "sources": [
+    { "id": "dora2024", "role": "primary" },
+    { "id": "dora2025", "role": "primary" },
+    { "id": "demirer2026", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

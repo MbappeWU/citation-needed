@@ -1,0 +1,36 @@
+{
+  "id": "teams-psychological-safety",
+  "topic": "teams",
+  "claim": {
+    "en": "Psychological safety predicts how well a team performs.",
+    "zh": "心理安全感能预测团队的绩效。"
+  },
+  "verdict": "supported",
+  "grade": "B",
+  "grade_why": {
+    "en": "A meta-analysis pools 136 samples and finds a moderate link, but the studies are mostly observational, so it shows association, not cause.",
+    "zh": "一项荟萃分析汇总了 136 个样本，发现中等程度的关联；但研究以观察性为主，只能说明相关，不能说明因果。"
+  },
+  "evidence": {
+    "en": "Edmondson (1999) studied 51 work teams in a manufacturing company. Higher team psychological safety went with more learning behavior, and learning behavior linked safety to team performance. Frazier and colleagues (2017) pooled 136 independent samples (over 22,000 people, nearly 5,000 groups). Psychological safety was moderately associated with task performance, along with information sharing and learning. Google's Project Aristotle, a report on its own teams, ranked psychological safety first of five team dynamics.",
+    "zh": "Edmondson（1999）研究了一家制造企业的 51 个工作团队：团队心理安全感越高，学习行为越多，且学习行为在安全感与团队绩效之间起中介作用。Frazier 等人（2017）汇总了 136 个独立样本（超过 2.2 万人、近 5000 个团队），发现心理安全感与任务绩效、信息共享和学习行为存在中等程度的关联。Google 的 Aristotle 项目是对其内部团队的报告，把心理安全感列为五个团队要素之首。"
+  },
+  "caveats": {
+    "en": "Most evidence is correlational, so it cannot show whether safety improves results or good results make people feel safer. The pooled studies cover many kinds of work, not only software. Google has not published the Aristotle data, and no outside team has replicated it.",
+    "zh": "多数证据是相关性的，无法区分是安全感带来好结果，还是好结果让人更有安全感。汇总的研究涉及各类工作，不只是软件。Google 没有公开 Aristotle 项目的数据，也没有外部团队复现过。"
+  },
+  "boss_line": {
+    "en": "A meta-analysis of 136 samples finds psychological safety moderately linked to performance. It is a real factor, not a guarantee. The claim that it is the number one factor comes from an internal Google study whose data are not public.",
+    "zh": "136 个样本的荟萃分析发现，心理安全感与绩效有中等程度的关联。它是真实存在的因素，但不是保证。“它是头号因素”的说法来自 Google 内部研究，数据并未公开。"
+  },
+  "change_my_mind": {
+    "en": "Time-lagged or experimental studies of software teams showing no change in delivery or quality after safety improves, or a pooled analysis where the link disappears with objective performance data.",
+    "zh": "针对软件团队的追踪或实验研究显示，安全感提升后交付或质量没有变化；或汇总分析发现采用客观绩效数据时这种关联消失。"
+  },
+  "sources": [
+    { "id": "edmondson1999", "role": "primary" },
+    { "id": "frazier2017", "role": "primary" },
+    { "id": "aristotle2015", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "meetings-daily-standups",
+  "topic": "meetings",
+  "claim": {
+    "en": "Daily stand-ups improve team coordination.",
+    "zh": "每日站会能改善团队协调。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "Interviews, observations and surveys of perceptions, plus one small intervention study on student teams; none compares coordination outcomes with and without stand-ups.",
+    "zh": "证据来自对主观感受的访谈、观察和问卷，另有一项针对学生团队的小型干预研究；没有研究比较有无站会时的协调结果。"
+  },
+  "evidence": {
+    "en": "In Stray and colleagues' studies, developers valued stand-ups for sharing information and solving problems together, and reacted badly when they became status reports to a manager. A 2017 survey of 221 developers found attitudes slightly more positive than negative, with seniors and larger teams less positive. After 102 observed stand-ups and interviews with 60 members of 15 teams (2020), many reported negative experiences. A 2025 intervention with student teams (58 vs 50) linked stand-ups to higher psychological safety, and through it to satisfaction and perceived team performance.",
+    "zh": "Stray 等人的研究发现，开发者认可站会用于共享信息、一起解决问题，而当站会变成向经理汇报进度时，反应很差。2017 年对 221 名开发者的问卷显示，态度略偏正面，资深开发者和大团队评价较低。2020 年的研究观察了 102 场站会，访谈了 15 个团队的 60 名成员，不少人有负面体验。2025 年一项针对学生团队的干预研究（58 人对 50 人）发现，站会与更高的心理安全感相关，并通过它与满意度和感知的团队绩效相关。"
+  },
+  "caveats": {
+    "en": "Every outcome is a perception, and survey respondents chose to take part. The intervention used student teams, not professional software teams. No study cited here compares delivery speed, blocked work or rework between teams with and without stand-ups, so the coordination claim itself is untested.",
+    "zh": "所有结果都是主观感受，问卷受访者是自愿参与的。干预研究的对象是学生团队，不是职业软件团队。这里引用的研究都没有比较有无站会的团队在交付速度、阻塞或返工上的差异，所以“改善协调”本身还没有被检验。"
+  },
+  "boss_line": {
+    "en": "Stand-ups help when they are for sharing information and unblocking each other, and hurt when they turn into status reports to a manager. Can we ask the team which one ours is, and trim it if it is the second?",
+    "zh": "站会用来共享信息、互相解围时有帮助，变成向经理汇报进度时反而有害。我们能不能先问问团队，我们的站会属于哪一种？如果是后一种，就精简它。"
+  },
+  "change_my_mind": {
+    "en": "A comparison of professional teams with and without stand-ups that measures coordination outcomes, such as blocked work or rework, and finds a clear difference.",
+    "zh": "对职业团队有无站会做对比，用被阻塞的工作量或返工量等协调结果来衡量，并发现明显差异。"
+  },
+  "sources": [
+    { "id": "stray2016", "role": "primary" },
+    { "id": "stray2017", "role": "primary" },
+    { "id": "stray2020", "role": "primary", "quotes": ["102"] },
+    { "id": "rietze2025", "role": "primary", "quotes": ["58", "50"] }
+  ],
+  "verified_on": "2026-10-01"
+}

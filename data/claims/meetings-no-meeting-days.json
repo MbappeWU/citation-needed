@@ -1,0 +1,36 @@
+{
+  "id": "meetings-no-meeting-days",
+  "topic": "meetings",
+  "claim": {
+    "en": "Meeting-free days raise productivity.",
+    "zh": "设立无会议日能提高生产力。"
+  },
+  "verdict": "unknown",
+  "grade": "C",
+  "grade_why": {
+    "en": "Self-reported survey data plus one small randomized trial of a related intervention; no study measures output on meeting-free days.",
+    "zh": "只有自评问卷数据和一项相关干预的小型随机试验；没有研究测量过无会议日的实际产出。"
+  },
+  "evidence": {
+    "en": "The best-known figure is from a survey of 76 companies (Laker et al. 2022): productivity was reported 71% higher when meetings were cut by 40%. Those are perceptions, with no control group. The strongest controlled test is a randomized trial of 89 engineering and development workers at a large tech company (Das Swain et al. 2023). Two protected, notification-free hours a day raised self-rated performance, focus and job resources, but not measured coding time. A Microsoft report on No Meeting Fridays (435 employees) found 77% said it gave more focus time, and some said meetings piled onto other days.",
+    "zh": "流传最广的数字来自对 76 家公司的问卷调查（Laker 等，2022）：会议减少 40% 时，报告的生产力高出 71%。这些是主观感受，也没有对照组。最强的对照证据是一家大型科技公司对 89 名工程开发人员做的随机试验（Das Swain 等，2023）：每天 2 小时关闭通知的受保护时间，提高了自评绩效、专注度和工作资源，但没有提高实测的编码时间。微软关于“无会议星期五”的报告（435 名员工）显示，77% 的人说专注时间更多，也有人说会议被挤到了其他日子。"
+  },
+  "caveats": {
+    "en": "The 76-company survey is cross-sectional and self-reported. The trial tested daily protected blocks, not whole days, ran three weeks at one company, and some effects were significant only at the 10% level. Moving meetings to other days can overload them. None of the studies measured delivery speed or defects.",
+    "zh": "76 家公司的调查是横断面的自评数据。随机试验测的是每天的受保护时段而不是整天无会，只持续 3 周、只在一家公司，部分效应仅在 10% 水平上显著。把会议挪到别的日子可能造成过载。这些研究都没有测量交付速度或缺陷。"
+  },
+  "boss_line": {
+    "en": "The 71% figure is self-reported survey data, not measured output. I am happy to try a meeting-free day for six weeks and track cycle time and focus hours, so we have our own numbers.",
+    "zh": "71% 这个数字来自自评问卷，不是实测产出。我愿意试行六周无会议日，同时记录交付周期和专注时长，这样我们就有自己的数据。"
+  },
+  "change_my_mind": {
+    "en": "A randomized or staggered rollout of meeting-free days that measures output or delivery time, not self-ratings, and finds a gain in software teams.",
+    "zh": "在软件团队中随机或分批推行无会议日，用产出或交付时间而不是自评来衡量，并发现了提升。"
+  },
+  "sources": [
+    { "id": "laker2022", "role": "primary" },
+    { "id": "dasswain2023", "role": "primary", "quotes": ["89 workers"] },
+    { "id": "nfw2022", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

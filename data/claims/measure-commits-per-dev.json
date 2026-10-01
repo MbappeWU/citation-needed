@@ -1,0 +1,35 @@
+{
+  "id": "measure-commits-per-dev",
+  "topic": "measure",
+  "claim": {
+    "en": "Commits or pull requests per developer reveal who performs best.",
+    "zh": "每位开发者的提交数或 PR 数，能看出谁的表现最好。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "We did not find a validation study. This rests on a framework paper and one survey, so it is mostly expert argument.",
+    "zh": "我们没有找到验证研究。依据是一篇框架论文和一项问卷调查，基本属于专家论证。"
+  },
+  "evidence": {
+    "en": "The SPACE authors (Forsgren, Storey, Maddila, Zimmermann, Houck and Butler) treat counts such as commits and pull requests as activity, one of five dimensions of productivity. They say a measurement approach must account for invisible work and for knock-on effects, such as measuring activity at the expense of satisfaction and flow. In a survey of 622 developers at three companies, self-rated productivity was most strongly related to non-technical factors such as job enthusiasm, peer support for new ideas and useful feedback, which a commit count does not show.",
+    "zh": "SPACE 框架的作者（Forsgren、Storey、Maddila、Zimmermann、Houck、Butler）把提交数、PR 数之类的计数归为“活动”，它只是效能五个维度之一。他们指出，度量必须考虑隐性工作和连带影响，例如为追求活动量而牺牲满意度和心流。在三家公司 622 名开发者的问卷中，自评效能与工作热情、同事对新想法的支持、有用的反馈等非技术因素关联最强，这些是提交数反映不出来的。"
+  },
+  "caveats": {
+    "en": "We did not find a study comparing per-developer commit or pull request counts with independent performance ratings, so part of this verdict is absence of evidence. The survey uses self-rated productivity, not manager or peer ratings.",
+    "zh": "我们没有找到把每人提交数或 PR 数与独立绩效评价对照的研究，所以本条结论部分来自证据缺失。该问卷用的是自评效能，不是上级或同事评价。"
+  },
+  "boss_line": {
+    "en": "Commit and pull request counts show activity, and the SPACE authors say any measure has to account for invisible work that counts do not show. I would use the counts to start a conversation, not to rank people.",
+    "zh": "提交数和 PR 数反映的是活动量，SPACE 的作者指出，度量必须考虑计数看不到的隐性工作。我会用它们引出讨论，而不是给人排名。"
+  },
+  "change_my_mind": {
+    "en": "A study linking per-developer commit or pull request counts to independent peer or outcome measures across teams and codebases, and showing the link survives once counts feed into reviews.",
+    "zh": "有研究在不同团队和代码库中，证明每人提交数或 PR 数与独立的同行评价或结果指标相关，且在计数被用于考核后这种相关依然存在。"
+  },
+  "sources": [
+    { "id": "forsgren2021space", "role": "primary" },
+    { "id": "murphyhill2021", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

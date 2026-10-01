@@ -1,0 +1,39 @@
+{
+  "id": "teams-double-team-double-output",
+  "topic": "teams",
+  "claim": {
+    "en": "Doubling the team doubles the output.",
+    "zh": "团队人数翻倍，产出也翻倍。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Large observational datasets from open source and industry agree that output grows slower than headcount. They measure output by commits or project size, and one open-source study found the opposite.",
+    "zh": "开源和企业的大型观察性数据都显示产出增长慢于人数增长；但它们用提交数或项目规模衡量产出，且有一项开源研究结论相反。"
+  },
+  "evidence": {
+    "en": "Scholtes and colleagues analysed 58 open-source projects (more than 580,000 commits, more than 30,000 developers). Average output per developer fell as teams grew. A 2022 re-analysis on a larger GitHub corpus, using several productivity metrics, found a negative trend again. In ISBSG industry data, Rodríguez and colleagues report lower productivity for teams of nine or more. In QSM's database of about 1,060 projects, teams of five or more finished small projects 24% sooner than teams of four or fewer, at roughly triple the effort.",
+    "zh": "Scholtes 等人分析了 58 个开源项目（超过 58 万次提交、3 万多名开发者）：团队越大，人均产出越低。2022 年一项基于更大 GitHub 数据集、采用多种产出指标的重新分析，再次得到负向趋势。Rodríguez 等人基于 ISBSG 企业项目数据，报告 9 人及以上团队的生产率较低。估算工具厂商 QSM 自己的数据库（约 1060 个项目）显示：小项目中 5 人及以上的团队比 4 人及以下的团队工期短 24%，工作量却大约是后者的三倍。"
+  },
+  "caveats": {
+    "en": "Output here means commits or delivered size, not value. Open-source volunteers differ from paid teams. Sornette and colleagues found the opposite in open source: doubling the team multiplied output by about 2.5. A 2024 re-analysis found that measurement choices explained more of the gap than project selection did.",
+    "zh": "这里的产出指提交数或交付规模，不是价值。开源志愿者和受薪团队不同。Sornette 等人在开源数据中得到相反结果：团队规模翻倍，产出约为 2.5 倍。2024 年的重新分析认为，测量方式比项目选择更能解释这一差异。"
+  },
+  "boss_line": {
+    "en": "In 58 open-source projects, and again in a larger 2022 GitHub analysis, output per developer fell as teams grew. A lower per-head figure after fast growth is what these studies would predict. The useful questions are how much total output rose and what each unit now costs.",
+    "zh": "58 个开源项目的数据，以及 2022 年更大规模的 GitHub 重新分析，都显示团队越大，人均产出越低。大幅扩招后人均数字下降，正是这些研究预期的结果。更有用的问题是：总产出增加了多少，每单位产出现在花多少钱。"
+  },
+  "change_my_mind": {
+    "en": "Our own data, with output measured the same way before and after growth, showing per-head output held steady while the team doubled. Or a large study of paid software teams showing output rising faster than headcount.",
+    "zh": "我们自己团队在扩招前后用同一口径衡量产出，结果团队翻倍而人均产出没有下降；或一项针对受薪软件团队的大型研究显示产出增速快于人数增速。"
+  },
+  "sources": [
+    { "id": "scholtes2016", "role": "primary", "quotes": ["580,000", "30,000"] },
+    { "id": "gote2022", "role": "replication" },
+    { "id": "rodriguez2012", "role": "replication" },
+    { "id": "qsm2012", "role": "context" },
+    { "id": "sornette2014", "role": "critique", "quotes": ["2.5", "4/3"] },
+    { "id": "gut2024", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

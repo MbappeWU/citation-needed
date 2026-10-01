@@ -1,0 +1,36 @@
+{
+  "id": "remote-developers-output",
+  "topic": "remote",
+  "claim": {
+    "en": "Remote developers produce less.",
+    "zh": "远程办公的开发者产出更少。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "Developer-specific evidence is thin and points both ways: one trial of hybrid work, one observational case study at Baidu and one pandemic study of IT staff.",
+    "zh": "针对开发者的证据很少，而且方向不一：一项混合办公试验、一项百度的观察性案例研究、一项疫情期间的 IT 人员研究。"
+  },
+  "evidence": {
+    "en": "In the Trip.com randomised trial, software engineers at home two days a week wrote no fewer lines of code than office colleagues. At Baidu, a study of 139 developers over 138 working days (1,103 records from home, during the pandemic) found gains and losses depending on the metric: builds, commits and code reviews. Large projects fared worse. At an Asian IT-services firm with 10,000+ staff, output per hour fell 8 to 19% in the pandemic as hours rose.",
+    "zh": "在 Trip.com 的随机试验中，每周在家两天的软件工程师写的代码行数不比在办公室的同事少。百度的研究覆盖 139 名开发者、138 个工作日（其中 1,103 条记录来自疫情期间的在家办公）：按构建次数、提交次数、代码评审等指标看有升有降，大型项目表现更差。一家亚洲 IT 服务公司 1 万多名员工在疫情期间工时上升，单位工时产出下降 8% 到 19%。"
+  },
+  "caveats": {
+    "en": "Lines of code, commits and builds are crude proxies for output. The Baidu data are one firm's observational records from the pandemic, and the IT-services data cover a pandemic switch. None of the studies cited randomised full-time remote work for developers.",
+    "zh": "代码行数、提交次数、构建次数只是产出的粗糙代理指标。百度的数据是一家公司在疫情期间的观察性记录，IT 服务公司的数据来自疫情期间的转变。所引研究都没有对开发者的全职远程办公做随机分配。"
+  },
+  "boss_line": {
+    "en": "For developers the evidence is mixed. Engineers at home two days a week wrote as much code in a Chinese trial, while a pandemic study found lower output per hour. Let's compare our own delivery metrics before changing the policy.",
+    "zh": "针对开发者的证据好坏参半：一项中国的试验里，每周在家两天的工程师代码量没有减少；疫情期间的另一项研究却发现单位工时产出下降。改政策之前，先对比我们自己的交付指标。"
+  },
+  "change_my_mind": {
+    "en": "A randomised trial of full-time remote work for developers, using delivery measures beyond code volume, that shows a consistent gain or loss.",
+    "zh": "一项针对开发者全职远程办公的随机试验，使用代码量以外的交付指标，并显示出一致的提升或下降。"
+  },
+  "sources": [
+    { "id": "bloom2024", "role": "primary" },
+    { "id": "bao2022", "role": "primary", "quotes": ["139 developers"] },
+    { "id": "gibbs2023", "role": "primary", "quotes": ["19%"] }
+  ],
+  "verified_on": "2026-10-01"
+}

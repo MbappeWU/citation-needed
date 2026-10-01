@@ -1,0 +1,35 @@
+{
+  "id": "people-manager-ratings",
+  "topic": "people",
+  "claim": {
+    "en": "Manager ratings reflect how well people really perform.",
+    "zh": "经理的绩效评分反映了员工的真实表现。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "Two large studies from different research groups agree that ratings carry real signal but that much of the variance comes from the rater. Both are observational.",
+    "zh": "两项由不同研究团队完成的大样本研究结论一致：评分含有真实信号，但很大一部分差异来自评分者。两者都是观察性研究。"
+  },
+  "evidence": {
+    "en": "Viswesvaran, Ones and Schmidt (1996) pooled 40 samples covering 14,650 people and found that two supervisors rating the same person agreed with a reliability of .52 on overall job performance. Scullen, Mount and Goff (2000) studied 360-degree ratings of two groups of managers (2,350 and 2,142 people), each rated by 7 raters. The rater's own idiosyncrasies explained 62% and 53% of rating variance in the two data sets. The ratee's actual performance, general plus dimension-specific, explained 21% and 25%.",
+    "zh": "Viswesvaran、Ones 和 Schmidt（1996）汇总了 40 个样本（共 14,650 人），发现两位上级对同一个人整体工作表现的评分，一致性（信度）只有 .52。Scullen、Mount 和 Goff（2000）分析了两组经理（分别为 2,350 和 2,142 人）的 360 度评价，每人由 7 位评分者打分。在两组数据中，评分者个人的特异倾向分别解释了 62% 和 53% 的评分差异，被评者真实表现（含总体和分维度）只解释了 21% 和 25%。"
+  },
+  "caveats": {
+    "en": "The 360-degree data were developmental ratings of managers by 7 raters, not annual boss ratings of engineers, and ratings used for pay may differ. Reliability shows agreement, not accuracy: raters can share the same bias.",
+    "zh": "360 度数据是 7 位评分者给经理做的发展性评价，不是上级对工程师的年度评分，用于定薪的评分可能不同。信度反映的是一致性，不等于准确性：评分者可能有共同的偏见。"
+  },
+  "boss_line": {
+    "en": "Two supervisors rating the same person show a reliability of just .52, and in two sets of 2,000-plus managers the rater explained more of the score than the person rated. Let's use ratings as one input, not as the verdict.",
+    "zh": "两位上级给同一个人打分，信度只有 .52；在两组各 2,000 多名经理的数据里，评分者对分数的影响比被评者本人还大。评分只能作为参考之一，不宜当作定论。"
+  },
+  "change_my_mind": {
+    "en": "Data from engineering teams showing that different managers' ratings of the same people agree closely and track independent measures of output.",
+    "zh": "来自工程团队的数据显示，不同经理给同一批人的评分高度一致，并且与独立的产出指标相吻合。"
+  },
+  "sources": [
+    { "id": "viswesvaran1996", "role": "primary", "quotes": [".52"] },
+    { "id": "scullen2000", "role": "primary", "quotes": ["62%", "21%"] }
+  ],
+  "verified_on": "2026-10-01"
+}

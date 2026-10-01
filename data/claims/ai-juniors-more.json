@@ -1,0 +1,36 @@
+{
+  "id": "ai-juniors-more",
+  "topic": "ai",
+  "claim": {
+    "en": "AI helps junior developers more than seniors.",
+    "zh": "AI 对初级开发者的帮助比对资深开发者更大。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "Randomized field experiments point one way and a large observational study points the other, with different outcomes and tools.",
+    "zh": "公司里的随机现场实验指向一个方向，大规模观察性研究指向相反方向，两者的结果指标和工具都不同。"
+  },
+  "evidence": {
+    "en": "Three field experiments at Microsoft, Accenture and a Fortune 100 firm (4,867 developers, GitHub Copilot) found 26.08% more completed tasks, with higher adoption and larger gains among less experienced developers. A customer-support study (not software) also found novices gained most. A Science study of about 160,000 GitHub developers (Python, through 2024) found the reverse: early-career developers used AI most but showed no measurable gain, while experienced developers captured the gains. METR's 2025 trial studied only experienced developers.",
+    "zh": "微软、埃森哲和一家财富 100 强公司的三项现场实验（4,867 名开发者，使用 GitHub Copilot）发现，完成的任务多了 26.08%，经验较少的开发者采用率更高、收益更大。一项客服场景（不是软件）的研究也发现新手受益最大。发表在 Science 的研究分析了约 16 万名 GitHub 开发者（Python，截至 2024 年底），结论相反：早期职业开发者用 AI 最多，却没有可测量的收益，收益主要归有经验的开发者。METR 2025 年的试验只研究了有经验的开发者。"
+  },
+  "caveats": {
+    "en": "The two sources measure experience and output differently: the field experiments count completed tasks, while the Science study infers AI use with a classifier on public GitHub code and counts commit activity. Neither measures code quality or learning.",
+    "zh": "两类研究对经验和产出的衡量方式不同：现场实验数完成的任务，Science 论文用分类器从公开 GitHub 代码中推断 AI 使用，并统计提交活动。两者都没有测量代码质量或学习效果。"
+  },
+  "boss_line": {
+    "en": "The studies disagree on who gains more. Controlled experiments inside companies favored less experienced developers; a large GitHub analysis favored seniors. I would not plan headcount on either claim without our own data.",
+    "zh": "研究对谁获益更多并不一致：公司里的对照实验偏向经验较少的开发者，一项大型 GitHub 分析偏向资深开发者。没有我们自己的数据，我不想据此做人员规划。"
+  },
+  "change_my_mind": {
+    "en": "A randomized trial that gives AI to both juniors and seniors on the same real tasks and measures completed work and quality.",
+    "zh": "一项随机试验：让初级和资深开发者在同样的真实任务上使用 AI，并同时测量完成量和质量。"
+  },
+  "sources": [
+    { "id": "cui2026", "role": "primary" },
+    { "id": "daniotti2026", "role": "critique" },
+    { "id": "brynjolfsson2023", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

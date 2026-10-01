@@ -1,0 +1,35 @@
+{
+  "id": "people-whiteboard-coding",
+  "topic": "people",
+  "claim": {
+    "en": "Whiteboard coding interviews show how well someone codes.",
+    "zh": "白板编程面试能看出一个人代码写得好不好。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "One small experiment with students plus indirect evidence from work-sample tests. Neither checks whether whiteboard scores predict later job performance.",
+    "zh": "只有一项小样本实验（48 名学生）和关于工作样本测试的间接证据，两者都没有检验白板面试分数能否预测入职后的工作表现。"
+  },
+  "evidence": {
+    "en": "Behroozi and colleagues (2020) gave 48 computer science students a technical interview problem. Half solved it at a whiteboard with an interviewer watching, half at a whiteboard alone in a private room. Being watched cut performance by more than half, and stress and cognitive load were higher. Separately, Sackett et al. (2022) put work-sample tests, which imitate the job, at .33 validity, above unstructured interviews at .19.",
+    "zh": "Behroozi 等人（2020）让 48 名计算机专业学生做一道技术面试题。一半人在面试官注视下于白板上解题，另一半人同样用白板，但在无人的私密房间里解题。被人注视使成绩下降了一半以上，压力和认知负荷也更高。另外，Sackett 等人（2022）估计，模拟真实工作的工作样本测试效度为 .33，高于非结构化面试的 .19。"
+  },
+  "caveats": {
+    "en": "The sample is small and made of students, not hired engineers, and nobody was followed into a job. Work-sample validity comes from many jobs, and whiteboard puzzles may not resemble the work. Whether coping with being watched matters on the job was not tested.",
+    "zh": "样本小，而且是学生，不是在职工程师，也没有人被跟踪到入职之后。工作样本的效度来自多种职业，白板算法题未必接近真实工作。被注视时的应对能力是否与工作相关，研究没有检验。"
+  },
+  "boss_line": {
+    "en": "In one experiment, simply being watched cut interview scores by more than half. Let's test coding with a realistic task that candidates can work on without an audience.",
+    "zh": "有一项实验发现，仅仅是被人注视，面试成绩就下降了一半以上。建议用贴近真实工作的任务考察编码，并让候选人可以在没有旁观者的情况下做题。"
+  },
+  "change_my_mind": {
+    "en": "A study linking whiteboard interview scores to later job performance in software teams, or a replication in which being watched does not lower scores.",
+    "zh": "有研究把白板面试分数与软件团队入职后的工作表现联系起来，或者有复现研究显示被注视时成绩并不下降。"
+  },
+  "sources": [
+    { "id": "behroozi2020", "role": "primary" },
+    { "id": "sackett2022", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

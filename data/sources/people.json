@@ -1,0 +1,146 @@
+{
+  "sackett2022": {
+    "kind": "paper",
+    "title": "Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range",
+    "authors": "Paul R. Sackett, Charlene Zhang, Christopher M. Berry, Filip Lievens",
+    "year": 2022,
+    "venue": "Journal of Applied Psychology 107(11)",
+    "doi": "10.1037/apl0000994",
+    "verify": "metadata"
+  },
+  "schmidt1998": {
+    "kind": "paper",
+    "title": "The validity and utility of selection methods in personnel psychology: Practical and theoretical implications of 85 years of research findings",
+    "authors": "Frank L. Schmidt, John E. Hunter",
+    "year": 1998,
+    "venue": "Psychological Bulletin 124(2)",
+    "doi": "10.1037/0033-2909.124.2.262",
+    "verify": "metadata"
+  },
+  "behroozi2020": {
+    "kind": "paper",
+    "title": "Does stress impact technical interview performance?",
+    "authors": "Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, Chris Parnin",
+    "year": 2020,
+    "venue": "ESEC/FSE 2020",
+    "doi": "10.1145/3368089.3409712",
+    "verify": "metadata"
+  },
+  "quinones1995": {
+    "kind": "paper",
+    "title": "The relationship between work experience and job performance: A conceptual and meta-analytic review",
+    "authors": "Miguel A. Quiñones, J. Kevin Ford, Mark S. Teachout",
+    "year": 1995,
+    "venue": "Personnel Psychology 48(4)",
+    "doi": "10.1111/j.1744-6570.1995.tb01785.x",
+    "verify": "abstract"
+  },
+  "mcdaniel1988": {
+    "kind": "paper",
+    "title": "Job experience correlates of job performance",
+    "authors": "Michael A. McDaniel, Frank L. Schmidt, John E. Hunter",
+    "year": 1988,
+    "venue": "Journal of Applied Psychology 73(2)",
+    "doi": "10.1037/0021-9010.73.2.327",
+    "verify": "metadata"
+  },
+  "dieste2017": {
+    "kind": "paper",
+    "title": "Empirical evaluation of the effects of experience on code quality and programmer productivity: an exploratory study",
+    "authors": "Oscar Dieste, Alejandrina M. Aranda, Fernando Uyaguari, et al.",
+    "year": 2017,
+    "venue": "Empirical Software Engineering 22(5)",
+    "url": "https://www.semanticscholar.org/paper/Empirical-evaluation-of-the-effects-of-experience-Tub%C3%ADo-Aranda/5327cdf59ffb4f331243647a67859f336ae2de11",
+    "verify": "manual"
+  },
+  "viswesvaran1996": {
+    "kind": "paper",
+    "title": "Comparative analysis of the reliability of job performance ratings",
+    "authors": "Chockalingam Viswesvaran, Deniz S. Ones, Frank L. Schmidt",
+    "year": 1996,
+    "venue": "Journal of Applied Psychology 81(5)",
+    "doi": "10.1037/0021-9010.81.5.557",
+    "verify": "abstract"
+  },
+  "scullen2000": {
+    "kind": "paper",
+    "title": "Understanding the latent structure of job performance ratings",
+    "authors": "Steven E. Scullen, Michael K. Mount, Maynard Goff",
+    "year": 2000,
+    "venue": "Journal of Applied Psychology 85(6)",
+    "doi": "10.1037/0021-9010.85.6.956",
+    "verify": "abstract"
+  },
+  "kluger1996": {
+    "kind": "paper",
+    "title": "The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory",
+    "authors": "Avraham N. Kluger, Angelo DeNisi",
+    "year": 1996,
+    "venue": "Psychological Bulletin 119(2)",
+    "doi": "10.1037/0033-2909.119.2.254",
+    "verify": "abstract"
+  },
+  "scullen2005": {
+    "kind": "paper",
+    "title": "Forced distribution rating systems and the improvement of workforce potential: A baseline simulation",
+    "authors": "Steven E. Scullen, Paul K. Bergey, Lynda Aiman-Smith",
+    "year": 2005,
+    "venue": "Personnel Psychology 58(1)",
+    "doi": "10.1111/j.1744-6570.2005.00361.x",
+    "verify": "metadata"
+  },
+  "berger2013": {
+    "kind": "paper",
+    "title": "Performance appraisals and the impact of forced distribution: An experimental investigation",
+    "authors": "Johannes Berger, Christine Harbring, Dirk Sliwka",
+    "year": 2013,
+    "venue": "Management Science 59(1)",
+    "doi": "10.1287/mnsc.1120.1624",
+    "verify": "metadata"
+  },
+  "loberg2021": {
+    "kind": "paper",
+    "title": "Forced distribution rating systems and team collaboration",
+    "authors": "L. Loberg, S. Nüesch, J. N. Foege",
+    "year": 2021,
+    "venue": "Journal of Economic Behavior & Organization 188",
+    "url": "https://www.unifr.ch/tim/en/assets/public/uploads/Loberg_N%C3%BCesch_Foege_2021.pdf",
+    "verify": "manual"
+  },
+  "bond2025": {
+    "kind": "paper",
+    "title": "Cut to the curve: Underrecognition and talent loss from forced ranking in a multinational firm",
+    "authors": "Brittany M. Bond",
+    "year": 2025,
+    "venue": "Management Science",
+    "doi": "10.1287/mnsc.2023.01204",
+    "verify": "metadata"
+  },
+  "ariely2009": {
+    "kind": "paper",
+    "title": "Large stakes and big mistakes",
+    "authors": "Dan Ariely, Uri Gneezy, George Loewenstein, Nina Mazar",
+    "year": 2009,
+    "venue": "The Review of Economic Studies 76(2)",
+    "doi": "10.1111/j.1467-937X.2009.00534.x",
+    "verify": "metadata"
+  },
+  "bonner2002": {
+    "kind": "paper",
+    "title": "The effects of monetary incentives on effort and task performance: theories, evidence, and a framework for research",
+    "authors": "Sarah E. Bonner, Geoffrey B. Sprinkle",
+    "year": 2002,
+    "venue": "Accounting, Organizations and Society 27(4-5)",
+    "doi": "10.1016/S0361-3682(01)00052-6",
+    "verify": "metadata"
+  },
+  "cerasoli2014": {
+    "kind": "paper",
+    "title": "Intrinsic motivation and extrinsic incentives jointly predict performance: A 40-year meta-analysis",
+    "authors": "Christopher P. Cerasoli, Jessica M. Nicklin, Michael T. Ford",
+    "year": 2014,
+    "venue": "Psychological Bulletin 140(4)",
+    "doi": "10.1037/a0035661",
+    "verify": "abstract"
+  }
+}

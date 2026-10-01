@@ -1,0 +1,128 @@
+{
+  "buehler1994": {
+    "kind": "paper",
+    "title": "Exploring the \"planning fallacy\": Why people underestimate their task completion times",
+    "authors": "Roger Buehler, Dale Griffin, Michael Ross",
+    "year": 1994,
+    "venue": "Journal of Personality and Social Psychology 67(3)",
+    "doi": "10.1037/0022-3514.67.3.366",
+    "verify": "metadata"
+  },
+  "halkjelsvik2012": {
+    "kind": "paper",
+    "title": "From origami to software development: A review of studies on judgment-based predictions of performance time",
+    "authors": "Torleif Halkjelsvik, Magne Jørgensen",
+    "year": 2012,
+    "venue": "Psychological Bulletin 138(2)",
+    "doi": "10.1037/a0025996",
+    "verify": "metadata"
+  },
+  "standish1994": {
+    "kind": "report",
+    "title": "The CHAOS Report",
+    "authors": "The Standish Group",
+    "year": 1994,
+    "venue": "The Standish Group International",
+    "url": "https://personal.utdallas.edu/~chung/SYSM6309/chaos_report.pdf",
+    "verify": "manual"
+  },
+  "eveleens2010": {
+    "kind": "paper",
+    "title": "The Rise and Fall of the Chaos Report Figures",
+    "authors": "J. Laurenz Eveleens, Chris Verhoef",
+    "year": 2010,
+    "venue": "IEEE Software 27(1)",
+    "doi": "10.1109/MS.2009.154",
+    "verify": "abstract"
+  },
+  "jorgensen2006chaos": {
+    "kind": "paper",
+    "title": "How large are software cost overruns? A review of the 1994 CHAOS report",
+    "authors": "Magne Jørgensen, Kjetil Moløkken-Østvold",
+    "year": 2006,
+    "venue": "Information and Software Technology 48(4)",
+    "url": "https://web-backend.simula.no/sites/default/files/publications/Jorgensen.2006.4.pdf",
+    "verify": "manual"
+  },
+  "glass2006standish": {
+    "kind": "article",
+    "title": "The Standish report: does it really describe a software crisis?",
+    "authors": "Robert L. Glass",
+    "year": 2006,
+    "venue": "Communications of the ACM 49(8)",
+    "doi": "10.1145/1145287.1145301",
+    "verify": "metadata"
+  },
+  "flyvbjerg2011it": {
+    "kind": "article",
+    "title": "Why Your IT Project May Be Riskier Than You Think",
+    "authors": "Bent Flyvbjerg, Alexander Budzier",
+    "year": 2011,
+    "venue": "Harvard Business Review, September 2011 (author copy on arXiv)",
+    "url": "https://arxiv.org/pdf/1304.0265",
+    "verify": "manual"
+  },
+  "lohre2016": {
+    "kind": "paper",
+    "title": "Numerical anchors and their strong effects on software development effort estimates",
+    "authors": "Erik Løhre, Magne Jørgensen",
+    "year": 2016,
+    "venue": "Journal of Systems and Software 116",
+    "doi": "10.1016/j.jss.2015.03.015",
+    "verify": "abstract"
+  },
+  "shepperd2018debias": {
+    "kind": "paper",
+    "title": "An Experimental Evaluation of a De-biasing Intervention for Professional Software Developers",
+    "authors": "Martin Shepperd, Carolyn Mair, Magne Jørgensen",
+    "year": 2018,
+    "venue": "ACM Symposium on Applied Computing (SAC) 2018",
+    "arxiv": "1804.03919",
+    "verify": "abstract"
+  },
+  "aranda2005": {
+    "kind": "paper",
+    "title": "Anchoring and adjustment in software estimation",
+    "authors": "Jorge Aranda, Steve Easterbrook",
+    "year": 2005,
+    "venue": "ESEC/FSE-13 (ACM SIGSOFT Software Engineering Notes 30(5))",
+    "doi": "10.1145/1095430.1081761",
+    "verify": "metadata"
+  },
+  "jorgensen2011irrelevant": {
+    "kind": "paper",
+    "title": "The Impact of Irrelevant and Misleading Information on Software Development Effort Estimates: A Randomized Controlled Field Experiment",
+    "authors": "Magne Jørgensen, Stein Grimstad",
+    "year": 2011,
+    "venue": "IEEE Transactions on Software Engineering 37(5)",
+    "url": "https://www.simula.no/research/impact-irrelevant-and-misleading-information-software-development-effort-estimates",
+    "verify": "manual"
+  },
+  "jorgensen2004expert": {
+    "kind": "paper",
+    "title": "A review of studies on expert estimation of software development effort",
+    "authors": "Magne Jørgensen",
+    "year": 2004,
+    "venue": "Journal of Systems and Software 70(1-2)",
+    "doi": "10.1016/S0164-1212(02)00156-5",
+    "verify": "abstract"
+  },
+  "kuutila2019": {
+    "kind": "preprint",
+    "title": "Time Pressure in Software Engineering: A Systematic Review",
+    "authors": "Miikka Kuutila, Mika Mäntylä, Umar Farooq, Maëlick Claes",
+    "year": 2019,
+    "venue": "arXiv preprint; journal version in Information and Software Technology 121 (2020)",
+    "arxiv": "1901.05771",
+    "verify": "abstract"
+  },
+  "nan2009": {
+    "kind": "paper",
+    "title": "Impact of Budget and Schedule Pressure on Software Development Cycle Time and Effort",
+    "authors": "Ning Nan, Donald E. Harter",
+    "year": 2009,
+    "venue": "IEEE Transactions on Software Engineering 35(5)",
+    "doi": "10.1109/TSE.2009.18",
+    "verify": "metadata"
+  }
+}

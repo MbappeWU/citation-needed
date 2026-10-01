@@ -12,16 +12,16 @@
     "zh": "基于详细历史工厂记录的严谨分析，与后来的现场数据一致，但不是实验研究。"
   },
   "evidence": {
-    "en": "Economist John Pencavel analysed detailed records of British munitions workers, most of them women, in the First World War. Below a threshold, output was proportional to hours; above it, output rose ever more slowly. A week of 48 hours over six days produced slightly more than 70 hours over seven. Past the knee of the curve, extra hours mostly buy fatigue.",
-    "zh": "经济学家 Pencavel 分析了第一次世界大战期间英国军工厂工人（多数是女工）的详细记录：低于某个门槛时，产出与工时成正比；超过之后，产出的增长越来越慢。每周工作六天、共 48 小时的总产出，比连续七天、共 70 小时的还略高一点。过了拐点，多出来的工时主要换来疲劳。"
+    "en": "Economist John Pencavel analysed records of British munition workers, most of them women, in the First World War. Below a threshold, output was proportional to hours; above it, output rose at a decreasing rate. Summaries of the full text report a threshold near 49 hours a week, and a six-day 48-hour week out-producing a seven-day 70-hour one.",
+    "zh": "经济学家 Pencavel 分析了第一次世界大战期间英国军工厂工人（多数是女工）的记录：低于某个门槛时，产出与工时成正比；超过之后，产出以递减的速度增长。对全文的转述提到，门槛在每周 49 小时左右，六天 48 小时的一周比七天 70 小时的一周产出还略高。"
   },
   "caveats": {
-    "en": "The data are from wartime manual work, not software. The shape of the curve is the point; the exact threshold varies by job.",
-    "zh": "数据来自战时的体力劳动，不是软件工作。重点是曲线的形状，具体门槛因工作而异。"
+    "en": "The data are from wartime manual work, not software. The abstract gives only the shape of the curve; the 49, 48 and 70 hour figures come from summaries of the full text, which we have not checked line by line.",
+    "zh": "数据来自战时的体力劳动，不是软件工作。摘要只描述了曲线的形状；49、48、70 小时这几个数字来自对全文的转述，我们没有逐行核对过。"
   },
   "boss_line": {
-    "en": "In the best study of long hours, a six-day 48-hour week produced slightly more than a seven-day 70-hour week. Past a point, extra hours buy fatigue, not output.",
-    "zh": "在关于长工时最好的研究里，六天 48 小时的一周，产出比七天 70 小时的一周还略高。超过某个点，多出来的工时换来的是疲劳，不是产出。"
+    "en": "In the best-known study of long hours, output rose ever more slowly past a threshold, and a six-day 48-hour week is reported to have beaten a seven-day 70-hour week.",
+    "zh": "在关于长工时最有名的研究里，超过某个门槛后产出越涨越慢；据报道，六天 48 小时的一周，产出超过了七天 70 小时的一周。"
   },
   "change_my_mind": {
     "en": "Measured output from our own team showing no drop in output per hour at 55 hours or more over several months.",
@@ -32,8 +32,8 @@
       "id": "pencavel2015",
       "role": "primary",
       "quotes": [
-        "48",
-        "70"
+        "munition workers",
+        "decreasing rate"
       ]
     }
   ],

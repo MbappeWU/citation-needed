@@ -1,0 +1,36 @@
+{
+  "id": "measure-releases-output",
+  "topic": "measure",
+  "claim": {
+    "en": "The number of releases, features or tickets shipped measures a team's output.",
+    "zh": "发布次数、上线功能数或完成的工单数，可以衡量团队的产出。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "A measurement argument built on the DORA authors' design and one systematic review. We did not find a study that tests release counts as a measure of output.",
+    "zh": "依据是 DORA 作者的度量设计和一项系统综述，属于对度量方法的论证。我们没有找到把发布次数当作产出度量来检验的研究。"
+  },
+  "evidence": {
+    "en": "The authors of Accelerate say a performance measure should capture an outcome, not output, and should not reward busywork. DORA does track deployment frequency, but as one of four measures with lead time, change failure rate and time to restore. In DORA's 2024 report the medium cluster had lower throughput but a lower change failure rate than the high cluster, so shipping often did not guarantee stability. Petersen's review of 38 studies reported problems with simple output-over-effort ratios.",
+    "zh": "《Accelerate》的作者认为，绩效度量应当反映成果而不是产出，也不应奖励无效的忙碌。DORA 统计部署频率，但它只是四项指标之一，另三项是变更前置时间、变更失败率和服务恢复时间。DORA 2024 年报告中，中等表现组的吞吐量低于高表现组，变更失败率却更低，说明发布得多并不保证稳定。Petersen 对 38 项研究的综述指出，“产出除以投入”的简单比值存在问题。"
+  },
+  "caveats": {
+    "en": "We found no study that tests release, feature or ticket counts as output, so this rests on measurement logic. In DORA's surveys deployment frequency moves with the other three metrics, but as a sign of delivery capability, not a count of work done.",
+    "zh": "我们没有找到把发布次数、功能数或工单数当作产出来检验的研究，所以本条依据的是度量逻辑。在 DORA 的调查中，部署频率与另外三项指标同步变化，但它反映的是交付能力，不是完成的工作量。"
+  },
+  "boss_line": {
+    "en": "A release is an event, not a unit of work, so a flat release count cannot show that efficiency fell. DORA reports shipping frequency next to lead time, failure rate and recovery time.",
+    "zh": "一次发布是一个事件，不是一个工作量单位，发布次数没变并不能说明效率下降了。DORA 也是把发布频率和前置时间、失败率、恢复时间放在一起看。"
+  },
+  "change_my_mind": {
+    "en": "Evidence that release or ticket counts track independently measured effort and delivered value across teams with different sizes and release policies.",
+    "zh": "有证据显示：在规模和发布策略不同的团队之间，发布次数或工单数与独立测得的投入和交付价值相吻合。"
+  },
+  "sources": [
+    { "id": "forsgren2018accelerate", "role": "primary" },
+    { "id": "dora2024", "role": "primary" },
+    { "id": "petersen2011", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

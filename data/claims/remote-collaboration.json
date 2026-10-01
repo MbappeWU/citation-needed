@@ -1,0 +1,36 @@
+{
+  "id": "remote-collaboration",
+  "topic": "remote",
+  "claim": {
+    "en": "Remote work damages collaboration.",
+    "zh": "远程办公会损害团队协作。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "Two large observational datasets agree that communication changes under full remote work. Neither is randomised, and both come from pandemic conditions.",
+    "zh": "两个大型观察性数据集都显示，全员远程后沟通方式会改变；但都不是随机试验，且都来自疫情时期。"
+  },
+  "evidence": {
+    "en": "After Microsoft moved to firm-wide remote work in 2020, an analysis of 61,182 US employees' emails, calendars, chats and calls (December 2019 to June 2020) found a more static, siloed collaboration network with fewer bridges between groups, less live communication and more asynchronous communication. At an Asian IT-services firm, time in meetings and coordination rose, uninterrupted hours shrank and staff networked with fewer people and units. At Trip.com, two days a week at home did not change performance reviews.",
+    "zh": "2020 年微软全员转为远程后，研究者分析了 61,182 名美国员工的邮件、日历、聊天和通话记录（2019 年 12 月至 2020 年 6 月）：协作网络变得更静态、更割裂，不同群体之间的“桥梁”更少，实时沟通减少，异步沟通增加。一家亚洲 IT 服务公司的员工，开会和协调时间增加，不被打断的工作时间大幅缩短，接触的人和业务单元变少。Trip.com 的试验中，每周在家两天没有改变绩效评级。"
+  },
+  "caveats": {
+    "en": "Microsoft's shift was sudden, firm-wide and mid-pandemic, with no control group, and it measured network structure, not project quality. Neither study separates remote work from lockdown. Two days a week at home (Trip.com) does not extend to fully remote teams.",
+    "zh": "微软的转变是突然的、全公司范围的，发生在疫情期间，没有对照组，测的是网络结构而不是项目质量。两项研究都无法把远程办公和封控分开。Trip.com 的每周在家两天不能推广到全远程团队。"
+  },
+  "boss_line": {
+    "en": "At Microsoft, going fully remote left collaboration more siloed, with fewer links between groups. A Trip.com trial found two days a week at home did not hurt performance. If we go remote, let's plan cross-team contact on purpose.",
+    "zh": "微软全员远程后，协作更割裂，跨团队联系变少；Trip.com 的试验则显示每周在家两天不影响绩效。如果我们要远程，就有意安排跨团队的交流。"
+  },
+  "change_my_mind": {
+    "en": "A randomised comparison of fully remote and co-located software teams showing no change in cross-team ties or delivery outcomes, or a randomised hybrid trial showing weaker collaboration.",
+    "zh": "对全远程与同地办公的软件团队做随机对比，显示跨团队联系和交付结果没有变化；或者一项混合办公随机试验显示协作变弱。"
+  },
+  "sources": [
+    { "id": "yang2022", "role": "primary", "quotes": ["61,182"] },
+    { "id": "gibbs2023", "role": "context" },
+    { "id": "bloom2024", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

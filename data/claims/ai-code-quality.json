@@ -1,0 +1,36 @@
+{
+  "id": "ai-code-quality",
+  "topic": "ai",
+  "claim": {
+    "en": "AI tools do not hurt code quality.",
+    "zh": "AI 工具不会损害代码质量。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "The only causal estimate cited here covers a single tool in open-source projects and uses proxy measures. The rest is a vendor report and self-reported survey data.",
+    "zh": "这里引用的唯一因果估计只覆盖开源项目里的一个工具，质量指标是代理指标；其余证据是厂商报告和自评问卷。"
+  },
+  "evidence": {
+    "en": "A Carnegie Mellon difference-in-differences study compared 807 GitHub projects that adopted Cursor (January 2024 to March 2025) with 1,380 matched controls. Lines added jumped in the first month and faded within about two months. Static-analysis warnings rose about 30% and code complexity about 40%, and both stayed high. GitClear's vendor analysis of 211 million changed lines (2020 to 2024) reports more copy-pasted code and less moved (refactored) code. DORA 2024 respondents, by contrast, tied 25% more AI adoption to 3.4% higher self-reported code quality.",
+    "zh": "卡内基梅隆大学的双重差分研究对比了 807 个采用 Cursor 的 GitHub 项目（2024 年 1 月到 2025 年 3 月）和 1,380 个匹配的对照项目。第一个月新增代码行数大幅上升，约两个月内消退；静态分析告警上升约 30%，代码复杂度上升约 40%，并持续偏高。GitClear 的厂商分析（2020 到 2024 年共 2.11 亿行变更）报告了更多复制粘贴代码和更少的移动（重构）代码。相反，DORA 2024 的受访者把 AI 采用率提高 25% 与自评代码质量提高 3.4% 联系在一起。"
+  },
+  "caveats": {
+    "en": "Warnings and complexity are proxies, not production defects. The CMU study covers open-source projects and one tool (2024 to early 2025). GitClear measures trends in git history and cannot show cause. DORA's quality figure is self-reported.",
+    "zh": "静态分析告警和复杂度是代理指标，不是生产缺陷。CMU 研究只覆盖开源项目和一个工具（2024 年到 2025 年初）。GitClear 衡量的是 git 历史中的趋势，无法确定原因。DORA 的质量数字是自评。"
+  },
+  "boss_line": {
+    "en": "A Carnegie Mellon study of 807 projects found static-analysis warnings up about 30% and complexity up about 40% after Cursor adoption, while the speed gain faded within two months. Let's keep review and lint gates and track rework.",
+    "zh": "卡内基梅隆大学对 807 个项目的研究发现，采用 Cursor 后静态分析告警上升约 30%、复杂度上升约 40%，而速度优势在两个月内就消退了。我们保留评审和 lint 门禁，并跟踪返工。"
+  },
+  "change_my_mind": {
+    "en": "Matched or randomized studies of current agents showing no rise in defects, warnings or rework after adoption, ideally in company repositories.",
+    "zh": "对当前智能体的匹配或随机研究显示，采用后缺陷、告警或返工没有上升，最好是在公司代码库里。"
+  },
+  "sources": [
+    { "id": "he2025", "role": "primary" },
+    { "id": "gitclear2025", "role": "context" },
+    { "id": "dora2024", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

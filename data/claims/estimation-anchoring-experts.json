@@ -1,0 +1,37 @@
+{
+  "id": "estimation-anchoring-experts",
+  "topic": "estimation",
+  "claim": {
+    "en": "Experienced estimators are not affected by anchoring.",
+    "zh": "有经验的估算者不会被锚定效应影响。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Controlled experiments with software professionals (381 in one study, 410 in another) found large anchoring effects, but most come from one research group.",
+    "zh": "多项针对软件从业者的对照实验（一项 381 人，另一项 410 人）发现了明显的锚定效应，但多数来自同一个研究团队。"
+  },
+  "evidence": {
+    "en": "Løhre and Jørgensen (2016) ran three experiments with 381 software professionals and confirmed that numerical anchors shift effort estimates. The effect did not shrink when the anchor was less precise or came from a less credible source. Shepperd, Mair and Jørgensen (2018) ran two series of experiments with 410 developers in company settings. Anchors had a large effect (robust Cohen's d = 1.19), and a workshop on judgement biases cut it to d = 0.72 without removing it. In a small experiment by Aranda and Easterbrook (2005), a 20-month anchor produced far higher estimates than a 2-month anchor, even from a source who said they had no software experience.",
+    "zh": "Løhre 和 Jørgensen（2016）对 381 名软件从业者做了三个实验，证实数字锚点会改变工作量估算；锚点更模糊或来源更不可信时，效应并没有变小。Shepperd、Mair 和 Jørgensen（2018）在公司环境中对 410 名开发者做了两组实验：锚点效应很大（稳健 Cohen's d = 1.19），参加过认知偏差工作坊的人降到 d = 0.72，但没有消失。Aranda 和 Easterbrook（2005）的小型实验中，20 个月的锚点让估算远高于 2 个月的锚点，哪怕锚点来自自称没有软件经验的人。"
+  },
+  "caveats": {
+    "en": "Most studies come from one research group and test estimates in experiments, not in live projects. Aranda and Easterbrook's sample is small and mixes students and professionals. A field experiment with outsourcing companies (Jørgensen and Grimstad 2011) also found estimates moved by misleading information, but its authors warn against carrying lab effect sizes over to the field.",
+    "zh": "多数研究来自同一个研究团队，是在实验中而不是真实项目里检验估算。Aranda 和 Easterbrook 的样本很小，学生和从业者混合。Jørgensen 和 Grimstad（2011）在外包公司做的现场实验同样发现误导性信息会改变估算，但作者提醒不要把实验室里的效应大小直接套到现场。"
+  },
+  "boss_line": {
+    "en": "In controlled experiments, professional developers were pulled toward a number they were shown first, even when it came from a source that was not an expert. Let's collect estimates independently before anyone states a target.",
+    "zh": "对照实验里，专业开发者的估算会被先看到的数字拉偏，哪怕那个数字来自外行。我们先各自独立估算，再讨论目标数字，好吗？"
+  },
+  "change_my_mind": {
+    "en": "A preregistered replication with experienced professionals, in real bidding or planning settings, showing no effect of an irrelevant anchor on estimates.",
+    "zh": "在真实投标或排期场景中，对资深从业者做的预注册复现显示，无关的锚点不影响估算。"
+  },
+  "sources": [
+    { "id": "lohre2016", "role": "primary", "quotes": ["381"] },
+    { "id": "shepperd2018debias", "role": "primary", "quotes": ["410", "1.19", "0.72"] },
+    { "id": "aranda2005", "role": "context" },
+    { "id": "jorgensen2011irrelevant", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

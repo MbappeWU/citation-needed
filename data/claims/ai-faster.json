@@ -1,0 +1,38 @@
+{
+  "id": "ai-faster",
+  "topic": "ai",
+  "claim": {
+    "en": "AI coding tools make developers faster.",
+    "zh": "AI 编程工具能让开发者更快完成工作。"
+  },
+  "verdict": "supported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Three randomized studies agree on a gain, but sizes range from 21% to 55.8%, they tested earlier tools, and one 2025 trial found a slowdown.",
+    "zh": "三项随机研究都发现提速，但幅度从 21% 到 55.8% 不等，测的是较早的工具，另有一项 2025 年试验发现变慢。"
+  },
+  "evidence": {
+    "en": "In a 2023 preprint, 95 developers wrote an HTTP server in JavaScript, and the GitHub Copilot group finished 55.8% faster. At Google, 96 engineers did one enterprise task and AI cut time by about 21%, with a wide confidence interval. Three field experiments at Microsoft, Accenture and a Fortune 100 firm (4,867 developers) found 26.08% more completed tasks. The 55.8% figure is the high end. Estimates from company settings are lower.",
+    "zh": "2023 年的一篇预印本中，95 名开发者用 JavaScript 写一个 HTTP 服务器，使用 GitHub Copilot 的一组快了 55.8%。在谷歌，96 名工程师完成同一个企业级任务，AI 让耗时减少约 21%，置信区间很宽。微软、埃森哲和一家财富 100 强公司的三项现场实验（4,867 名开发者）发现，完成的任务多了 26.08%。55.8% 是最高的一端，公司场景下的估计更低。"
+  },
+  "caveats": {
+    "en": "Studies differ in tool, task and metric, and intervals are wide (standard error 10.3% in the field experiments). The three studies predate today's coding agents. Two other trials found no gain: experienced maintainers in their own repositories (19% slower, 2025) and 52 engineers learning a new library (no significant speedup, 2026).",
+    "zh": "各研究的工具、任务和指标不同，置信区间很宽（现场实验的标准误为 10.3%），而且这三项研究都早于今天的编程智能体。另有两项试验没有发现提速：有经验的维护者在自己的代码库里做（慢了 19%，2025 年），以及 52 名工程师学习新库（速度没有显著提高，2026 年）。"
+  },
+  "boss_line": {
+    "en": "Randomized studies find real but modest gains: about 21% less time at Google and 26% more tasks in company trials. The 55% figure comes from one small lab task. Let's plan for a modest gain and measure our own.",
+    "zh": "随机研究确实发现了提速，但幅度不大：谷歌约少用 21% 的时间，公司现场试验多完成 26% 的任务。55% 这个数字来自一个小型实验室任务。我们按温和的提速来规划，再用自己的数据验证。"
+  },
+  "change_my_mind": {
+    "en": "Repeated randomized trials in real company work that show no gain, or a slowdown, for typical developers using current tools.",
+    "zh": "在真实公司工作中反复进行的随机试验显示，普通开发者使用当前工具没有提速，甚至变慢。"
+  },
+  "sources": [
+    { "id": "peng2023", "role": "primary", "quotes": ["55.8%"] },
+    { "id": "paradis2024", "role": "primary", "quotes": ["21%"] },
+    { "id": "cui2026", "role": "primary" },
+    { "id": "becker2025", "role": "critique" },
+    { "id": "shen2026skills", "role": "critique" }
+  ],
+  "verified_on": "2026-10-01"
+}

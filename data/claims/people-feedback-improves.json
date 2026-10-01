@@ -1,0 +1,34 @@
+{
+  "id": "people-feedback-improves",
+  "topic": "people",
+  "claim": {
+    "en": "Feedback always improves performance.",
+    "zh": "给反馈总能提高工作表现。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "A single large meta-analysis from 1996, covering many kinds of feedback and tasks, mostly outside software teams.",
+    "zh": "只有一项 1996 年的大型荟萃分析，涵盖多种反馈和任务，多数不在软件团队中进行。"
+  },
+  "evidence": {
+    "en": "Kluger and DeNisi (1996) pooled 607 effect sizes (23,663 observations) from studies of feedback interventions. On average feedback improved performance (d = .41), but over one-third of the interventions made performance worse. Feedback helped less as it pulled attention toward the self and away from the task.",
+    "zh": "Kluger 和 DeNisi（1996）汇总了反馈干预研究的 607 个效应量（23,663 个观测值）。平均而言，反馈提高了表现（d = .41），但超过三分之一的干预让表现变差。当反馈把注意力从任务转向自我时，效果会减弱。"
+  },
+  "caveats": {
+    "en": "The review is from 1996 and spans many tasks and kinds of feedback, mostly not software work. An average of .41 hides wide differences. It was not designed to test code review comments or annual reviews.",
+    "zh": "这篇综述发表于 1996 年，涵盖多种任务和反馈形式，多数不是软件工作。.41 的平均值掩盖了很大的差异。它并非为检验代码评审意见或年度评估而设计。"
+  },
+  "boss_line": {
+    "en": "A large meta-analysis found feedback helps on average, but over a third of feedback interventions made performance worse. Let's keep feedback on the task and how to improve it, not on the person.",
+    "zh": "一项大型荟萃分析发现，反馈平均有帮助，但超过三分之一的反馈干预让表现变差。反馈应聚焦任务本身和改进方法，而不是针对人。"
+  },
+  "change_my_mind": {
+    "en": "A newer, larger meta-analysis of workplace feedback showing that almost none of the interventions lowered performance.",
+    "zh": "更新、更大规模的职场反馈荟萃分析显示，几乎没有干预会降低表现。"
+  },
+  "sources": [
+    { "id": "kluger1996", "role": "primary", "quotes": ["607", ".41"] }
+  ],
+  "verified_on": "2026-10-01"
+}

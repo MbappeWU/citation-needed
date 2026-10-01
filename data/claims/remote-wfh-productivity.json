@@ -1,0 +1,36 @@
+{
+  "id": "remote-wfh-productivity",
+  "topic": "remote",
+  "claim": {
+    "en": "Working from home lowers productivity.",
+    "zh": "在家办公会降低工作效率。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "Two randomised trials at one Chinese company found a gain or no loss, but they covered a call centre and two days a week at home. A pandemic-era study of IT staff found output per hour fell.",
+    "zh": "同一家中国公司的两项随机对照试验发现效率提高或没有损失，但分别针对呼叫中心和每周在家两天；疫情期间一项 IT 人员研究则发现单位工时产出下降。"
+  },
+  "evidence": {
+    "en": "At Ctrip (now Trip.com), call-centre staff who volunteered were randomly assigned to work from home for 9 months. Their performance rose 13%, mostly from more minutes worked, and attrition halved. Once the firm let staff choose, the gain rose to 22%. In a later Trip.com trial of 1,612 university-graduate employees, including software engineers, two days a week at home left performance reviews and engineers' lines of code unchanged. Against that, 10,000+ staff at an Asian IT-services firm worked more hours in the pandemic, output fell slightly, and output per hour dropped 8 to 19%.",
+    "zh": "携程（现 Trip.com）呼叫中心自愿报名的员工被随机分到在家办公组或办公室组，为期 9 个月：在家组业绩提高 13%，主要来自多工作的时间，离职率减半；公司放开自由选择后，提升幅度升至 22%。后来 Trip.com 对 1,612 名大学毕业员工（含软件工程师）做试验，每周在家 2 天，绩效评级和工程师的代码行数都没有变化。相反，一家亚洲 IT 服务公司 1 万多名员工在疫情期间工时增加、产出略降，单位工时产出下降 8% 到 19%。"
+  },
+  "caveats": {
+    "en": "Both trials ran at the same company, and the first was call-centre work with volunteers. The second tested only two days a week at home. The IT-services study was not randomised and covers the pandemic switch to working from home.",
+    "zh": "两项试验在同一家公司进行，第一项是自愿报名的呼叫中心工作，第二项只测试了每周在家两天。IT 服务公司的研究不是随机试验，针对的是疫情期间转为在家办公的情形。"
+  },
+  "boss_line": {
+    "en": "Randomised trials at a Chinese company found a gain for call-centre volunteers working from home and no loss for staff at home two days a week. A pandemic study of IT staff found output per hour fell. Let's measure our own output per hour before deciding.",
+    "zh": "一家中国公司的随机试验发现：自愿在家工作的呼叫中心员工业绩提高，每周在家两天的员工也没有损失；疫情期间一项 IT 人员研究则发现单位工时产出下降。我们先看自己团队的数据再决定。"
+  },
+  "change_my_mind": {
+    "en": "A randomised trial of full-time remote work with software teams, run outside a lockdown, showing a clear drop in output per hour. Or the Trip.com results failing to repeat at other firms.",
+    "zh": "在非疫情封控期间，对软件团队做的全职远程办公随机试验显示单位工时产出明显下降；或者 Trip.com 的结果在其他公司无法重复。"
+  },
+  "sources": [
+    { "id": "bloom2015", "role": "primary", "quotes": ["13%"] },
+    { "id": "bloom2024", "role": "primary", "quotes": ["1,612"] },
+    { "id": "gibbs2023", "role": "primary", "quotes": ["19%"] }
+  ],
+  "verified_on": "2026-10-01"
+}

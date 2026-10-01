@@ -1,0 +1,37 @@
+{
+  "id": "ai-old-studies",
+  "topic": "ai",
+  "claim": {
+    "en": "Those AI studies are out of date, because today's tools are much better.",
+    "zh": "那些 AI 研究已经过时了，因为今天的工具强多了。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "The only rerun cited here (METR) is flagged unreliable by its authors. The other newer sources are a working paper and vendor reports.",
+    "zh": "这里引用的唯一一次重测（METR）被作者自己标为不可靠，其他较新的来源是一篇工作论文和厂商报告。"
+  },
+  "evidence": {
+    "en": "METR now calls its 2025 finding (19% slower with Cursor and Claude 3.5/3.7 Sonnet) outdated and says speedups seem likely, but its newer data are unreliable because more developers refused to work without AI. A 2026 NBER working paper (100,000+ GitHub developers) found each tool generation (autocomplete, interactive agents, autonomous agents) raised coding activity more, but far less at the level of releases. Veracode's 2026 reports still show about 55 to 56% secure outputs, with no gain from larger models. The learning trial used a sidebar chat assistant, not an agent.",
+    "zh": "METR 现在把 2025 年的结论（用 Cursor 和 Claude 3.5/3.7 Sonnet 慢了 19%）称为已过时，并说提速看起来很可能，但因为更多开发者拒绝在没有 AI 的条件下工作，新数据不可靠。2026 年一篇 NBER 工作论文（10 万多名 GitHub 开发者）发现，每一代工具（自动补全、交互式智能体、自主智能体）都让编码活动增加更多，但体现在发布上的增幅小得多。Veracode 2026 年的报告显示，安全输出的比例仍在 55% 到 56% 左右，模型更大并没有带来改善。学习试验用的是侧边栏聊天助手，不是智能体。"
+  },
+  "caveats": {
+    "en": "Newer tools may do better or worse, and no retest with agents is cited here for learning or quality. METR's later estimate and the NBER paper are not peer reviewed, and Veracode is a vendor report. Tie every number to the tool generation it names.",
+    "zh": "新工具可能更好也可能更差，这里没有引用用智能体重测学习或质量的研究。METR 的后续估计和 NBER 论文都没有经过同行评审，Veracode 是厂商报告。每个数字都只对应所述的工具代际。"
+  },
+  "boss_line": {
+    "en": "The 2025 results are dated, and METR says so itself. But the newer evidence is thin and mixed, so let's treat both the old slowdown and the new speedup as unproven and test current tools on our own work.",
+    "zh": "2025 年的结果确实过时了，METR 自己也这么说。但更新的证据又少又不一致，所以旧的“变慢”和新的“变快”都还没被证实，我们应该在自己的工作上测试当前工具。"
+  },
+  "change_my_mind": {
+    "en": "Peer-reviewed randomized trials of current coding agents in company settings that report speed, quality, security and learning outcomes.",
+    "zh": "经同行评审的随机试验，用当前编程智能体在公司环境中，同时报告速度、质量、安全和学习结果。"
+  },
+  "sources": [
+    { "id": "metr2026", "role": "primary" },
+    { "id": "demirer2026", "role": "context" },
+    { "id": "veracode2026", "role": "context" },
+    { "id": "shen2026skills", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "meetings-23-minutes",
+  "topic": "meetings",
+  "claim": {
+    "en": "It takes 23 minutes to recover from every interruption.",
+    "zh": "每被打断一次，就要花 23 分钟才能恢复专注。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Three designs (field observation, a lab experiment, programmer logs) fit together, and none measured a fixed 23-minute recovery, but each is small or indirect.",
+    "zh": "现场观察、实验室实验和程序员日志三类研究互相吻合，都没有测出固定的 23 分钟恢复时间，但样本较小或只是间接证据。"
+  },
+  "evidence": {
+    "en": "The figure traces to Gloria Mark's field observation of 24 information workers (2005). Interrupted work was resumed after roughly 23 to 25 minutes on average, and people did about two other things first. That is time until return, not time to refocus. In a 2008 lab experiment with 48 participants, interrupted work was finished faster with no loss of quality, but with more stress, frustration and effort. A log study of 86 programmers found only 10% of sessions resumed coding within 1 minute of an interruption. Resuming is often slow, but no study supports a fixed 23-minute cost.",
+    "zh": "这个数字源自 Gloria Mark 2005 年对 24 名信息工作者的现场观察：被打断的工作平均隔约 23 到 25 分钟才被重新拾起，其间人们会先做约两件别的事。这是“隔多久回到原任务”，不是“多久才能重新专注”。2008 年一项 48 人的实验室实验发现，被打断的任务完成得更快、质量没有下降，但压力、挫败感和付出的努力更高。对 86 名程序员的日志研究发现，只有 10% 的会话在被打断后 1 分钟内恢复编码。恢复往往不快，但没有研究支持“固定 23 分钟”这个代价。"
+  },
+  "caveats": {
+    "en": "The field study had 24 information workers, not only developers. The lab study used a short email task with 48 participants. The log study measured when editing resumed, not how well people worked. No study measured developers' recovery time directly, and sources quote the field average as both 23 and 25 minutes.",
+    "zh": "现场研究的 24 名信息工作者并非都是开发者；实验室研究是 48 人做的短时邮件任务；日志研究测的是何时恢复编辑，不是工作质量。没有研究直接测过开发者的恢复时间。现场平均值在不同来源里有 23 分钟和 25 分钟两种说法。"
+  },
+  "boss_line": {
+    "en": "The 23 minutes is how long people took on average to get back to interrupted work in one observation study, not how long they needed to refocus. Interruptions do cost something, so let's batch non-urgent pings instead of quoting a number.",
+    "zh": "23 分钟是一项观察研究里人们平均隔多久才回到被打断的工作，不是重新专注所需的时间。打断确实有代价，所以我们把不紧急的消息集中处理，而不是引用这个数字。"
+  },
+  "change_my_mind": {
+    "en": "A study that times how long developers take to get back to full speed after an interruption, using task time or error rates, and finds a stable figure near 23 minutes.",
+    "zh": "有研究用任务耗时或错误率，直接测量开发者被打断后恢复到正常效率所需的时间，并得到一个稳定的、接近 23 分钟的数字。"
+  },
+  "sources": [
+    { "id": "mark2005", "role": "primary", "quotes": ["24 information workers"] },
+    { "id": "mark2008", "role": "primary" },
+    { "id": "parnin2011", "role": "context", "quotes": ["10%"] }
+  ],
+  "verified_on": "2026-10-01"
+}

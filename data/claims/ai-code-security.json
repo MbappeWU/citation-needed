@@ -1,0 +1,38 @@
+{
+  "id": "ai-code-security",
+  "topic": "ai",
+  "claim": {
+    "en": "AI-generated code is as secure as human-written code.",
+    "zh": "AI 生成的代码和人写的代码一样安全。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "Benchmarks show frequent vulnerabilities, but none compares against human code at scale, and the two user studies disagree.",
+    "zh": "基准测试显示漏洞很常见，但没有一项与人写代码做大规模对比，两项用户研究的结论也不一致。"
+  },
+  "evidence": {
+    "en": "In a 2021 test, about 40% of 1,689 programs from GitHub Copilot across 89 scenarios were vulnerable. In a Stanford user study, participants with an AI assistant (codex-davinci-002) wrote significantly less secure code and were more likely to think it was secure. A 58-person C study found AI-assisted users made critical security bugs at a rate no more than 10% higher than controls. Veracode's 2025 vendor benchmark (100+ models, 80 tasks) found 45% of outputs had a known vulnerability; its 2026 updates report about 55 to 56% secure.",
+    "zh": "2021 年的一项测试中，GitHub Copilot 在 89 个场景下生成的 1,689 个程序里，约 40% 有漏洞。斯坦福的一项用户研究发现，使用 AI 助手（codex-davinci-002）的参与者写出的代码明显更不安全，而且更相信自己的代码是安全的。另一项 58 人的 C 语言用户研究发现，使用 AI 的人犯严重安全错误的比率，最多只比对照组高 10%。Veracode 2025 年对 100 多个模型、80 个任务的厂商基准测试发现，45% 的输出含已知漏洞；其 2026 年更新的安全比例仍在 55% 到 56% 左右。"
+  },
+  "caveats": {
+    "en": "None of these compares AI and human code at scale in production, and humans also write vulnerable code. Tools range from 2021 Copilot to 2025 models, and results vary by language and prompt. Veracode is a vendor report.",
+    "zh": "这些研究没有一项在生产环境里大规模比较 AI 代码和人写代码，人写的代码同样会有漏洞。所测工具从 2021 年的 Copilot 到 2025 年的模型不等，结果还取决于语言和提示词。Veracode 是厂商报告。"
+  },
+  "boss_line": {
+    "en": "The evidence is thin. Tests find vulnerable output in about 40 to 45% of samples, one user study found AI users wrote less secure code while feeling more sure of it, and another found little difference. Let's keep security review and scanning on AI changes.",
+    "zh": "证据不多。测试发现约 40% 到 45% 的样本含漏洞；一项用户研究发现用 AI 的人写出的代码更不安全，却更有信心；另一项则发现差别不大。AI 生成的改动，我们继续做安全评审和扫描。"
+  },
+  "change_my_mind": {
+    "en": "A large comparison of AI-assisted and human-only code, using current tools and independent vulnerability testing, that finds no difference in flaw rates.",
+    "zh": "一项大规模对比 AI 辅助代码和纯人工代码的研究：用当前工具，由独立方检测漏洞，发现缺陷率没有差别。"
+  },
+  "sources": [
+    { "id": "pearce2021", "role": "primary", "quotes": ["1,689", "40%"] },
+    { "id": "perry2022", "role": "primary" },
+    { "id": "sandoval2022", "role": "critique", "quotes": ["10%"] },
+    { "id": "veracode2025", "role": "context" },
+    { "id": "veracode2026", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

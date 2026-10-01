@@ -1,0 +1,35 @@
+{
+  "id": "estimation-tight-deadlines",
+  "topic": "estimation",
+  "claim": {
+    "en": "Tight deadlines make teams more productive.",
+    "zh": "工期压得紧，团队的效率就更高。"
+  },
+  "verdict": "mixed",
+  "grade": "B",
+  "grade_why": {
+    "en": "A systematic review of 102 papers plus a field study of projects at one firm; the answer differs by outcome, so the evidence supports 'it depends'.",
+    "zh": "依据是一篇涵盖 102 篇论文的系统综述和一家公司的项目现场研究；结论因指标不同而不同，所以只能说“视情况而定”。"
+  },
+  "evidence": {
+    "en": "A systematic review by Kuutila and colleagues covered 102 papers on time pressure in software engineering. It reports that the majority of high-quality studies found increased productivity and decreased quality under time pressure. Nan and Harter (2009) analysed projects at one large technology firm. Budget pressure had a U-shaped relationship with development cycle time and with effort: both were lowest at moderate pressure and higher when pressure was low or high.",
+    "zh": "Kuutila 等人的系统综述涵盖了软件工程中时间压力的 102 篇论文，报告称多数高质量研究发现：在时间压力下，生产率上升，质量下降。Nan 和 Harter（2009）分析了一家大型科技公司的项目：预算压力与开发周期、工作量都呈 U 形关系，压力适中时两者最低，压力过低或过高时都更高。"
+  },
+  "caveats": {
+    "en": "The review pools studies with different designs and measures, so 'productivity' is not one number. Nan and Harter's data come from one firm, and budget pressure is not the same thing as a tight deadline. None of this shows what happens to delivery over many months.",
+    "zh": "该综述汇总了设计和指标各异的研究，“生产率”并不是同一个数字。Nan 和 Harter 的数据来自一家公司，而且预算压力不等于紧工期。这些证据不能说明长达数月的交付会怎样。"
+  },
+  "boss_line": {
+    "en": "A review of 102 papers found that most high-quality studies saw productivity rise and quality fall under time pressure. If we tighten this deadline, which quality risks are we accepting?",
+    "zh": "一篇涵盖 102 篇论文的综述发现，多数高质量研究显示时间压力下生产率上升、质量下降。如果压缩这个工期，我们愿意接受哪些质量风险？"
+  },
+  "change_my_mind": {
+    "en": "Controlled field data showing that shortening deadlines on comparable projects raised delivered value over several months, with no rise in defects.",
+    "zh": "对可比项目的对照现场数据显示，缩短工期在数月内提高了交付价值，缺陷也没有增加。"
+  },
+  "sources": [
+    { "id": "kuutila2019", "role": "primary", "quotes": ["102"] },
+    { "id": "nan2009", "role": "primary" }
+  ],
+  "verified_on": "2026-10-01"
+}

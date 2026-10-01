@@ -1,0 +1,35 @@
+{
+  "id": "estimation-careful-planning",
+  "topic": "estimation",
+  "claim": {
+    "en": "If we plan carefully enough, our software estimates will be accurate.",
+    "zh": "只要计划做得足够细，软件估算就会准。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "Indirect evidence: experiments on students and everyday tasks plus one review, with no software study that varies how much teams plan.",
+    "zh": "证据是间接的：针对学生和日常任务的实验加一篇综述，没有在软件团队中改变计划详细程度的研究。"
+  },
+  "evidence": {
+    "en": "Buehler, Griffin and Ross (1994) asked university students to predict when they would finish their honours theses. The average prediction was 33.9 days and the average worst-case guess was 48.6 days. The theses took 55.5 days on average, and about 30% were finished within the predicted time. The authors report that people predict from a plan-based scenario and give little weight to how similar past tasks went. A 2012 review by Halkjelsvik and Jørgensen found no general bias across lab tasks, but the amount of work in larger real-life projects is often underestimated.",
+    "zh": "Buehler、Griffin 和 Ross（1994）让大学生预测自己写完荣誉论文要多久：平均预测 33.9 天，平均“最坏情况”预测 48.6 天；实际平均用了 55.5 天，只有约 30% 的人在预测时间内完成。作者发现，人们是按“计划情景”来预测的，很少参考类似任务过去花了多久。Halkjelsvik 和 Jørgensen 在 2012 年的综述中发现：实验室任务整体上没有一致的高估或低估，但规模较大的现实项目，工作量常被低估。"
+  },
+  "caveats": {
+    "en": "The thesis data come from students, not software teams. Neither source tests planning depth directly, so this shows planning alone does not remove optimism, not that planning is useless. Estimates checked against past project data are not evaluated here.",
+    "zh": "论文数据来自学生，不是软件团队。两个来源都没有直接检验计划详细程度的影响，只能说明光靠计划不能消除乐观偏差，不能说计划没用。对照过往项目数据来校验估算的做法，这里没有评估。"
+  },
+  "boss_line": {
+    "en": "Research on the planning fallacy finds that plan-based predictions tend to run optimistic, and larger real projects are often underestimated. Can we check this estimate against how long similar work actually took here?",
+    "zh": "计划谬误的研究发现，基于计划的预测往往偏乐观，较大的实际项目工作量也常被低估。能不能对照我们做过的类似工作实际花了多久，来检验这个估算？"
+  },
+  "change_my_mind": {
+    "en": "A controlled study in software teams showing that more detailed planning alone produced estimates with smaller error against actual effort.",
+    "zh": "在软件团队中的对照研究显示，仅仅把计划做得更细，就能让估算与实际工作量的误差变小。"
+  },
+  "sources": [
+    { "id": "buehler1994", "role": "primary" },
+    { "id": "halkjelsvik2012", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

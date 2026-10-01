@@ -1,0 +1,36 @@
+{
+  "id": "people-bonus-complex-tasks",
+  "topic": "people",
+  "claim": {
+    "en": "Bonuses motivate better work on complex tasks.",
+    "zh": "奖金能激励人在复杂任务上做得更好。"
+  },
+  "verdict": "mixed",
+  "grade": "C",
+  "grade_why": {
+    "en": "Lab experiments, a literature review and a correlational meta-analysis; none tests bonuses on software work.",
+    "zh": "依据是实验室实验、文献综述和一项相关性荟萃分析，没有一项在软件工作中检验过奖金。"
+  },
+  "evidence": {
+    "en": "Ariely et al. (2009) paid people in the US and rural India small to very large amounts for performing tasks. With some important exceptions, very high rewards hurt performance. Bonner and Sprinkle (2002) reviewed the literature and found that whether money helps depends on the person, the task, the setting and the scheme. A meta-analysis of 183 samples (212,468 people) found that intrinsic motivation predicted performance quality better, while incentives predicted quantity better (Cerasoli et al., 2014).",
+    "zh": "Ariely 等人（2009）在美国和印度农村让受试者做各种任务，奖金从很少到相对于日常收入很高。除了一些重要的例外，非常高的奖励反而损害了表现。Bonner 和 Sprinkle（2002）的文献综述发现，钱能否提高表现取决于人、任务、环境和激励方案。Cerasoli 等人（2014）对 183 个样本（212,468 人）的荟萃分析发现：内在动机更能预测表现的质量，激励更能预测表现的数量。"
+  },
+  "caveats": {
+    "en": "The key experiments are short lab tasks, not software work, and the high-stakes result has exceptions. The meta-analysis is correlational and mixes school, work and sport. None of these tests a bonus paid to engineers.",
+    "zh": "关键实验是短时间的实验室任务，不是软件工作，高奖金的负面结果也有例外。荟萃分析是相关性的，混合了学校、工作和体育场景。没有一项检验过给工程师发奖金。"
+  },
+  "boss_line": {
+    "en": "For thinking-heavy work the research on bonuses is mixed: incentives track output quantity better than quality, and in one set of lab experiments very large rewards usually hurt performance. Before we tie a bonus to design or debugging work, can we agree what we would measure?",
+    "zh": "对于需要动脑的工作，关于奖金的研究结论并不一致：激励与产出数量的关系比与质量的关系更强，在一组实验室实验里极高的奖励多半反而损害了表现。给设计或排障类工作挂钩奖金之前，能否先约定我们要衡量什么？"
+  },
+  "change_my_mind": {
+    "en": "A field experiment in software teams showing that a performance bonus raised the quality of complex work, such as post-release defect rates, without hurting collaboration.",
+    "zh": "软件团队里的现场实验显示，绩效奖金提高了复杂工作的质量（例如上线后的缺陷率），且没有损害协作。"
+  },
+  "sources": [
+    { "id": "ariely2009", "role": "primary" },
+    { "id": "bonner2002", "role": "primary" },
+    { "id": "cerasoli2014", "role": "primary", "quotes": ["183", "212,468"] }
+  ],
+  "verified_on": "2026-10-01"
+}

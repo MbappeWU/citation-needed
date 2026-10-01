@@ -1,0 +1,37 @@
+{
+  "id": "estimation-chaos-failure-rate",
+  "topic": "estimation",
+  "claim": {
+    "en": "70% of IT projects fail.",
+    "zh": "70% 的 IT 项目都会失败。"
+  },
+  "verdict": "unsupported",
+  "grade": "B",
+  "grade_why": {
+    "en": "Two peer-reviewed critiques agree, one applying Standish's definitions to 1,211 other projects. They show the figure is unreliable, not what the true rate is.",
+    "zh": "两篇同行评议的批评一致，其中一篇用 Standish 的定义去套另外 1,211 个项目。它们证明这个数字不可靠，但没有给出真实的失败率。"
+  },
+  "evidence": {
+    "en": "The 70% traces to the Standish Group's CHAOS reports, which count a project as a success only if it meets its original cost, time and scope forecast. Its 1994 report put 16.2% of projects as successes, 52.7% as challenged and 31.1% as cancelled. Eveleens and Verhoef (2010) applied those definitions to 5,457 forecasts of 1,211 real projects and found they only compare outcomes with the original forecast, which makes the figures misleading. Jørgensen and Moløkken-Østvold (2006) found the report's 189% average overrun far above the typical error of about 30% in other sources, and that Standish had asked executives for failure stories.",
+    "zh": "这个 70% 出自 Standish Group 的 CHAOS 报告。该报告只有在项目达到最初的成本、工期和范围预测时才算“成功”；1994 年的报告里，16.2% 成功，52.7%“受挑战”，31.1% 被取消。Eveleens 和 Verhoef（2010）把这些定义用在 1,211 个真实项目的 5,457 个预测上，发现它们只拿结果和最初预测比较，因此数字有误导性。Jørgensen 和 Moløkken-Østvold（2006）发现，该报告的平均成本超支 189%，远高于其他来源中约 30% 的典型误差，而且 Standish 向高管征集的是失败案例。"
+  },
+  "caveats": {
+    "en": "This shows the figure is unreliable, not that the true failure rate is low. How many projects 'fail' depends on the definition, and there is no accepted measure. The critiques date from 2006 to 2010; we have not checked later CHAOS editions. Glass (2006) raised the same sampling concern.",
+    "zh": "这只能说明该数字不可靠，不能说明真实失败率很低。“失败”取决于怎么定义，目前没有公认的度量。这些批评发表于 2006 到 2010 年，我们没有核查 Standish 后来各版的数据。Glass（2006）也提出过同样的抽样问题。"
+  },
+  "boss_line": {
+    "en": "Standish's figures judge projects only against their original estimates, and published critiques found that this makes them misleading. Let's define what failure means for us, such as cancelled or never used, before we quote a rate.",
+    "zh": "Standish 的数字只拿项目和最初的估算比较，已发表的批评认为这样会产生误导。引用失败率之前，我们先定义一下对我们来说什么算失败，比如被取消或没人用。"
+  },
+  "change_my_mind": {
+    "en": "An open, independently audited dataset showing that about 70% of IT projects fail under a definition based on sponsor outcomes rather than original estimates.",
+    "zh": "有公开、经过独立审计的数据显示，按发起方的实际结果（而非最初估算）来定义，大约 70% 的 IT 项目确实失败。"
+  },
+  "sources": [
+    { "id": "eveleens2010", "role": "primary", "quotes": ["5,457", "1,211"] },
+    { "id": "jorgensen2006chaos", "role": "critique" },
+    { "id": "glass2006standish", "role": "critique" },
+    { "id": "standish1994", "role": "context" }
+  ],
+  "verified_on": "2026-10-01"
+}

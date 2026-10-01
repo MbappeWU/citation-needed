@@ -1,0 +1,34 @@
+{
+  "id": "estimation-experts-vs-models",
+  "topic": "estimation",
+  "claim": {
+    "en": "Expert estimates are less accurate than formal estimation models.",
+    "zh": "专家凭经验估算，不如正式的估算模型准确。"
+  },
+  "verdict": "unsupported",
+  "grade": "C",
+  "grade_why": {
+    "en": "Rests mainly on one review by a researcher who has long studied expert estimation; no large head-to-head trial is cited.",
+    "zh": "主要依据一篇综述，作者长期研究专家估算；这里没有引用大规模的直接对比试验。"
+  },
+  "evidence": {
+    "en": "Jørgensen (2004) reviewed studies of expert estimation of software development effort. Expert estimation was the most frequently applied strategy in software projects. The review found no substantial evidence in favour of estimation models and concluded there are situations where expert estimates can be expected to be more accurate than formal models. It also collected practices that improve expert estimates, such as combining estimates from different experts and methods, using checklists, assessing uncertainty and giving estimators feedback on their accuracy.",
+    "zh": "Jørgensen（2004）综述了软件开发工作量专家估算的研究：专家估算是软件项目中最常用的估算方式；综述发现，没有实质性证据支持采用估算模型，并指出在某些情形下，专家估算可能比正式模型更准。综述还整理了改进专家估算的做法，例如组合不同专家和不同方法的估算、使用检查清单、评估不确定性，以及向估算者反馈准确度。"
+  },
+  "caveats": {
+    "en": "This is a 2004 review by one author, so it is one reviewer's reading of studies from before then. 'No substantial evidence for models' is not evidence that models are worse in general. Newer models are not covered, and our own team's data may favour either approach.",
+    "zh": "这是 2004 年一位作者对此前研究的综述，只代表一位综述者的解读。“没有实质性证据支持模型”并不等于模型整体上更差。此后出现的新模型不在其范围内，各团队自己的数据也可能偏向任何一方。"
+  },
+  "boss_line": {
+    "en": "A 2004 review of the comparison studies found no substantial evidence that formal models beat expert estimates. Let's get estimates from both, compare them, and look into any large gap.",
+    "zh": "2004 年的一篇综述回顾了对比研究，没有发现实质性证据表明正式模型比专家估算更准。不如两种方法都做一遍，对比结果，差距大的地方再查原因。"
+  },
+  "change_my_mind": {
+    "en": "A large, preregistered comparison on current software projects, with models and experts given the same information, showing models clearly more accurate.",
+    "zh": "在当前的软件项目上做大规模、预注册的对比，模型和专家获得相同信息，结果显示模型明显更准。"
+  },
+  "sources": [
+    { "id": "jorgensen2004expert", "role": "primary", "quotes": ["no substantial evidence"] }
+  ],
+  "verified_on": "2026-10-01"
+}

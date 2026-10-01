@@ -54,11 +54,11 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **~ It depends · Grade B** (Careful analysis of detailed historical factory records, consistent with later field data, but not experimental.)
 
-**What the research says.** Economist John Pencavel analysed detailed records of British munitions workers, most of them women, in the First World War. Below a threshold, output was proportional to hours; above it, output rose ever more slowly. A week of 48 hours over six days produced slightly more than 70 hours over seven. Past the knee of the curve, extra hours mostly buy fatigue.
+**What the research says.** Economist John Pencavel analysed records of British munition workers, most of them women, in the First World War. Below a threshold, output was proportional to hours; above it, output rose at a decreasing rate. Summaries of the full text report a threshold near 49 hours a week, and a six-day 48-hour week out-producing a seven-day 70-hour one.
 
-**Limits.** The data are from wartime manual work, not software. The shape of the curve is the point; the exact threshold varies by job.
+**Limits.** The data are from wartime manual work, not software. The abstract gives only the shape of the curve; the 49, 48 and 70 hour figures come from summaries of the full text, which we have not checked line by line.
 
-> **Say this to your boss:** In the best study of long hours, a six-day 48-hour week produced slightly more than a seven-day 70-hour week. Past a point, extra hours buy fatigue, not output.
+> **Say this to your boss:** In the best-known study of long hours, output rose ever more slowly past a threshold, and a six-day 48-hour week is reported to have beaten a seven-day 70-hour week.
 
 **What would change my mind.** Measured output from our own team showing no drop in output per hour at 55 hours or more over several months.
 

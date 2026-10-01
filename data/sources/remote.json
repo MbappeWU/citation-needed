@@ -1,0 +1,74 @@
+{
+  "bloom2015": {
+    "kind": "paper",
+    "title": "Does Working from Home Work? Evidence from a Chinese Experiment",
+    "authors": "Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying",
+    "year": 2015,
+    "venue": "The Quarterly Journal of Economics 130(1)",
+    "doi": "10.1093/qje/qju032",
+    "verify": "abstract"
+  },
+  "bloom2024": {
+    "kind": "paper",
+    "title": "Hybrid working from home improves retention without damaging performance",
+    "authors": "Nicholas Bloom, Ruobing Han, James Liang",
+    "year": 2024,
+    "venue": "Nature 630",
+    "doi": "10.1038/s41586-024-07500-2",
+    "verify": "abstract"
+  },
+  "gibbs2023": {
+    "kind": "paper",
+    "title": "Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals",
+    "authors": "Michael Gibbs, Friederike Mengel, Christoph Siemroth",
+    "year": 2023,
+    "venue": "Journal of Political Economy Microeconomics 1(1)",
+    "doi": "10.1086/721803",
+    "verify": "abstract"
+  },
+  "bao2022": {
+    "kind": "paper",
+    "title": "How does working from home affect developer productivity? A case study of Baidu during the COVID-19 pandemic",
+    "authors": "Lingfeng Bao, Tao Li, Xin Xia, Kaiyu Zhu, Hui Li, Xiaohu Yang",
+    "year": 2022,
+    "venue": "Science China Information Sciences 65(4)",
+    "doi": "10.1007/s11432-020-3278-4",
+    "verify": "abstract"
+  },
+  "yang2022": {
+    "kind": "paper",
+    "title": "The effects of remote work on collaboration among information workers",
+    "authors": "Longqi Yang, David Holtz, Sonia Jaffe, et al.",
+    "year": 2022,
+    "venue": "Nature Human Behaviour 6",
+    "doi": "10.1038/s41562-021-01196-4",
+    "verify": "abstract"
+  },
+  "emanuel2026": {
+    "kind": "paper",
+    "title": "The Power of Proximity to Coworkers",
+    "authors": "Natalia Emanuel, Emma Harrington, Amanda Pallais",
+    "year": 2026,
+    "venue": "The Quarterly Journal of Economics 141(3)",
+    "doi": "10.1093/qje/qjag027",
+    "verify": "metadata"
+  },
+  "brucks2022": {
+    "kind": "paper",
+    "title": "Virtual communication curbs creative idea generation",
+    "authors": "Melanie S. Brucks, Jonathan Levav",
+    "year": 2022,
+    "venue": "Nature 605",
+    "doi": "10.1038/s41586-022-04643-y",
+    "verify": "metadata"
+  },
+  "lin2023": {
+    "kind": "paper",
+    "title": "Remote collaboration fuses fewer breakthrough ideas",
+    "authors": "Yiling Lin, Carl Benedikt Frey, Lingfei Wu",
+    "year": 2023,
+    "venue": "Nature 623",
+    "doi": "10.1038/s41586-023-06767-1",
+    "verify": "abstract"
+  }
+}

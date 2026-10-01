@@ -2,9 +2,9 @@
 // Usage: node scripts/build-book.mjs            write _site/book.en.html and book.zh-CN.html
 //        node scripts/build-book.mjs --pdf      also write dist/citation-needed-en.pdf and dist/citation-needed-zh-CN.pdf
 import { mkdirSync, writeFileSync } from "node:fs";
-import { createRequire } from "node:module";
 import { join } from "node:path";
 import { LABELS, REPO, ROOT, counts } from "./lib.mjs";
+import { loadPlaywright } from "./browser.mjs";
 import { readerData } from "./build-site.mjs";
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[m]);
@@ -76,22 +76,6 @@ export function renderBook(d, lang) {
 <section class="how"><h1>${L ? "怎么读" : "How to read this"}</h1><p>${L ? "每条说法有两个标签：结论，和证据等级。证据等级衡量的是结论背后的证据有多强，不是这个说法听起来对不对。每条都配有一句可以对老板说的话，以及什么证据会让我们改口。" : "Every claim carries two labels: a verdict and an evidence grade. The grade measures how strong the evidence is behind the verdict, not whether the claim feels true. Each entry also gives a sentence you can say to your boss, and what evidence would change our mind."}</p>${legend}</section>
 ${chapters}
 </body></html>`;
-}
-
-async function loadPlaywright() {
-  try {
-    return await import("playwright");
-  } catch {
-    const require = createRequire(import.meta.url);
-    for (const p of ["/opt/node22/lib/node_modules/playwright", "playwright"]) {
-      try {
-        return require(p);
-      } catch {
-        /* try the next location */
-      }
-    }
-    throw new Error("playwright is not installed (npm i --no-save playwright && npx playwright install chromium)");
-  }
 }
 
 async function main() {
