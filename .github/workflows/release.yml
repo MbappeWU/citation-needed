@@ -1,10 +1,13 @@
 name: Release
 
-# Push a tag such as v0.1.0. The release gets the offline reader, PDFs in English and Chinese,
-# the data as JSON, the skill as a zip, and one share image per claim in both languages.
+# Push a tag such as v0.1.0, or publish a release by hand in the GitHub UI. Either way the
+# release gets the offline reader, PDFs in English and Chinese, the data as JSON, the skill as
+# a zip, and one share image per claim in both languages.
 on:
   push:
     tags: ["v*"]
+  release:
+    types: [published]
   # Run it by hand to check that everything builds: the files are kept as a workflow
   # artifact and no release is created.
   workflow_dispatch:
@@ -14,11 +17,11 @@ permissions:
 
 jobs:
   release:
-    if: ${{ github.event_name == 'workflow_dispatch' || !github.event.deleted }}
+    if: ${{ github.event_name != 'push' || !github.event.deleted }}
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
-      TAG: ${{ github.ref_name }}
+      TAG: ${{ github.event.release.tag_name || github.ref_name }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -53,7 +56,7 @@ jobs:
         with:
           name: release-files
           path: out
-      - name: Create the release
+      - name: Create the release for a pushed tag
         if: ${{ github.event_name == 'push' }}
         run: |
           if gh release view "$TAG" >/dev/null 2>&1; then
@@ -64,5 +67,5 @@ jobs:
             gh release create "$TAG" --verify-tag --title "$TAG" --generate-notes
           fi
       - name: Upload assets
-        if: ${{ github.event_name == 'push' }}
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: gh release upload "$TAG" out/* --clobber
