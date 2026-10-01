@@ -6,29 +6,51 @@
     "zh": "长时间工作只是一种生活方式，对健康没有实质代价。"
   },
   "verdict": "unsupported",
-  "grade": "A",
+  "grade": "B",
   "grade_why": {
-    "en": "A joint WHO and ILO systematic review pooling dozens of studies, though the underlying studies are observational.",
-    "zh": "世界卫生组织和国际劳工组织联合做的系统综述，汇总了几十项研究，但底层研究都是观察性的。"
+    "en": "Pooled observational studies agree on stroke, but the heart-disease link is disputed and none of it is experimental.",
+    "zh": "多项观察性研究的汇总结果在中风上一致，但心脏病的关联存在争议，而且都不是实验研究。"
   },
   "evidence": {
-    "en": "The WHO and ILO pooled studies covering more than 1.5 million people. Compared with 35 to 40 hours a week, working 55 hours or more was linked to a 35% higher risk of stroke (relative risk 1.35) and a 17% higher risk of dying from ischaemic heart disease (relative risk 1.17).",
-    "zh": "世卫组织和国际劳工组织汇总了涵盖 150 多万人的研究：与每周 35 到 40 小时相比，每周工作 55 小时及以上，中风风险高 35%（相对风险 1.35），缺血性心脏病死亡风险高 17%（相对风险 1.17）。"
+    "en": "WHO and ILO systematic reviews compared working 55 or more hours a week with 35 to 40. For stroke, 22 studies covering 839,680 people gave a relative risk of 1.35, a 35% higher risk. For ischaemic heart disease the relative risk was 1.17. A published critique argues the heart-disease evidence is weaker than the WHO and ILO concluded, and a 2026 review of seven cohort studies again found 17% higher heart-disease mortality but no significant link to all-cause mortality.",
+    "zh": "世卫组织和国际劳工组织的系统综述把每周工作 55 小时及以上与 35 到 40 小时作比较。中风方面，22 项研究、共 839,680 人，相对风险为 1.35，即风险高 35%；缺血性心脏病的相对风险为 1.17。有学者发表评论，认为心脏病方面的证据比世卫组织和国际劳工组织的结论要弱；2026 年一项纳入 7 项队列研究的综述再次发现心脏病死亡风险高 17%，但与全因死亡率没有显著关联。"
   },
   "caveats": {
-    "en": "Observational data cannot rule out all confounders, and effects are averages across occupations and countries.",
-    "zh": "观察性数据无法排除所有混杂因素，结果是跨职业、跨国家的平均值。"
+    "en": "Observational data cannot rule out all confounders. Effects are averages across occupations and countries, not software work in particular.",
+    "zh": "观察性数据无法排除所有混杂因素。结果是跨职业、跨国家的平均值，并不专门针对软件工作。"
   },
   "boss_line": {
-    "en": "The WHO and ILO link 55-plus hour weeks to a 35% higher stroke risk. That is a liability we should plan around, not a perk.",
-    "zh": "世卫组织和国际劳工组织发现，每周 55 小时以上的工作与中风风险高 35% 相关。这是我们必须规划的风险，不是福利。"
+    "en": "WHO and ILO reviews link 55-plus hour weeks to a 35% higher risk of stroke. The heart-disease link is debated, but the stroke finding is a cost we should plan for.",
+    "zh": "世卫组织和国际劳工组织的综述发现，每周工作 55 小时以上，中风风险高 35%。心脏病方面还有争议，但中风这一条是我们必须考虑的代价。"
   },
   "change_my_mind": {
     "en": "A larger pooled analysis of high-quality cohorts showing no excess risk after adjusting for known confounders.",
     "zh": "更大规模、高质量队列的汇总分析显示，校正已知混杂因素后没有额外风险。"
   },
   "sources": [
-    { "id": "pega2021", "role": "primary", "quotes": ["1.35", "1.17"] }
+    {
+      "id": "descatha2020",
+      "role": "primary",
+      "quotes": [
+        "1.35",
+        "839,680"
+      ]
+    },
+    {
+      "id": "li2020",
+      "role": "primary",
+      "quotes": [
+        "1.17"
+      ]
+    },
+    {
+      "id": "kivimaki2020",
+      "role": "critique"
+    },
+    {
+      "id": "shen2026",
+      "role": "replication"
+    }
   ],
   "verified_on": "2026-10-01"
 }

@@ -12,23 +12,30 @@
     "zh": "基于详细历史工厂记录的严谨分析，与后来的现场数据一致，但不是实验研究。"
   },
   "evidence": {
-    "en": "Economist John Pencavel studied British munitions workers whose hours and output were recorded in detail. Output rose with hours up to roughly 49 hours a week, then output per hour fell so fast that 70 hours produced hardly more than 56. Past the knee of the curve, extra hours mostly buy fatigue.",
-    "zh": "经济学家 Pencavel 分析了英国军工厂工人详细的工时与产出记录：每周约 49 小时以内，产出随工时上升；超过之后单位工时产出下降很快，每周 70 小时的总产出只比 56 小时多一点点。拐点之后，多出来的工时主要换来疲劳。"
+    "en": "Economist John Pencavel analysed detailed records of British munitions workers, most of them women, in the First World War. Below a threshold, output was proportional to hours; above it, output rose ever more slowly. A week of 48 hours over six days produced slightly more than 70 hours over seven. Past the knee of the curve, extra hours mostly buy fatigue.",
+    "zh": "经济学家 Pencavel 分析了第一次世界大战期间英国军工厂工人（多数是女工）的详细记录：低于某个门槛时，产出与工时成正比；超过之后，产出的增长越来越慢。每周工作六天、共 48 小时的总产出，比连续七天、共 70 小时的还略高一点。过了拐点，多出来的工时主要换来疲劳。"
   },
   "caveats": {
-    "en": "The data are from wartime manual work, not software. The shape of the curve is the point, not the exact 49-hour threshold.",
-    "zh": "数据来自战时的体力劳动，不是软件工作。重点是曲线的形状，不是 49 小时这个具体门槛。"
+    "en": "The data are from wartime manual work, not software. The shape of the curve is the point; the exact threshold varies by job.",
+    "zh": "数据来自战时的体力劳动，不是软件工作。重点是曲线的形状，具体门槛因工作而异。"
   },
   "boss_line": {
-    "en": "Past about 50 hours a week the extra time barely adds output. A rested team at 40 to 45 hours gets us most of the way there.",
-    "zh": "每周超过 50 小时左右，多出来的时间几乎不增加产出。休息充分、每周 40 到 45 小时的团队，已经能拿到大部分产出。"
+    "en": "In the best study of long hours, a six-day 48-hour week produced slightly more than a seven-day 70-hour week. Past a point, extra hours buy fatigue, not output.",
+    "zh": "在关于长工时最好的研究里，六天 48 小时的一周，产出比七天 70 小时的一周还略高。超过某个点，多出来的工时换来的是疲劳，不是产出。"
   },
   "change_my_mind": {
     "en": "Measured output from our own team showing no drop in output per hour at 55 hours or more over several months.",
     "zh": "我们自己团队连续几个月的数据显示，每周 55 小时以上时单位工时产出并没有下降。"
   },
   "sources": [
-    { "id": "pencavel2015", "role": "primary" }
+    {
+      "id": "pencavel2015",
+      "role": "primary",
+      "quotes": [
+        "48",
+        "70"
+      ]
+    }
   ],
   "verified_on": "2026-10-01"
 }

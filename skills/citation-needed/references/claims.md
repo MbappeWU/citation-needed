@@ -17,20 +17,20 @@ Each entry: id, claim, verdict, grade, what the research found, limits, a senten
 
 ### hours-health-cost
 - **Claim:** Long hours are just a lifestyle choice with no real health cost. (长时间工作只是一种生活方式，对健康没有实质代价。)
-- **Verdict / grade:** Not supported / A. A joint WHO and ILO systematic review pooling dozens of studies, though the underlying studies are observational.
-- **Evidence:** The WHO and ILO pooled studies covering more than 1.5 million people. Compared with 35 to 40 hours a week, working 55 hours or more was linked to a 35% higher risk of stroke (relative risk 1.35) and a 17% higher risk of dying from ischaemic heart disease (relative risk 1.17).
-- **Limits:** Observational data cannot rule out all confounders, and effects are averages across occupations and countries.
-- **Say to your boss:** The WHO and ILO link 55-plus hour weeks to a 35% higher stroke risk. That is a liability we should plan around, not a perk.
+- **Verdict / grade:** Not supported / B. Pooled observational studies agree on stroke, but the heart-disease link is disputed and none of it is experimental.
+- **Evidence:** WHO and ILO systematic reviews compared working 55 or more hours a week with 35 to 40. For stroke, 22 studies covering 839,680 people gave a relative risk of 1.35, a 35% higher risk. For ischaemic heart disease the relative risk was 1.17. A published critique argues the heart-disease evidence is weaker than the WHO and ILO concluded, and a 2026 review of seven cohort studies again found 17% higher heart-disease mortality but no significant link to all-cause mortality.
+- **Limits:** Observational data cannot rule out all confounders. Effects are averages across occupations and countries, not software work in particular.
+- **Say to your boss:** WHO and ILO reviews link 55-plus hour weeks to a 35% higher risk of stroke. The heart-disease link is debated, but the stroke finding is a cost we should plan for.
 - **Would change the verdict:** A larger pooled analysis of high-quality cohorts showing no excess risk after adjusting for known confounders.
-- **Sources:** Frank Pega, Bálint Náfrádi, Natalie Momen, et al. (2021) Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury https://doi.org/10.1016/j.envint.2021.106595
+- **Sources:** Alexis Descatha, Grace Sembajwe, Frank Pega, et al. (2020) The effect of exposure to long working hours on stroke: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury https://doi.org/10.1016/j.envint.2020.105746; Jian Li, Frank Pega, Yangho Ujita, et al. (2020) The effect of exposure to long working hours on ischaemic heart disease: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury https://doi.org/10.1016/j.envint.2020.105739; Mika Kivimäki, Marianna Virtanen, Solja T. Nyberg, G. David Batty (2020) The WHO/ILO report on long working hours and ischaemic heart disease: Conclusions are not supported by the evidence https://doi.org/10.1016/j.envint.2020.106048; Shen, et al. (2026) Long working hours and mortality outcomes: A systematic review with outcome-specific evidence synthesis https://pubmed.ncbi.nlm.nih.gov/42291227/
 - **Checked:** 2026-10-01. Full text: https://github.com/MbappeWU/citation-needed/blob/main/chapters/03-hours.md#hours-health-cost
 
 ### hours-more-output
 - **Claim:** Working longer hours gets more done. (工作时间越长，做的事越多。)
 - **Verdict / grade:** It depends / B. Careful analysis of detailed historical factory records, consistent with later field data, but not experimental.
-- **Evidence:** Economist John Pencavel studied British munitions workers whose hours and output were recorded in detail. Output rose with hours up to roughly 49 hours a week, then output per hour fell so fast that 70 hours produced hardly more than 56. Past the knee of the curve, extra hours mostly buy fatigue.
-- **Limits:** The data are from wartime manual work, not software. The shape of the curve is the point, not the exact 49-hour threshold.
-- **Say to your boss:** Past about 50 hours a week the extra time barely adds output. A rested team at 40 to 45 hours gets us most of the way there.
+- **Evidence:** Economist John Pencavel analysed detailed records of British munitions workers, most of them women, in the First World War. Below a threshold, output was proportional to hours; above it, output rose ever more slowly. A week of 48 hours over six days produced slightly more than 70 hours over seven. Past the knee of the curve, extra hours mostly buy fatigue.
+- **Limits:** The data are from wartime manual work, not software. The shape of the curve is the point; the exact threshold varies by job.
+- **Say to your boss:** In the best study of long hours, a six-day 48-hour week produced slightly more than a seven-day 70-hour week. Past a point, extra hours buy fatigue, not output.
 - **Would change the verdict:** Measured output from our own team showing no drop in output per hour at 55 hours or more over several months.
 - **Sources:** John Pencavel (2015) The Productivity of Working Hours https://doi.org/10.1111/ecoj.12166
 - **Checked:** 2026-10-01. Full text: https://github.com/MbappeWU/citation-needed/blob/main/chapters/03-hours.md#hours-more-output

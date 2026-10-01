@@ -12,7 +12,7 @@
 
 Does overtime get more done? Do AI coding tools really make teams faster? Is remote work less productive? Why does output per person fall when a team doubles? This repo checks the research behind those arguments: **3 claims, each with a verdict, an A/B/C evidence grade, primary sources, and one sentence you can say to your boss.**
 
-0 hold up, 1 depend on context, 1 do not hold up, 1 have no good evidence either way. Evidence grades: 1 A, 1 B, 1 C.
+0 hold up, 1 depend on context, 1 do not hold up, 1 have no good evidence either way. Evidence grades: 0 A, 2 B, 1 C.
 
 ## Use it
 
@@ -29,7 +29,7 @@ Overtime, output per hour, and the health bill.
 | Claim | Verdict | Grade |
 |---|---|---|
 | [A four-day week means less gets done.](chapters/03-hours.md#hours-four-day-week) | ? Unknown | C |
-| [Long hours are just a lifestyle choice with no real health cost.](chapters/03-hours.md#hours-health-cost) | ✗ Not supported | A |
+| [Long hours are just a lifestyle choice with no real health cost.](chapters/03-hours.md#hours-health-cost) | ✗ Not supported | B |
 | [Working longer hours gets more done.](chapters/03-hours.md#hours-more-output) | ~ It depends | B |
 
 ## How grading works
@@ -42,7 +42,7 @@ The grade measures **how strong the evidence is behind the verdict**, not whethe
 
 ## How sources are checked
 
-There are 3 sources. Each one is looked up online by CI: **2** have their title, authors, year and every quoted number checked against the abstract; **1** have their metadata checked; **0** are books or reports where only the link can be checked. The check runs weekly and on every pull request, and fails when something does not match.
+There are 6 sources. Each one is looked up online by CI: **4** have their title, authors, year and every quoted number checked against the abstract; **2** have their metadata checked; **0** are books or reports where only the link can be checked. The check runs weekly and on every pull request, and fails when something does not match.
 
 No number is written from memory: every figure in the text traces to a source. CI can only read abstracts, so finer details in the full text still need a human who has read the paper, which is why each claim carries the date it was last checked. If you find a mistake, open an issue.
 

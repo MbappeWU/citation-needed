@@ -30,19 +30,22 @@
 <a id="hours-health-cost"></a>
 ### 长时间工作只是一种生活方式，对健康没有实质代价。
 
-**✗ 不成立 · 证据等级 A** （世界卫生组织和国际劳工组织联合做的系统综述，汇总了几十项研究，但底层研究都是观察性的。）
+**✗ 不成立 · 证据等级 B** （多项观察性研究的汇总结果在中风上一致，但心脏病的关联存在争议，而且都不是实验研究。）
 
-**研究怎么说.** 世卫组织和国际劳工组织汇总了涵盖 150 多万人的研究：与每周 35 到 40 小时相比，每周工作 55 小时及以上，中风风险高 35%（相对风险 1.35），缺血性心脏病死亡风险高 17%（相对风险 1.17）。
+**研究怎么说.** 世卫组织和国际劳工组织的系统综述把每周工作 55 小时及以上与 35 到 40 小时作比较。中风方面，22 项研究、共 839,680 人，相对风险为 1.35，即风险高 35%；缺血性心脏病的相对风险为 1.17。有学者发表评论，认为心脏病方面的证据比世卫组织和国际劳工组织的结论要弱；2026 年一项纳入 7 项队列研究的综述再次发现心脏病死亡风险高 17%，但与全因死亡率没有显著关联。
 
-**局限.** 观察性数据无法排除所有混杂因素，结果是跨职业、跨国家的平均值。
+**局限.** 观察性数据无法排除所有混杂因素。结果是跨职业、跨国家的平均值，并不专门针对软件工作。
 
-> **对老板可以这样说:** 世卫组织和国际劳工组织发现，每周 55 小时以上的工作与中风风险高 35% 相关。这是我们必须规划的风险，不是福利。
+> **对老板可以这样说:** 世卫组织和国际劳工组织的综述发现，每周工作 55 小时以上，中风风险高 35%。心脏病方面还有争议，但中风这一条是我们必须考虑的代价。
 
 **什么证据会让我改口.** 更大规模、高质量队列的汇总分析显示，校正已知混杂因素后没有额外风险。
 
 **出处** (核对于 2026-10-01):
 
-1. Frank Pega, Bálint Náfrádi, Natalie Momen, et al. (2021). Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 154. [link](https://doi.org/10.1016/j.envint.2021.106595) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Alexis Descatha, Grace Sembajwe, Frank Pega, et al. (2020). The effect of exposure to long working hours on stroke: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105746) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+2. Jian Li, Frank Pega, Yangho Ujita, et al. (2020). The effect of exposure to long working hours on ischaemic heart disease: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105739) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+3. Mika Kivimäki, Marianna Virtanen, Solja T. Nyberg, G. David Batty (2020). The WHO/ILO report on long working hours and ischaemic heart disease: Conclusions are not supported by the evidence. Environment International 144. [link](https://doi.org/10.1016/j.envint.2020.106048) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (质疑)
+4. Shen, et al. (2026). Long working hours and mortality outcomes: A systematic review with outcome-specific evidence synthesis. iScience. [link](https://pubmed.ncbi.nlm.nih.gov/42291227/) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (复现)
 
 ---
 
@@ -51,17 +54,17 @@
 
 **~ 视情况 · 证据等级 B** （基于详细历史工厂记录的严谨分析，与后来的现场数据一致，但不是实验研究。）
 
-**研究怎么说.** 经济学家 Pencavel 分析了英国军工厂工人详细的工时与产出记录：每周约 49 小时以内，产出随工时上升；超过之后单位工时产出下降很快，每周 70 小时的总产出只比 56 小时多一点点。拐点之后，多出来的工时主要换来疲劳。
+**研究怎么说.** 经济学家 Pencavel 分析了第一次世界大战期间英国军工厂工人（多数是女工）的详细记录：低于某个门槛时，产出与工时成正比；超过之后，产出的增长越来越慢。每周工作六天、共 48 小时的总产出，比连续七天、共 70 小时的还略高一点。过了拐点，多出来的工时主要换来疲劳。
 
-**局限.** 数据来自战时的体力劳动，不是软件工作。重点是曲线的形状，不是 49 小时这个具体门槛。
+**局限.** 数据来自战时的体力劳动，不是软件工作。重点是曲线的形状，具体门槛因工作而异。
 
-> **对老板可以这样说:** 每周超过 50 小时左右，多出来的时间几乎不增加产出。休息充分、每周 40 到 45 小时的团队，已经能拿到大部分产出。
+> **对老板可以这样说:** 在关于长工时最好的研究里，六天 48 小时的一周，产出比七天 70 小时的一周还略高。超过某个点，多出来的工时换来的是疲劳，不是产出。
 
 **什么证据会让我改口.** 我们自己团队连续几个月的数据显示，每周 55 小时以上时单位工时产出并没有下降。
 
 **出处** (核对于 2026-10-01):
 
-1. John Pencavel (2015). The Productivity of Working Hours. The Economic Journal 125(589). [link](https://doi.org/10.1111/ecoj.12166) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
+1. John Pencavel (2015). The Productivity of Working Hours. The Economic Journal 125(589). [link](https://doi.org/10.1111/ecoj.12166) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
 
 ---
 
