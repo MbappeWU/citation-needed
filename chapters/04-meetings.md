@@ -4,7 +4,7 @@ The folklore about focus time and open-plan offices, checked.
 
 [← Back to the index](../README.md) · [中文](04-meetings.zh-CN.md)
 
-Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
+Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
 
 ---
 
@@ -23,7 +23,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Gloria Mark, Victor M. Gonzalez, Justin Harris (2005). No task left behind? Examining the nature of fragmented work. CHI 2005. [link](https://doi.org/10.1145/1054972.1055017) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Gloria Mark, Victor M. Gonzalez, Justin Harris (2005). No task left behind? Examining the nature of fragmented work. CHI 2005. [link](https://doi.org/10.1145/1054972.1055017) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. Gloria Mark, Daniela Gudith, Ulrich Klocke (2008). The cost of interrupted work: more speed and stress. CHI 2008. [link](https://doi.org/10.1145/1357054.1357072) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 3. Chris Parnin, Spencer Rugaber (2011). Resumption strategies for interrupted programming tasks. Software Quality Journal 19(1). [link](https://doi.org/10.1007/s11219-010-9104-9) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
@@ -65,8 +65,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 1. Viktoria Stray, Dag I. K. Sjøberg, Tore Dybå (2016). The daily stand-up meeting: A grounded theory study. Journal of Systems and Software 114. [link](https://doi.org/10.1016/j.jss.2016.01.004) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 2. Viktoria Stray, Nils Brede Moe, Gunnar R. Bergersen (2017). Are daily stand-up meetings valuable? A survey of developers in software teams. XP 2017, Lecture Notes in Business Information Processing 283. [link](https://doi.org/10.1007/978-3-319-57633-6_20) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-3. Viktoria Stray, Nils Brede Moe, Dag I. K. Sjøberg (2018). Daily stand-up meetings: Start breaking the rules. IEEE Software 37(3), 2020. [link](https://arxiv.org/abs/1808.07650) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-4. Sarah Rietze, Hannes Zacher (2025). Relations between daily stand-up meetings, work satisfaction, and team performance perceptions: the role of psychological safety. European Journal of Work and Organizational Psychology 34(5). [link](https://doi.org/10.1080/1359432X.2025.2508178) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+3. Viktoria Stray, Nils Brede Moe, Dag I. K. Sjøberg (2018). Daily stand-up meetings: Start breaking the rules. IEEE Software 37(3), 2020. [link](https://arxiv.org/abs/1808.07650) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+4. Sarah Rietze, Hannes Zacher (2025). Relations between daily stand-up meetings, work satisfaction, and team performance perceptions: the role of psychological safety. European Journal of Work and Organizational Psychology 34(5). [link](https://doi.org/10.1080/1359432X.2025.2508178) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 
@@ -85,10 +85,10 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. André N. Meyer, Thomas Fritz, Gail C. Murphy, Thomas Zimmermann (2014). Software developers' perceptions of productivity. FSE 2014. [link](https://doi.org/10.1145/2635868.2635892) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. André N. Meyer, Thomas Fritz, Gail C. Murphy, Thomas Zimmermann (2014). Software developers' perceptions of productivity. FSE 2014. [link](https://doi.org/10.1145/2635868.2635892) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. André N. Meyer, Earl T. Barr, Christian Bird, Thomas Zimmermann (2019). Today was a good day: The daily life of software developers. IEEE Transactions on Software Engineering. [link](https://www.microsoft.com/en-us/research/publication/today-was-a-good-day-the-daily-life-of-software-developers/) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
 3. Chris Parnin, Spencer Rugaber (2011). Resumption strategies for interrupted programming tasks. Software Quality Journal 19(1). [link](https://doi.org/10.1007/s11219-010-9104-9) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-4. Vedant Das Swain, Javier Hernandez, Brian Houck, et al. (2023). Focused Time Saves Nine: Evaluating Computer-Assisted Protected Time for Hybrid Information Work. CHI 2023. [link](https://doi.org/10.1145/3544548.3581326) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+4. Vedant Das Swain, Javier Hernandez, Brian Houck, et al. (2023). Focused Time Saves Nine: Evaluating Computer-Assisted Protected Time for Hybrid Information Work. CHI 2023. [link](https://doi.org/10.1145/3544548.3581326) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 5. Gloria Mark, Daniela Gudith, Ulrich Klocke (2008). The cost of interrupted work: more speed and stress. CHI 2008. [link](https://doi.org/10.1145/1357054.1357072) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
 ---
@@ -109,7 +109,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 **Sources** (checked 2026-10-01):
 
 1. Benjamin Laker, Vijay Pereira, Pawan Budhwar, Ashish Malik (2022). The Surprising Impact of Meeting-Free Days. MIT Sloan Management Review 63(2). [link](https://sloanreview.mit.edu/article/the-surprising-impact-of-meeting-free-days/) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)
-2. Vedant Das Swain, Javier Hernandez, Brian Houck, et al. (2023). Focused Time Saves Nine: Evaluating Computer-Assisted Protected Time for Hybrid Information Work. CHI 2023. [link](https://doi.org/10.1145/3544548.3581326) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+2. Vedant Das Swain, Javier Hernandez, Brian Houck, et al. (2023). Focused Time Saves Nine: Evaluating Computer-Assisted Protected Time for Hybrid Information Work. CHI 2023. [link](https://doi.org/10.1145/3544548.3581326) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 3. Jaime Teevan, Nancy Baym, Jenna Butler, et al. (eds.) (2022). Microsoft New Future of Work Report 2022. Microsoft Research Tech Report MSR-TR-2022-3. [link](https://www.microsoft.com/en-us/research/wp-content/uploads/2022/04/Microsoft-New-Future-Of-Work-Report-2022.pdf) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
 ---
@@ -129,7 +129,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Ethan S. Bernstein, Stephen Turban (2018). The impact of the ‘open’ workspace on human collaboration. Philosophical Transactions of the Royal Society B 373. [link](https://doi.org/10.1098/rstb.2017.0239) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Ethan S. Bernstein, Stephen Turban (2018). The impact of the ‘open’ workspace on human collaboration. Philosophical Transactions of the Royal Society B 373. [link](https://doi.org/10.1098/rstb.2017.0239) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. Jungsoo Kim, Richard de Dear (2013). Workspace satisfaction: The privacy-communication trade-off in open-plan offices. Journal of Environmental Psychology 36. [link](https://researchers.mq.edu.au/en/publications/workspace-satisfaction-the-privacy-communication-trade-off-inopen/) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 3. Andrea Gerlitz, Marcel Hülsbeck (2023). The productivity tax of new office concepts: a comparative review of open-plan offices, activity-based working, and single-office concepts. Management Review Quarterly. [link](https://pmc.ncbi.nlm.nih.gov/articles/PMC9815683/) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 4. Jegar Pitchforth, Elizabeth Nelson-White, Marc van den Helder, Wouter Oosting (2020). The work environment pilot: An experiment to determine the optimal office design for a technology company. PLOS ONE 15(5). [link](https://doi.org/10.1371/journal.pone.0232943) <sub>✓ metadata checked (title, authors, year)</sub> (context)

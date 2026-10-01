@@ -4,7 +4,7 @@
 
 [← 返回目录](../README.zh-CN.md) · [English](07-practices.md)
 
-图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据和引用的数字已与摘要核对，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
+图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据已比对，登记的引文片段已在摘要中匹配，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
 
 ---
 
@@ -64,8 +64,8 @@
 **出处** (核对于 2026-10-01):
 
 1. Alberto Bacchelli, Christian Bird (2013). Expectations, outcomes, and challenges of modern code review. ICSE 2013. [link](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICSE202013-codereview.pdf) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (主要来源)
-2. Mika V. Mäntylä, Casper Lassenius (2009). What Types of Defects Are Really Discovered in Code Reviews?. IEEE Transactions on Software Engineering 35(3). [link](https://doi.org/10.1109/TSE.2008.71) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-3. Moritz Beller, Alberto Bacchelli, Andy Zaidman, Elmar Juergens (2014). Modern code reviews in open-source projects: which problems do they fix?. MSR 2014. [link](https://doi.org/10.1145/2597073.2597082) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (复现)
+2. Mika V. Mäntylä, Casper Lassenius (2009). What Types of Defects Are Really Discovered in Code Reviews?. IEEE Transactions on Software Engineering 35(3). [link](https://doi.org/10.1109/TSE.2008.71) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+3. Moritz Beller, Alberto Bacchelli, Andy Zaidman, Elmar Juergens (2014). Modern code reviews in open-source projects: which problems do they fix?. MSR 2014. [link](https://doi.org/10.1145/2597073.2597082) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (复现)
 
 ---
 
@@ -124,9 +124,9 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Zheng Gao, Christian Bird, Earl T. Barr (2017). To Type or Not to Type: Quantifying Detectable Bugs in JavaScript. ICSE 2017. [link](https://doi.org/10.1109/ICSE.2017.75) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Zheng Gao, Christian Bird, Earl T. Barr (2017). To Type or Not to Type: Quantifying Detectable Bugs in JavaScript. ICSE 2017. [link](https://doi.org/10.1109/ICSE.2017.75) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 2. Baishakhi Ray, Daryl Posnett, Vladimir Filkov, Premkumar Devanbu (2014). A Large Scale Study of Programming Languages and Code Quality in Github. FSE 2014. [link](https://doi.org/10.1145/2635868.2635922) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
-3. Emery D. Berger, Celeste Hollenbeck, Petr Maj, Olga Vitek, Jan Vitek (2019). On the Impact of Programming Languages on Code Quality: A Reproduction Study. ACM Transactions on Programming Languages and Systems 41(4). [link](https://doi.org/10.1145/3340571) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (复现)
+3. Emery D. Berger, Celeste Hollenbeck, Petr Maj, Olga Vitek, Jan Vitek (2019). On the Impact of Programming Languages on Code Quality: A Reproduction Study. ACM Transactions on Programming Languages and Systems 41(4). [link](https://doi.org/10.1145/3340571) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (复现)
 
 ---
 
@@ -145,8 +145,8 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Yahya Rafique, Vojislav B. Mišić (2013). The Effects of Test-Driven Development on External Quality and Productivity: A Meta-Analysis. IEEE Transactions on Software Engineering 39(6). [link](https://doi.org/10.1109/TSE.2012.28) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Davide Fucci, Hakan Erdogmus, Burak Turhan, Markku Oivo, Natalia Juristo (2017). A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?. IEEE Transactions on Software Engineering 43(7). [link](https://doi.org/10.1109/TSE.2016.2616877) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Yahya Rafique, Vojislav B. Mišić (2013). The Effects of Test-Driven Development on External Quality and Productivity: A Meta-Analysis. IEEE Transactions on Software Engineering 39(6). [link](https://doi.org/10.1109/TSE.2012.28) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Davide Fucci, Hakan Erdogmus, Burak Turhan, Markku Oivo, Natalia Juristo (2017). A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?. IEEE Transactions on Software Engineering 43(7). [link](https://doi.org/10.1109/TSE.2016.2616877) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 
 ---
 
@@ -165,7 +165,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Adam Tornhill, Markus Borg (2022). Code Red: The Business Impact of Code Quality - A Quantitative Study of 39 Proprietary Production Codebases. TechDebt 2022. [link](https://arxiv.org/abs/2203.04374) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Adam Tornhill, Markus Borg (2022). Code Red: The Business Impact of Code Quality - A Quantitative Study of 39 Proprietary Production Codebases. TechDebt 2022. [link](https://arxiv.org/abs/2203.04374) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 2. Terese Besker, Antonio Martini, Jan Bosch (2019). Software developer productivity loss due to technical debt: A replication and extension study examining developers' development work. Journal of Systems and Software 156. [link](https://research.chalmers.se/publication/511450/file/511450_Fulltext.pdf) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (主要来源)
 
 ---

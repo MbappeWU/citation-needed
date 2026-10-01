@@ -4,7 +4,7 @@
 
 [← 返回目录](../README.zh-CN.md) · [English](08-teams.md)
 
-图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据和引用的数字已与摘要核对，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
+图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据已比对，登记的引文片段已在摘要中匹配，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
 
 ---
 
@@ -23,7 +23,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 2. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
 3. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
@@ -67,7 +67,7 @@
 **出处** (核对于 2026-10-01):
 
 1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
-2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 3. Melvin E. Conway (1968). How Do Committees Invent?. Datamation 14(4). [link](https://www.melconway.com/Home/Committees_Paper.html) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
 ---
@@ -91,7 +91,7 @@
 2. Christoph Gote, Pavlin Mavrodiev, Frank Schweitzer, Ingo Scholtes (2022). Big Data = Big Insights? Operationalising Brooks' Law in a Massive GitHub Data Set. Proceedings of the 44th International Conference on Software Engineering (ICSE 2022). [link](https://arxiv.org/abs/2201.04588) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (复现)
 3. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (复现)
 4. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
-5. Didier Sornette, Thomas Maillart, Giacomo Ghezzi (2014). How Much is the Whole Really More than the Sum of its Parts? 1 + 1 = 2.5: Superlinear Productivity in Collective Group Actions. PLOS ONE 9(8). [link](https://arxiv.org/abs/1405.4298) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (质疑)
+5. Didier Sornette, Thomas Maillart, Giacomo Ghezzi (2014). How Much is the Whole Really More than the Sum of its Parts? 1 + 1 = 2.5: Superlinear Productivity in Collective Group Actions. PLOS ONE 9(8). [link](https://arxiv.org/abs/1405.4298) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (质疑)
 6. Christian Gut, Alfredo Goldman (2024). Revisiting Aristotle vs. Ringelmann: The influence of biases on measuring productivity in Open Source software development. SBES 2024. [link](https://arxiv.org/abs/2408.04782) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
 
 ---
@@ -111,8 +111,8 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 3. Google re:Work (2015). Guide: Understand team effectiveness. Google re:Work, write-up of Project Aristotle. [link](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness/steps/introduction/) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
 ---
@@ -133,8 +133,8 @@
 **出处** (核对于 2026-10-01):
 
 1. S. Teasley, L. Covi, M. S. Krishnan, J. S. Olson (2002). Rapid software development through team collocation. IEEE Transactions on Software Engineering 28(7). [link](https://doi.org/10.1109/TSE.2002.1019481) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (主要来源)
-2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (背景)
 
 ---
 

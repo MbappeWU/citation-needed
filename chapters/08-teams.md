@@ -4,7 +4,7 @@ Brooks's law, Conway's law, psychological safety.
 
 [← Back to the index](../README.md) · [中文](08-teams.zh-CN.md)
 
-Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
+Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
 
 ---
 
@@ -23,7 +23,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Susan A. Wheelan (2009). Group Size, Group Development, and Group Productivity. Small Group Research 40(2). [link](https://doi.org/10.1177/1046496408328703) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 3. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
@@ -67,7 +67,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 **Sources** (checked 2026-10-01):
 
 1. Alan MacCormack, Carliss Y. Baldwin, John Rusnak (2012). Exploring the duality between product and organizational architectures: A test of the “mirroring” hypothesis. Research Policy 41(8). [link](https://doi.org/10.1016/j.respol.2012.04.011) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+2. Lyra J. Colfer, Carliss Y. Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change 25(5). [link](https://doi.org/10.1093/icc/dtw027) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 3. Melvin E. Conway (1968). How Do Committees Invent?. Datamation 14(4). [link](https://www.melconway.com/Home/Committees_Paper.html) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
 ---
@@ -91,7 +91,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 2. Christoph Gote, Pavlin Mavrodiev, Frank Schweitzer, Ingo Scholtes (2022). Big Data = Big Insights? Operationalising Brooks' Law in a Massive GitHub Data Set. Proceedings of the 44th International Conference on Software Engineering (ICSE 2022). [link](https://arxiv.org/abs/2201.04588) <sub>✓ metadata checked (title, authors, year)</sub> (replication)
 3. D. Rodríguez, M. A. Sicilia, E. García, R. Harrison (2012). Empirical findings on team size and productivity in software development. Journal of Systems and Software 85(3). [link](https://doi.org/10.1016/j.jss.2011.09.009) <sub>✓ metadata checked (title, authors, year)</sub> (replication)
 4. Kate Armel (QSM) (2012). Part II: Small Teams Deliver Lower Cost, Higher Quality. QSM, vendor analysis of the QSM SLIM project database. [link](https://www.qsm.com/blog/2012/part-ii-small-teams-deliver-lower-cost-higher-quality) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
-5. Didier Sornette, Thomas Maillart, Giacomo Ghezzi (2014). How Much is the Whole Really More than the Sum of its Parts? 1 + 1 = 2.5: Superlinear Productivity in Collective Group Actions. PLOS ONE 9(8). [link](https://arxiv.org/abs/1405.4298) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (critique)
+5. Didier Sornette, Thomas Maillart, Giacomo Ghezzi (2014). How Much is the Whole Really More than the Sum of its Parts? 1 + 1 = 2.5: Superlinear Productivity in Collective Group Actions. PLOS ONE 9(8). [link](https://arxiv.org/abs/1405.4298) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (critique)
 6. Christian Gut, Alfredo Goldman (2024). Revisiting Aristotle vs. Ringelmann: The influence of biases on measuring productivity in Open Source software development. SBES 2024. [link](https://arxiv.org/abs/2408.04782) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
 ---
@@ -111,8 +111,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Amy Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly 44(2). [link](https://doi.org/10.2307/2666999) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. M. Lance Frazier, Stav Fainshmidt, Ryan L. Klinger, Amir Pezeshkan, Veselina Vracheva (2017). Psychological Safety: A Meta-Analytic Review and Extension. Personnel Psychology 70(1). [link](https://doi.org/10.1111/peps.12183) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 3. Google re:Work (2015). Guide: Understand team effectiveness. Google re:Work, write-up of Project Aristotle. [link](https://rework.withgoogle.com/en/guides/understanding-team-effectiveness/steps/introduction/) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
 ---
@@ -133,8 +133,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 **Sources** (checked 2026-10-01):
 
 1. S. Teasley, L. Covi, M. S. Krishnan, J. S. Olson (2002). Rapid software development through team collocation. IEEE Transactions on Software Engineering 28(7). [link](https://doi.org/10.1109/TSE.2002.1019481) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+2. James D. Herbsleb, Audris Mockus (2003). An empirical study of speed and communication in globally distributed software development. IEEE Transactions on Software Engineering 29(6). [link](https://doi.org/10.1109/TSE.2003.1205177) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+3. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (context)
 
 ---
 

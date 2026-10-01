@@ -4,7 +4,7 @@
 
 [← 返回目录](../README.zh-CN.md) · [English](03-hours.md)
 
-图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据和引用的数字已与摘要核对，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
+图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据已比对，登记的引文片段已在摘要中匹配，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
 
 ---
 
@@ -23,7 +23,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Wen Fan, Juliet B. Schor, Orla Kelly, Guolin Gu (2025). Work time reduction via a 4-day workweek finds improvements in workers' well-being. Nature Human Behaviour 9. [link](https://doi.org/10.1038/s41562-025-02259-6) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Wen Fan, Juliet B. Schor, Orla Kelly, Guolin Gu (2025). Work time reduction via a 4-day workweek finds improvements in workers' well-being. Nature Human Behaviour 9. [link](https://doi.org/10.1038/s41562-025-02259-6) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 
 ---
 
@@ -42,8 +42,8 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Alexis Descatha, Grace Sembajwe, Frank Pega, et al. (2020). The effect of exposure to long working hours on stroke: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105746) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Jian Li, Frank Pega, Yangho Ujita, et al. (2020). The effect of exposure to long working hours on ischaemic heart disease: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105739) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Alexis Descatha, Grace Sembajwe, Frank Pega, et al. (2020). The effect of exposure to long working hours on stroke: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105746) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Jian Li, Frank Pega, Yangho Ujita, et al. (2020). The effect of exposure to long working hours on ischaemic heart disease: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105739) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 3. Mika Kivimäki, Marianna Virtanen, Solja T. Nyberg, G. David Batty (2020). The WHO/ILO report on long working hours and ischaemic heart disease: Conclusions are not supported by the evidence. Environment International 144. [link](https://doi.org/10.1016/j.envint.2020.106048) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (质疑)
 4. Shen, et al. (2026). Long working hours and mortality outcomes: A systematic review with outcome-specific evidence synthesis. iScience. [link](https://pubmed.ncbi.nlm.nih.gov/42291227/) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (复现)
 
@@ -64,7 +64,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. John Pencavel (2015). The Productivity of Working Hours. The Economic Journal 125(589). [link](https://doi.org/10.1111/ecoj.12166) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. John Pencavel (2015). The Productivity of Working Hours. The Economic Journal 125(589). [link](https://doi.org/10.1111/ecoj.12166) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 
 ---
 

@@ -4,7 +4,7 @@
 
 [← 返回目录](../README.zh-CN.md) · [English](05-remote.md)
 
-图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据和引用的数字已与摘要核对，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
+图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据已比对，登记的引文片段已在摘要中匹配，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
 
 ---
 
@@ -23,9 +23,9 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Longqi Yang, David Holtz, Sonia Jaffe, et al. (2022). The effects of remote work on collaboration among information workers. Nature Human Behaviour 6. [link](https://doi.org/10.1038/s41562-021-01196-4) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
-3. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+1. Longqi Yang, David Holtz, Sonia Jaffe, et al. (2022). The effects of remote work on collaboration among information workers. Nature Human Behaviour 6. [link](https://doi.org/10.1038/s41562-021-01196-4) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (背景)
+3. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (背景)
 
 ---
 
@@ -44,9 +44,9 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Lingfeng Bao, Tao Li, Xin Xia, Kaiyu Zhu, Hui Li, Xiaohu Yang (2022). How does working from home affect developer productivity? A case study of Baidu during the COVID-19 pandemic. Science China Information Sciences 65(4). [link](https://doi.org/10.1007/s11432-020-3278-4) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Lingfeng Bao, Tao Li, Xin Xia, Kaiyu Zhu, Hui Li, Xiaohu Yang (2022). How does working from home affect developer productivity? A case study of Baidu during the COVID-19 pandemic. Science China Information Sciences 65(4). [link](https://doi.org/10.1007/s11432-020-3278-4) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 
 ---
 
@@ -65,8 +65,8 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (背景)
 
 ---
 
@@ -85,8 +85,8 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+1. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (背景)
 
 ---
 
@@ -105,8 +105,8 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Melanie S. Brucks, Jonathan Levav (2022). Virtual communication curbs creative idea generation. Nature 605. [link](https://doi.org/10.1038/s41586-022-04643-y) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Yiling Lin, Carl Benedikt Frey, Lingfei Wu (2023). Remote collaboration fuses fewer breakthrough ideas. Nature 623. [link](https://doi.org/10.1038/s41586-023-06767-1) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+1. Melanie S. Brucks, Jonathan Levav (2022). Virtual communication curbs creative idea generation. Nature 605. [link](https://doi.org/10.1038/s41586-022-04643-y) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Yiling Lin, Carl Benedikt Frey, Lingfei Wu (2023). Remote collaboration fuses fewer breakthrough ideas. Nature 623. [link](https://doi.org/10.1038/s41586-023-06767-1) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (背景)
 
 ---
 
@@ -125,9 +125,9 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 
 ---
 

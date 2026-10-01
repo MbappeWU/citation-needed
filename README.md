@@ -12,9 +12,9 @@
 
 Does overtime get more done? Do AI coding tools really make teams faster? Is remote work less productive? Why does output per person fall when a team doubles? This repo checks the research behind those arguments: **58 claims, each with a verdict, an A/B/C evidence grade, primary sources, and one sentence you can say to your boss.**
 
-4 hold up, 26 depend on context, 24 do not hold up, 4 have no good evidence either way. Evidence grades: 0 A, 26 B, 32 C. None earns an A: almost all research on software teams is observational, which is itself a finding.
+4 hold up, 26 depend on context, 24 do not hold up, 4 have no good evidence either way. Evidence grades: 0 A, 26 B, 32 C. None currently earns an A under this handbook's rubric. Study designs, populations and limitations are described per claim; no A grades does not mean there are no randomized trials.
 
-> **How this was made:** drafted with AI assistance, every source looked up by CI, every figure that appears in an abstract machine-checked, figures in full texts not. If we got something wrong, [challenge it](#challenge-a-claim). Details in [How sources are checked](#how-sources-are-checked).
+> **How this was made:** drafted with AI assistance, every source looked up by CI, explicitly registered quote snippets matched for sources marked for abstract verification; other figures and inferences are not automatically checked. If we got something wrong, [challenge it](#challenge-a-claim). Details in [How sources are checked](#how-sources-are-checked).
 
 ## Start here
 
@@ -173,9 +173,9 @@ The grade measures **how strong the evidence is behind the verdict**, not whethe
 
 ## How sources are checked
 
-There are 125 sources, and CI looks every one of them up online: **50** (✓✓) have their title, authors, year and every quoted figure checked against the abstract (81 quotes across 39 claims); **44** (✓) have their metadata checked; **31** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.
+There are 125 sources, and CI looks every one of them up online: **50** (✓✓) have metadata compared and explicitly registered quote snippets matched against the abstract (81 quotes across 39 claims); **44** (✓) have their metadata checked; **31** (↗) are books, reports or web pages where only the link is checked. The check runs weekly, when data or the verifier changes, and on demand. Content mismatches fail the workflow; network warnings do not, so read the report as well as the badge.
 
-**What this does not cover:** CI reads abstracts, not full texts. A figure that appears in an abstract is machine-checked; a figure from the body of a paper, a report or a book is not, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.
+**What this does not cover:** CI reads abstracts, not full texts. Only registered abstract quote snippets are matched; numerical context, causal interpretation, grades and unregistered figures are not validated. Figures from the body of a paper, a report or a book are not machine-checked, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.
 
 ## Challenge a claim
 

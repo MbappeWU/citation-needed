@@ -4,7 +4,7 @@ Overtime, output per hour, and the health bill.
 
 [← Back to the index](../README.md) · [中文](03-hours.zh-CN.md)
 
-Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
+Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
 
 ---
 
@@ -23,7 +23,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Wen Fan, Juliet B. Schor, Orla Kelly, Guolin Gu (2025). Work time reduction via a 4-day workweek finds improvements in workers' well-being. Nature Human Behaviour 9. [link](https://doi.org/10.1038/s41562-025-02259-6) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Wen Fan, Juliet B. Schor, Orla Kelly, Guolin Gu (2025). Work time reduction via a 4-day workweek finds improvements in workers' well-being. Nature Human Behaviour 9. [link](https://doi.org/10.1038/s41562-025-02259-6) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 
@@ -42,8 +42,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Alexis Descatha, Grace Sembajwe, Frank Pega, et al. (2020). The effect of exposure to long working hours on stroke: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105746) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Jian Li, Frank Pega, Yangho Ujita, et al. (2020). The effect of exposure to long working hours on ischaemic heart disease: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105739) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Alexis Descatha, Grace Sembajwe, Frank Pega, et al. (2020). The effect of exposure to long working hours on stroke: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105746) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Jian Li, Frank Pega, Yangho Ujita, et al. (2020). The effect of exposure to long working hours on ischaemic heart disease: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 142. [link](https://doi.org/10.1016/j.envint.2020.105739) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 3. Mika Kivimäki, Marianna Virtanen, Solja T. Nyberg, G. David Batty (2020). The WHO/ILO report on long working hours and ischaemic heart disease: Conclusions are not supported by the evidence. Environment International 144. [link](https://doi.org/10.1016/j.envint.2020.106048) <sub>✓ metadata checked (title, authors, year)</sub> (critique)
 4. Shen, et al. (2026). Long working hours and mortality outcomes: A systematic review with outcome-specific evidence synthesis. iScience. [link](https://pubmed.ncbi.nlm.nih.gov/42291227/) <sub>✓ metadata checked (title, authors, year)</sub> (replication)
 
@@ -64,7 +64,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. John Pencavel (2015). The Productivity of Working Hours. The Economic Journal 125(589). [link](https://doi.org/10.1111/ecoj.12166) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. John Pencavel (2015). The Productivity of Working Hours. The Economic Journal 125(589). [link](https://doi.org/10.1111/ecoj.12166) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 

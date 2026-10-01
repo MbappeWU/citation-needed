@@ -31,7 +31,7 @@ export const LABELS = {
     context: { en: "Context", zh: "背景" },
   },
   verify: {
-    abstract: { en: "metadata and quoted numbers checked against the abstract", zh: "元数据和引用的数字已与摘要核对" },
+    abstract: { en: "metadata compared and registered quote snippets matched in the abstract", zh: "元数据已比对，登记的引文片段已在摘要中匹配" },
     metadata: { en: "metadata checked (title, authors, year)", zh: "元数据已核对（标题、作者、年份）" },
     manual: { en: "not machine-checkable (book or report); link only", zh: "无法机器核对（书或报告），仅提供链接" },
   },

@@ -56,7 +56,7 @@ export function renderChapter(topic, topics, claims, sources, lang) {
   out.push("");
   out.push(L ? "[← 返回目录](../README.zh-CN.md) · [English](" + chapterFile(topics, topic.id, "en").replace("chapters/", "") + ")" : "[← Back to the index](../README.md) · [中文](" + chapterFile(topics, topic.id, "zh").replace("chapters/", "") + ")");
   out.push("");
-  out.push(L ? "图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据和引用的数字已与摘要核对，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。" : "Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).");
+  out.push(L ? "图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据已比对，登记的引文片段已在摘要中匹配，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。" : "Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).");
   out.push("");
   out.push("---");
   out.push("");
@@ -98,17 +98,17 @@ export function renderReadme({ topics, claims, sources }, lang) {
     out.push("");
     out.push(`加班能多干多少活？AI 编程工具到底快不快？远程办公效率低吗？团队扩了一倍，人均产出为什么降了？这里把这类争论逐条查了研究：**${n.total} 条说法，每条都标明结论、A/B/C 证据等级、一手出处，以及一句能直接对老板说的话。**`);
     out.push("");
-    out.push(`其中 ${n.verdict.supported} 条成立，${n.verdict.mixed} 条要看情况，${n.verdict.unsupported} 条不成立，${n.verdict.unknown} 条证据不足。证据等级为 A 的有 ${n.grade.A} 条，B ${n.grade.B} 条，C ${n.grade.C} 条。${n.grade.A === 0 ? "没有一条拿到 A：关于软件团队的研究几乎都是观察性的，这本身就是一个发现。" : ""}`);
+    out.push(`其中 ${n.verdict.supported} 条成立，${n.verdict.mixed} 条要看情况，${n.verdict.unsupported} 条不成立，${n.verdict.unknown} 条证据不足。证据等级为 A 的有 ${n.grade.A} 条，B ${n.grade.B} 条，C ${n.grade.C} 条。${n.grade.A === 0 ? "按本仓库的分级标准，目前没有一条达到 A。各条目的研究设计、适用人群和局限见正文；没有 A 不代表没有随机试验。" : ""}`);
     out.push("");
-    out.push("> **怎么做出来的：** AI 协助起草，每个出处由持续集成自动查询，摘要里出现的数字由机器核对，正文里的数字没有。错了就[来反驳](#反驳一条结论)。详见[引用是怎么核对的](#引用是怎么核对的)。");
+    out.push("> **怎么做出来的：** AI 协助起草，每个出处由持续集成自动查询，标为摘要核对的来源中，显式登记的引文片段由机器匹配，其他数字和结论推导没有自动核对。错了就[来反驳](#反驳一条结论)。详见[引用是怎么核对的](#引用是怎么核对的)。");
   } else {
     out.push("**Every argument about how software teams work, with the receipts.**");
     out.push("");
     out.push(`Does overtime get more done? Do AI coding tools really make teams faster? Is remote work less productive? Why does output per person fall when a team doubles? This repo checks the research behind those arguments: **${n.total} claims, each with a verdict, an A/B/C evidence grade, primary sources, and one sentence you can say to your boss.**`);
     out.push("");
-    out.push(`${n.verdict.supported} hold up, ${n.verdict.mixed} depend on context, ${n.verdict.unsupported} do not hold up, ${n.verdict.unknown} have no good evidence either way. Evidence grades: ${n.grade.A} A, ${n.grade.B} B, ${n.grade.C} C.${n.grade.A === 0 ? " None earns an A: almost all research on software teams is observational, which is itself a finding." : ""}`);
+    out.push(`${n.verdict.supported} hold up, ${n.verdict.mixed} depend on context, ${n.verdict.unsupported} do not hold up, ${n.verdict.unknown} have no good evidence either way. Evidence grades: ${n.grade.A} A, ${n.grade.B} B, ${n.grade.C} C.${n.grade.A === 0 ? " None currently earns an A under this handbook's rubric. Study designs, populations and limitations are described per claim; no A grades does not mean there are no randomized trials." : ""}`);
     out.push("");
-    out.push("> **How this was made:** drafted with AI assistance, every source looked up by CI, every figure that appears in an abstract machine-checked, figures in full texts not. If we got something wrong, [challenge it](#challenge-a-claim). Details in [How sources are checked](#how-sources-are-checked).");
+    out.push("> **How this was made:** drafted with AI assistance, every source looked up by CI, explicitly registered quote snippets matched for sources marked for abstract verification; other figures and inferences are not automatically checked. If we got something wrong, [challenge it](#challenge-a-claim). Details in [How sources are checked](#how-sources-are-checked).");
   }
   out.push("");
   const headlines = claims.filter((c) => c.headline);
@@ -169,13 +169,13 @@ export function renderReadme({ topics, claims, sources }, lang) {
   out.push(L ? "## 引用是怎么核对的" : "## How sources are checked");
   out.push("");
   if (L) {
-    out.push(`本仓库共 ${total} 个来源，每个都在持续集成里自动查询：**${st.abstract} 个**（✓✓）核对了标题、作者、年份，以及我们引用的数字是否真的出现在摘要里（共 ${st.quotes} 处引文，分布在 ${st.quotedClaims} 条说法里）；**${st.metadata} 个**（✓）核对了元数据；**${st.manual} 个**（↗）是书、报告或网页，只核对链接能否打开。每周跑一次，每次提交也会跑，核对不过就会报错。`);
+    out.push(`本仓库共 ${total} 个来源，每个都在持续集成里自动查询：**${st.abstract} 个**（✓✓）核对了标题、作者、年份，以及显式登记的引文片段是否出现在摘要里（共 ${st.quotes} 处引文，分布在 ${st.quotedClaims} 条说法里）；**${st.metadata} 个**（✓）核对了元数据；**${st.manual} 个**（↗）是书、报告或网页，只核对链接能否打开。每周跑一次，在数据或验证脚本变更时也会跑，并可手动触发。内容不匹配会报错；网络不可达记为警告，不会自动使工作流失败，需阅读检查报告。`);
     out.push("");
-    out.push("**没有覆盖的部分：** 持续集成只能读摘要，读不了全文。出现在摘要里的数字有机器核对；出自论文正文、报告或书的数字没有，有些条目依据的是二手转述，会在“局限”里写明。本仓库的初稿由 AI 协助起草，还没有经过专家逐行审阅。所以每条都写了“什么证据会让我改口”，也欢迎你来反驳：开一个 issue，附上论文和页码，错了我们就改，并署名感谢。");
+    out.push("**没有覆盖的部分：** 持续集成只能读摘要，读不了全文。机器只匹配登记的摘要引文片段，不验证数字的语境、因果解释或结论分级；未登记的数字和出自论文正文、报告或书的数字没有自动核对，有些条目依据的是二手转述，会在“局限”里写明。本仓库的初稿由 AI 协助起草，还没有经过专家逐行审阅。所以每条都写了“什么证据会让我改口”，也欢迎你来反驳：开一个 issue，附上论文和页码，错了我们就改，并署名感谢。");
   } else {
-    out.push(`There are ${total} sources, and CI looks every one of them up online: **${st.abstract}** (✓✓) have their title, authors, year and every quoted figure checked against the abstract (${st.quotes} quotes across ${st.quotedClaims} claims); **${st.metadata}** (✓) have their metadata checked; **${st.manual}** (↗) are books, reports or web pages where only the link is checked. The check runs weekly and on every push, and fails when something does not match.`);
+    out.push(`There are ${total} sources, and CI looks every one of them up online: **${st.abstract}** (✓✓) have metadata compared and explicitly registered quote snippets matched against the abstract (${st.quotes} quotes across ${st.quotedClaims} claims); **${st.metadata}** (✓) have their metadata checked; **${st.manual}** (↗) are books, reports or web pages where only the link is checked. The check runs weekly, when data or the verifier changes, and on demand. Content mismatches fail the workflow; network warnings do not, so read the report as well as the badge.`);
     out.push("");
-    out.push("**What this does not cover:** CI reads abstracts, not full texts. A figure that appears in an abstract is machine-checked; a figure from the body of a paper, a report or a book is not, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.");
+    out.push("**What this does not cover:** CI reads abstracts, not full texts. Only registered abstract quote snippets are matched; numerical context, causal interpretation, grades and unregistered figures are not validated. Figures from the body of a paper, a report or a book are not machine-checked, and some entries rest on secondary summaries, which the Limits line says. This repository was drafted with AI assistance and has not had a line-by-line expert review. That is why every claim says what would change our mind, and why we want you to challenge it: open an issue with the paper and the page, and if we are wrong we fix it in public and credit you.");
   }
   out.push("");
 

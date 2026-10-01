@@ -4,7 +4,7 @@ What predicts job performance, and what ratings actually measure.
 
 [← Back to the index](../README.md) · [中文](09-people.zh-CN.md)
 
-Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
+Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
 
 ---
 
@@ -25,7 +25,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 1. Dan Ariely, Uri Gneezy, George Loewenstein, Nina Mazar (2009). Large stakes and big mistakes. The Review of Economic Studies 76(2). [link](https://doi.org/10.1111/j.1467-937X.2009.00534.x) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 2. Sarah E. Bonner, Geoffrey B. Sprinkle (2002). The effects of monetary incentives on effort and task performance: theories, evidence, and a framework for research. Accounting, Organizations and Society 27(4-5). [link](https://doi.org/10.1016/S0361-3682(01)00052-6) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-3. Christopher P. Cerasoli, Jessica M. Nicklin, Michael T. Ford (2014). Intrinsic motivation and extrinsic incentives jointly predict performance: A 40-year meta-analysis. Psychological Bulletin 140(4). [link](https://doi.org/10.1037/a0035661) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+3. Christopher P. Cerasoli, Jessica M. Nicklin, Michael T. Ford (2014). Intrinsic motivation and extrinsic incentives jointly predict performance: A 40-year meta-analysis. Psychological Bulletin 140(4). [link](https://doi.org/10.1037/a0035661) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 
@@ -44,7 +44,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Avraham N. Kluger, Angelo DeNisi (1996). The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory. Psychological Bulletin 119(2). [link](https://doi.org/10.1037/0033-2909.119.2.254) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Avraham N. Kluger, Angelo DeNisi (1996). The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory. Psychological Bulletin 119(2). [link](https://doi.org/10.1037/0033-2909.119.2.254) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 
@@ -105,8 +105,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Chockalingam Viswesvaran, Deniz S. Ones, Frank L. Schmidt (1996). Comparative analysis of the reliability of job performance ratings. Journal of Applied Psychology 81(5). [link](https://doi.org/10.1037/0021-9010.81.5.557) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Steven E. Scullen, Michael K. Mount, Maynard Goff (2000). Understanding the latent structure of job performance ratings. Journal of Applied Psychology 85(6). [link](https://doi.org/10.1037/0021-9010.85.6.956) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Chockalingam Viswesvaran, Deniz S. Ones, Frank L. Schmidt (1996). Comparative analysis of the reliability of job performance ratings. Journal of Applied Psychology 81(5). [link](https://doi.org/10.1037/0021-9010.81.5.557) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Steven E. Scullen, Michael K. Mount, Maynard Goff (2000). Understanding the latent structure of job performance ratings. Journal of Applied Psychology 85(6). [link](https://doi.org/10.1037/0021-9010.85.6.956) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 
@@ -145,7 +145,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Miguel A. Quiñones, J. Kevin Ford, Mark S. Teachout (1995). The relationship between work experience and job performance: A conceptual and meta-analytic review. Personnel Psychology 48(4). [link](https://doi.org/10.1111/j.1744-6570.1995.tb01785.x) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Miguel A. Quiñones, J. Kevin Ford, Mark S. Teachout (1995). The relationship between work experience and job performance: A conceptual and meta-analytic review. Personnel Psychology 48(4). [link](https://doi.org/10.1111/j.1744-6570.1995.tb01785.x) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. Michael A. McDaniel, Frank L. Schmidt, John E. Hunter (1988). Job experience correlates of job performance. Journal of Applied Psychology 73(2). [link](https://doi.org/10.1037/0021-9010.73.2.327) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 3. Frank L. Schmidt, John E. Hunter (1998). The validity and utility of selection methods in personnel psychology: Practical and theoretical implications of 85 years of research findings. Psychological Bulletin 124(2). [link](https://doi.org/10.1037/0033-2909.124.2.262) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 4. Oscar Dieste, Alejandrina M. Aranda, Fernando Uyaguari, et al. (2017). Empirical evaluation of the effects of experience on code quality and programmer productivity: an exploratory study. Empirical Software Engineering 22(5). [link](https://www.semanticscholar.org/paper/Empirical-evaluation-of-the-effects-of-experience-Tub%C3%ADo-Aranda/5327cdf59ffb4f331243647a67859f336ae2de11) <sub>↗ not machine-checkable (book or report); link only</sub> (primary)

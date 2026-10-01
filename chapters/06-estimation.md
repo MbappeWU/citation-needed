@@ -4,7 +4,7 @@ Why plans slip, and which failure statistics you should not repeat.
 
 [← Back to the index](../README.md) · [中文](06-estimation.zh-CN.md)
 
-Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
+Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
 
 ---
 
@@ -24,7 +24,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 **Sources** (checked 2026-10-01):
 
 1. Erik Løhre, Magne Jørgensen (2016). Numerical anchors and their strong effects on software development effort estimates. Journal of Systems and Software 116. [link](https://doi.org/10.1016/j.jss.2015.03.015) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
-2. Martin Shepperd, Carolyn Mair, Magne Jørgensen (2018). An Experimental Evaluation of a De-biasing Intervention for Professional Software Developers. ACM Symposium on Applied Computing (SAC) 2018. [link](https://arxiv.org/abs/1804.03919) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+2. Martin Shepperd, Carolyn Mair, Magne Jørgensen (2018). An Experimental Evaluation of a De-biasing Intervention for Professional Software Developers. ACM Symposium on Applied Computing (SAC) 2018. [link](https://arxiv.org/abs/1804.03919) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 3. Jorge Aranda, Steve Easterbrook (2005). Anchoring and adjustment in software estimation. ESEC/FSE-13 (ACM SIGSOFT Software Engineering Notes 30(5)). [link](https://doi.org/10.1145/1095430.1081761) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 4. Magne Jørgensen, Stein Grimstad (2011). The Impact of Irrelevant and Misleading Information on Software Development Effort Estimates: A Randomized Controlled Field Experiment. IEEE Transactions on Software Engineering 37(5). [link](https://doi.org/10.1109/TSE.2010.78) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 
@@ -65,7 +65,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. J. Laurenz Eveleens, Chris Verhoef (2010). The Rise and Fall of the Chaos Report Figures. IEEE Software 27(1). [link](https://doi.org/10.1109/MS.2009.154) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. J. Laurenz Eveleens, Chris Verhoef (2010). The Rise and Fall of the Chaos Report Figures. IEEE Software 27(1). [link](https://doi.org/10.1109/MS.2009.154) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. Magne Jørgensen, Kjetil Moløkken-Østvold (2006). How large are software cost overruns? A review of the 1994 CHAOS report. Information and Software Technology 48(4). [link](https://doi.org/10.1016/j.infsof.2005.07.002) <sub>✓ metadata checked (title, authors, year)</sub> (critique)
 3. Robert L. Glass (2006). The Standish report: does it really describe a software crisis?. Communications of the ACM 49(8). [link](https://doi.org/10.1145/1145287.1145301) <sub>✓ metadata checked (title, authors, year)</sub> (critique)
 4. The Standish Group (1994). The CHAOS Report. The Standish Group International. [link](https://personal.utdallas.edu/~chung/SYSM6309/chaos_report.pdf) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
@@ -126,7 +126,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Miikka Kuutila, Mika Mäntylä, Umar Farooq, Maëlick Claes (2019). Time Pressure in Software Engineering: A Systematic Review. arXiv preprint; journal version in Information and Software Technology 121 (2020). [link](https://arxiv.org/abs/1901.05771) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Miikka Kuutila, Mika Mäntylä, Umar Farooq, Maëlick Claes (2019). Time Pressure in Software Engineering: A Systematic Review. arXiv preprint; journal version in Information and Software Technology 121 (2020). [link](https://arxiv.org/abs/1901.05771) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. Ning Nan, Donald E. Harter (2009). Impact of Budget and Schedule Pressure on Software Development Cycle Time and Effort. IEEE Transactions on Software Engineering 35(5). [link](https://doi.org/10.1109/TSE.2009.18) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
 
 ---

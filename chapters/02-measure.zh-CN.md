@@ -4,7 +4,7 @@
 
 [← 返回目录](../README.zh-CN.md) · [English](02-measure.md)
 
-图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据和引用的数字已与摘要核对，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
+图例：✓ 成立 · ~ 视情况 · ✗ 不成立 · ? 证据不足。来源后的 ✓✓ 表示元数据已比对，登记的引文片段已在摘要中匹配，✓ 表示元数据已核对，↗ 表示无法机器核对，仅提供链接。
 
 ---
 
@@ -106,8 +106,8 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Michael Riketta (2008). The causal relation between job attitudes and performance: A meta-analysis of panel studies. Journal of Applied Psychology 93(2). [link](https://doi.org/10.1037/0021-9010.93.2.472) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
-2. Timothy A. Judge, Carl J. Thoresen, Joyce E. Bono, Gregory K. Patton (2001). The job satisfaction–job performance relationship: A qualitative and quantitative review. Psychological Bulletin 127(3). [link](https://doi.org/10.1037/0033-2909.127.3.376) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (背景)
+1. Michael Riketta (2008). The causal relation between job attitudes and performance: A meta-analysis of panel studies. Journal of Applied Psychology 93(2). [link](https://doi.org/10.1037/0021-9010.93.2.472) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
+2. Timothy A. Judge, Carl J. Thoresen, Joyce E. Bono, Gregory K. Patton (2001). The job satisfaction–job performance relationship: A qualitative and quantitative review. Psychological Bulletin 127(3). [link](https://doi.org/10.1037/0033-2909.127.3.376) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (背景)
 3. Emerson Murphy-Hill, Ciera Jaspan, Caitlin Sadowski, David Shepherd, Michael Phillips, Collin Winter, Andrea Knight, Edward Smith, Matthew Jorde (2021). What Predicts Software Developers' Productivity?. IEEE Transactions on Software Engineering 47, pp. 582-594. [link](https://2020.icse-conferences.org/details/icse-2020-Journal-First/10/What-Predicts-Software-Developers-Productivity-) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 4. Michaela Greiler, Margaret-Anne Storey, Abi Noda (2022). An Actionable Framework for Understanding and Improving Developer Experience. IEEE Transactions on Software Engineering 49(4), 2023. [link](https://arxiv.org/abs/2205.06352) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
 5. Abi Noda, Margaret-Anne Storey, Nicole Forsgren, Michaela Greiler (2023). DevEx: What Actually Drives Productivity: The developer-centric approach to measuring and improving productivity. ACM Queue 21(2). [link](https://doi.org/10.1145/3595878) <sub>✓ 元数据已核对（标题、作者、年份）</sub> (背景)
@@ -151,7 +151,7 @@
 
 **出处** (核对于 2026-10-01):
 
-1. Vali Tawosi, Rebecca Moussa, Federica Sarro (2022). On the Relationship Between Story Points and Development Effort in Agile Open-Source Software. ESEM 2022. [link](https://doi.org/10.1145/3544902.3546238) <sub>✓✓ 元数据和引用的数字已与摘要核对</sub> (主要来源)
+1. Vali Tawosi, Rebecca Moussa, Federica Sarro (2022). On the Relationship Between Story Points and Development Effort in Agile Open-Source Software. ESEM 2022. [link](https://doi.org/10.1145/3544902.3546238) <sub>✓✓ 元数据已比对，登记的引文片段已在摘要中匹配</sub> (主要来源)
 2. Nicole Forsgren, Jez Humble, Gene Kim (2018). Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press. [link](https://itrevolution.com/product/accelerate/) <sub>↗ 无法机器核对（书或报告），仅提供链接</sub> (背景)
 
 ---

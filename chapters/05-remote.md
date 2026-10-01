@@ -4,7 +4,7 @@ Randomized experiments and field data, including a large Chinese company.
 
 [← Back to the index](../README.md) · [中文](05-remote.zh-CN.md)
 
-Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
+Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
 
 ---
 
@@ -23,9 +23,9 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Longqi Yang, David Holtz, Sonia Jaffe, et al. (2022). The effects of remote work on collaboration among information workers. Nature Human Behaviour 6. [link](https://doi.org/10.1038/s41562-021-01196-4) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
-3. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+1. Longqi Yang, David Holtz, Sonia Jaffe, et al. (2022). The effects of remote work on collaboration among information workers. Nature Human Behaviour 6. [link](https://doi.org/10.1038/s41562-021-01196-4) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (context)
+3. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (context)
 
 ---
 
@@ -44,9 +44,9 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Lingfeng Bao, Tao Li, Xin Xia, Kaiyu Zhu, Hui Li, Xiaohu Yang (2022). How does working from home affect developer productivity? A case study of Baidu during the COVID-19 pandemic. Science China Information Sciences 65(4). [link](https://doi.org/10.1007/s11432-020-3278-4) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Lingfeng Bao, Tao Li, Xin Xia, Kaiyu Zhu, Hui Li, Xiaohu Yang (2022). How does working from home affect developer productivity? A case study of Baidu during the COVID-19 pandemic. Science China Information Sciences 65(4). [link](https://doi.org/10.1007/s11432-020-3278-4) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 
@@ -65,8 +65,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+1. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (context)
 
 ---
 
@@ -85,8 +85,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+1. Natalia Emanuel, Emma Harrington, Amanda Pallais (2026). The Power of Proximity to Coworkers. The Quarterly Journal of Economics 141(3). [link](https://doi.org/10.1093/qje/qjag027) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (context)
 
 ---
 
@@ -105,8 +105,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Melanie S. Brucks, Jonathan Levav (2022). Virtual communication curbs creative idea generation. Nature 605. [link](https://doi.org/10.1038/s41586-022-04643-y) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Yiling Lin, Carl Benedikt Frey, Lingfei Wu (2023). Remote collaboration fuses fewer breakthrough ideas. Nature 623. [link](https://doi.org/10.1038/s41586-023-06767-1) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+1. Melanie S. Brucks, Jonathan Levav (2022). Virtual communication curbs creative idea generation. Nature 605. [link](https://doi.org/10.1038/s41586-022-04643-y) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Yiling Lin, Carl Benedikt Frey, Lingfei Wu (2023). Remote collaboration fuses fewer breakthrough ideas. Nature 623. [link](https://doi.org/10.1038/s41586-023-06767-1) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (context)
 
 ---
 
@@ -125,9 +125,9 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Nicholas Bloom, James Liang, John Roberts, Zhichun Jenny Ying (2015). Does Working from Home Work? Evidence from a Chinese Experiment. The Quarterly Journal of Economics 130(1). [link](https://doi.org/10.1093/qje/qju032) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Nicholas Bloom, Ruobing Han, James Liang (2024). Hybrid working from home improves retention without damaging performance. Nature 630. [link](https://doi.org/10.1038/s41586-024-07500-2) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+3. Michael Gibbs, Friederike Mengel, Christoph Siemroth (2023). Work from Home and Productivity: Evidence from Personnel and Analytics Data on Information Technology Professionals. Journal of Political Economy Microeconomics 1(1). [link](https://doi.org/10.1086/721803) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 
 ---
 

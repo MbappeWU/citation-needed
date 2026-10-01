@@ -31,6 +31,12 @@ jobs:
         run: |
           node scripts/validate.mjs
           node scripts/build.mjs --check
+      - name: Verify sources for this commit
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: |
+          node scripts/verify-sources.mjs --json verification-report.json
+          node --input-type=module -e 'import fs from "node:fs"; const r = JSON.parse(fs.readFileSync("verification-report.json", "utf8")); r.commit = process.env.GITHUB_SHA; fs.writeFileSync("verification-report.json", JSON.stringify(r, null, 2)); if (r.results.some(x => x.status !== "ok")) process.exit(1);'
       - name: Install a browser and CJK fonts
         run: |
           sudo apt-get update
@@ -47,9 +53,12 @@ jobs:
           mkdir -p out
           cp _site/reader.html out/citation-needed-reader.html
           cp _site/claims.json out/claims.json
+          cp verification-report.json out/verification-report.json
           cp dist/*.pdf out/
           (cd skills && zip -qr ../out/citation-needed-skill.zip citation-needed)
           (cd dist && zip -qr ../out/citation-needed-share-cards.zip cards)
+          unzip -t out/citation-needed-skill.zip
+          unzip -t out/citation-needed-share-cards.zip
       - name: Keep the files (dry run)
         if: ${{ github.event_name == 'workflow_dispatch' }}
         uses: actions/upload-artifact@v4

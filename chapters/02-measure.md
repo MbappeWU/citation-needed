@@ -4,7 +4,7 @@ What counts, what misleads, and why per-head output falls as teams grow.
 
 [← Back to the index](../README.md) · [中文](02-measure.zh-CN.md)
 
-Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata and quoted numbers were checked against the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
+Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a source, ✓✓ means metadata was compared and registered quote snippets were matched in the abstract, ✓ means metadata was checked, ↗ means it cannot be machine-checked (link only).
 
 ---
 
@@ -106,8 +106,8 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Michael Riketta (2008). The causal relation between job attitudes and performance: A meta-analysis of panel studies. Journal of Applied Psychology 93(2). [link](https://doi.org/10.1037/0021-9010.93.2.472) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
-2. Timothy A. Judge, Carl J. Thoresen, Joyce E. Bono, Gregory K. Patton (2001). The job satisfaction–job performance relationship: A qualitative and quantitative review. Psychological Bulletin 127(3). [link](https://doi.org/10.1037/0033-2909.127.3.376) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (context)
+1. Michael Riketta (2008). The causal relation between job attitudes and performance: A meta-analysis of panel studies. Journal of Applied Psychology 93(2). [link](https://doi.org/10.1037/0021-9010.93.2.472) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
+2. Timothy A. Judge, Carl J. Thoresen, Joyce E. Bono, Gregory K. Patton (2001). The job satisfaction–job performance relationship: A qualitative and quantitative review. Psychological Bulletin 127(3). [link](https://doi.org/10.1037/0033-2909.127.3.376) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (context)
 3. Emerson Murphy-Hill, Ciera Jaspan, Caitlin Sadowski, David Shepherd, Michael Phillips, Collin Winter, Andrea Knight, Edward Smith, Matthew Jorde (2021). What Predicts Software Developers' Productivity?. IEEE Transactions on Software Engineering 47, pp. 582-594. [link](https://2020.icse-conferences.org/details/icse-2020-Journal-First/10/What-Predicts-Software-Developers-Productivity-) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 4. Michaela Greiler, Margaret-Anne Storey, Abi Noda (2022). An Actionable Framework for Understanding and Improving Developer Experience. IEEE Transactions on Software Engineering 49(4), 2023. [link](https://arxiv.org/abs/2205.06352) <sub>✓ metadata checked (title, authors, year)</sub> (context)
 5. Abi Noda, Margaret-Anne Storey, Nicole Forsgren, Michaela Greiler (2023). DevEx: What Actually Drives Productivity: The developer-centric approach to measuring and improving productivity. ACM Queue 21(2). [link](https://doi.org/10.1145/3595878) <sub>✓ metadata checked (title, authors, year)</sub> (context)
@@ -151,7 +151,7 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **Sources** (checked 2026-10-01):
 
-1. Vali Tawosi, Rebecca Moussa, Federica Sarro (2022). On the Relationship Between Story Points and Development Effort in Agile Open-Source Software. ESEM 2022. [link](https://doi.org/10.1145/3544902.3546238) <sub>✓✓ metadata and quoted numbers checked against the abstract</sub> (primary)
+1. Vali Tawosi, Rebecca Moussa, Federica Sarro (2022). On the Relationship Between Story Points and Development Effort in Agile Open-Source Software. ESEM 2022. [link](https://doi.org/10.1145/3544902.3546238) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. Nicole Forsgren, Jez Humble, Gene Kim (2018). Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press. [link](https://itrevolution.com/product/accelerate/) <sub>↗ not machine-checkable (book or report); link only</sub> (context)
 
 ---
