@@ -23,7 +23,7 @@
 | [AI 编程工具能让开发者更快完成工作。](chapters/01-ai.zh-CN.md#ai-faster) | 随机试验发现提速确实存在但幅度不大，比如谷歌那项约省 21% 的时间；另有两项试验没发现提速。 | ✓ 成立 · B |
 | [开发者自己能判断 AI 有没有让自己变快。](chapters/01-ai.zh-CN.md#ai-self-estimate) | METR 试验里，开发者以为 AI 帮自己省了 20% 的时间，实测反而多花了 19%。 | ✗ 不成立 · C |
 | [工作时间越长，做的事越多。](chapters/03-hours.zh-CN.md#hours-more-output) | 在最有名的研究里，每周工时超过某个门槛后，产出越涨越慢。 | ~ 视情况 · B |
-| [每被打断一次，就要花 23 分钟才能恢复专注。](chapters/04-meetings.zh-CN.md#meetings-23-minutes) | 23 分钟出自一项 24 人的观察，指的是回到原任务所用的时间，不是重新集中注意力需要的时间。 | ✗ 不成立 · B |
+| [每被打断一次，就要花 23 分钟才能恢复专注。](chapters/04-meetings.zh-CN.md#meetings-23-minutes) | 一项 24 人观察中，同日回到原工作的平均间隔是 25 分 26 秒，没有测量恢复专注时间。 | ✗ 不成立 · B |
 | [开放式办公室能促进协作。](chapters/04-meetings.zh-CN.md#meetings-open-plan-collaboration) | 两家公司改成开放式办公后，面对面交流下降约 70%，电子沟通反而增加。 | ✗ 不成立 · B |
 | [在家办公会降低工作效率。](chapters/05-remote.zh-CN.md#remote-wfh-productivity) | 两项随机试验发现居家有提升或没有损失；一项疫情期间的 IT 员工研究发现每小时产出下降 8% 至 19%。 | ~ 视情况 · B |
 | [70% 的 IT 项目都会失败。](chapters/06-estimation.zh-CN.md#estimation-chaos-failure-rate) | “70%”把任何偏离最初预估的项目都算作失败，两篇同行评审的批评认为这些数字有误导性。 | ✗ 不成立 · B |
