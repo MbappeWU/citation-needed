@@ -12,16 +12,16 @@
     "zh": "现场观察、实验室实验和程序员日志三类研究互相吻合，都没有测出固定的 23 分钟恢复时间，但样本较小或只是间接证据。"
   },
   "evidence": {
-    "en": "The figure traces to Gloria Mark's field observation of 24 information workers (2005). Interrupted work was resumed after roughly 23 to 25 minutes on average, and people did about two other things first. That is time until return, not time to refocus. In a 2008 lab experiment with 48 participants, interrupted work was finished faster with no loss of quality, but with more stress, frustration and effort. A log study of 86 programmers found only 10% of sessions resumed coding within 1 minute of an interruption. Resuming is often slow, but none of these studies supports a fixed 23-minute cost.",
-    "zh": "这个数字源自 Gloria Mark 2005 年对 24 名信息工作者的现场观察：被打断的工作平均隔约 23 到 25 分钟才被重新拾起，其间人们会先做约两件别的事。这是“隔多久回到原任务”，不是“多久才能重新专注”。2008 年一项 48 人的实验室实验发现，被打断的任务完成得更快、质量没有下降，但压力、挫败感和付出的努力更高。对 86 名程序员的日志研究发现，只有 10% 的会话在被打断后 1 分钟内恢复编码。恢复往往不快，但这些研究都不支持“固定 23 分钟”这个代价。"
+    "en": "In Mark, Gonzalez and Harris's 2005 observation of 24 information workers, same-day resumptions averaged 25 minutes 26 seconds (paper p. 326). People visited about two other working spheres before returning. That is time until return, not time to refocus. In a 2008 lab experiment with 48 participants, interrupted work was finished faster with no loss of quality, but with more stress, frustration and effort. A log study of 86 programmers found only 10% of sessions resumed coding within 1 minute of an interruption. Resuming is often slow, but none of these studies supports a fixed 23-minute cost.",
+    "zh": "Mark、Gonzalez 和 Harris 2005 年对 24 名信息工作者的观察中，同日重新拾起被打断工作的平均间隔是 25 分 26 秒（论文第 326 页），其间人们会先处理约两项别的工作。这是“隔多久回到原任务”，不是“多久才能重新专注”。2008 年一项 48 人的实验室实验发现，被打断的任务完成得更快、质量没有下降，但压力、挫败感和付出的努力更高。对 86 名程序员的日志研究发现，只有 10% 的会话在被打断后 1 分钟内恢复编码。恢复往往不快，但这些研究都不支持“固定 23 分钟”这个代价。"
   },
   "caveats": {
-    "en": "The field study had 24 information workers, not only developers. The lab study used a short email task with 48 participants. The log study measured when editing resumed, not how well people worked. None of them measured developers' recovery time directly, and sources quote the field average as both 23 and 25 minutes.",
-    "zh": "现场研究的 24 名信息工作者并非都是开发者；实验室研究是 48 人做的短时邮件任务；日志研究测的是何时恢复编辑，不是工作质量。它们都没有直接测过开发者的恢复时间。现场平均值在不同来源里有 23 分钟和 25 分钟两种说法。"
+    "en": "The observation covered 24 information workers, not only developers; the lab used 48 people on email tasks; programmer logs tracked resumed editing, not output quality. The 2005 estimate counts same-day returns and excludes interruptions in the last work hour (SD 54 min 48 sec). None directly measured developers' time to refocus.",
+    "zh": "现场研究的 24 名信息工作者并非都是开发者；实验室研究是 48 人做的短时邮件任务；日志研究测的是何时恢复编辑，不是工作质量。它们都没有直接测过开发者的恢复时间。2005 年的返回间隔只统计同日恢复的工作，并排除了最后一个工作小时发生的打断。标准差为 54 分 48 秒，均值不是固定代价。"
   },
   "boss_line": {
-    "en": "The 23 minutes is how long people took on average to get back to interrupted work in one observation study, not how long they needed to refocus. Interruptions do cost something, so let's batch non-urgent pings instead of quoting a number.",
-    "zh": "23 分钟是一项观察研究里人们平均隔多久才回到被打断的工作，不是重新专注所需的时间。打断确实有代价，所以我们把不紧急的消息集中处理，而不是引用这个数字。"
+    "en": "The 2005 observation found an average 25 minutes 26 seconds until same-day return to interrupted work. It did not measure time to refocus. Let's batch non-urgent pings instead of treating a study average as a fixed recovery cost.",
+    "zh": "2005 年那项观察中，同日回到被打断工作的平均间隔为 25 分 26 秒，没有测量恢复专注所需时间。我们把不紧急的消息集中处理，不把研究均值当成固定恢复代价。"
   },
   "change_my_mind": {
     "en": "A study that times how long developers take to get back to full speed after an interruption, using task time or error rates, and finds a stable figure near 23 minutes.",
@@ -44,10 +44,10 @@
       "role": "context"
     }
   ],
-  "verified_on": "2026-10-01",
+  "verified_on": "2026-10-02",
   "headline": true,
   "hook": {
-    "en": "The 23 minutes is how long people took to return to the task in one 24-person study, not how long they needed to refocus.",
-    "zh": "23 分钟出自一项 24 人的观察，指的是回到原任务所用的时间，不是重新集中注意力需要的时间。"
+    "en": "In one 24-person observation, same-day returns averaged 25 minutes 26 seconds. It did not measure time to refocus.",
+    "zh": "一项 24 人观察中，同日回到原工作的平均间隔是 25 分 26 秒，没有测量恢复专注时间。"
   }
 }

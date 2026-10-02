@@ -13,15 +13,15 @@ Key: ✓ supported · ~ it depends · ✗ not supported · ? unknown. After a so
 
 **✗ Not supported · Grade B** (Three designs (field observation, a lab experiment, programmer logs) fit together, and none measured a fixed 23-minute recovery, but each is small or indirect.)
 
-**What the research says.** The figure traces to Gloria Mark's field observation of 24 information workers (2005). Interrupted work was resumed after roughly 23 to 25 minutes on average, and people did about two other things first. That is time until return, not time to refocus. In a 2008 lab experiment with 48 participants, interrupted work was finished faster with no loss of quality, but with more stress, frustration and effort. A log study of 86 programmers found only 10% of sessions resumed coding within 1 minute of an interruption. Resuming is often slow, but none of these studies supports a fixed 23-minute cost.
+**What the research says.** In Mark, Gonzalez and Harris's 2005 observation of 24 information workers, same-day resumptions averaged 25 minutes 26 seconds (paper p. 326). People visited about two other working spheres before returning. That is time until return, not time to refocus. In a 2008 lab experiment with 48 participants, interrupted work was finished faster with no loss of quality, but with more stress, frustration and effort. A log study of 86 programmers found only 10% of sessions resumed coding within 1 minute of an interruption. Resuming is often slow, but none of these studies supports a fixed 23-minute cost.
 
-**Limits.** The field study had 24 information workers, not only developers. The lab study used a short email task with 48 participants. The log study measured when editing resumed, not how well people worked. None of them measured developers' recovery time directly, and sources quote the field average as both 23 and 25 minutes.
+**Limits.** The observation covered 24 information workers, not only developers; the lab used 48 people on email tasks; programmer logs tracked resumed editing, not output quality. The 2005 estimate counts same-day returns and excludes interruptions in the last work hour (SD 54 min 48 sec). None directly measured developers' time to refocus.
 
-> **Say this to your boss:** The 23 minutes is how long people took on average to get back to interrupted work in one observation study, not how long they needed to refocus. Interruptions do cost something, so let's batch non-urgent pings instead of quoting a number.
+> **Say this to your boss:** The 2005 observation found an average 25 minutes 26 seconds until same-day return to interrupted work. It did not measure time to refocus. Let's batch non-urgent pings instead of treating a study average as a fixed recovery cost.
 
 **What would change my mind.** A study that times how long developers take to get back to full speed after an interruption, using task time or error rates, and finds a stable figure near 23 minutes.
 
-**Sources** (checked 2026-10-01):
+**Sources** (checked 2026-10-02):
 
 1. Gloria Mark, Victor M. Gonzalez, Justin Harris (2005). No task left behind? Examining the nature of fragmented work. CHI 2005. [link](https://doi.org/10.1145/1054972.1055017) <sub>✓✓ metadata compared and registered quote snippets matched in the abstract</sub> (primary)
 2. Gloria Mark, Daniela Gudith, Ulrich Klocke (2008). The cost of interrupted work: more speed and stress. CHI 2008. [link](https://doi.org/10.1145/1357054.1357072) <sub>✓ metadata checked (title, authors, year)</sub> (primary)
